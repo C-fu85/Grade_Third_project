@@ -1,5 +1,8 @@
 import nltk
+
 from nltk.corpus import movie_reviews
+
+nltk.download('movie_reviews')
 
 # 準備訓練資料集
 documents = [(list(movie_reviews.words(fileid)), category)
