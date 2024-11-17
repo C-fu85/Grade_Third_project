@@ -1,0 +1,19 @@
+# Virtual Environment
+venv/
+env/
+.env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# IDE settings
+.vscode/
+.idea/
+
+# Other common Python ignores
+*.log
+*.pot
+*.pyc
+.env
+.DS_Store
