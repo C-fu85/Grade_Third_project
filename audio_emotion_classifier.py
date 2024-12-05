@@ -9,6 +9,8 @@ from transformers import AutoConfig, Wav2Vec2FeatureExtractor, HubertPreTrainedM
 project_root = os.path.dirname(os.path.abspath(__file__)) 
 os.chdir(project_root)  
 
+print(f"Current working directory: {os.getcwd()}")
+
 model_name_or_path = "xmj2002/hubert-base-ch-speech-emotion-recognition"
 duration = 6
 sample_rate = 16000
@@ -30,18 +32,6 @@ def id2class(id):
         return "surprise"
 
 def predict(path, processor, model):
-    """
-    情感分析
-
-    Args:
-    - path: 檔案路徑.
-    - processor: 處理音檔的features.
-    - model: Pre-trained 情感分析model.
-
-    Example return: 
-    Emotion: surprise        Score: 0.910341739654541
-    """
-    
     speech, sr = librosa.load(path=path, sr=sample_rate)
     speech = processor(speech, padding="max_length", truncation=True, max_length=duration * sr,
                        return_tensors="pt", sampling_rate=sr).input_values
@@ -49,10 +39,7 @@ def predict(path, processor, model):
         logit = model(speech)
     score = F.softmax(logit, dim=1).detach().cpu().numpy()[0]
     id = torch.argmax(logit).cpu().numpy()
-
-    emotion = id2class(id)
-    emotion_score = score[id]
-    return emotion, emotion_score
+    print(f"File path: {path} \t Prediction: {id2class(id)} \t Score: {score[id]}")
 
 class HubertClassificationHead(nn.Module):
     def __init__(self, config):
@@ -86,3 +73,13 @@ processor = Wav2Vec2FeatureExtractor.from_pretrained(model_name_or_path)
 model = HubertForSpeechClassification.from_pretrained(model_name_or_path, config=config)
 model.eval()
 
+data_folder = "data"
+
+#目前隨機挑個音儅，所以data裏只能放一個音儅。 要測試的話先把原先的test.wav替代掉。以後再改
+file_paths = [os.path.join(data_folder, path) for path in os.listdir(data_folder) if path.endswith(".wav")]
+
+if file_paths:
+    path = random.choice(file_paths)
+    predict(path, processor, model)
+else:
+    print(f"No .wav files found in {data_folder}")
