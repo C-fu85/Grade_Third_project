@@ -29,20 +29,23 @@ def id2class(id):
     else:
         return "surprise"
 
-def predict(path, processor, model):
+def predict(path, processor, model, start_time=None, end_time=None):
     """
-    情感分析
-
+    Emotion analysis for an audio segment
+    
     Args:
-    - path: 檔案路徑.
-    - processor: 處理音檔的features.
-    - model: Pre-trained 情感分析model.
-
-    Example return: 
-    Emotion: surprise        Score: 0.910341739654541
+    - path: File path to the audio.
+    - processor: Processor for extracting features.
+    - model: Pre-trained emotion analysis model.
+    - start_time: Start time (in seconds) for the audio segment.
+    - end_time: End time (in seconds) for the audio segment.
+    
+    Returns:
+    - Emotion: The predicted emotion label.
+    - Score: The prediction score for the emotion.
     """
     
-    speech, sr = librosa.load(path=path, sr=sample_rate)
+    speech, sr = librosa.load(path=path, sr=sample_rate, offset=start_time, duration=(end_time-start_time))
     speech = processor(speech, padding="max_length", truncation=True, max_length=duration * sr,
                        return_tensors="pt", sampling_rate=sr).input_values
     with torch.no_grad():
@@ -53,6 +56,7 @@ def predict(path, processor, model):
     emotion = id2class(id)
     emotion_score = score[id]
     return emotion, emotion_score
+
 
 class HubertClassificationHead(nn.Module):
     def __init__(self, config):
