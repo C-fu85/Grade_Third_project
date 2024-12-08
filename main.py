@@ -1,9 +1,24 @@
-# main.py
 import numpy as np
 import os
 import random
+import sys
 from audio_emotion_classifier import predict, processor, model
 from prosody_analyzer import analyze_prosody
+
+class Logger:
+    def __init__(self, filepath):
+        self.terminal = sys.stdout
+        self.log = open(filepath, "w", encoding="utf-8")
+
+    def write(self, message):
+        self.terminal.write(message)
+        self.log.write(message)
+
+    def flush(self):
+        self.terminal.flush()
+        self.log.flush()
+
+sys.stdout = Logger("output.txt")
 
 data_folder = "data"
 sample_rate = 16000
@@ -31,12 +46,6 @@ if file_paths:
             if isinstance(value, (np.ndarray, list)):
                 value = value.item() if value.size == 1 else value.mean()
             print(f"{feature}: {value:.2f}")
-
-        # 根據參數來提供建議, 目前先用不到。
-        # if prosody_features["Pitch Variation"] < 20:
-        #    print("Feedback: Try to vary your pitch for a more engaging delivery.")
-        # if prosody_features["Energy Mean"] < 0.01:
-        #     print("Feedback: Increase your vocal energy for better presence.")
 
 else:
     print(f"No .wav files found in {data_folder}")

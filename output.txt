@@ -1,0 +1,9 @@
+Selected file: data\test.wav
+Running Emotion Classifier...
+Emotion: surprise 	 Score: 0.9995148181915283
+
+Running Prosody Analysis...
+Pitch Mean: 180.60
+Pitch Variation: 81.54
+Energy Mean: 0.07
+Energy Variation: 0.08
