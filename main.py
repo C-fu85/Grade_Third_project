@@ -21,9 +21,11 @@ def process_local_audio():
         print(f"Selected file: {path}")
 
         print("Running Emotion Classifier...")
-        emotion, score = predict(path, processor, model)
+        emotion, score,emotion_scores  = predict(path, processor, model,0 ,3)
         print(f"Emotion: {emotion} \t Score: {score}")
-
+        print("All Emotion Scores:")
+        for emotion, score in emotion_scores.items():
+            print(f"{emotion}: {score:.4f}")
         print("\nRunning Prosody Analysis...")
         prosody_features = analyze_prosody(path, sample_rate=sample_rate)
 
@@ -76,8 +78,8 @@ def process_speech_from_cloud(file_url):
                 print(f"{feature}: {value:.2f}")
 
 # 測試：從本地資料夾分析音檔
-# process_local_audio()
+process_local_audio()
 
 # 測試：從雲端下載影片並進行分析
-file_url = "https://drive.google.com/uc?id=1ZjeYD6ceGylJtfTbP2BoGQg0nolzVUPv"  # 替換為實際的雲端文件連結
-process_speech_from_cloud(file_url)
+# file_url = "https://drive.google.com/uc?id=1ZjeYD6ceGylJtfTbP2BoGQg0nolzVUPv"  # 替換為實際的雲端文件連結
+# process_speech_from_cloud(file_url)

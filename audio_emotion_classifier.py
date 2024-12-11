@@ -55,7 +55,9 @@ def predict(path, processor, model, start_time=None, end_time=None):
 
     emotion = id2class(id)
     emotion_score = score[id]
-    return emotion, emotion_score
+    emotion_scores = {id2class(i): score[i] for i in range(len(score))}
+
+    return emotion, emotion_score ,emotion_scores
 
 
 class HubertClassificationHead(nn.Module):
