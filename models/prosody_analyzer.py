@@ -15,8 +15,17 @@ def analyze_prosody(audio_path, start_time=None, end_time=None, sample_rate=1600
     - Dictionary containing prosody features (pitch, energy, etc.).
     """
     try:
-        audio, sr = librosa.load(audio_path, sr=sample_rate, offset=start_time, duration=(end_time-start_time))
-        
+        # If start_time or end_time is None, load the entire audio file
+        if start_time is None or end_time is None:
+            audio, sr = librosa.load(audio_path, sr=sample_rate)
+        else:
+            duration = end_time - start_time
+            audio, sr = librosa.load(audio_path, sr=sample_rate, offset=start_time, duration=duration)
+
+        if audio is None or len(audio) == 0:
+            print(f"Error: Audio file {audio_path} could not be loaded or is empty.")
+            return None
+
         # Normalize the audio to the range [-1, 1]
         audio = audio / np.max(np.abs(audio))
     except Exception as e:

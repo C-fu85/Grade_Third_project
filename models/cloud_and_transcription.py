@@ -36,3 +36,5 @@ def transcribe_audio_to_sentences(audio_path):
     result = model.transcribe(audio_path)
     sentences = result['text'].split('.')  # 使用句號切割句子
     return sentences, result['segments']
+
+    
