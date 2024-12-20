@@ -3,12 +3,23 @@ import os
 import random
 import sys
 from models.cloud_and_transcription import download_file_from_cloud, extract_audio_from_video, transcribe_audio_to_sentences,convert_m4a_to_wav
-from audio_emotion_classifier import predict, processor, model
-from prosody_analyzer import analyze_prosody
-from async_logger import async_logger
+from models.audio_emotion_classifier import predict, processor, model
+from models.prosody_analyzer import analyze_prosody
 
+class Logger:
+    def __init__(self, filepath):
+        self.terminal = sys.stdout
+        self.log = open(filepath, "w", encoding="utf-8")
 
-sys.stdout = async_logger("output.txt")
+    def write(self, message):
+        self.terminal.write(message)
+        self.log.write(message)
+
+    def flush(self):
+        self.terminal.flush()
+        self.log.flush()
+
+sys.stdout = Logger("results/two_sentences_output.txt")
 
 data_folder = "data"
 sample_rate = 16000
@@ -25,9 +36,11 @@ def process_local_audio():
         print(f"Selected file: {path}")
 
         print("Running Emotion Classifier...")
-        emotion, score = predict(path, processor, model)
+        emotion, score,emotion_scores  = predict(path, processor, model,0 ,3)
         print(f"Emotion: {emotion} \t Score: {score}")
-
+        print("All Emotion Scores:")
+        for emotion, score in emotion_scores.items():
+            print(f"{emotion}: {score:.4f}")
         print("\nRunning Prosody Analysis...")
         prosody_features = analyze_prosody(path, sample_rate=sample_rate)
 
@@ -55,7 +68,7 @@ def process_speech_from_cloud(file_url):
     convert_m4a_to_wav(m4a_audio_path, wav_audio_path)
 
 
-    # 如果是影片，提取音訊
+    # 如果是影片，提取音訊.
     # if m4a_audio_path.endswith('.mp4'):
     #     extract_audio_from_video(m4a_audio_path, 'audio_from_video.wav')
     #     m4a_audio_path = 'audio_from_video.wav'
@@ -65,19 +78,68 @@ def process_speech_from_cloud(file_url):
     sentences, segments = transcribe_audio_to_sentences(wav_audio_path)
 
     print("Running Emotion Classifier and Prosody Analysis...\n")
-    
-    for segment in segments:
+
+    # 修改後的句子分析邏輯
+    combined_segments = []
+    for i in range(0, len(segments), 2):
+        # 合併當前句子和下一句子
+        text = segments[i]['text']
+        start_time = segments[i]['start']
+        end_time = segments[i]['end']
+
+        if i + 1 < len(segments):
+            text += f" {segments[i + 1]['text']}"
+            end_time = segments[i + 1]['end']
+
+        combined_segments.append({
+            "text": text.strip(),
+            "start": start_time,
+            "end": end_time
+        })
+
+    # 分析合併後的句子
+    for segment in combined_segments:
         print(f"Analyzing Sentence: {segment['text']}")
         
         # 情感分析
-        emotion, score = predict(wav_audio_path, processor, model, start_time=segment['start'], end_time=segment['end'])
+        emotion, score, emotion_scores = predict(
+            wav_audio_path, processor, model,
+            start_time=segment['start'], end_time=segment['end']
+        )
         print(f"Emotion: {emotion} \t Score: {score}")
         
+        print("All Emotion Scores:")
+        for emo, emo_score in emotion_scores.items():
+            print(f"{emo}: {emo_score:.4f}")
+        
         # 韻律分析
-        prosody_features = analyze_prosody(wav_audio_path, start_time=segment['start'], end_time=segment['end'])
+        prosody_features = analyze_prosody(
+            wav_audio_path, start_time=segment['start'], end_time=segment['end']
+        )
         if prosody_features:
             for feature, value in prosody_features.items():
                 print(f"{feature}: {value:.2f}")
+        print("\n")
+
+    
+    # for segment in segments:
+    #     print(f"Analyzing Sentence: {segment['text']}")
+        
+    #     # 情感分析
+    #     emotion, score, emotion_scores = predict(wav_audio_path, processor, model, start_time=segment['start'], end_time=segment['end'])
+    #     print(f"Emotion: {emotion} \t Score: {score}")
+        
+    #     print("All Emotion Scores:")
+    #     for emo, emo_score in emotion_scores.items():
+    #         print(f"{emo}: {emo_score:.4f}")
+    #     # 韻律分析
+    #     prosody_features = analyze_prosody(wav_audio_path, start_time=segment['start'], end_time=segment['end'])
+    #     if prosody_features:
+    #         for feature, value in prosody_features.items():
+    #             print(f"{feature}: {value:.2f}")
+
+
+
 
 # 測試：從本地資料夾分析音檔
 # process_local_audio()
