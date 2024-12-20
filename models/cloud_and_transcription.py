@@ -32,7 +32,7 @@ def transcribe_audio_to_sentences(audio_path):
     """
     使用Whisper將音訊轉為文本並切割為句子
     """
-    model = whisper.load_model("small")
-    result = model.transcribe(audio_path)
+    model = whisper.load_model("small").to("cuda")
+    result = model.transcribe(audio_path, fp16=True, condition_on_previous_text=False)
     sentences = result['text'].split('.')  # 使用句號切割句子
     return sentences, result['segments']

@@ -5,21 +5,10 @@ import sys
 from models.cloud_and_transcription import download_file_from_cloud, extract_audio_from_video, transcribe_audio_to_sentences,convert_m4a_to_wav
 from audio_emotion_classifier import predict, processor, model
 from prosody_analyzer import analyze_prosody
+from async_logger import async_logger
 
-class Logger:
-    def __init__(self, filepath):
-        self.terminal = sys.stdout
-        self.log = open(filepath, "w", encoding="utf-8")
 
-    def write(self, message):
-        self.terminal.write(message)
-        self.log.write(message)
-
-    def flush(self):
-        self.terminal.flush()
-        self.log.flush()
-
-sys.stdout = Logger("output.txt")
+sys.stdout = async_logger("output.txt")
 
 data_folder = "data"
 sample_rate = 16000
