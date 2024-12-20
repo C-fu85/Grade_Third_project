@@ -6,9 +6,6 @@ from prosody_analyzer import analyze_prosody
 import ffmpeg
 
 def convert_audio_to_wav(input_dir, output_dir):
-    """
-    Converts audio files (M4A or Opus) in a directory to WAV format, overwriting existing files.
-    """
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
 
@@ -19,8 +16,7 @@ def convert_audio_to_wav(input_dir, output_dir):
             wav_path = os.path.join(output_dir, wav_name)
 
             try:
-                # Overwrite existing WAV files automatically
-                ffmpeg.input(audio_path).output(wav_path, overwrite_output=True).run()
+                ffmpeg.input(audio_path).output(wav_path).run()
                 print(f"Converted {audio_path} to {wav_path}")
             except Exception as e:
                 print(f"Error converting {audio_path}: {e}")
@@ -77,7 +73,7 @@ male_output_dir = r"E:/Downloads/Downloads/male_classified"
 female_output_dir = r"E:/Downloads/Downloads/female_classified"
 
 # Convert audio files to WAV
-convert_audio_to_wav(input_dir, output_wav_dir)
+#convert_audio_to_wav(input_dir, output_wav_dir)
 
 # Ensure classification directories exist
 os.makedirs(male_output_dir, exist_ok=True)
