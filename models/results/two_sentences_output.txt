@@ -1,0 +1,4 @@
+Found existing WAV file: data/audio_from_cloud.wav
+Running Whisper to divide sentences...
+
+Detected language: Chinese
