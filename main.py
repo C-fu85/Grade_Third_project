@@ -8,6 +8,8 @@ from models.prosody_analyzer import analyze_prosody
 
 class Logger:
     def __init__(self, filepath):
+        os.makedirs(os.path.dirname(filepath), exist_ok=True)
+
         self.terminal = sys.stdout
         self.log = open(filepath, "w", encoding="utf-8")
 
