@@ -43,12 +43,10 @@ def transcribe_audio_to_sentences(audio_path, device='cuda'):
     # 加載Whisper模型並指定設備
     model = whisper.load_model("small").to(device)  # Load model on the specified device
 
-    # 進行語音轉文字
-    result = model.transcribe(audio_path)
+    # 進行語音轉文字，設置 verbose=False
+    result = model.transcribe(audio_path, verbose=False)  # Set verbose to False
 
     # 使用句號切割句子
     sentences = result['text'].split('.')  # Use period to split sentences
 
     return sentences, result['segments']
-
-    
