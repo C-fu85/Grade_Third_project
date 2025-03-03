@@ -1,0 +1,8 @@
+ * Serving Flask app 'main'
+ * Debug mode: off
+Running Whisper to divide sentences...
+
+Detected language: Chinese
+Running Whisper to divide sentences...
+
+Detected language: Chinese

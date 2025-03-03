@@ -1,0 +1,10 @@
+{
+    "name": "Grade_Third_project",
+    "version": "1.0.0",
+    "scripts": {
+      "start": "concurrently \"cd webui && npm start\" \"cd proxy && npm start\" \"cd backend && python main.py --server\""
+    },
+    "dependencies": {
+      "concurrently": "^8.2.2"
+    }
+  }
