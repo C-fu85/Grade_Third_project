@@ -1,6 +1,6 @@
 {
   "4b628921c761f52e32c74b403a532b5f_0.0_7.0": {
-    "timestamp": "2025-03-03T23:22:21.677231",
+    "timestamp": "2025-03-06T23:12:22.167229",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -24,7 +24,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_7.0_12.0": {
-    "timestamp": "2025-03-03T23:22:23.081273",
+    "timestamp": "2025-03-06T23:12:23.835732",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -48,7 +48,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_12.0_17.0": {
-    "timestamp": "2025-03-03T23:22:24.520681",
+    "timestamp": "2025-03-06T23:12:25.549331",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -72,7 +72,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_17.0_21.0": {
-    "timestamp": "2025-03-03T23:22:25.795962",
+    "timestamp": "2025-03-06T23:12:27.086116",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "happy",
@@ -96,7 +96,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_21.0_23.0": {
-    "timestamp": "2025-03-03T23:22:26.792186",
+    "timestamp": "2025-03-06T23:12:28.356834",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "happy",
@@ -120,7 +120,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_23.0_25.0": {
-    "timestamp": "2025-03-03T23:22:27.811676",
+    "timestamp": "2025-03-06T23:12:29.643389",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "surprise",
@@ -144,7 +144,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_25.0_27.0": {
-    "timestamp": "2025-03-03T23:22:28.824980",
+    "timestamp": "2025-03-06T23:12:30.918964",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -168,7 +168,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_27.0_30.0": {
-    "timestamp": "2025-03-03T23:22:29.944247",
+    "timestamp": "2025-03-06T23:12:32.308008",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "happy",
@@ -192,7 +192,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_30.0_34.0": {
-    "timestamp": "2025-03-03T23:22:31.159769",
+    "timestamp": "2025-03-06T23:12:33.814293",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -216,7 +216,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_34.0_36.0": {
-    "timestamp": "2025-03-03T23:22:32.163497",
+    "timestamp": "2025-03-06T23:12:35.108494",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "happy",
@@ -240,7 +240,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_36.0_40.0": {
-    "timestamp": "2025-03-03T23:22:33.422303",
+    "timestamp": "2025-03-06T23:12:36.638528",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "happy",
@@ -264,7 +264,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_40.0_43.0": {
-    "timestamp": "2025-03-03T23:22:34.531768",
+    "timestamp": "2025-03-06T23:12:38.082608",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -288,7 +288,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_43.0_46.0": {
-    "timestamp": "2025-03-03T23:22:35.655487",
+    "timestamp": "2025-03-06T23:12:39.524364",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "neutral",
@@ -312,7 +312,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_46.0_51.0": {
-    "timestamp": "2025-03-03T23:22:37.014147",
+    "timestamp": "2025-03-06T23:12:41.182041",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -336,7 +336,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_51.0_54.0": {
-    "timestamp": "2025-03-03T23:22:38.118443",
+    "timestamp": "2025-03-06T23:12:42.601175",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -360,7 +360,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_54.0_57.0": {
-    "timestamp": "2025-03-03T23:22:39.241812",
+    "timestamp": "2025-03-06T23:12:44.033098",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -384,7 +384,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_57.0_60.0": {
-    "timestamp": "2025-03-03T23:22:40.364693",
+    "timestamp": "2025-03-06T23:12:45.456160",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -408,7 +408,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_60.0_62.0": {
-    "timestamp": "2025-03-03T23:22:41.364937",
+    "timestamp": "2025-03-06T23:12:46.826460",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -432,7 +432,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_62.0_66.0": {
-    "timestamp": "2025-03-03T23:22:42.597766",
+    "timestamp": "2025-03-06T23:12:48.402987",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "happy",
@@ -456,7 +456,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_66.0_71.0": {
-    "timestamp": "2025-03-03T23:22:43.996549",
+    "timestamp": "2025-03-06T23:12:50.203723",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -480,7 +480,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_71.0_74.0": {
-    "timestamp": "2025-03-03T23:22:45.112163",
+    "timestamp": "2025-03-06T23:12:51.749423",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -504,7 +504,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_74.0_77.0": {
-    "timestamp": "2025-03-03T23:22:46.222874",
+    "timestamp": "2025-03-06T23:12:53.150558",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "happy",
@@ -528,7 +528,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_77.0_79.0": {
-    "timestamp": "2025-03-03T23:22:47.229339",
+    "timestamp": "2025-03-06T23:12:54.425000",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -552,7 +552,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_79.0_82.0": {
-    "timestamp": "2025-03-03T23:22:48.347372",
+    "timestamp": "2025-03-06T23:12:55.841557",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -576,7 +576,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_82.0_84.0": {
-    "timestamp": "2025-03-03T23:22:49.350698",
+    "timestamp": "2025-03-06T23:12:57.129471",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "happy",
@@ -600,7 +600,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_84.0_87.0": {
-    "timestamp": "2025-03-03T23:22:50.468639",
+    "timestamp": "2025-03-06T23:12:58.521599",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -624,7 +624,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_87.0_91.0": {
-    "timestamp": "2025-03-03T23:22:51.700733",
+    "timestamp": "2025-03-06T23:13:00.038362",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "happy",
@@ -648,7 +648,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_91.0_94.0": {
-    "timestamp": "2025-03-03T23:22:52.830774",
+    "timestamp": "2025-03-06T23:13:01.469198",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "happy",
@@ -672,7 +672,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_94.0_96.0": {
-    "timestamp": "2025-03-03T23:22:53.847486",
+    "timestamp": "2025-03-06T23:13:02.746357",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -696,7 +696,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_96.0_101.0": {
-    "timestamp": "2025-03-03T23:22:55.189308",
+    "timestamp": "2025-03-06T23:13:04.373628",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "happy",
@@ -720,7 +720,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_101.0_105.0": {
-    "timestamp": "2025-03-03T23:22:56.415191",
+    "timestamp": "2025-03-06T23:13:05.896268",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -744,7 +744,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_105.0_108.0": {
-    "timestamp": "2025-03-03T23:22:57.514389",
+    "timestamp": "2025-03-06T23:13:07.283602",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -768,7 +768,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_108.0_111.0": {
-    "timestamp": "2025-03-03T23:22:58.620687",
+    "timestamp": "2025-03-06T23:13:08.674245",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -792,7 +792,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_112.0_116.0": {
-    "timestamp": "2025-03-03T23:22:59.876165",
+    "timestamp": "2025-03-06T23:13:10.215657",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -816,7 +816,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_116.0_118.0": {
-    "timestamp": "2025-03-03T23:23:00.868994",
+    "timestamp": "2025-03-06T23:13:11.511187",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -840,7 +840,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_118.0_122.0": {
-    "timestamp": "2025-03-03T23:23:02.093526",
+    "timestamp": "2025-03-06T23:13:13.029770",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "happy",
@@ -864,7 +864,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_122.0_127.0": {
-    "timestamp": "2025-03-03T23:23:03.433479",
+    "timestamp": "2025-03-06T23:13:14.663771",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "happy",
@@ -888,7 +888,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_127.0_131.0": {
-    "timestamp": "2025-03-03T23:23:04.704196",
+    "timestamp": "2025-03-06T23:13:16.179738",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -912,7 +912,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_131.0_135.0": {
-    "timestamp": "2025-03-03T23:23:05.989779",
+    "timestamp": "2025-03-06T23:13:17.697234",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "happy",
@@ -936,7 +936,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_135.0_138.0": {
-    "timestamp": "2025-03-03T23:23:07.159256",
+    "timestamp": "2025-03-06T23:13:19.097077",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "happy",
@@ -960,7 +960,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_138.0_142.0": {
-    "timestamp": "2025-03-03T23:23:08.412491",
+    "timestamp": "2025-03-06T23:13:20.631901",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -984,7 +984,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_142.0_146.0": {
-    "timestamp": "2025-03-03T23:23:09.636420",
+    "timestamp": "2025-03-06T23:13:22.190224",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "sad",
@@ -1008,7 +1008,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_146.0_148.0": {
-    "timestamp": "2025-03-03T23:23:10.648685",
+    "timestamp": "2025-03-06T23:13:23.477195",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -1032,7 +1032,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_148.0_154.0": {
-    "timestamp": "2025-03-03T23:23:12.112823",
+    "timestamp": "2025-03-06T23:13:25.325094",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -1056,7 +1056,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_154.0_157.0": {
-    "timestamp": "2025-03-03T23:23:13.237890",
+    "timestamp": "2025-03-06T23:13:26.738725",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -1080,7 +1080,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_157.0_160.0": {
-    "timestamp": "2025-03-03T23:23:14.402713",
+    "timestamp": "2025-03-06T23:13:28.143555",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -1104,7 +1104,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_160.0_163.0": {
-    "timestamp": "2025-03-03T23:23:15.538257",
+    "timestamp": "2025-03-06T23:13:29.570693",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -1128,7 +1128,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_163.0_166.0": {
-    "timestamp": "2025-03-03T23:23:16.650283",
+    "timestamp": "2025-03-06T23:13:30.983884",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -1152,7 +1152,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_166.0_169.0": {
-    "timestamp": "2025-03-03T23:23:17.791105",
+    "timestamp": "2025-03-06T23:13:32.387744",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -1176,7 +1176,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_169.0_172.0": {
-    "timestamp": "2025-03-03T23:23:18.955510",
+    "timestamp": "2025-03-06T23:13:33.786711",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -1200,7 +1200,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_172.0_175.0": {
-    "timestamp": "2025-03-03T23:23:20.149573",
+    "timestamp": "2025-03-06T23:13:35.248519",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "happy",
@@ -1224,7 +1224,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_175.0_179.0": {
-    "timestamp": "2025-03-03T23:23:21.381303",
+    "timestamp": "2025-03-06T23:13:36.792045",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "happy",
@@ -1248,7 +1248,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_179.0_184.0": {
-    "timestamp": "2025-03-03T23:23:22.704647",
+    "timestamp": "2025-03-06T23:13:38.499171",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "happy",
@@ -1272,7 +1272,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_184.0_188.0": {
-    "timestamp": "2025-03-03T23:23:23.923628",
+    "timestamp": "2025-03-06T23:13:40.164143",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -1296,7 +1296,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_188.0_192.0": {
-    "timestamp": "2025-03-03T23:23:25.126528",
+    "timestamp": "2025-03-06T23:13:41.760945",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -1320,7 +1320,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_192.0_196.0": {
-    "timestamp": "2025-03-03T23:23:26.354809",
+    "timestamp": "2025-03-06T23:13:43.355497",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -1344,7 +1344,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_196.0_201.0": {
-    "timestamp": "2025-03-03T23:23:27.698078",
+    "timestamp": "2025-03-06T23:13:45.015388",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -1368,7 +1368,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_201.0_204.0": {
-    "timestamp": "2025-03-03T23:23:28.795502",
+    "timestamp": "2025-03-06T23:13:46.469102",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -1392,7 +1392,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_204.0_207.0": {
-    "timestamp": "2025-03-03T23:23:29.901538",
+    "timestamp": "2025-03-06T23:13:48.073650",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -1416,7 +1416,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_207.0_211.0": {
-    "timestamp": "2025-03-03T23:23:31.147423",
+    "timestamp": "2025-03-06T23:13:49.838392",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -1440,7 +1440,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_211.0_214.0": {
-    "timestamp": "2025-03-03T23:23:32.235827",
+    "timestamp": "2025-03-06T23:13:51.435917",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -1464,7 +1464,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_214.0_219.0": {
-    "timestamp": "2025-03-03T23:23:33.550770",
+    "timestamp": "2025-03-06T23:13:53.165742",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "happy",
@@ -1488,7 +1488,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_219.0_222.0": {
-    "timestamp": "2025-03-03T23:23:34.703254",
+    "timestamp": "2025-03-06T23:13:54.606819",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -1512,7 +1512,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_222.0_226.0": {
-    "timestamp": "2025-03-03T23:23:35.956332",
+    "timestamp": "2025-03-06T23:13:56.155168",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -1536,7 +1536,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_226.0_230.0": {
-    "timestamp": "2025-03-03T23:23:37.163062",
+    "timestamp": "2025-03-06T23:13:57.704108",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -1560,7 +1560,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_230.0_235.0": {
-    "timestamp": "2025-03-03T23:23:38.485410",
+    "timestamp": "2025-03-06T23:13:59.403255",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "sad",
@@ -1584,7 +1584,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_235.0_240.0": {
-    "timestamp": "2025-03-03T23:23:39.813329",
+    "timestamp": "2025-03-06T23:14:01.045691",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "sad",
@@ -1608,7 +1608,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_240.0_246.0": {
-    "timestamp": "2025-03-03T23:23:41.255474",
+    "timestamp": "2025-03-06T23:14:02.809114",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "sad",
@@ -1632,7 +1632,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_246.0_249.0": {
-    "timestamp": "2025-03-03T23:23:42.379584",
+    "timestamp": "2025-03-06T23:14:04.219975",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -1656,7 +1656,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_249.0_252.0": {
-    "timestamp": "2025-03-03T23:23:43.480332",
+    "timestamp": "2025-03-06T23:14:05.671585",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -1680,7 +1680,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_252.0_255.0": {
-    "timestamp": "2025-03-03T23:23:44.593760",
+    "timestamp": "2025-03-06T23:14:07.079421",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -1704,7 +1704,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_255.0_259.0": {
-    "timestamp": "2025-03-03T23:23:45.793998",
+    "timestamp": "2025-03-06T23:14:08.745813",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "sad",
@@ -1728,7 +1728,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_259.0_262.0": {
-    "timestamp": "2025-03-03T23:23:46.920679",
+    "timestamp": "2025-03-06T23:14:10.163634",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -1752,7 +1752,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_262.0_265.0": {
-    "timestamp": "2025-03-03T23:23:48.014023",
+    "timestamp": "2025-03-06T23:14:11.647880",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -1776,7 +1776,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_265.0_267.0": {
-    "timestamp": "2025-03-03T23:23:49.007349",
+    "timestamp": "2025-03-06T23:14:13.054125",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -1800,7 +1800,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_267.0_270.0": {
-    "timestamp": "2025-03-03T23:23:50.104213",
+    "timestamp": "2025-03-06T23:14:14.476595",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -1824,7 +1824,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_270.0_274.0": {
-    "timestamp": "2025-03-03T23:23:51.311353",
+    "timestamp": "2025-03-06T23:14:16.003998",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -1848,7 +1848,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_274.0_278.0": {
-    "timestamp": "2025-03-03T23:23:52.522895",
+    "timestamp": "2025-03-06T23:14:17.537150",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -1872,7 +1872,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_279.0_285.0": {
-    "timestamp": "2025-03-03T23:23:53.942793",
+    "timestamp": "2025-03-06T23:14:19.363004",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "happy",
@@ -1896,7 +1896,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_285.0_287.0": {
-    "timestamp": "2025-03-03T23:23:54.965429",
+    "timestamp": "2025-03-06T23:14:20.669394",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "happy",
@@ -1920,7 +1920,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_287.0_291.0": {
-    "timestamp": "2025-03-03T23:23:56.171869",
+    "timestamp": "2025-03-06T23:14:22.246756",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -1944,7 +1944,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_291.0_295.0": {
-    "timestamp": "2025-03-03T23:23:57.395811",
+    "timestamp": "2025-03-06T23:14:23.795032",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -1968,7 +1968,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_295.0_298.0": {
-    "timestamp": "2025-03-03T23:23:58.499153",
+    "timestamp": "2025-03-06T23:14:25.300016",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -1992,7 +1992,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_298.0_303.0": {
-    "timestamp": "2025-03-03T23:23:59.833674",
+    "timestamp": "2025-03-06T23:14:27.070204",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -2016,7 +2016,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_303.0_308.0": {
-    "timestamp": "2025-03-03T23:24:01.155952",
+    "timestamp": "2025-03-06T23:14:28.841289",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "happy",
@@ -2040,7 +2040,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_308.0_312.0": {
-    "timestamp": "2025-03-03T23:24:02.411231",
+    "timestamp": "2025-03-06T23:14:30.418180",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "happy",
@@ -2064,7 +2064,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_312.0_315.0": {
-    "timestamp": "2025-03-03T23:24:03.506257",
+    "timestamp": "2025-03-06T23:14:31.847501",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -2088,7 +2088,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_315.0_319.0": {
-    "timestamp": "2025-03-03T23:24:04.775372",
+    "timestamp": "2025-03-06T23:14:33.423861",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -2112,7 +2112,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_319.0_322.0": {
-    "timestamp": "2025-03-03T23:24:05.917552",
+    "timestamp": "2025-03-06T23:14:34.859024",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -2136,7 +2136,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_322.0_326.0": {
-    "timestamp": "2025-03-03T23:24:07.288826",
+    "timestamp": "2025-03-06T23:14:36.427975",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -2160,7 +2160,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_326.0_330.0": {
-    "timestamp": "2025-03-03T23:24:08.629528",
+    "timestamp": "2025-03-06T23:14:37.976744",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "happy",
@@ -2184,7 +2184,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_330.0_333.0": {
-    "timestamp": "2025-03-03T23:24:09.767795",
+    "timestamp": "2025-03-06T23:14:39.429935",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -2208,7 +2208,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_333.0_335.0": {
-    "timestamp": "2025-03-03T23:24:10.821229",
+    "timestamp": "2025-03-06T23:14:40.738868",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -2232,7 +2232,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_335.0_340.0": {
-    "timestamp": "2025-03-03T23:24:12.124669",
+    "timestamp": "2025-03-06T23:14:42.483914",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -2256,7 +2256,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_340.0_344.0": {
-    "timestamp": "2025-03-03T23:24:13.351126",
+    "timestamp": "2025-03-06T23:14:44.119095",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -2280,7 +2280,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_344.0_347.0": {
-    "timestamp": "2025-03-03T23:24:14.450528",
+    "timestamp": "2025-03-06T23:14:45.669517",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -2304,7 +2304,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_347.0_349.0": {
-    "timestamp": "2025-03-03T23:24:15.450412",
+    "timestamp": "2025-03-06T23:14:46.964259",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -2328,7 +2328,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_349.0_353.0": {
-    "timestamp": "2025-03-03T23:24:16.648176",
+    "timestamp": "2025-03-06T23:14:48.627306",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -2352,7 +2352,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_353.0_358.0": {
-    "timestamp": "2025-03-03T23:24:18.036114",
+    "timestamp": "2025-03-06T23:14:50.408984",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -2376,7 +2376,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_362.0_365.0": {
-    "timestamp": "2025-03-03T23:24:19.215761",
+    "timestamp": "2025-03-06T23:14:51.910046",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "happy",
@@ -2400,7 +2400,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_365.0_369.0": {
-    "timestamp": "2025-03-03T23:24:20.495793",
+    "timestamp": "2025-03-06T23:14:53.465426",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -2424,7 +2424,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_369.0_373.0": {
-    "timestamp": "2025-03-03T23:24:21.700397",
+    "timestamp": "2025-03-06T23:14:55.003455",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "happy",
@@ -2448,7 +2448,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_373.0_377.0": {
-    "timestamp": "2025-03-03T23:24:22.901234",
+    "timestamp": "2025-03-06T23:14:56.552913",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "happy",
@@ -2472,7 +2472,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_378.0_382.0": {
-    "timestamp": "2025-03-03T23:24:24.112500",
+    "timestamp": "2025-03-06T23:14:58.098232",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -2496,7 +2496,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_382.0_386.0": {
-    "timestamp": "2025-03-03T23:24:25.333821",
+    "timestamp": "2025-03-06T23:14:59.633925",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -2520,7 +2520,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_386.0_391.0": {
-    "timestamp": "2025-03-03T23:24:26.629126",
+    "timestamp": "2025-03-06T23:15:01.294342",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -2544,7 +2544,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_391.0_395.0": {
-    "timestamp": "2025-03-03T23:24:27.845336",
+    "timestamp": "2025-03-06T23:15:02.856917",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -2568,7 +2568,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_395.0_399.0": {
-    "timestamp": "2025-03-03T23:24:29.046207",
+    "timestamp": "2025-03-06T23:15:04.407940",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -2592,7 +2592,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_399.0_401.0": {
-    "timestamp": "2025-03-03T23:24:30.053830",
+    "timestamp": "2025-03-06T23:15:05.703246",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "happy",
@@ -2616,7 +2616,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_401.0_404.0": {
-    "timestamp": "2025-03-03T23:24:31.155285",
+    "timestamp": "2025-03-06T23:15:07.133066",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "happy",
@@ -2640,7 +2640,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_404.0_407.0": {
-    "timestamp": "2025-03-03T23:24:32.259682",
+    "timestamp": "2025-03-06T23:15:08.551321",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "happy",
@@ -2664,7 +2664,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_407.0_412.0": {
-    "timestamp": "2025-03-03T23:24:33.566078",
+    "timestamp": "2025-03-06T23:15:10.208549",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "happy",
@@ -2688,7 +2688,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_412.0_415.0": {
-    "timestamp": "2025-03-03T23:24:34.657016",
+    "timestamp": "2025-03-06T23:15:11.635336",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -2712,7 +2712,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_415.0_419.0": {
-    "timestamp": "2025-03-03T23:24:35.892905",
+    "timestamp": "2025-03-06T23:15:13.283075",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -2736,7 +2736,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_419.0_422.0": {
-    "timestamp": "2025-03-03T23:24:37.020258",
+    "timestamp": "2025-03-06T23:15:14.712317",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -2760,7 +2760,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_422.0_425.0": {
-    "timestamp": "2025-03-03T23:24:38.127529",
+    "timestamp": "2025-03-06T23:15:16.149091",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -2784,7 +2784,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_425.0_429.0": {
-    "timestamp": "2025-03-03T23:24:39.345714",
+    "timestamp": "2025-03-06T23:15:17.682193",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "surprise",
@@ -2808,7 +2808,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_429.0_432.0": {
-    "timestamp": "2025-03-03T23:24:40.442305",
+    "timestamp": "2025-03-06T23:15:19.129806",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -2832,7 +2832,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_432.0_434.0": {
-    "timestamp": "2025-03-03T23:24:41.421780",
+    "timestamp": "2025-03-06T23:15:20.424300",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -2856,7 +2856,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_434.0_437.0": {
-    "timestamp": "2025-03-03T23:24:42.516017",
+    "timestamp": "2025-03-06T23:15:21.851970",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -2880,7 +2880,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_437.0_441.0": {
-    "timestamp": "2025-03-03T23:24:43.704404",
+    "timestamp": "2025-03-06T23:15:23.433826",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -2904,7 +2904,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_441.0_444.0": {
-    "timestamp": "2025-03-03T23:24:44.821652",
+    "timestamp": "2025-03-06T23:15:24.852269",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -2928,7 +2928,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_444.0_447.0": {
-    "timestamp": "2025-03-03T23:24:45.941771",
+    "timestamp": "2025-03-06T23:15:26.268419",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -2952,7 +2952,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_447.0_451.0": {
-    "timestamp": "2025-03-03T23:24:47.139593",
+    "timestamp": "2025-03-06T23:15:27.800120",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -2976,7 +2976,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_451.0_454.0": {
-    "timestamp": "2025-03-03T23:24:48.236880",
+    "timestamp": "2025-03-06T23:15:29.206826",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -3000,7 +3000,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_454.0_458.0": {
-    "timestamp": "2025-03-03T23:24:49.476297",
+    "timestamp": "2025-03-06T23:15:30.738603",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -3024,7 +3024,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_458.0_461.0": {
-    "timestamp": "2025-03-03T23:24:50.563941",
+    "timestamp": "2025-03-06T23:15:32.161400",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -3048,7 +3048,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_461.0_465.0": {
-    "timestamp": "2025-03-03T23:24:51.776652",
+    "timestamp": "2025-03-06T23:15:33.685723",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -3072,7 +3072,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_465.0_467.0": {
-    "timestamp": "2025-03-03T23:24:52.761638",
+    "timestamp": "2025-03-06T23:15:34.999492",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -3096,7 +3096,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_467.0_469.0": {
-    "timestamp": "2025-03-03T23:24:53.757034",
+    "timestamp": "2025-03-06T23:15:36.280906",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -3120,7 +3120,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_469.0_472.0": {
-    "timestamp": "2025-03-03T23:24:54.891345",
+    "timestamp": "2025-03-06T23:15:37.694951",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -3144,7 +3144,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_472.0_475.0": {
-    "timestamp": "2025-03-03T23:24:55.994172",
+    "timestamp": "2025-03-06T23:15:39.113512",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -3168,7 +3168,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_475.0_478.0": {
-    "timestamp": "2025-03-03T23:24:57.100290",
+    "timestamp": "2025-03-06T23:15:40.515285",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -3192,7 +3192,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_478.0_481.0": {
-    "timestamp": "2025-03-03T23:24:58.246673",
+    "timestamp": "2025-03-06T23:15:41.951967",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -3216,7 +3216,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_481.0_483.0": {
-    "timestamp": "2025-03-03T23:24:59.238436",
+    "timestamp": "2025-03-06T23:15:43.247608",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -3240,7 +3240,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_483.0_487.0": {
-    "timestamp": "2025-03-03T23:25:00.455975",
+    "timestamp": "2025-03-06T23:15:44.819679",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -3264,7 +3264,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_487.0_491.0": {
-    "timestamp": "2025-03-03T23:25:01.667807",
+    "timestamp": "2025-03-06T23:15:46.353286",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "happy",
@@ -3288,7 +3288,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_491.0_494.0": {
-    "timestamp": "2025-03-03T23:25:02.763808",
+    "timestamp": "2025-03-06T23:15:47.833911",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -3312,7 +3312,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_494.0_497.0": {
-    "timestamp": "2025-03-03T23:25:03.862187",
+    "timestamp": "2025-03-06T23:15:49.475906",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -3336,7 +3336,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_497.0_500.0": {
-    "timestamp": "2025-03-03T23:25:04.957065",
+    "timestamp": "2025-03-06T23:15:51.108586",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -3360,7 +3360,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_500.0_503.0": {
-    "timestamp": "2025-03-03T23:25:06.050877",
+    "timestamp": "2025-03-06T23:15:52.580579",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -3384,7 +3384,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_503.0_505.0": {
-    "timestamp": "2025-03-03T23:25:07.073883",
+    "timestamp": "2025-03-06T23:15:53.886983",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "happy",
@@ -3408,7 +3408,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_505.0_508.0": {
-    "timestamp": "2025-03-03T23:25:08.198797",
+    "timestamp": "2025-03-06T23:15:55.309177",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "happy",
@@ -3432,7 +3432,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_508.0_512.0": {
-    "timestamp": "2025-03-03T23:25:09.414124",
+    "timestamp": "2025-03-06T23:15:56.882655",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -3456,7 +3456,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_512.0_518.0": {
-    "timestamp": "2025-03-03T23:25:10.875646",
+    "timestamp": "2025-03-06T23:15:58.713975",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "happy",
@@ -3480,7 +3480,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_518.0_520.0": {
-    "timestamp": "2025-03-03T23:25:11.873269",
+    "timestamp": "2025-03-06T23:16:00.012004",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -3504,7 +3504,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_520.0_522.0": {
-    "timestamp": "2025-03-03T23:25:12.857974",
+    "timestamp": "2025-03-06T23:16:01.305244",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "happy",
@@ -3528,7 +3528,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_522.0_525.0": {
-    "timestamp": "2025-03-03T23:25:13.973170",
+    "timestamp": "2025-03-06T23:16:02.800228",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "surprise",
@@ -3552,7 +3552,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_525.0_528.0": {
-    "timestamp": "2025-03-03T23:25:15.068760",
+    "timestamp": "2025-03-06T23:16:04.246368",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "happy",
@@ -3576,7 +3576,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_528.0_530.0": {
-    "timestamp": "2025-03-03T23:25:16.058691",
+    "timestamp": "2025-03-06T23:16:05.595257",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "happy",
@@ -3600,7 +3600,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_530.0_533.0": {
-    "timestamp": "2025-03-03T23:25:17.151714",
+    "timestamp": "2025-03-06T23:16:07.003386",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -3624,7 +3624,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_533.0_535.0": {
-    "timestamp": "2025-03-03T23:25:18.184624",
+    "timestamp": "2025-03-06T23:16:08.339692",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -3648,7 +3648,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_535.0_538.0": {
-    "timestamp": "2025-03-03T23:25:19.353215",
+    "timestamp": "2025-03-06T23:16:09.803189",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -3672,7 +3672,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_538.0_540.0": {
-    "timestamp": "2025-03-03T23:25:20.454326",
+    "timestamp": "2025-03-06T23:16:11.097593",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "happy",
@@ -3696,7 +3696,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_540.0_543.0": {
-    "timestamp": "2025-03-03T23:25:21.571578",
+    "timestamp": "2025-03-06T23:16:12.534393",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -3720,7 +3720,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_543.0_546.0": {
-    "timestamp": "2025-03-03T23:25:22.662070",
+    "timestamp": "2025-03-06T23:16:13.936314",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -3744,7 +3744,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_546.0_550.0": {
-    "timestamp": "2025-03-03T23:25:23.901595",
+    "timestamp": "2025-03-06T23:16:15.488348",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -3768,7 +3768,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_550.0_552.0": {
-    "timestamp": "2025-03-03T23:25:24.910921",
+    "timestamp": "2025-03-06T23:16:16.780825",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -3792,7 +3792,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_552.0_555.0": {
-    "timestamp": "2025-03-03T23:25:26.029418",
+    "timestamp": "2025-03-06T23:16:18.201987",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -3816,7 +3816,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_555.0_560.0": {
-    "timestamp": "2025-03-03T23:25:27.326888",
+    "timestamp": "2025-03-06T23:16:19.843587",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -3840,7 +3840,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_560.0_564.0": {
-    "timestamp": "2025-03-03T23:25:28.546193",
+    "timestamp": "2025-03-06T23:16:21.447409",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -3864,7 +3864,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_564.0_567.0": {
-    "timestamp": "2025-03-03T23:25:29.641783",
+    "timestamp": "2025-03-06T23:16:22.973133",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -3888,7 +3888,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_567.0_569.0": {
-    "timestamp": "2025-03-03T23:25:30.628542",
+    "timestamp": "2025-03-06T23:16:24.301598",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "neutral",
@@ -3912,7 +3912,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_569.0_575.0": {
-    "timestamp": "2025-03-03T23:25:32.032967",
+    "timestamp": "2025-03-06T23:16:26.091612",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "sad",
@@ -3936,7 +3936,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_575.0_578.0": {
-    "timestamp": "2025-03-03T23:25:33.126608",
+    "timestamp": "2025-03-06T23:16:27.518405",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "happy",
@@ -3960,7 +3960,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_578.0_581.0": {
-    "timestamp": "2025-03-03T23:25:34.224634",
+    "timestamp": "2025-03-06T23:16:28.921831",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -3984,7 +3984,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_581.0_584.0": {
-    "timestamp": "2025-03-03T23:25:35.366768",
+    "timestamp": "2025-03-06T23:16:30.332359",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -4008,7 +4008,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_584.0_588.0": {
-    "timestamp": "2025-03-03T23:25:36.614398",
+    "timestamp": "2025-03-06T23:16:31.870008",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "happy",
@@ -4032,7 +4032,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_588.0_591.0": {
-    "timestamp": "2025-03-03T23:25:37.714470",
+    "timestamp": "2025-03-06T23:16:33.298565",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -4056,7 +4056,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_591.0_595.0": {
-    "timestamp": "2025-03-03T23:25:38.949256",
+    "timestamp": "2025-03-06T23:16:34.865798",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "happy",
@@ -4080,7 +4080,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_595.0_600.0": {
-    "timestamp": "2025-03-03T23:25:40.236285",
+    "timestamp": "2025-03-06T23:16:36.565099",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "happy",
@@ -4104,7 +4104,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_600.0_603.0": {
-    "timestamp": "2025-03-03T23:25:41.328226",
+    "timestamp": "2025-03-06T23:16:38.006939",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -4128,7 +4128,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_603.0_608.0": {
-    "timestamp": "2025-03-03T23:25:42.612946",
+    "timestamp": "2025-03-06T23:16:39.747506",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -4152,7 +4152,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_608.0_612.0": {
-    "timestamp": "2025-03-03T23:25:43.810714",
+    "timestamp": "2025-03-06T23:16:41.331068",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -4176,7 +4176,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_612.0_616.0": {
-    "timestamp": "2025-03-03T23:25:45.014567",
+    "timestamp": "2025-03-06T23:16:42.889926",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -4200,7 +4200,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_616.0_619.0": {
-    "timestamp": "2025-03-03T23:25:46.139496",
+    "timestamp": "2025-03-06T23:16:44.295566",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "happy",
@@ -4224,7 +4224,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_619.0_623.0": {
-    "timestamp": "2025-03-03T23:25:47.372958",
+    "timestamp": "2025-03-06T23:16:45.821278",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -4248,7 +4248,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_623.0_626.0": {
-    "timestamp": "2025-03-03T23:25:48.457264",
+    "timestamp": "2025-03-06T23:16:47.247919",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -4272,7 +4272,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_626.0_630.0": {
-    "timestamp": "2025-03-03T23:25:49.657652",
+    "timestamp": "2025-03-06T23:16:48.889262",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "happy",
@@ -4296,7 +4296,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_630.0_633.0": {
-    "timestamp": "2025-03-03T23:25:50.763487",
+    "timestamp": "2025-03-06T23:16:50.498933",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "happy",
@@ -4320,7 +4320,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_633.0_638.0": {
-    "timestamp": "2025-03-03T23:25:52.072867",
+    "timestamp": "2025-03-06T23:16:52.234046",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "sad",
@@ -4344,7 +4344,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_638.0_641.0": {
-    "timestamp": "2025-03-03T23:25:53.179027",
+    "timestamp": "2025-03-06T23:16:53.648740",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -4368,7 +4368,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_641.0_643.0": {
-    "timestamp": "2025-03-03T23:25:54.170589",
+    "timestamp": "2025-03-06T23:16:54.958429",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -4392,7 +4392,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_643.0_647.0": {
-    "timestamp": "2025-03-03T23:25:55.366806",
+    "timestamp": "2025-03-06T23:16:56.539269",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -4416,7 +4416,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_647.0_650.0": {
-    "timestamp": "2025-03-03T23:25:56.449488",
+    "timestamp": "2025-03-06T23:16:57.955264",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -4440,7 +4440,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_650.0_653.0": {
-    "timestamp": "2025-03-03T23:25:57.584357",
+    "timestamp": "2025-03-06T23:16:59.379575",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -4464,7 +4464,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_653.0_656.0": {
-    "timestamp": "2025-03-03T23:25:58.675761",
+    "timestamp": "2025-03-06T23:17:00.828891",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -4488,7 +4488,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_656.0_658.0": {
-    "timestamp": "2025-03-03T23:25:59.669327",
+    "timestamp": "2025-03-06T23:17:02.129117",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -4512,7 +4512,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_658.0_662.0": {
-    "timestamp": "2025-03-03T23:26:00.904540",
+    "timestamp": "2025-03-06T23:17:03.666964",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "happy",
@@ -4536,7 +4536,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_662.0_665.0": {
-    "timestamp": "2025-03-03T23:26:02.002400",
+    "timestamp": "2025-03-06T23:17:05.096107",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -4560,7 +4560,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_665.0_667.0": {
-    "timestamp": "2025-03-03T23:26:03.016734",
+    "timestamp": "2025-03-06T23:17:06.399108",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -4584,7 +4584,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_667.0_670.0": {
-    "timestamp": "2025-03-03T23:26:04.154204",
+    "timestamp": "2025-03-06T23:17:07.835084",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "happy",
@@ -4608,7 +4608,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_670.0_673.0": {
-    "timestamp": "2025-03-03T23:26:05.259432",
+    "timestamp": "2025-03-06T23:17:09.261060",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "happy",
@@ -4632,7 +4632,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_673.0_675.0": {
-    "timestamp": "2025-03-03T23:26:06.242869",
+    "timestamp": "2025-03-06T23:17:10.593746",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -4656,7 +4656,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_675.0_677.0": {
-    "timestamp": "2025-03-03T23:26:07.253903",
+    "timestamp": "2025-03-06T23:17:11.889397",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -4680,7 +4680,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_677.0_680.0": {
-    "timestamp": "2025-03-03T23:26:08.421570",
+    "timestamp": "2025-03-06T23:17:13.319195",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -4704,7 +4704,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_680.0_682.0": {
-    "timestamp": "2025-03-03T23:26:09.581667",
+    "timestamp": "2025-03-06T23:17:14.607774",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -4728,7 +4728,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_682.0_685.0": {
-    "timestamp": "2025-03-03T23:26:10.791257",
+    "timestamp": "2025-03-06T23:17:16.062080",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -4752,7 +4752,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_685.0_688.0": {
-    "timestamp": "2025-03-03T23:26:11.954316",
+    "timestamp": "2025-03-06T23:17:17.488682",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -4776,7 +4776,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_688.0_690.0": {
-    "timestamp": "2025-03-03T23:26:13.018070",
+    "timestamp": "2025-03-06T23:17:18.778547",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -4800,7 +4800,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_690.0_693.0": {
-    "timestamp": "2025-03-03T23:26:14.159106",
+    "timestamp": "2025-03-06T23:17:20.212109",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -4824,7 +4824,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_693.0_697.0": {
-    "timestamp": "2025-03-03T23:26:15.413012",
+    "timestamp": "2025-03-06T23:17:21.756819",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -4848,7 +4848,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_697.0_699.0": {
-    "timestamp": "2025-03-03T23:26:16.440908",
+    "timestamp": "2025-03-06T23:17:23.047778",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "happy",
@@ -4872,7 +4872,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_699.0_702.0": {
-    "timestamp": "2025-03-03T23:26:17.581989",
+    "timestamp": "2025-03-06T23:17:24.472107",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -4896,7 +4896,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_702.0_704.0": {
-    "timestamp": "2025-03-03T23:26:18.670809",
+    "timestamp": "2025-03-06T23:17:25.784164",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -4920,7 +4920,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_704.0_706.0": {
-    "timestamp": "2025-03-03T23:26:19.768004",
+    "timestamp": "2025-03-06T23:17:27.103189",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -4944,7 +4944,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_706.0_708.0": {
-    "timestamp": "2025-03-03T23:26:20.831732",
+    "timestamp": "2025-03-06T23:17:28.393780",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -4968,7 +4968,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_708.0_710.0": {
-    "timestamp": "2025-03-03T23:26:21.851248",
+    "timestamp": "2025-03-06T23:17:29.705129",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -4992,7 +4992,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_710.0_713.0": {
-    "timestamp": "2025-03-03T23:26:22.985536",
+    "timestamp": "2025-03-06T23:17:31.121343",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "happy",
@@ -5016,7 +5016,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_713.0_715.0": {
-    "timestamp": "2025-03-03T23:26:24.018741",
+    "timestamp": "2025-03-06T23:17:32.419884",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "happy",
@@ -5040,7 +5040,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_715.0_719.0": {
-    "timestamp": "2025-03-03T23:26:25.337322",
+    "timestamp": "2025-03-06T23:17:33.945592",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -5064,7 +5064,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_719.0_721.0": {
-    "timestamp": "2025-03-03T23:26:26.398208",
+    "timestamp": "2025-03-06T23:17:35.255099",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "surprise",
@@ -5088,7 +5088,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_721.0_726.0": {
-    "timestamp": "2025-03-03T23:26:27.789854",
+    "timestamp": "2025-03-06T23:17:36.945169",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -5112,7 +5112,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_726.0_730.0": {
-    "timestamp": "2025-03-03T23:26:29.086753",
+    "timestamp": "2025-03-06T23:17:38.510104",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "happy",
@@ -5136,7 +5136,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_730.0_733.0": {
-    "timestamp": "2025-03-03T23:26:30.271813",
+    "timestamp": "2025-03-06T23:17:40.004028",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -5160,7 +5160,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_733.0_737.0": {
-    "timestamp": "2025-03-03T23:26:31.510910",
+    "timestamp": "2025-03-06T23:17:41.540704",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "happy",
@@ -5184,7 +5184,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_737.0_739.0": {
-    "timestamp": "2025-03-03T23:26:32.512822",
+    "timestamp": "2025-03-06T23:17:42.900115",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -5208,7 +5208,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_739.0_742.0": {
-    "timestamp": "2025-03-03T23:26:33.605910",
+    "timestamp": "2025-03-06T23:17:44.331499",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -5232,7 +5232,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_742.0_745.0": {
-    "timestamp": "2025-03-03T23:26:34.710994",
+    "timestamp": "2025-03-06T23:17:45.775102",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -5256,7 +5256,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_745.0_747.0": {
-    "timestamp": "2025-03-03T23:26:35.738230",
+    "timestamp": "2025-03-06T23:17:47.114879",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -5280,7 +5280,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_747.0_749.0": {
-    "timestamp": "2025-03-03T23:26:36.787924",
+    "timestamp": "2025-03-06T23:17:48.483873",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -5304,7 +5304,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_749.0_752.0": {
-    "timestamp": "2025-03-03T23:26:37.951294",
+    "timestamp": "2025-03-06T23:17:50.061772",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -5328,7 +5328,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_752.0_754.0": {
-    "timestamp": "2025-03-03T23:26:39.006621",
+    "timestamp": "2025-03-06T23:17:51.466168",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -5352,7 +5352,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_754.0_757.0": {
-    "timestamp": "2025-03-03T23:26:40.162210",
+    "timestamp": "2025-03-06T23:17:52.939813",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -5376,7 +5376,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_757.0_761.0": {
-    "timestamp": "2025-03-03T23:26:41.367245",
+    "timestamp": "2025-03-06T23:17:54.507948",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "happy",
@@ -5400,7 +5400,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_761.0_763.0": {
-    "timestamp": "2025-03-03T23:26:42.356822",
+    "timestamp": "2025-03-06T23:17:55.888814",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -5424,7 +5424,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_763.0_766.0": {
-    "timestamp": "2025-03-03T23:26:43.450534",
+    "timestamp": "2025-03-06T23:17:57.335351",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "neutral",
@@ -5448,7 +5448,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_766.0_770.0": {
-    "timestamp": "2025-03-03T23:26:44.681365",
+    "timestamp": "2025-03-06T23:17:58.904052",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "happy",
@@ -5472,7 +5472,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_770.0_773.0": {
-    "timestamp": "2025-03-03T23:26:45.777952",
+    "timestamp": "2025-03-06T23:18:00.347155",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -5496,7 +5496,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_773.0_775.0": {
-    "timestamp": "2025-03-03T23:26:46.776620",
+    "timestamp": "2025-03-06T23:18:01.647421",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "happy",
@@ -5520,7 +5520,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_775.0_778.0": {
-    "timestamp": "2025-03-03T23:26:47.874354",
+    "timestamp": "2025-03-06T23:18:03.088006",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "sad",
@@ -5544,7 +5544,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_778.0_783.0": {
-    "timestamp": "2025-03-03T23:26:49.184654",
+    "timestamp": "2025-03-06T23:18:04.733773",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "sad",
@@ -5568,7 +5568,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_783.0_786.0": {
-    "timestamp": "2025-03-03T23:26:50.327807",
+    "timestamp": "2025-03-06T23:18:06.182605",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -5592,7 +5592,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_786.0_788.0": {
-    "timestamp": "2025-03-03T23:26:51.313814",
+    "timestamp": "2025-03-06T23:18:07.486420",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -5616,7 +5616,7 @@
     }
   },
   "4b628921c761f52e32c74b403a532b5f_790.0_791.0": {
-    "timestamp": "2025-03-03T23:26:52.192850",
+    "timestamp": "2025-03-06T23:18:08.698393",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
@@ -5639,2068 +5639,2116 @@
       "text": "很久"
     }
   },
-  "f6934eb4cdf058b95acdd98626167234_0.0_7.0": {
-    "timestamp": "2025-03-04T00:54:59.912259",
+  "8fe1af250d7a050c4e9b2c851a73ff19_0.0_22.0": {
+    "timestamp": "2025-03-06T23:26:59.710725",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
-        "primary_score": 0.9931424856185913,
+        "primary_score": 0.9970190525054932,
         "all_scores": {
-          "angry": 0.9931424856185913,
-          "fear": 0.0004458336625248194,
-          "happy": 0.0002665020583663136,
-          "neutral": 9.193105142912827e-06,
-          "sad": 2.6863643142860383e-05,
-          "surprise": 0.0061089759692549706
+          "angry": 0.9970190525054932,
+          "fear": 4.2785908590303734e-05,
+          "happy": 0.0013638982782140374,
+          "neutral": 3.9091883081709966e-05,
+          "sad": 1.4005304365127813e-05,
+          "surprise": 0.001521246274933219
         }
       },
       "prosody_analysis": {
-        "Pitch Mean": 133.8790939024957,
-        "Pitch Variation": 38.55720110696999,
-        "Energy Mean": 0.1313009262084961,
-        "Energy Variation": 0.06518396735191345
+        "Pitch Mean": 185.9500422509521,
+        "Pitch Variation": 108.49632575817263,
+        "Energy Mean": 0.0524703785777092,
+        "Energy Variation": 0.06042644381523132
       },
-      "text": "大家在台下可能不知道 後面啊 他怕我們太緊張了"
+      "text": "作曲 李宗盛 你做過夢嗎"
     }
   },
-  "f6934eb4cdf058b95acdd98626167234_7.0_12.0": {
-    "timestamp": "2025-03-04T00:55:01.173261",
-    "results": {
-      "emotion_analysis": {
-        "primary_emotion": "angry",
-        "primary_score": 0.9432454109191895,
-        "all_scores": {
-          "angry": 0.9432454109191895,
-          "fear": 0.008228159509599209,
-          "happy": 0.0046441820450127125,
-          "neutral": 0.00011845487460959703,
-          "sad": 0.000928443216253072,
-          "surprise": 0.04283535107970238
-        }
-      },
-      "prosody_analysis": {
-        "Pitch Mean": 90.15127203004971,
-        "Pitch Variation": 0.3453147352635308,
-        "Energy Mean": 0.157259002327919,
-        "Energy Variation": 0.0823015570640564
-      },
-      "text": "沒有好多瓶酒給我們 所以呢 我就以防萬一 我帶上來了"
-    }
-  },
-  "f6934eb4cdf058b95acdd98626167234_12.0_17.0": {
-    "timestamp": "2025-03-04T00:55:02.284242",
-    "results": {
-      "emotion_analysis": {
-        "primary_emotion": "angry",
-        "primary_score": 0.9505573511123657,
-        "all_scores": {
-          "angry": 0.9505573511123657,
-          "fear": 0.0075423838570714,
-          "happy": 0.022042790427803993,
-          "neutral": 0.0019360011210665107,
-          "sad": 0.003726218594238162,
-          "surprise": 0.014195181429386139
-        }
-      },
-      "prosody_analysis": {
-        "Pitch Mean": 315.4825673614272,
-        "Pitch Variation": 78.88793266678364,
-        "Energy Mean": 0.0836062952876091,
-        "Energy Variation": 0.053927335888147354
-      },
-      "text": "其實我一直在想 我是不是有欠Jason還是Kevin錢"
-    }
-  },
-  "f6934eb4cdf058b95acdd98626167234_17.0_21.0": {
-    "timestamp": "2025-03-04T00:55:03.289247",
-    "results": {
-      "emotion_analysis": {
-        "primary_emotion": "happy",
-        "primary_score": 0.7691301107406616,
-        "all_scores": {
-          "angry": 0.21473252773284912,
-          "fear": 0.0011597529519349337,
-          "happy": 0.7691301107406616,
-          "neutral": 0.0009230669238604605,
-          "sad": 0.001709899166598916,
-          "surprise": 0.012344753369688988
-        }
-      },
-      "prosody_analysis": {
-        "Pitch Mean": 287.1474619385651,
-        "Pitch Variation": 47.3130206486895,
-        "Energy Mean": 0.10117534548044205,
-        "Energy Variation": 0.08141950517892838
-      },
-      "text": "因為我不知道他為什麼要餓整我 因為我一直在想"
-    }
-  },
-  "f6934eb4cdf058b95acdd98626167234_21.0_23.0": {
-    "timestamp": "2025-03-04T00:55:04.090956",
-    "results": {
-      "emotion_analysis": {
-        "primary_emotion": "happy",
-        "primary_score": 0.7518922686576843,
-        "all_scores": {
-          "angry": 0.1080104187130928,
-          "fear": 0.0052679069340229034,
-          "happy": 0.7518922686576843,
-          "neutral": 0.03169950842857361,
-          "sad": 0.09931832551956177,
-          "surprise": 0.0038114909548312426
-        }
-      },
-      "prosody_analysis": {
-        "Pitch Mean": 270.4276073395293,
-        "Pitch Variation": 22.390023296079203,
-        "Energy Mean": 0.053797315806150436,
-        "Energy Variation": 0.058241281658411026
-      },
-      "text": "我為什麼要餓整我 因為我一直在想"
-    }
-  },
-  "f6934eb4cdf058b95acdd98626167234_23.0_25.0": {
-    "timestamp": "2025-03-04T00:55:04.871016",
+  "8fe1af250d7a050c4e9b2c851a73ff19_22.0_26.0": {
+    "timestamp": "2025-03-06T23:27:01.051147",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "surprise",
-        "primary_score": 0.9765466451644897,
+        "primary_score": 0.3882856070995331,
         "all_scores": {
-          "angry": 0.008675985969603062,
-          "fear": 0.00017166930774692446,
-          "happy": 0.014551944099366665,
-          "neutral": 4.588976480590645e-06,
-          "sad": 4.92002181999851e-05,
-          "surprise": 0.9765466451644897
+          "angry": 0.22787730395793915,
+          "fear": 0.004556149244308472,
+          "happy": 0.08354788273572922,
+          "neutral": 0.11612186580896378,
+          "sad": 0.17961114645004272,
+          "surprise": 0.3882856070995331
         }
       },
       "prosody_analysis": {
-        "Pitch Mean": 332.62179921369756,
-        "Pitch Variation": 54.18399280566362,
-        "Energy Mean": 0.10461843758821487,
-        "Energy Variation": 0.11786401271820068
+        "Pitch Mean": 204.5177696370394,
+        "Pitch Variation": 35.98119853498439,
+        "Energy Mean": 0.06164596974849701,
+        "Energy Variation": 0.06415137648582458
       },
-      "text": "我為什麼要餓整我 因為我一直在想"
+      "text": "不是睡覺做夢 而是做一件事情的做夢"
     }
   },
-  "f6934eb4cdf058b95acdd98626167234_25.0_27.0": {
-    "timestamp": "2025-03-04T00:55:05.659654",
-    "results": {
-      "emotion_analysis": {
-        "primary_emotion": "angry",
-        "primary_score": 0.9992167949676514,
-        "all_scores": {
-          "angry": 0.9992167949676514,
-          "fear": 0.00010703419684432447,
-          "happy": 0.00023642650921829045,
-          "neutral": 0.00011628262291196734,
-          "sad": 5.901357872062363e-05,
-          "surprise": 0.0002644772466737777
-        }
-      },
-      "prosody_analysis": {
-        "Pitch Mean": 314.0937143756046,
-        "Pitch Variation": 48.65130776210057,
-        "Energy Mean": 0.10778225213289261,
-        "Energy Variation": 0.06483399868011475
-      },
-      "text": "我為什麼要餓整我 因為我一直在想"
-    }
-  },
-  "f6934eb4cdf058b95acdd98626167234_27.0_30.0": {
-    "timestamp": "2025-03-04T00:55:06.562510",
+  "8fe1af250d7a050c4e9b2c851a73ff19_26.0_30.0": {
+    "timestamp": "2025-03-06T23:27:02.287191",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "happy",
-        "primary_score": 0.7919714450836182,
+        "primary_score": 0.9285479187965393,
         "all_scores": {
-          "angry": 0.18331781029701233,
-          "fear": 0.007859873585402966,
-          "happy": 0.7919714450836182,
-          "neutral": 0.0004517936031334102,
-          "sad": 0.00892442837357521,
-          "surprise": 0.0074747237376868725
+          "angry": 0.03553447127342224,
+          "fear": 0.00030149429221637547,
+          "happy": 0.9285479187965393,
+          "neutral": 0.0020639069844037294,
+          "sad": 0.0011793312150985003,
+          "surprise": 0.0323728546500206
         }
       },
       "prosody_analysis": {
-        "Pitch Mean": 279.84475936681486,
-        "Pitch Variation": 45.3473969884058,
-        "Energy Mean": 0.0715467557311058,
-        "Energy Variation": 0.054285213351249695
+        "Pitch Mean": 217.19900282113133,
+        "Pitch Variation": 31.13537541767546,
+        "Energy Mean": 0.06460952758789062,
+        "Energy Variation": 0.06641410291194916
       },
-      "text": "我為什麼要餓整我 因為我不知道他為什麼要餓整我"
+      "text": "我做過夢 我的夢想是成為悲傷品牌"
     }
   },
-  "f6934eb4cdf058b95acdd98626167234_30.0_34.0": {
-    "timestamp": "2025-03-04T00:55:07.571951",
-    "results": {
-      "emotion_analysis": {
-        "primary_emotion": "angry",
-        "primary_score": 0.6834955811500549,
-        "all_scores": {
-          "angry": 0.6834955811500549,
-          "fear": 0.010625531896948814,
-          "happy": 0.26559779047966003,
-          "neutral": 0.005708333104848862,
-          "sad": 0.008159003220498562,
-          "surprise": 0.026413800194859505
-        }
-      },
-      "prosody_analysis": {
-        "Pitch Mean": 312.1443417165862,
-        "Pitch Variation": 56.90065959986122,
-        "Energy Mean": 0.13364213705062866,
-        "Energy Variation": 0.07546980679035187
-      },
-      "text": "前面的人都超大咖的 那Frog Design的總經理也講了"
-    }
-  },
-  "f6934eb4cdf058b95acdd98626167234_34.0_36.0": {
-    "timestamp": "2025-03-04T00:55:08.365819",
+  "8fe1af250d7a050c4e9b2c851a73ff19_30.0_34.0": {
+    "timestamp": "2025-03-06T23:27:03.576750",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "happy",
-        "primary_score": 0.9986628293991089,
+        "primary_score": 0.7689942121505737,
         "all_scores": {
-          "angry": 0.00099060102365911,
-          "fear": 0.0002297957253176719,
-          "happy": 0.9986628293991089,
-          "neutral": 6.809388196415966e-06,
-          "sad": 3.6998866562498733e-05,
-          "surprise": 7.302304584300146e-05
+          "angry": 0.05905009061098099,
+          "fear": 0.004488871432840824,
+          "happy": 0.7689942121505737,
+          "neutral": 0.006577285472303629,
+          "sad": 0.05826573446393013,
+          "surprise": 0.10262375324964523
         }
       },
       "prosody_analysis": {
-        "Pitch Mean": 300.32932801845755,
-        "Pitch Variation": 79.00479040452468,
-        "Energy Mean": 0.1373003125190735,
-        "Energy Variation": 0.08233628422021866
+        "Pitch Mean": 187.35358924141457,
+        "Pitch Variation": 27.25920084720103,
+        "Energy Mean": 0.08543968200683594,
+        "Energy Variation": 0.07148808240890503
       },
-      "text": "陶澤也講了 劉軒也講了"
+      "text": "接著第一把交椅 我是陳文偉"
     }
   },
-  "f6934eb4cdf058b95acdd98626167234_36.0_40.0": {
-    "timestamp": "2025-03-04T00:55:09.360136",
-    "results": {
-      "emotion_analysis": {
-        "primary_emotion": "happy",
-        "primary_score": 0.910845935344696,
-        "all_scores": {
-          "angry": 0.07735513895750046,
-          "fear": 0.00286490679718554,
-          "happy": 0.910845935344696,
-          "neutral": 9.945382771547884e-05,
-          "sad": 0.0014442995889112353,
-          "surprise": 0.007390178740024567
-        }
-      },
-      "prosody_analysis": {
-        "Pitch Mean": 371.7360744909631,
-        "Pitch Variation": 62.87651097203527,
-        "Energy Mean": 0.12013652175664902,
-        "Energy Variation": 0.0811738446354866
-      },
-      "text": "我現在要講什麼 所以呢 我沒有辦法告訴大家"
-    }
-  },
-  "f6934eb4cdf058b95acdd98626167234_40.0_43.0": {
-    "timestamp": "2025-03-04T00:55:10.257420",
-    "results": {
-      "emotion_analysis": {
-        "primary_emotion": "angry",
-        "primary_score": 0.9186193943023682,
-        "all_scores": {
-          "angry": 0.9186193943023682,
-          "fear": 0.0018897396512329578,
-          "happy": 0.06790813058614731,
-          "neutral": 0.00042081106221303344,
-          "sad": 0.0005354948807507753,
-          "surprise": 0.010626375675201416
-        }
-      },
-      "prosody_analysis": {
-        "Pitch Mean": 290.05027563528324,
-        "Pitch Variation": 38.89292138023209,
-        "Energy Mean": 0.13711926341056824,
-        "Energy Variation": 0.0742599219083786
-      },
-      "text": "我不想要告訴大家我已經做了什麼 我想要告訴大家"
-    }
-  },
-  "f6934eb4cdf058b95acdd98626167234_43.0_46.0": {
-    "timestamp": "2025-03-04T00:55:11.198849",
-    "results": {
-      "emotion_analysis": {
-        "primary_emotion": "neutral",
-        "primary_score": 0.45980405807495117,
-        "all_scores": {
-          "angry": 0.43064647912979126,
-          "fear": 0.0012491655070334673,
-          "happy": 0.06060131639242172,
-          "neutral": 0.45980405807495117,
-          "sad": 0.04434288665652275,
-          "surprise": 0.0033562001772224903
-        }
-      },
-      "prosody_analysis": {
-        "Pitch Mean": 258.68536276170784,
-        "Pitch Variation": 26.318133148773583,
-        "Energy Mean": 0.07214687019586563,
-        "Energy Variation": 0.07652118057012558
-      },
-      "text": "My story so far 就是我目前的故事"
-    }
-  },
-  "f6934eb4cdf058b95acdd98626167234_46.0_51.0": {
-    "timestamp": "2025-03-04T00:55:12.319950",
-    "results": {
-      "emotion_analysis": {
-        "primary_emotion": "angry",
-        "primary_score": 0.6382898092269897,
-        "all_scores": {
-          "angry": 0.6382898092269897,
-          "fear": 0.010788673534989357,
-          "happy": 0.18615427613258362,
-          "neutral": 0.0734696239233017,
-          "sad": 0.049644678831100464,
-          "surprise": 0.04165301099419594
-        }
-      },
-      "prosody_analysis": {
-        "Pitch Mean": 285.78124415853654,
-        "Pitch Variation": 51.16992362123405,
-        "Energy Mean": 0.11311974376440048,
-        "Energy Variation": 0.07729591429233551
-      },
-      "text": "我記得我在念幼稚園的時候 我從小就是個不太愛念是不是的小孩"
-    }
-  },
-  "f6934eb4cdf058b95acdd98626167234_51.0_54.0": {
-    "timestamp": "2025-03-04T00:55:13.224209",
-    "results": {
-      "emotion_analysis": {
-        "primary_emotion": "angry",
-        "primary_score": 0.9658479690551758,
-        "all_scores": {
-          "angry": 0.9658479690551758,
-          "fear": 0.00031765332096256316,
-          "happy": 0.026746591553092003,
-          "neutral": 0.001382092828862369,
-          "sad": 0.00046532051055692136,
-          "surprise": 0.005240384954959154
-        }
-      },
-      "prosody_analysis": {
-        "Pitch Mean": 298.10263078667816,
-        "Pitch Variation": 57.00087040372264,
-        "Energy Mean": 0.13874369859695435,
-        "Energy Variation": 0.09810058772563934
-      },
-      "text": "老師在幼稚園的時候 我就問每一個小朋友"
-    }
-  },
-  "f6934eb4cdf058b95acdd98626167234_54.0_57.0": {
-    "timestamp": "2025-03-04T00:55:14.115783",
-    "results": {
-      "emotion_analysis": {
-        "primary_emotion": "angry",
-        "primary_score": 0.8699485659599304,
-        "all_scores": {
-          "angry": 0.8699485659599304,
-          "fear": 0.0017377096228301525,
-          "happy": 0.10159866511821747,
-          "neutral": 0.01382113341242075,
-          "sad": 0.0032693427056074142,
-          "surprise": 0.009624641388654709
-        }
-      },
-      "prosody_analysis": {
-        "Pitch Mean": 304.8514757883247,
-        "Pitch Variation": 75.05314067904648,
-        "Energy Mean": 0.08082576841115952,
-        "Energy Variation": 0.06932256370782852
-      },
-      "text": "長大以後想要做什麼 我記得我們班有非常多的人"
-    }
-  },
-  "f6934eb4cdf058b95acdd98626167234_57.0_60.0": {
-    "timestamp": "2025-03-04T00:55:15.039611",
-    "results": {
-      "emotion_analysis": {
-        "primary_emotion": "angry",
-        "primary_score": 0.9199470281600952,
-        "all_scores": {
-          "angry": 0.9199470281600952,
-          "fear": 0.0027461806312203407,
-          "happy": 0.03782020881772041,
-          "neutral": 0.010632076300680637,
-          "sad": 0.0031586496625095606,
-          "surprise": 0.025695914402604103
-        }
-      },
-      "prosody_analysis": {
-        "Pitch Mean": 265.5267155935079,
-        "Pitch Variation": 38.04818853260995,
-        "Energy Mean": 0.10095198452472687,
-        "Energy Variation": 0.07635964453220367
-      },
-      "text": "想要當總統 想要當警察"
-    }
-  },
-  "f6934eb4cdf058b95acdd98626167234_60.0_62.0": {
-    "timestamp": "2025-03-04T00:55:15.859133",
-    "results": {
-      "emotion_analysis": {
-        "primary_emotion": "angry",
-        "primary_score": 0.999477207660675,
-        "all_scores": {
-          "angry": 0.999477207660675,
-          "fear": 7.343429024331272e-05,
-          "happy": 0.00011187731433892623,
-          "neutral": 3.8098405639175326e-05,
-          "sad": 2.0357863832032308e-05,
-          "surprise": 0.00027908061747439206
-        }
-      },
-      "prosody_analysis": {
-        "Pitch Mean": 317.5615105757999,
-        "Pitch Variation": 28.57617844509196,
-        "Energy Mean": 0.12278439104557037,
-        "Energy Variation": 0.05629313364624977
-      },
-      "text": "想要當廚師 想要當空中小姐"
-    }
-  },
-  "f6934eb4cdf058b95acdd98626167234_62.0_66.0": {
-    "timestamp": "2025-03-04T00:55:16.952599",
-    "results": {
-      "emotion_analysis": {
-        "primary_emotion": "happy",
-        "primary_score": 0.4626120924949646,
-        "all_scores": {
-          "angry": 0.38012218475341797,
-          "fear": 0.007106557954102755,
-          "happy": 0.4626120924949646,
-          "neutral": 0.03475844860076904,
-          "sad": 0.08061636239290237,
-          "surprise": 0.034784264862537384
-        }
-      },
-      "prosody_analysis": {
-        "Pitch Mean": 310.83806601029687,
-        "Pitch Variation": 67.17303667581629,
-        "Energy Mean": 0.125652015209198,
-        "Energy Variation": 0.08047131448984146
-      },
-      "text": "但當問到我的時候 我跟他說我想要當一個藝術家"
-    }
-  },
-  "f6934eb4cdf058b95acdd98626167234_66.0_71.0": {
-    "timestamp": "2025-03-04T00:55:18.112569",
-    "results": {
-      "emotion_analysis": {
-        "primary_emotion": "angry",
-        "primary_score": 0.57259202003479,
-        "all_scores": {
-          "angry": 0.57259202003479,
-          "fear": 0.01099459920078516,
-          "happy": 0.19801169633865356,
-          "neutral": 0.005432925187051296,
-          "sad": 0.08761250972747803,
-          "surprise": 0.12535622715950012
-        }
-      },
-      "prosody_analysis": {
-        "Pitch Mean": 326.80896215545226,
-        "Pitch Variation": 58.25872271800834,
-        "Energy Mean": 0.08457081764936447,
-        "Energy Variation": 0.08233588933944702
-      },
-      "text": "那個老師看到我就 認了一下就直接跳過"
-    }
-  },
-  "f6934eb4cdf058b95acdd98626167234_71.0_74.0": {
-    "timestamp": "2025-03-04T00:55:19.086990",
-    "results": {
-      "emotion_analysis": {
-        "primary_emotion": "angry",
-        "primary_score": 0.9299730658531189,
-        "all_scores": {
-          "angry": 0.9299730658531189,
-          "fear": 0.0043604751117527485,
-          "happy": 0.046661704778671265,
-          "neutral": 0.00022691214689984918,
-          "sad": 0.003964421339333057,
-          "surprise": 0.014813384041190147
-        }
-      },
-      "prosody_analysis": {
-        "Pitch Mean": 319.2315736626269,
-        "Pitch Variation": 59.8226203902078,
-        "Energy Mean": 0.08168461918830872,
-        "Energy Variation": 0.07734935730695724
-      },
-      "text": "基本上就是 基本上就是把我當成一個神經病"
-    }
-  },
-  "f6934eb4cdf058b95acdd98626167234_74.0_77.0": {
-    "timestamp": "2025-03-04T00:55:20.008972",
-    "results": {
-      "emotion_analysis": {
-        "primary_emotion": "happy",
-        "primary_score": 0.9941165447235107,
-        "all_scores": {
-          "angry": 0.0038830493576824665,
-          "fear": 5.91559182794299e-05,
-          "happy": 0.9941165447235107,
-          "neutral": 7.059230119921267e-05,
-          "sad": 6.062359534553252e-05,
-          "surprise": 0.0018099371809512377
-        }
-      },
-      "prosody_analysis": {
-        "Pitch Mean": 344.15340515583756,
-        "Pitch Variation": 62.94899648426538,
-        "Energy Mean": 0.10615850239992142,
-        "Energy Variation": 0.07482548803091049
-      },
-      "text": "那那個時候藝術家這三個字 Doesn't mean anything"
-    }
-  },
-  "f6934eb4cdf058b95acdd98626167234_77.0_79.0": {
-    "timestamp": "2025-03-04T00:55:20.838428",
-    "results": {
-      "emotion_analysis": {
-        "primary_emotion": "angry",
-        "primary_score": 0.9895289540290833,
-        "all_scores": {
-          "angry": 0.9895289540290833,
-          "fear": 0.00022036490554455668,
-          "happy": 0.009086547419428825,
-          "neutral": 0.00025066747912205756,
-          "sad": 7.410105172311887e-05,
-          "surprise": 0.0008394635515287519
-        }
-      },
-      "prosody_analysis": {
-        "Pitch Mean": 298.31823758443954,
-        "Pitch Variation": 57.15239258204808,
-        "Energy Mean": 0.13357190787792206,
-        "Energy Variation": 0.08823877573013306
-      },
-      "text": "沒有任何的意義 基本上那個時候"
-    }
-  },
-  "f6934eb4cdf058b95acdd98626167234_79.0_82.0": {
-    "timestamp": "2025-03-04T00:55:21.788764",
-    "results": {
-      "emotion_analysis": {
-        "primary_emotion": "angry",
-        "primary_score": 0.9922230839729309,
-        "all_scores": {
-          "angry": 0.9922230839729309,
-          "fear": 0.00014802998339291662,
-          "happy": 0.005596722476184368,
-          "neutral": 0.00014263966295402497,
-          "sad": 4.490552601055242e-05,
-          "surprise": 0.001844591461122036
-        }
-      },
-      "prosody_analysis": {
-        "Pitch Mean": 314.6958390699449,
-        "Pitch Variation": 43.54124423299715,
-        "Energy Mean": 0.13467448949813843,
-        "Energy Variation": 0.0771658644080162
-      },
-      "text": "如果有等於任何東西 基本上就等於餓死"
-    }
-  },
-  "f6934eb4cdf058b95acdd98626167234_82.0_84.0": {
-    "timestamp": "2025-03-04T00:55:22.591525",
-    "results": {
-      "emotion_analysis": {
-        "primary_emotion": "happy",
-        "primary_score": 0.9809120893478394,
-        "all_scores": {
-          "angry": 0.017732545733451843,
-          "fear": 0.00020757708989549428,
-          "happy": 0.9809120893478394,
-          "neutral": 0.0004220721311867237,
-          "sad": 0.00013691512867808342,
-          "surprise": 0.0005889065214432776
-        }
-      },
-      "prosody_analysis": {
-        "Pitch Mean": 233.2257929130614,
-        "Pitch Variation": 23.85868719794071,
-        "Energy Mean": 0.13547870516777039,
-        "Energy Variation": 0.055296238511800766
-      },
-      "text": "或者是一個 將來是一個流浪漢"
-    }
-  },
-  "f6934eb4cdf058b95acdd98626167234_84.0_87.0": {
-    "timestamp": "2025-03-04T00:55:23.502924",
-    "results": {
-      "emotion_analysis": {
-        "primary_emotion": "angry",
-        "primary_score": 0.8516700267791748,
-        "all_scores": {
-          "angry": 0.8516700267791748,
-          "fear": 0.002990158973261714,
-          "happy": 0.10926906764507294,
-          "neutral": 0.005696261767297983,
-          "sad": 0.01081614289432764,
-          "surprise": 0.019558319821953773
-        }
-      },
-      "prosody_analysis": {
-        "Pitch Mean": 259.7644368914268,
-        "Pitch Variation": 45.66758639762373,
-        "Energy Mean": 0.06639599055051804,
-        "Energy Variation": 0.06500441581010818
-      },
-      "text": "在路邊花樹苗的人 從那一刻起"
-    }
-  },
-  "f6934eb4cdf058b95acdd98626167234_87.0_91.0": {
-    "timestamp": "2025-03-04T00:55:24.569511",
-    "results": {
-      "emotion_analysis": {
-        "primary_emotion": "happy",
-        "primary_score": 0.5004516839981079,
-        "all_scores": {
-          "angry": 0.45562276244163513,
-          "fear": 0.0062688738107681274,
-          "happy": 0.5004516839981079,
-          "neutral": 0.01981477625668049,
-          "sad": 0.011874973773956299,
-          "surprise": 0.005966913420706987
-        }
-      },
-      "prosody_analysis": {
-        "Pitch Mean": 300.6398739267043,
-        "Pitch Variation": 67.59630955853211,
-        "Energy Mean": 0.10885939002037048,
-        "Energy Variation": 0.06610947847366333
-      },
-      "text": "我就深信我自己將來 可以成為一位藝術家"
-    }
-  },
-  "f6934eb4cdf058b95acdd98626167234_91.0_94.0": {
-    "timestamp": "2025-03-04T00:55:25.584266",
-    "results": {
-      "emotion_analysis": {
-        "primary_emotion": "happy",
-        "primary_score": 0.5748587846755981,
-        "all_scores": {
-          "angry": 0.3819996118545532,
-          "fear": 0.003423523623496294,
-          "happy": 0.5748587846755981,
-          "neutral": 0.010158570483326912,
-          "sad": 0.02049628086388111,
-          "surprise": 0.009063206613063812
-        }
-      },
-      "prosody_analysis": {
-        "Pitch Mean": 337.76638336665053,
-        "Pitch Variation": 75.20114291902647,
-        "Energy Mean": 0.11289109289646149,
-        "Energy Variation": 0.08267883211374283
-      },
-      "text": "所以從四歲的那一年 我媽買了一個類似"
-    }
-  },
-  "f6934eb4cdf058b95acdd98626167234_94.0_96.0": {
-    "timestamp": "2025-03-04T00:55:26.530379",
-    "results": {
-      "emotion_analysis": {
-        "primary_emotion": "angry",
-        "primary_score": 0.9696640372276306,
-        "all_scores": {
-          "angry": 0.9696640372276306,
-          "fear": 0.0003221571387257427,
-          "happy": 0.024804098531603813,
-          "neutral": 5.900809264858253e-05,
-          "sad": 0.00011896024079760537,
-          "surprise": 0.005031886510550976
-        }
-      },
-      "prosody_analysis": {
-        "Pitch Mean": 301.957720886812,
-        "Pitch Variation": 45.666689789958255,
-        "Energy Mean": 0.14830155670642853,
-        "Energy Variation": 0.06026687100529671
-      },
-      "text": "像這樣的推車 真的是粉紅色的"
-    }
-  },
-  "f6934eb4cdf058b95acdd98626167234_96.0_101.0": {
-    "timestamp": "2025-03-04T00:55:27.761522",
-    "results": {
-      "emotion_analysis": {
-        "primary_emotion": "happy",
-        "primary_score": 0.6256440877914429,
-        "all_scores": {
-          "angry": 0.2759365439414978,
-          "fear": 0.012397064827382565,
-          "happy": 0.6256440877914429,
-          "neutral": 0.01743009127676487,
-          "sad": 0.028745228424668312,
-          "surprise": 0.039846912026405334
-        }
-      },
-      "prosody_analysis": {
-        "Pitch Mean": 288.24649114233586,
-        "Pitch Variation": 57.06896706382526,
-        "Energy Mean": 0.102151058614254,
-        "Energy Variation": 0.06833578646183014
-      },
-      "text": "那她希望我拿來推我的娃娃 當然我不太喜歡娃娃"
-    }
-  },
-  "f6934eb4cdf058b95acdd98626167234_101.0_105.0": {
-    "timestamp": "2025-03-04T00:55:28.935020",
-    "results": {
-      "emotion_analysis": {
-        "primary_emotion": "angry",
-        "primary_score": 0.9845421314239502,
-        "all_scores": {
-          "angry": 0.9845421314239502,
-          "fear": 0.0003094362618867308,
-          "happy": 0.004434842150658369,
-          "neutral": 0.0006097018485888839,
-          "sad": 0.00017797005421016365,
-          "surprise": 0.00992601364850998
-        }
-      },
-      "prosody_analysis": {
-        "Pitch Mean": 300.6577284570813,
-        "Pitch Variation": 61.907140869180786,
-        "Energy Mean": 0.08796003460884094,
-        "Energy Variation": 0.08363308012485504
-      },
-      "text": "所以我就把她拿來推我的畫 我把我所有畫過的畫"
-    }
-  },
-  "f6934eb4cdf058b95acdd98626167234_105.0_108.0": {
-    "timestamp": "2025-03-04T00:55:30.358609",
-    "results": {
-      "emotion_analysis": {
-        "primary_emotion": "angry",
-        "primary_score": 0.8325393199920654,
-        "all_scores": {
-          "angry": 0.8325393199920654,
-          "fear": 0.003618124406784773,
-          "happy": 0.12738803029060364,
-          "neutral": 0.009207305498421192,
-          "sad": 0.003333440748974681,
-          "surprise": 0.023913772776722908
-        }
-      },
-      "prosody_analysis": {
-        "Pitch Mean": 306.63745811532607,
-        "Pitch Variation": 40.056068595681786,
-        "Energy Mean": 0.12453699856996536,
-        "Energy Variation": 0.08556507527828217
-      },
-      "text": "都放在這個車子裡 每當我們家有客人的時候"
-    }
-  },
-  "f6934eb4cdf058b95acdd98626167234_108.0_111.0": {
-    "timestamp": "2025-03-04T00:55:31.940960",
-    "results": {
-      "emotion_analysis": {
-        "primary_emotion": "angry",
-        "primary_score": 0.5780315399169922,
-        "all_scores": {
-          "angry": 0.5780315399169922,
-          "fear": 0.00465431110933423,
-          "happy": 0.35632961988449097,
-          "neutral": 0.0005967849865555763,
-          "sad": 0.00272971298545599,
-          "surprise": 0.05765799805521965
-        }
-      },
-      "prosody_analysis": {
-        "Pitch Mean": 304.907261348899,
-        "Pitch Variation": 43.47504252093001,
-        "Energy Mean": 0.12034940719604492,
-        "Energy Variation": 0.06501030176877975
-      },
-      "text": "我就會推著這個車子 去賣我的畫"
-    }
-  },
-  "f6934eb4cdf058b95acdd98626167234_112.0_115.0": {
-    "timestamp": "2025-03-04T00:55:33.298768",
-    "results": {
-      "emotion_analysis": {
-        "primary_emotion": "angry",
-        "primary_score": 0.8762807846069336,
-        "all_scores": {
-          "angry": 0.8762807846069336,
-          "fear": 0.0007142905378714204,
-          "happy": 0.06017313525080681,
-          "neutral": 0.00019978273485321552,
-          "sad": 0.0010220182593911886,
-          "surprise": 0.06160988286137581
-        }
-      },
-      "prosody_analysis": {
-        "Pitch Mean": 376.4642196796064,
-        "Pitch Variation": 82.64090535588956,
-        "Energy Mean": 0.08571312576532364,
-        "Energy Variation": 0.08742684870958328
-      },
-      "text": "然後因為你知道 長輩有沒有看到"
-    }
-  },
-  "f6934eb4cdf058b95acdd98626167234_115.0_117.0": {
-    "timestamp": "2025-03-04T00:55:34.521313",
-    "results": {
-      "emotion_analysis": {
-        "primary_emotion": "happy",
-        "primary_score": 0.9414380788803101,
-        "all_scores": {
-          "angry": 0.05540751293301582,
-          "fear": 0.0006722061079926789,
-          "happy": 0.9414380788803101,
-          "neutral": 0.0001861487253336236,
-          "sad": 0.00015319640806410462,
-          "surprise": 0.0021427192259579897
-        }
-      },
-      "prosody_analysis": {
-        "Pitch Mean": 301.3167065379933,
-        "Pitch Variation": 60.52770860938631,
-        "Energy Mean": 0.1371743530035019,
-        "Energy Variation": 0.06484401226043701
-      },
-      "text": "小朋友就會很捧場 所以我每一次"
-    }
-  },
-  "f6934eb4cdf058b95acdd98626167234_117.0_121.0": {
-    "timestamp": "2025-03-04T00:55:36.051405",
-    "results": {
-      "emotion_analysis": {
-        "primary_emotion": "happy",
-        "primary_score": 0.8237031102180481,
-        "all_scores": {
-          "angry": 0.12517699599266052,
-          "fear": 0.01691199466586113,
-          "happy": 0.8237031102180481,
-          "neutral": 0.00044850289123132825,
-          "sad": 0.026485268026590347,
-          "surprise": 0.007274122908711433
-        }
-      },
-      "prosody_analysis": {
-        "Pitch Mean": 360.7352484193045,
-        "Pitch Variation": 81.61293103462786,
-        "Energy Mean": 0.0956021100282669,
-        "Energy Variation": 0.0708492249250412
-      },
-      "text": "在一整車的話都會賣光 那我就深信我自己將來"
-    }
-  },
-  "f6934eb4cdf058b95acdd98626167234_121.0_126.0": {
-    "timestamp": "2025-03-04T00:55:37.784789",
-    "results": {
-      "emotion_analysis": {
-        "primary_emotion": "happy",
-        "primary_score": 0.9783974885940552,
-        "all_scores": {
-          "angry": 0.006546701304614544,
-          "fear": 0.003000723198056221,
-          "happy": 0.9783974885940552,
-          "neutral": 0.0010694751981645823,
-          "sad": 0.010782877914607525,
-          "surprise": 0.00020274933194741607
-        }
-      },
-      "prosody_analysis": {
-        "Pitch Mean": 283.28644151146256,
-        "Pitch Variation": 48.35439997137487,
-        "Energy Mean": 0.07805926352739334,
-        "Energy Variation": 0.04646976292133331
-      },
-      "text": "一定會成為一個非常 有achievement的藝術家"
-    }
-  },
-  "f6934eb4cdf058b95acdd98626167234_126.0_130.0": {
-    "timestamp": "2025-03-04T00:55:39.239167",
-    "results": {
-      "emotion_analysis": {
-        "primary_emotion": "angry",
-        "primary_score": 0.9703776240348816,
-        "all_scores": {
-          "angry": 0.9703776240348816,
-          "fear": 0.0013187263393774629,
-          "happy": 0.013920147903263569,
-          "neutral": 0.0037663066759705544,
-          "sad": 0.004391627386212349,
-          "surprise": 0.006225531455129385
-        }
-      },
-      "prosody_analysis": {
-        "Pitch Mean": 343.23796734535307,
-        "Pitch Variation": 57.73248379757804,
-        "Energy Mean": 0.07286553829908371,
-        "Energy Variation": 0.08382012695074081
-      },
-      "text": "這個錯誤的誤導 那我從小就是考"
-    }
-  },
-  "f6934eb4cdf058b95acdd98626167234_130.0_133.0": {
-    "timestamp": "2025-03-04T00:55:40.659379",
-    "results": {
-      "emotion_analysis": {
-        "primary_emotion": "angry",
-        "primary_score": 0.8260224461555481,
-        "all_scores": {
-          "angry": 0.8260224461555481,
-          "fear": 0.003321462543681264,
-          "happy": 0.1511976718902588,
-          "neutral": 0.0014097911771386862,
-          "sad": 0.0012062803143635392,
-          "surprise": 0.016842292621731758
-        }
-      },
-      "prosody_analysis": {
-        "Pitch Mean": 304.7301735166405,
-        "Pitch Variation": 37.83114562947049,
-        "Energy Mean": 0.11505859345197678,
-        "Energy Variation": 0.05780729651451111
-      },
-      "text": "每一個期末考 每一個期中考都是"
-    }
-  },
-  "f6934eb4cdf058b95acdd98626167234_133.0_136.0": {
-    "timestamp": "2025-03-04T00:55:42.152765",
-    "results": {
-      "emotion_analysis": {
-        "primary_emotion": "happy",
-        "primary_score": 0.7098917961120605,
-        "all_scores": {
-          "angry": 0.2830073833465576,
-          "fear": 0.0011786639224737883,
-          "happy": 0.7098917961120605,
-          "neutral": 0.0007722516311332583,
-          "sad": 0.0010383871849626303,
-          "surprise": 0.0041116466745734215
-        }
-      },
-      "prosody_analysis": {
-        "Pitch Mean": 281.6889815514067,
-        "Pitch Variation": 30.67498236295225,
-        "Energy Mean": 0.10438279807567596,
-        "Energy Variation": 0.09321805089712143
-      },
-      "text": "最後一名的 我們班有52個人"
-    }
-  },
-  "f6934eb4cdf058b95acdd98626167234_136.0_140.0": {
-    "timestamp": "2025-03-04T00:55:43.868918",
-    "results": {
-      "emotion_analysis": {
-        "primary_emotion": "happy",
-        "primary_score": 0.6624025702476501,
-        "all_scores": {
-          "angry": 0.30161434412002563,
-          "fear": 0.005248695146292448,
-          "happy": 0.6624025702476501,
-          "neutral": 0.0032094926573336124,
-          "sad": 0.007751230616122484,
-          "surprise": 0.019773660227656364
-        }
-      },
-      "prosody_analysis": {
-        "Pitch Mean": 299.9278069074209,
-        "Pitch Variation": 47.19703054703024,
-        "Energy Mean": 0.10086169093847275,
-        "Energy Variation": 0.07202140986919403
-      },
-      "text": "有一次只有一次 我終於考了51名"
-    }
-  },
-  "f6934eb4cdf058b95acdd98626167234_140.0_143.0": {
-    "timestamp": "2025-03-04T00:55:45.345037",
-    "results": {
-      "emotion_analysis": {
-        "primary_emotion": "angry",
-        "primary_score": 0.9264332056045532,
-        "all_scores": {
-          "angry": 0.9264332056045532,
-          "fear": 0.010669410228729248,
-          "happy": 0.0027872000355273485,
-          "neutral": 0.0002324366068933159,
-          "sad": 0.0027951549272984266,
-          "surprise": 0.05708261579275131
-        }
-      },
-      "prosody_analysis": {
-        "Pitch Mean": 292.3673615685912,
-        "Pitch Variation": 57.62433784722183,
-        "Energy Mean": 0.0974578931927681,
-        "Energy Variation": 0.09669412672519684
-      },
-      "text": "我爸過來拍拍我的肩膀說 唉 艾莉啊"
-    }
-  },
-  "f6934eb4cdf058b95acdd98626167234_143.0_146.0": {
-    "timestamp": "2025-03-04T00:55:46.820281",
-    "results": {
-      "emotion_analysis": {
-        "primary_emotion": "sad",
-        "primary_score": 0.7418617606163025,
-        "all_scores": {
-          "angry": 0.005345462821424007,
-          "fear": 0.05345714092254639,
-          "happy": 0.19907325506210327,
-          "neutral": 4.6999492042232305e-05,
-          "sad": 0.7418617606163025,
-          "surprise": 0.00021533157269004732
-        }
-      },
-      "prosody_analysis": {
-        "Pitch Mean": 332.408316790654,
-        "Pitch Variation": 59.988593426975775,
-        "Energy Mean": 0.06660980731248856,
-        "Energy Variation": 0.06036777421832085
-      },
-      "text": "你終於進步了 我就說"
-    }
-  },
-  "f6934eb4cdf058b95acdd98626167234_146.0_148.0": {
-    "timestamp": "2025-03-04T00:55:48.410125",
-    "results": {
-      "emotion_analysis": {
-        "primary_emotion": "angry",
-        "primary_score": 0.9959706664085388,
-        "all_scores": {
-          "angry": 0.9959706664085388,
-          "fear": 0.0003933704283554107,
-          "happy": 0.0003083086048718542,
-          "neutral": 8.152954251272604e-06,
-          "sad": 2.5157978598144837e-05,
-          "surprise": 0.003294201334938407
-        }
-      },
-      "prosody_analysis": {
-        "Pitch Mean": 261.87819107144867,
-        "Pitch Variation": 25.91812234081494,
-        "Energy Mean": 0.1048348918557167,
-        "Energy Variation": 0.06924782693386078
-      },
-      "text": "唉 老爸 我實在很不願意告訴你"
-    }
-  },
-  "f6934eb4cdf058b95acdd98626167234_148.0_154.0": {
-    "timestamp": "2025-03-04T00:55:50.336552",
-    "results": {
-      "emotion_analysis": {
-        "primary_emotion": "angry",
-        "primary_score": 0.694939136505127,
-        "all_scores": {
-          "angry": 0.694939136505127,
-          "fear": 0.009070861153304577,
-          "happy": 0.2676781117916107,
-          "neutral": 0.0030926913022994995,
-          "sad": 0.007478406652808189,
-          "surprise": 0.017740806564688683
-        }
-      },
-      "prosody_analysis": {
-        "Pitch Mean": 330.7738829408769,
-        "Pitch Variation": 69.20769253282718,
-        "Energy Mean": 0.06916369497776031,
-        "Energy Variation": 0.0657622441649437
-      },
-      "text": "可是52名感冒沒有來 每一次我媽只要買參考書"
-    }
-  },
-  "f6934eb4cdf058b95acdd98626167234_154.0_157.0": {
-    "timestamp": "2025-03-04T00:55:51.607701",
-    "results": {
-      "emotion_analysis": {
-        "primary_emotion": "angry",
-        "primary_score": 0.9941113591194153,
-        "all_scores": {
-          "angry": 0.9941113591194153,
-          "fear": 0.00011107577302027494,
-          "happy": 0.00015531328972429037,
-          "neutral": 1.9942897779401392e-05,
-          "sad": 1.7103087884606794e-05,
-          "surprise": 0.005585208535194397
-        }
-      },
-      "prosody_analysis": {
-        "Pitch Mean": 354.40593721816947,
-        "Pitch Variation": 89.37334914943384,
-        "Energy Mean": 0.08316589146852493,
-        "Energy Variation": 0.07340876758098602
-      },
-      "text": "我頭就大 不是因為我要寫這些參考書"
-    }
-  },
-  "f6934eb4cdf058b95acdd98626167234_157.0_160.0": {
-    "timestamp": "2025-03-04T00:55:52.555624",
-    "results": {
-      "emotion_analysis": {
-        "primary_emotion": "angry",
-        "primary_score": 0.9937022924423218,
-        "all_scores": {
-          "angry": 0.9937022924423218,
-          "fear": 0.00016407770453952253,
-          "happy": 0.002820385852828622,
-          "neutral": 4.9811806093202904e-05,
-          "sad": 3.591356289689429e-05,
-          "surprise": 0.0032276343554258347
-        }
-      },
-      "prosody_analysis": {
-        "Pitch Mean": 378.8286951637669,
-        "Pitch Variation": 96.34066883525668,
-        "Energy Mean": 0.12604063749313354,
-        "Energy Variation": 0.06711190193891525
-      },
-      "text": "而是因為我要在她放學來 接我之前"
-    }
-  },
-  "f6934eb4cdf058b95acdd98626167234_160.0_163.0": {
-    "timestamp": "2025-03-04T00:55:53.520023",
-    "results": {
-      "emotion_analysis": {
-        "primary_emotion": "angry",
-        "primary_score": 0.9995272159576416,
-        "all_scores": {
-          "angry": 0.9995272159576416,
-          "fear": 0.00012130329560022801,
-          "happy": 3.0356784918694757e-05,
-          "neutral": 2.3355847588391043e-05,
-          "sad": 1.3416050023806747e-05,
-          "surprise": 0.00028426828794181347
-        }
-      },
-      "prosody_analysis": {
-        "Pitch Mean": 357.67002722296587,
-        "Pitch Variation": 91.01965341749907,
-        "Energy Mean": 0.0667896419763565,
-        "Energy Variation": 0.0462823361158371
-      },
-      "text": "先衝去參考書練買解答 再衝回來"
-    }
-  },
-  "f6934eb4cdf058b95acdd98626167234_163.0_166.0": {
-    "timestamp": "2025-03-04T00:55:54.457264",
-    "results": {
-      "emotion_analysis": {
-        "primary_emotion": "angry",
-        "primary_score": 0.985471785068512,
-        "all_scores": {
-          "angry": 0.985471785068512,
-          "fear": 0.0006052725366316736,
-          "happy": 0.005557387601584196,
-          "neutral": 0.00368964159861207,
-          "sad": 0.0031509899999946356,
-          "surprise": 0.0015249723801389337
-        }
-      },
-      "prosody_analysis": {
-        "Pitch Mean": 301.2998138979031,
-        "Pitch Variation": 55.87292436481149,
-        "Energy Mean": 0.10052943974733353,
-        "Energy Variation": 0.08044133335351944
-      },
-      "text": "我超解答 超了三年都沒有被發現"
-    }
-  },
-  "f6934eb4cdf058b95acdd98626167234_166.0_169.0": {
-    "timestamp": "2025-03-04T00:55:55.412157",
-    "results": {
-      "emotion_analysis": {
-        "primary_emotion": "angry",
-        "primary_score": 0.955741822719574,
-        "all_scores": {
-          "angry": 0.955741822719574,
-          "fear": 0.00020239304285496473,
-          "happy": 0.006084898486733437,
-          "neutral": 7.11256216163747e-05,
-          "sad": 6.424199818866327e-05,
-          "surprise": 0.037835538387298584
-        }
-      },
-      "prosody_analysis": {
-        "Pitch Mean": 380.3733479201642,
-        "Pitch Variation": 102.48027783216804,
-        "Energy Mean": 0.12820254266262054,
-        "Energy Variation": 0.08757350593805313
-      },
-      "text": "因為不像很多的小朋友 拿到解答又很High"
-    }
-  },
-  "f6934eb4cdf058b95acdd98626167234_169.0_172.0": {
-    "timestamp": "2025-03-04T00:55:56.369503",
-    "results": {
-      "emotion_analysis": {
-        "primary_emotion": "angry",
-        "primary_score": 0.9500588178634644,
-        "all_scores": {
-          "angry": 0.9500588178634644,
-          "fear": 0.003288275795057416,
-          "happy": 0.03519801050424576,
-          "neutral": 0.000273064651992172,
-          "sad": 0.0010995997581630945,
-          "surprise": 0.010082218796014786
-        }
-      },
-      "prosody_analysis": {
-        "Pitch Mean": 336.2056714624314,
-        "Pitch Variation": 69.12073915446209,
-        "Energy Mean": 0.09468165040016174,
-        "Energy Variation": 0.056283216923475266
-      },
-      "text": "每一題都超對 那一下就被試破了"
-    }
-  },
-  "f6934eb4cdf058b95acdd98626167234_172.0_175.0": {
-    "timestamp": "2025-03-04T00:55:57.284785",
-    "results": {
-      "emotion_analysis": {
-        "primary_emotion": "happy",
-        "primary_score": 0.6788435578346252,
-        "all_scores": {
-          "angry": 0.2257964015007019,
-          "fear": 0.007985804229974747,
-          "happy": 0.6788435578346252,
-          "neutral": 0.003242489183321595,
-          "sad": 0.06435202062129974,
-          "surprise": 0.019779834896326065
-        }
-      },
-      "prosody_analysis": {
-        "Pitch Mean": 340.293487833965,
-        "Pitch Variation": 68.75134756540795,
-        "Energy Mean": 0.12351711094379425,
-        "Energy Variation": 0.08304167538881302
-      },
-      "text": "我會故意的 錯一些或是初心"
-    }
-  },
-  "f6934eb4cdf058b95acdd98626167234_175.0_179.0": {
-    "timestamp": "2025-03-04T00:55:58.319477",
-    "results": {
-      "emotion_analysis": {
-        "primary_emotion": "happy",
-        "primary_score": 0.7417436838150024,
-        "all_scores": {
-          "angry": 0.2105695605278015,
-          "fear": 0.008857770822942257,
-          "happy": 0.7417436838150024,
-          "neutral": 0.00035655798274092376,
-          "sad": 0.009567948058247566,
-          "surprise": 0.028904490172863007
-        }
-      },
-      "prosody_analysis": {
-        "Pitch Mean": 313.06813032106254,
-        "Pitch Variation": 64.15589603521454,
-        "Energy Mean": 0.11427082866430283,
-        "Energy Variation": 0.06313595175743103
-      },
-      "text": "或是寫錯一些答案 這樣就不會被發現了"
-    }
-  },
-  "f6934eb4cdf058b95acdd98626167234_179.0_181.0": {
-    "timestamp": "2025-03-04T00:55:59.151923",
-    "results": {
-      "emotion_analysis": {
-        "primary_emotion": "angry",
-        "primary_score": 0.998235821723938,
-        "all_scores": {
-          "angry": 0.998235821723938,
-          "fear": 0.000105599123344291,
-          "happy": 0.0008523604483343661,
-          "neutral": 0.00017782648501452059,
-          "sad": 6.988774839555845e-05,
-          "surprise": 0.0005585711915045977
-        }
-      },
-      "prosody_analysis": {
-        "Pitch Mean": 304.6905320017106,
-        "Pitch Variation": 81.52815777067798,
-        "Energy Mean": 0.08994857966899872,
-        "Energy Variation": 0.08310116827487946
-      },
-      "text": "所以我超解答 超了很久"
-    }
-  },
-  "f6934eb4cdf058b95acdd98626167234_182.0_185.0": {
-    "timestamp": "2025-03-04T00:56:00.084374",
-    "results": {
-      "emotion_analysis": {
-        "primary_emotion": "happy",
-        "primary_score": 0.5275769829750061,
-        "all_scores": {
-          "angry": 0.4306502044200897,
-          "fear": 0.0008586426847614348,
-          "happy": 0.5275769829750061,
-          "neutral": 0.031495288014411926,
-          "sad": 0.0020583902951329947,
-          "surprise": 0.0073604946956038475
-        }
-      },
-      "prosody_analysis": {
-        "Pitch Mean": 323.9316256378934,
-        "Pitch Variation": 47.75652917638852,
-        "Energy Mean": 0.11395670473575592,
-        "Energy Variation": 0.07058947533369064
-      },
-      "text": "那從小到大 我一直就是有這個夢想"
-    }
-  },
-  "f6934eb4cdf058b95acdd98626167234_185.0_188.0": {
-    "timestamp": "2025-03-04T00:56:00.973127",
-    "results": {
-      "emotion_analysis": {
-        "primary_emotion": "angry",
-        "primary_score": 0.8494584560394287,
-        "all_scores": {
-          "angry": 0.8494584560394287,
-          "fear": 0.0007848997483961284,
-          "happy": 0.0203756894916296,
-          "neutral": 0.1200290396809578,
-          "sad": 0.006711647845804691,
-          "surprise": 0.002640224527567625
-        }
-      },
-      "prosody_analysis": {
-        "Pitch Mean": 269.90524918875633,
-        "Pitch Variation": 48.07827561996971,
-        "Energy Mean": 0.08008120208978653,
-        "Energy Variation": 0.06106587499380112
-      },
-      "text": "要一直朝著藝術家 這條路在走"
-    }
-  },
-  "f6934eb4cdf058b95acdd98626167234_188.0_192.0": {
-    "timestamp": "2025-03-04T00:56:02.018253",
-    "results": {
-      "emotion_analysis": {
-        "primary_emotion": "angry",
-        "primary_score": 0.6307206749916077,
-        "all_scores": {
-          "angry": 0.6307206749916077,
-          "fear": 0.008198884315788746,
-          "happy": 0.20704495906829834,
-          "neutral": 0.044193848967552185,
-          "sad": 0.09483187645673752,
-          "surprise": 0.015009801834821701
-        }
-      },
-      "prosody_analysis": {
-        "Pitch Mean": 298.26550352922396,
-        "Pitch Variation": 59.86800140515647,
-        "Energy Mean": 0.09731223434209824,
-        "Energy Variation": 0.07434507459402084
-      },
-      "text": "途中碰到很多各式各樣的 老師或是朋友"
-    }
-  },
-  "f6934eb4cdf058b95acdd98626167234_192.0_196.0": {
-    "timestamp": "2025-03-04T00:56:03.028333",
-    "results": {
-      "emotion_analysis": {
-        "primary_emotion": "angry",
-        "primary_score": 0.962394118309021,
-        "all_scores": {
-          "angry": 0.962394118309021,
-          "fear": 0.00499314907938242,
-          "happy": 0.016921836882829666,
-          "neutral": 0.0019036775920540094,
-          "sad": 0.00868047121912241,
-          "surprise": 0.0051069846376776695
-        }
-      },
-      "prosody_analysis": {
-        "Pitch Mean": 339.9902683513269,
-        "Pitch Variation": 59.541308765543754,
-        "Energy Mean": 0.07455643266439438,
-        "Energy Variation": 0.06739092618227005
-      },
-      "text": "甚至是家人都開始質疑 該不該讓這個瘋子"
-    }
-  },
-  "f6934eb4cdf058b95acdd98626167234_196.0_201.0": {
-    "timestamp": "2025-03-04T00:56:04.167177",
-    "results": {
-      "emotion_analysis": {
-        "primary_emotion": "angry",
-        "primary_score": 0.6883717775344849,
-        "all_scores": {
-          "angry": 0.6883717775344849,
-          "fear": 0.008301779627799988,
-          "happy": 0.11885756999254227,
-          "neutral": 0.01155128888785839,
-          "sad": 0.02327832207083702,
-          "surprise": 0.1496392786502838
-        }
-      },
-      "prosody_analysis": {
-        "Pitch Mean": 304.414213709428,
-        "Pitch Variation": 35.75046813361084,
-        "Energy Mean": 0.10380856692790985,
-        "Energy Variation": 0.09030724316835403
-      },
-      "text": "繼續朝著這條路走下去 有很多的老師跟我說"
-    }
-  },
-  "f6934eb4cdf058b95acdd98626167234_201.0_204.0": {
-    "timestamp": "2025-03-04T00:56:05.066723",
-    "results": {
-      "emotion_analysis": {
-        "primary_emotion": "angry",
-        "primary_score": 0.9525819420814514,
-        "all_scores": {
-          "angry": 0.9525819420814514,
-          "fear": 0.0022682654671370983,
-          "happy": 0.02819116972386837,
-          "neutral": 0.005383601877838373,
-          "sad": 0.0020630459766834974,
-          "surprise": 0.009511852636933327
-        }
-      },
-      "prosody_analysis": {
-        "Pitch Mean": 273.6328212492787,
-        "Pitch Variation": 30.532398542013663,
-        "Energy Mean": 0.09216738492250443,
-        "Energy Variation": 0.06133733689785004
-      },
-      "text": "你應該去做別的事情 你應該做別的事情"
-    }
-  },
-  "f6934eb4cdf058b95acdd98626167234_204.0_207.0": {
-    "timestamp": "2025-03-04T00:56:05.987995",
-    "results": {
-      "emotion_analysis": {
-        "primary_emotion": "angry",
-        "primary_score": 0.907986044883728,
-        "all_scores": {
-          "angry": 0.907986044883728,
-          "fear": 0.000653154740575701,
-          "happy": 0.05589926615357399,
-          "neutral": 0.01592291332781315,
-          "sad": 0.004479568917304277,
-          "surprise": 0.015059193596243858
-        }
-      },
-      "prosody_analysis": {
-        "Pitch Mean": 321.02140547434806,
-        "Pitch Variation": 63.66756943837479,
-        "Energy Mean": 0.07097344845533371,
-        "Energy Variation": 0.060431238263845444
-      },
-      "text": "因為你知道這條路 可能接下來是一個"
-    }
-  },
-  "f6934eb4cdf058b95acdd98626167234_207.0_211.0": {
-    "timestamp": "2025-03-04T00:56:07.038628",
-    "results": {
-      "emotion_analysis": {
-        "primary_emotion": "angry",
-        "primary_score": 0.4460392892360687,
-        "all_scores": {
-          "angry": 0.4460392892360687,
-          "fear": 0.010938051156699657,
-          "happy": 0.37542423605918884,
-          "neutral": 0.09649261832237244,
-          "sad": 0.061479199677705765,
-          "surprise": 0.009626570157706738
-        }
-      },
-      "prosody_analysis": {
-        "Pitch Mean": 253.1157084144625,
-        "Pitch Variation": 31.897505175967602,
-        "Energy Mean": 0.08458229899406433,
-        "Energy Variation": 0.06516376882791519
-      },
-      "text": "沒有結果的 沒有結果的一條路"
-    }
-  },
-  "f6934eb4cdf058b95acdd98626167234_211.0_214.0": {
-    "timestamp": "2025-03-04T00:56:07.991852",
-    "results": {
-      "emotion_analysis": {
-        "primary_emotion": "angry",
-        "primary_score": 0.99400794506073,
-        "all_scores": {
-          "angry": 0.99400794506073,
-          "fear": 0.0002891159674618393,
-          "happy": 0.0024343570694327354,
-          "neutral": 0.00013540634245146066,
-          "sad": 0.00012207710824441165,
-          "surprise": 0.003011063439771533
-        }
-      },
-      "prosody_analysis": {
-        "Pitch Mean": 358.46900203753324,
-        "Pitch Variation": 71.96582804689936,
-        "Energy Mean": 0.125552698969841,
-        "Energy Variation": 0.08498000353574753
-      },
-      "text": "可是我一直深信 如果我一直堅持下去"
-    }
-  },
-  "f6934eb4cdf058b95acdd98626167234_214.0_219.0": {
-    "timestamp": "2025-03-04T00:56:09.168516",
-    "results": {
-      "emotion_analysis": {
-        "primary_emotion": "happy",
-        "primary_score": 0.8781715631484985,
-        "all_scores": {
-          "angry": 0.06690273433923721,
-          "fear": 0.0035432695876806974,
-          "happy": 0.8781715631484985,
-          "neutral": 0.015276240184903145,
-          "sad": 0.02955632284283638,
-          "surprise": 0.006549918558448553
-        }
-      },
-      "prosody_analysis": {
-        "Pitch Mean": 267.875924388849,
-        "Pitch Variation": 41.8634183537021,
-        "Energy Mean": 0.09886322170495987,
-        "Energy Variation": 0.08136899769306183
-      },
-      "text": "我可能就會真的達到 我要當藝術家的那個夢"
-    }
-  },
-  "f6934eb4cdf058b95acdd98626167234_219.0_222.0": {
-    "timestamp": "2025-03-04T00:56:10.101329",
-    "results": {
-      "emotion_analysis": {
-        "primary_emotion": "angry",
-        "primary_score": 0.7229572534561157,
-        "all_scores": {
-          "angry": 0.7229572534561157,
-          "fear": 0.001865012920461595,
-          "happy": 0.12771113216876984,
-          "neutral": 0.11705432087182999,
-          "sad": 0.024311915040016174,
-          "surprise": 0.006100391037762165
-        }
-      },
-      "prosody_analysis": {
-        "Pitch Mean": 300.0757416872218,
-        "Pitch Variation": 48.814499686397795,
-        "Energy Mean": 0.11385197192430496,
-        "Energy Variation": 0.0730556771159172
-      },
-      "text": "於是在兩年前 2008年"
-    }
-  },
-  "f6934eb4cdf058b95acdd98626167234_222.0_226.0": {
-    "timestamp": "2025-03-04T00:56:11.162869",
-    "results": {
-      "emotion_analysis": {
-        "primary_emotion": "angry",
-        "primary_score": 0.7561264038085938,
-        "all_scores": {
-          "angry": 0.7561264038085938,
-          "fear": 0.018072091042995453,
-          "happy": 0.14327910542488098,
-          "neutral": 0.025291796773672104,
-          "sad": 0.01914859190583229,
-          "surprise": 0.03808198496699333
-        }
-      },
-      "prosody_analysis": {
-        "Pitch Mean": 268.99855399065694,
-        "Pitch Variation": 35.87757912944937,
-        "Energy Mean": 0.12871958315372467,
-        "Energy Variation": 0.07550734281539917
-      },
-      "text": "我從黃家藝術學院畢業 拿到了我的互動設計"
-    }
-  },
-  "f6934eb4cdf058b95acdd98626167234_226.0_228.0": {
-    "timestamp": "2025-03-04T00:56:11.998856",
-    "results": {
-      "emotion_analysis": {
-        "primary_emotion": "angry",
-        "primary_score": 0.9931627511978149,
-        "all_scores": {
-          "angry": 0.9931627511978149,
-          "fear": 0.00048272768617607653,
-          "happy": 0.004566548392176628,
-          "neutral": 0.0008712249109521508,
-          "sad": 0.00024033036606851965,
-          "surprise": 0.0006764176650904119
-        }
-      },
-      "prosody_analysis": {
-        "Pitch Mean": 273.3454617148253,
-        "Pitch Variation": 32.2838828532158,
-        "Energy Mean": 0.1636284589767456,
-        "Energy Variation": 0.07696038484573364
-      },
-      "text": "碩士學位 然後還是以千五名的"
-    }
-  },
-  "f6934eb4cdf058b95acdd98626167234_228.0_231.0": {
-    "timestamp": "2025-03-04T00:56:12.965463",
-    "results": {
-      "emotion_analysis": {
-        "primary_emotion": "happy",
-        "primary_score": 0.9547674655914307,
-        "all_scores": {
-          "angry": 0.030768396332859993,
-          "fear": 0.0015610626433044672,
-          "happy": 0.9547674655914307,
-          "neutral": 0.0007843055645935237,
-          "sad": 0.002487806137651205,
-          "surprise": 0.009631022810935974
-        }
-      },
-      "prosody_analysis": {
-        "Pitch Mean": 296.7529656628725,
-        "Pitch Variation": 85.55952760793457,
-        "Energy Mean": 0.0961911603808403,
-        "Energy Variation": 0.08563336730003357
-      },
-      "text": "成績畢業的 那一刻我以為"
-    }
-  },
-  "f6934eb4cdf058b95acdd98626167234_231.0_235.0": {
-    "timestamp": "2025-03-04T00:56:14.051517",
-    "results": {
-      "emotion_analysis": {
-        "primary_emotion": "angry",
-        "primary_score": 0.6990905404090881,
-        "all_scores": {
-          "angry": 0.6990905404090881,
-          "fear": 0.13746702671051025,
-          "happy": 0.07690105587244034,
-          "neutral": 0.0075152963399887085,
-          "sad": 0.07434426993131638,
-          "surprise": 0.004681950900703669
-        }
-      },
-      "prosody_analysis": {
-        "Pitch Mean": 277.0214374853833,
-        "Pitch Variation": 33.152438521837254,
-        "Energy Mean": 0.10785729438066483,
-        "Energy Variation": 0.06467010825872421
-      },
-      "text": "我全部的困擾 全部的困擾都結束了"
-    }
-  },
-  "f6934eb4cdf058b95acdd98626167234_235.0_240.0": {
-    "timestamp": "2025-03-04T00:56:15.253553",
-    "results": {
-      "emotion_analysis": {
-        "primary_emotion": "sad",
-        "primary_score": 0.8622663021087646,
-        "all_scores": {
-          "angry": 0.01269653532654047,
-          "fear": 0.001842060824856162,
-          "happy": 0.07144676148891449,
-          "neutral": 0.05028144642710686,
-          "sad": 0.8622663021087646,
-          "surprise": 0.0014668391086161137
-        }
-      },
-      "prosody_analysis": {
-        "Pitch Mean": 315.1937407194599,
-        "Pitch Variation": 48.70083051981773,
-        "Energy Mean": 0.11356601864099503,
-        "Energy Variation": 0.09780372679233551
-      },
-      "text": "但其實那真是惡夢的開始 畢業的那一刻"
-    }
-  },
-  "f6934eb4cdf058b95acdd98626167234_240.0_242.0": {
-    "timestamp": "2025-03-04T00:56:16.156443",
-    "results": {
-      "emotion_analysis": {
-        "primary_emotion": "angry",
-        "primary_score": 0.6992509961128235,
-        "all_scores": {
-          "angry": 0.6992509961128235,
-          "fear": 0.002272204030305147,
-          "happy": 0.2862885296344757,
-          "neutral": 0.004708167631179094,
-          "sad": 0.0014330234844237566,
-          "surprise": 0.006047056056559086
-        }
-      },
-      "prosody_analysis": {
-        "Pitch Mean": 259.19442310144814,
-        "Pitch Variation": 30.071246316772832,
-        "Energy Mean": 0.14218571782112122,
-        "Energy Variation": 0.07031934708356857
-      },
-      "text": "我被受邀到 米蘭家劇展"
-    }
-  },
-  "f6934eb4cdf058b95acdd98626167234_242.0_247.0": {
-    "timestamp": "2025-03-04T00:56:17.383520",
-    "results": {
-      "emotion_analysis": {
-        "primary_emotion": "sad",
-        "primary_score": 0.6392788887023926,
-        "all_scores": {
-          "angry": 0.06680862605571747,
-          "fear": 0.028985129669308662,
-          "happy": 0.2335882931947708,
-          "neutral": 0.02473931387066841,
-          "sad": 0.6392788887023926,
-          "surprise": 0.006599731743335724
-        }
-      },
-      "prosody_analysis": {
-        "Pitch Mean": 253.03621541866752,
-        "Pitch Variation": 49.423173468500636,
-        "Energy Mean": 0.08486516028642654,
-        "Energy Variation": 0.05757158249616623
-      },
-      "text": "參加他們的新一代設計施展 我非常興奮"
-    }
-  },
-  "f6934eb4cdf058b95acdd98626167234_247.0_250.0": {
-    "timestamp": "2025-03-04T00:56:18.352963",
-    "results": {
-      "emotion_analysis": {
-        "primary_emotion": "angry",
-        "primary_score": 0.5401381254196167,
-        "all_scores": {
-          "angry": 0.5401381254196167,
-          "fear": 0.0007905451348051429,
-          "happy": 0.08863484114408493,
-          "neutral": 0.00010714058589655906,
-          "sad": 0.00021787668811157346,
-          "surprise": 0.37011146545410156
-        }
-      },
-      "prosody_analysis": {
-        "Pitch Mean": 373.81361563102024,
-        "Pitch Variation": 75.45726991657544,
-        "Energy Mean": 0.10502694547176361,
-        "Energy Variation": 0.08167833834886551
-      },
-      "text": "我做了好多好多的作品 就做完以後"
-    }
-  },
-  "f6934eb4cdf058b95acdd98626167234_250.0_253.0": {
-    "timestamp": "2025-03-04T00:56:19.299955",
-    "results": {
-      "emotion_analysis": {
-        "primary_emotion": "angry",
-        "primary_score": 0.9860100746154785,
-        "all_scores": {
-          "angry": 0.9860100746154785,
-          "fear": 0.0007001289050094783,
-          "happy": 0.0065827625803649426,
-          "neutral": 0.0002750483399722725,
-          "sad": 0.0004589197924360633,
-          "surprise": 0.005973162595182657
-        }
-      },
-      "prosody_analysis": {
-        "Pitch Mean": 366.347228013456,
-        "Pitch Variation": 60.76333802234854,
-        "Energy Mean": 0.1219463124871254,
-        "Energy Variation": 0.08181767165660858
-      },
-      "text": "拿去報官行一趁 才發現他們竟然"
-    }
-  },
-  "f6934eb4cdf058b95acdd98626167234_253.0_257.0": {
-    "timestamp": "2025-03-04T00:56:20.333048",
+  "8fe1af250d7a050c4e9b2c851a73ff19_34.0_38.0": {
+    "timestamp": "2025-03-06T23:27:04.918624",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "surprise",
-        "primary_score": 0.47341087460517883,
+        "primary_score": 0.580012857913971,
         "all_scores": {
-          "angry": 0.4033787250518799,
-          "fear": 0.02023879438638687,
-          "happy": 0.05912631005048752,
-          "neutral": 0.0033389858435839415,
-          "sad": 0.04050624370574951,
-          "surprise": 0.47341087460517883
+          "angry": 0.03177905082702637,
+          "fear": 0.0005747975665144622,
+          "happy": 0.38645148277282715,
+          "neutral": 0.0005503425491042435,
+          "sad": 0.000631483388133347,
+          "surprise": 0.580012857913971
         }
       },
       "prosody_analysis": {
-        "Pitch Mean": 277.9722052407217,
-        "Pitch Variation": 58.136163259303544,
-        "Energy Mean": 0.04889765381813049,
-        "Energy Variation": 0.05150986462831497
+        "Pitch Mean": 208.6258985984924,
+        "Pitch Variation": 28.927175311972366,
+        "Energy Mean": 0.09018686413764954,
+        "Energy Variation": 0.07603952288627625
       },
-      "text": "重達250公斤 我就心想"
+      "text": "品牌為什麼要悲傷呢 這就是文創"
     }
   },
-  "f6934eb4cdf058b95acdd98626167234_257.0_260.0": {
-    "timestamp": "2025-03-04T00:56:21.276341",
+  "8fe1af250d7a050c4e9b2c851a73ff19_38.0_41.0": {
+    "timestamp": "2025-03-06T23:27:06.083243",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "surprise",
+        "primary_score": 0.9577535390853882,
+        "all_scores": {
+          "angry": 0.010533149354159832,
+          "fear": 0.00021925264445599169,
+          "happy": 0.024836406111717224,
+          "neutral": 0.005937009118497372,
+          "sad": 0.0007205937290564179,
+          "surprise": 0.9577535390853882
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 196.81066886080356,
+        "Pitch Variation": 45.018504951021974,
+        "Energy Mean": 0.038706712424755096,
+        "Energy Variation": 0.06304113566875458
+      },
+      "text": "可是文創有什麼呢 上大學"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_41.0_45.0": {
+    "timestamp": "2025-03-06T23:27:07.377171",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "happy",
-        "primary_score": 0.4838981032371521,
+        "primary_score": 0.42898499965667725,
         "all_scores": {
-          "angry": 0.0625847652554512,
-          "fear": 0.04626180976629257,
-          "happy": 0.4838981032371521,
-          "neutral": 0.001882784883491695,
-          "sad": 0.35113728046417236,
-          "surprise": 0.05423526093363762
+          "angry": 0.35138314962387085,
+          "fear": 0.0038148744497448206,
+          "happy": 0.42898499965667725,
+          "neutral": 0.04337065666913986,
+          "sad": 0.02237553521990776,
+          "surprise": 0.15007075667381287
         }
       },
       "prosody_analysis": {
-        "Pitch Mean": 290.52046681623784,
-        "Pitch Variation": 40.07337101675764,
-        "Energy Mean": 0.10238585621118546,
-        "Energy Variation": 0.08592875301837921
+        "Pitch Mean": 203.26524119769633,
+        "Pitch Variation": 33.76928452017596,
+        "Energy Mean": 0.0732196494936943,
+        "Energy Variation": 0.05972609668970108
       },
-      "text": "那這樣子可以帶上飛機嗎 那個人說"
+      "text": "脫離了高中繁忙的生活 我開始有機會做自己的夢"
     }
   },
-  "f6934eb4cdf058b95acdd98626167234_260.0_263.0": {
-    "timestamp": "2025-03-04T00:56:22.191516",
+  "8fe1af250d7a050c4e9b2c851a73ff19_45.0_49.0": {
+    "timestamp": "2025-03-06T23:27:08.658631",
     "results": {
       "emotion_analysis": {
-        "primary_emotion": "angry",
-        "primary_score": 0.6562873125076294,
+        "primary_emotion": "surprise",
+        "primary_score": 0.36014121770858765,
         "all_scores": {
-          "angry": 0.6562873125076294,
-          "fear": 0.0006738838274031878,
-          "happy": 0.3378594219684601,
-          "neutral": 0.0007970411679707468,
-          "sad": 0.000950986344832927,
-          "surprise": 0.003431320423260331
+          "angry": 0.21629244089126587,
+          "fear": 0.0031960890628397465,
+          "happy": 0.28100913763046265,
+          "neutral": 0.05959488824009895,
+          "sad": 0.07976628839969635,
+          "surprise": 0.36014121770858765
         }
       },
       "prosody_analysis": {
-        "Pitch Mean": 265.82542865644433,
-        "Pitch Variation": 44.924417955543916,
-        "Energy Mean": 0.08236086368560791,
-        "Energy Variation": 0.08419851958751678
+        "Pitch Mean": 217.40448827645466,
+        "Pitch Variation": 45.57970845126421,
+        "Energy Mean": 0.06010917201638222,
+        "Energy Variation": 0.06045673042535782
       },
-      "text": "你的隨身行李 只能帶30公斤"
+      "text": "就是經一個個人品牌 剛開始因為沒什麼錢"
     }
   },
-  "f6934eb4cdf058b95acdd98626167234_263.0_266.0": {
-    "timestamp": "2025-03-04T00:56:23.118052",
-    "results": {
-      "emotion_analysis": {
-        "primary_emotion": "angry",
-        "primary_score": 0.98201984167099,
-        "all_scores": {
-          "angry": 0.98201984167099,
-          "fear": 0.0010884961811825633,
-          "happy": 0.010234935209155083,
-          "neutral": 0.00023241867893375456,
-          "sad": 0.0005376246408559382,
-          "surprise": 0.005886760540306568
-        }
-      },
-      "prosody_analysis": {
-        "Pitch Mean": 342.40801848772367,
-        "Pitch Variation": 108.33604936503657,
-        "Energy Mean": 0.09270570427179337,
-        "Energy Variation": 0.08127430826425552
-      },
-      "text": "我說好 那我現在要想一個辦法"
-    }
-  },
-  "f6934eb4cdf058b95acdd98626167234_266.0_268.0": {
-    "timestamp": "2025-03-04T00:56:23.919684",
-    "results": {
-      "emotion_analysis": {
-        "primary_emotion": "angry",
-        "primary_score": 0.993498682975769,
-        "all_scores": {
-          "angry": 0.993498682975769,
-          "fear": 0.00013206125004217029,
-          "happy": 0.0029135996010154486,
-          "neutral": 6.866540934424847e-05,
-          "sad": 2.5954652301152237e-05,
-          "surprise": 0.0033610088285058737
-        }
-      },
-      "prosody_analysis": {
-        "Pitch Mean": 331.5425293199736,
-        "Pitch Variation": 28.395287195088965,
-        "Energy Mean": 0.13329043984413147,
-        "Energy Variation": 0.061872124671936035
-      },
-      "text": "報官行跟我說 250公斤已經超出"
-    }
-  },
-  "f6934eb4cdf058b95acdd98626167234_268.0_272.0": {
-    "timestamp": "2025-03-04T00:56:25.002404",
-    "results": {
-      "emotion_analysis": {
-        "primary_emotion": "angry",
-        "primary_score": 0.9226087927818298,
-        "all_scores": {
-          "angry": 0.9226087927818298,
-          "fear": 0.007109413389116526,
-          "happy": 0.04705386236310005,
-          "neutral": 0.009429861791431904,
-          "sad": 0.006201301235705614,
-          "surprise": 0.0075967684388160706
-        }
-      },
-      "prosody_analysis": {
-        "Pitch Mean": 303.69036272319465,
-        "Pitch Variation": 48.28802129632891,
-        "Energy Mean": 0.08753536641597748,
-        "Energy Variation": 0.055715419352054596
-      },
-      "text": "私人物品可以帶的範圍了 所以呢我必須要成立一個公司"
-    }
-  },
-  "f6934eb4cdf058b95acdd98626167234_272.0_276.0": {
-    "timestamp": "2025-03-04T00:56:26.074601",
-    "results": {
-      "emotion_analysis": {
-        "primary_emotion": "angry",
-        "primary_score": 0.9467850923538208,
-        "all_scores": {
-          "angry": 0.9467850923538208,
-          "fear": 0.0018708821153268218,
-          "happy": 0.032164592295885086,
-          "neutral": 0.00167242088355124,
-          "sad": 0.003317019436508417,
-          "surprise": 0.014189984649419785
-        }
-      },
-      "prosody_analysis": {
-        "Pitch Mean": 323.8316200885649,
-        "Pitch Variation": 85.83286923744157,
-        "Energy Mean": 0.09969202429056168,
-        "Energy Variation": 0.06694882363080978
-      },
-      "text": "所以就因為這個機緣巧合 很奇怪的原因之下"
-    }
-  },
-  "f6934eb4cdf058b95acdd98626167234_276.0_283.0": {
-    "timestamp": "2025-03-04T00:56:27.561086",
+  "8fe1af250d7a050c4e9b2c851a73ff19_49.0_54.0": {
+    "timestamp": "2025-03-06T23:27:10.061484",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "happy",
-        "primary_score": 0.9194203019142151,
+        "primary_score": 0.7000997066497803,
         "all_scores": {
-          "angry": 0.01665583811700344,
-          "fear": 0.020024750381708145,
-          "happy": 0.9194203019142151,
-          "neutral": 0.0001796160649973899,
-          "sad": 0.04202165827155113,
-          "surprise": 0.0016978507628664374
+          "angry": 0.12364139407873154,
+          "fear": 0.0035878359340131283,
+          "happy": 0.7000997066497803,
+          "neutral": 0.04007689282298088,
+          "sad": 0.06564708799123764,
+          "surprise": 0.0669470950961113
         }
       },
       "prosody_analysis": {
-        "Pitch Mean": 338.635718424465,
-        "Pitch Variation": 99.91845329999883,
-        "Energy Mean": 0.08357073366641998,
-        "Energy Variation": 0.0815630555152893
+        "Pitch Mean": 226.69128765575218,
+        "Pitch Variation": 34.240198594367854,
+        "Energy Mean": 0.09402622282505035,
+        "Energy Variation": 0.07131396234035492
       },
-      "text": "我成立了一間公司 就真的只是為了這一個印章"
+      "text": "所以我從最基本手鍊開始做 然後就逼著順便同學一個一個買"
     }
   },
-  "f6934eb4cdf058b95acdd98626167234_283.0_286.0": {
-    "timestamp": "2025-03-04T00:56:28.554809",
-    "results": {
-      "emotion_analysis": {
-        "primary_emotion": "angry",
-        "primary_score": 0.9577837586402893,
-        "all_scores": {
-          "angry": 0.9577837586402893,
-          "fear": 0.000397169787902385,
-          "happy": 0.03419661894440651,
-          "neutral": 0.0003200388455297798,
-          "sad": 0.00032662475132383406,
-          "surprise": 0.006975723896175623
-        }
-      },
-      "prosody_analysis": {
-        "Pitch Mean": 358.81863033516476,
-        "Pitch Variation": 46.1735816734,
-        "Energy Mean": 0.10770310461521149,
-        "Energy Variation": 0.08665528893470764
-      },
-      "text": "那成立了的公司 我都帶了這些椅子"
-    }
-  },
-  "f6934eb4cdf058b95acdd98626167234_286.0_289.0": {
-    "timestamp": "2025-03-04T00:56:29.492721",
+  "8fe1af250d7a050c4e9b2c851a73ff19_54.0_58.0": {
+    "timestamp": "2025-03-06T23:27:11.292034",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "happy",
-        "primary_score": 0.9681156873703003,
+        "primary_score": 0.5800251364707947,
         "all_scores": {
-          "angry": 0.026893164962530136,
-          "fear": 0.0006569851539097726,
-          "happy": 0.9681156873703003,
-          "neutral": 0.001680733053945005,
-          "sad": 0.001347774756141007,
-          "surprise": 0.0013056891039013863
+          "angry": 0.15773296356201172,
+          "fear": 0.004018018953502178,
+          "happy": 0.5800251364707947,
+          "neutral": 0.12222123891115189,
+          "sad": 0.09052617102861404,
+          "surprise": 0.04547647759318352
         }
       },
       "prosody_analysis": {
-        "Pitch Mean": 338.50112156916776,
-        "Pitch Variation": 85.88677803282769,
-        "Energy Mean": 0.10780799388885498,
-        "Energy Variation": 0.07686805725097656
+        "Pitch Mean": 202.48888220217114,
+        "Pitch Variation": 31.645452376664426,
+        "Energy Mean": 0.06862924247980118,
+        "Energy Variation": 0.07077284157276154
       },
-      "text": "們去的米蘭 那這一系列的作品呢"
+      "text": "終於存到第一筆錢 可以做屬於自己的創作了"
     }
   },
-  "f6934eb4cdf058b95acdd98626167234_289.0_293.0": {
-    "timestamp": "2025-03-04T00:56:30.509002",
+  "8fe1af250d7a050c4e9b2c851a73ff19_59.0_63.0": {
+    "timestamp": "2025-03-06T23:27:12.576032",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "happy",
+        "primary_score": 0.6400060653686523,
+        "all_scores": {
+          "angry": 0.1379050612449646,
+          "fear": 0.0012457376578822732,
+          "happy": 0.6400060653686523,
+          "neutral": 0.11915489286184311,
+          "sad": 0.056788504123687744,
+          "surprise": 0.0448998287320137
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 227.19573262405245,
+        "Pitch Variation": 39.923340415003054,
+        "Energy Mean": 0.0695110484957695,
+        "Energy Variation": 0.07525782287120819
+      },
+      "text": "抱大家有沒有失戀的經驗 我現在大家應該都會變些是迪里"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_63.0_67.0": {
+    "timestamp": "2025-03-06T23:27:13.844911",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "happy",
+        "primary_score": 0.9928062558174133,
+        "all_scores": {
+          "angry": 0.003276093164458871,
+          "fear": 0.00047181814443320036,
+          "happy": 0.9928062558174133,
+          "neutral": 0.0008966767345555127,
+          "sad": 0.0010813733097165823,
+          "surprise": 0.0014677740400657058
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 199.04803794525213,
+        "Pitch Variation": 32.48448066478208,
+        "Energy Mean": 0.06641899049282074,
+        "Energy Variation": 0.06498821824789047
+      },
+      "text": "抱你抱屎 甚至埋心你根本用不到的東西"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_68.0_71.0": {
+    "timestamp": "2025-03-06T23:27:14.962628",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "surprise",
+        "primary_score": 0.45138731598854065,
+        "all_scores": {
+          "angry": 0.14920668303966522,
+          "fear": 0.0022316561080515385,
+          "happy": 0.3684554398059845,
+          "neutral": 0.018385818228125572,
+          "sad": 0.010333091951906681,
+          "surprise": 0.45138731598854065
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 237.60755345975946,
+        "Pitch Variation": 41.79784343968989,
+        "Energy Mean": 0.0771675854921341,
+        "Energy Variation": 0.0848703682422638
+      },
+      "text": "這些我全都做過 直現在"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_71.0_75.0": {
+    "timestamp": "2025-03-06T23:27:16.230953",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "happy",
+        "primary_score": 0.5013705492019653,
+        "all_scores": {
+          "angry": 0.10881295055150986,
+          "fear": 0.002329489216208458,
+          "happy": 0.5013705492019653,
+          "neutral": 0.21945801377296448,
+          "sad": 0.12294994294643402,
+          "surprise": 0.04507901519536972
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 167.63735087789448,
+        "Pitch Variation": 50.38386298687047,
+        "Energy Mean": 0.06044328585267067,
+        "Energy Variation": 0.05593901872634888
+      },
+      "text": "我把這些情緒轉化到我的創作裡面 失戀"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_75.0_78.0": {
+    "timestamp": "2025-03-06T23:27:17.385715",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "happy",
+        "primary_score": 0.4179418683052063,
+        "all_scores": {
+          "angry": 0.14341823756694794,
+          "fear": 0.005264158360660076,
+          "happy": 0.4179418683052063,
+          "neutral": 0.12186761200428009,
+          "sad": 0.038532957434654236,
+          "surprise": 0.27297523617744446
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 195.71077766365732,
+        "Pitch Variation": 24.546130143325488,
+        "Energy Mean": 0.11247646063566208,
+        "Energy Variation": 0.0843258649110794
+      },
+      "text": "你可能會覺得悲傷 覺得寂寞"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_78.0_82.0": {
+    "timestamp": "2025-03-06T23:27:18.679031",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "surprise",
+        "primary_score": 0.6564776301383972,
+        "all_scores": {
+          "angry": 0.11203788965940475,
+          "fear": 0.0012949316296726465,
+          "happy": 0.20130017399787903,
+          "neutral": 0.0216518547385931,
+          "sad": 0.007237504236400127,
+          "surprise": 0.6564776301383972
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 191.5210656468526,
+        "Pitch Variation": 58.998065876325,
+        "Energy Mean": 0.05529063567519188,
+        "Energy Variation": 0.05491730943322182
+      },
+      "text": "可是當它變成具體的模樣時 會是什麼樣子呢"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_82.0_85.0": {
+    "timestamp": "2025-03-06T23:27:19.837240",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "neutral",
-        "primary_score": 0.3722338378429413,
+        "primary_score": 0.4323922097682953,
         "all_scores": {
-          "angry": 0.11900746077299118,
-          "fear": 0.04655902832746506,
-          "happy": 0.12683159112930298,
-          "neutral": 0.3722338378429413,
-          "sad": 0.32272008061408997,
-          "surprise": 0.012648009695112705
+          "angry": 0.3063482344150543,
+          "fear": 0.0010334175312891603,
+          "happy": 0.13350102305412292,
+          "neutral": 0.4323922097682953,
+          "sad": 0.06379234045743942,
+          "surprise": 0.06293272227048874
         }
       },
       "prosody_analysis": {
-        "Pitch Mean": 298.472429021668,
-        "Pitch Variation": 68.25550598577978,
-        "Energy Mean": 0.13063867390155792,
-        "Energy Variation": 0.07501844316720963
+        "Pitch Mean": 233.76775766465886,
+        "Pitch Variation": 44.89176222899977,
+        "Energy Mean": 0.0757320299744606,
+        "Energy Variation": 0.0630633607506752
       },
-      "text": "在探討著人生活中 可能會有的習慣"
+      "text": "這是我當時的作品 破碎的愛"
     }
   },
-  "f6934eb4cdf058b95acdd98626167234_293.0_297.0": {
-    "timestamp": "2025-03-04T00:56:31.539803",
+  "8fe1af250d7a050c4e9b2c851a73ff19_85.0_88.0": {
+    "timestamp": "2025-03-06T23:27:20.992285",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "happy",
+        "primary_score": 0.5828158855438232,
+        "all_scores": {
+          "angry": 0.2741330862045288,
+          "fear": 0.0013779051369056106,
+          "happy": 0.5828158855438232,
+          "neutral": 0.06452637165784836,
+          "sad": 0.024038415402173996,
+          "surprise": 0.053108349442481995
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 196.61943242792634,
+        "Pitch Variation": 58.7432194728742,
+        "Energy Mean": 0.07920045405626297,
+        "Energy Variation": 0.07501105964183807
+      },
+      "text": "那時候正值沒雨季 我剛失戀"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_88.0_93.0": {
+    "timestamp": "2025-03-06T23:27:22.349529",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "happy",
+        "primary_score": 0.7797786593437195,
+        "all_scores": {
+          "angry": 0.06281241029500961,
+          "fear": 0.0031717868987470865,
+          "happy": 0.7797786593437195,
+          "neutral": 0.048562970012426376,
+          "sad": 0.055365923792123795,
+          "surprise": 0.05030820518732071
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 204.61243549409036,
+        "Pitch Variation": 41.81226145227483,
+        "Energy Mean": 0.08588945120573044,
+        "Energy Variation": 0.0673927292227745
+      },
+      "text": "我現在失戀的人都有點病態 下雨的時候就忍不住想要去淋一下"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_93.0_97.0": {
+    "timestamp": "2025-03-06T23:27:23.607016",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "sad",
+        "primary_score": 0.41121575236320496,
+        "all_scores": {
+          "angry": 0.03633948042988777,
+          "fear": 0.0032438174821436405,
+          "happy": 0.3970547020435333,
+          "neutral": 0.10160516947507858,
+          "sad": 0.41121575236320496,
+          "surprise": 0.05054109916090965
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 235.98167840133343,
+        "Pitch Variation": 35.217572919364684,
+        "Energy Mean": 0.08102211356163025,
+        "Energy Variation": 0.06069116294384003
+      },
+      "text": "所以可以看到愛這個字 在心的部分"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_97.0_101.0": {
+    "timestamp": "2025-03-06T23:27:24.867077",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "sad",
+        "primary_score": 0.9146029353141785,
+        "all_scores": {
+          "angry": 0.0055755069479346275,
+          "fear": 0.001389023964293301,
+          "happy": 0.012305132113397121,
+          "neutral": 0.018826138228178024,
+          "sad": 0.9146029353141785,
+          "surprise": 0.0473012775182724
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 231.75830657648348,
+        "Pitch Variation": 28.31768150760747,
+        "Energy Mean": 0.0804295763373375,
+        "Energy Variation": 0.07028952986001968
+      },
+      "text": "它像雨水跟淚水 正在落下"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_101.0_106.0": {
+    "timestamp": "2025-03-06T23:27:26.318290",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "happy",
+        "primary_score": 0.8063531517982483,
+        "all_scores": {
+          "angry": 0.03480023145675659,
+          "fear": 0.003541035810485482,
+          "happy": 0.8063531517982483,
+          "neutral": 0.040961794555187225,
+          "sad": 0.07639223337173462,
+          "surprise": 0.037951648235321045
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 219.53784834554153,
+        "Pitch Variation": 39.66841262215849,
+        "Energy Mean": 0.06917823106050491,
+        "Energy Variation": 0.055750954896211624
+      },
+      "text": "而當你把心的部分去掉以後 愛這個字就剩下感受的受"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_107.0_111.0": {
+    "timestamp": "2025-03-06T23:27:30.053138",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "happy",
+        "primary_score": 0.7937328815460205,
+        "all_scores": {
+          "angry": 0.10860855132341385,
+          "fear": 0.001530442270450294,
+          "happy": 0.7937328815460205,
+          "neutral": 0.031613029539585114,
+          "sad": 0.01852429285645485,
+          "surprise": 0.045990750193595886
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 216.64997188733096,
+        "Pitch Variation": 46.495431929103084,
+        "Energy Mean": 0.07611759006977081,
+        "Energy Variation": 0.0650525838136673
+      },
+      "text": "用心去感受你當下的情緒 想哭就好好的哭吧"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_112.0_115.0": {
+    "timestamp": "2025-03-06T23:27:31.704943",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "happy",
+        "primary_score": 0.6768016815185547,
+        "all_scores": {
+          "angry": 0.27164414525032043,
+          "fear": 0.0007746921037323773,
+          "happy": 0.6768016815185547,
+          "neutral": 0.005872821435332298,
+          "sad": 0.0045725214295089245,
+          "surprise": 0.04033414646983147
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 235.41918202920314,
+        "Pitch Variation": 51.2251340746617,
+        "Energy Mean": 0.09619541466236115,
+        "Energy Variation": 0.08505972474813461
+      },
+      "text": "這就是我的作品 就是有稍微了解到"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_115.0_119.0": {
+    "timestamp": "2025-03-06T23:27:33.417405",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "surprise",
+        "primary_score": 0.6240113377571106,
+        "all_scores": {
+          "angry": 0.07432151585817337,
+          "fear": 0.0014013666659593582,
+          "happy": 0.2931467294692993,
+          "neutral": 0.0047001163475215435,
+          "sad": 0.0024189730174839497,
+          "surprise": 0.6240113377571106
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 180.72918865994063,
+        "Pitch Variation": 61.963580222896226,
+        "Energy Mean": 0.08090003579854965,
+        "Energy Variation": 0.07796803116798401
+      },
+      "text": "什麼是悲傷品牌的呢 做完創作以後"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_119.0_125.0": {
+    "timestamp": "2025-03-06T23:27:35.372687",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "happy",
+        "primary_score": 0.9287222027778625,
+        "all_scores": {
+          "angry": 0.010550008155405521,
+          "fear": 0.0013421940384432673,
+          "happy": 0.9287222027778625,
+          "neutral": 0.005576856900006533,
+          "sad": 0.04014609754085541,
+          "surprise": 0.013662675395607948
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 222.818642002947,
+        "Pitch Variation": 34.897554613338926,
+        "Energy Mean": 0.06331735849380493,
+        "Energy Variation": 0.06011664494872093
+      },
+      "text": "我想我不能單單只是在Facebook上面做分享 我想要有實體的機會"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_125.0_130.0": {
+    "timestamp": "2025-03-06T23:27:37.185312",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "happy",
+        "primary_score": 0.9182189702987671,
+        "all_scores": {
+          "angry": 0.014702224172651768,
+          "fear": 0.0017678213771432638,
+          "happy": 0.9182189702987671,
+          "neutral": 0.027687110006809235,
+          "sad": 0.026365047320723534,
+          "surprise": 0.011258849874138832
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 228.3581519991416,
+        "Pitch Variation": 34.70914725159975,
+        "Energy Mean": 0.08683644980192184,
+        "Energy Variation": 0.06594479829072952
+      },
+      "text": "跟人面對面直接分享我的故事 那時候創意試集在起步"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_130.0_135.0": {
+    "timestamp": "2025-03-06T23:27:38.913973",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "happy",
+        "primary_score": 0.7957475185394287,
+        "all_scores": {
+          "angry": 0.042368173599243164,
+          "fear": 0.00209802039898932,
+          "happy": 0.7957475185394287,
+          "neutral": 0.05455774441361427,
+          "sad": 0.0640128031373024,
+          "surprise": 0.04121566563844681
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 220.32220762049675,
+        "Pitch Variation": 47.083225376734156,
+        "Energy Mean": 0.07085621356964111,
+        "Energy Variation": 0.07812093943357468
+      },
+      "text": "所以我從試集開始擺起 直到現場以後"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_135.0_139.0": {
+    "timestamp": "2025-03-06T23:27:40.592492",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "happy",
+        "primary_score": 0.6209343075752258,
+        "all_scores": {
+          "angry": 0.12330878525972366,
+          "fear": 0.001495248288847506,
+          "happy": 0.6209343075752258,
+          "neutral": 0.11363014578819275,
+          "sad": 0.09494193643331528,
+          "surprise": 0.04568951576948166
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 212.93466757960644,
+        "Pitch Variation": 30.377935869311692,
+        "Energy Mean": 0.07517588138580322,
+        "Energy Variation": 0.07023978978395462
+      },
+      "text": "我才發現我沒有好好勝選 我該擺的試集"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_139.0_143.0": {
+    "timestamp": "2025-03-06T23:27:42.266617",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "happy",
+        "primary_score": 0.9705778360366821,
+        "all_scores": {
+          "angry": 0.01276110764592886,
+          "fear": 0.00038726592902094126,
+          "happy": 0.9705778360366821,
+          "neutral": 0.0019897734746336937,
+          "sad": 0.0012776596704497933,
+          "surprise": 0.013006426393985748
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 220.39431547845368,
+        "Pitch Variation": 36.55625864343654,
+        "Energy Mean": 0.10312585532665253,
+        "Energy Variation": 0.08085092902183533
+      },
+      "text": "在我的左邊跟右邊分別 擺的是從淘寶"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_143.0_147.0": {
+    "timestamp": "2025-03-06T23:27:44.141114",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "happy",
+        "primary_score": 0.5868920087814331,
+        "all_scores": {
+          "angry": 0.006354496814310551,
+          "fear": 0.0005658169975504279,
+          "happy": 0.5868920087814331,
+          "neutral": 0.002565162954851985,
+          "sad": 0.0018645216478034854,
+          "surprise": 0.40175801515579224
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 207.21424982377138,
+        "Pitch Variation": 46.43054860650451,
+        "Energy Mean": 0.08190368115901947,
+        "Energy Variation": 0.07186470180749893
+      },
+      "text": "從五分埔批發來的東西 他們賣的小小冰啊"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_147.0_153.0": {
+    "timestamp": "2025-03-06T23:27:46.352223",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "happy",
+        "primary_score": 0.9387828707695007,
+        "all_scores": {
+          "angry": 0.006151217967271805,
+          "fear": 0.0036803288385272026,
+          "happy": 0.9387828707695007,
+          "neutral": 0.004164187237620354,
+          "sad": 0.03962224721908569,
+          "surprise": 0.00759908789768815
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 215.2038154946632,
+        "Pitch Variation": 33.33128138899353,
+        "Energy Mean": 0.10166960209608078,
+        "Energy Variation": 0.0665101557970047
+      },
+      "text": "尬尬包這些很潮流的東西 而像我這樣比較灰暗的創作"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_153.0_158.0": {
+    "timestamp": "2025-03-06T23:27:48.353667",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "happy",
+        "primary_score": 0.9024990797042847,
+        "all_scores": {
+          "angry": 0.019127974286675453,
+          "fear": 0.0016088454285636544,
+          "happy": 0.9024990797042847,
+          "neutral": 0.01760270819067955,
+          "sad": 0.02298523671925068,
+          "surprise": 0.036176133900880814
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 221.7072859495549,
+        "Pitch Variation": 28.783857675457902,
+        "Energy Mean": 0.0785185769200325,
+        "Energy Variation": 0.06254322081804276
+      },
+      "text": "反而沒有人會注意到 當天我一樣東西都沒有賣出去"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_159.0_163.0": {
+    "timestamp": "2025-03-06T23:27:50.218277",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "happy",
+        "primary_score": 0.9091166853904724,
+        "all_scores": {
+          "angry": 0.019810259342193604,
+          "fear": 0.0004184349672868848,
+          "happy": 0.9091166853904724,
+          "neutral": 0.020275788381695747,
+          "sad": 0.005309120286256075,
+          "surprise": 0.04506974667310715
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 212.99363676757346,
+        "Pitch Variation": 33.43757974196987,
+        "Energy Mean": 0.08935059607028961,
+        "Energy Variation": 0.0668870285153389
+      },
+      "text": "我的爸媽甚至跟我說 那你何不就好好去打工"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_163.0_167.0": {
+    "timestamp": "2025-03-06T23:27:51.958889",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "happy",
+        "primary_score": 0.5879215598106384,
+        "all_scores": {
+          "angry": 0.1337786614894867,
+          "fear": 0.0014936440857127309,
+          "happy": 0.5879215598106384,
+          "neutral": 0.014124400913715363,
+          "sad": 0.01959025114774704,
+          "surprise": 0.24309158325195312
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 206.3935538831144,
+        "Pitch Variation": 46.618409344551885,
+        "Energy Mean": 0.06047919765114784,
+        "Energy Variation": 0.06068764254450798
+      },
+      "text": "這樣至少每小時還有基本實心 按去擺攤"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_167.0_170.0": {
+    "timestamp": "2025-03-06T23:27:53.504986",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "happy",
+        "primary_score": 0.8972408771514893,
+        "all_scores": {
+          "angry": 0.010843132622539997,
+          "fear": 0.0005517546669580042,
+          "happy": 0.8972408771514893,
+          "neutral": 0.05198787525296211,
+          "sad": 0.02207634225487709,
+          "surprise": 0.01730002462863922
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 209.90883774665002,
+        "Pitch Variation": 17.840919037433466,
+        "Energy Mean": 0.07732780277729034,
+        "Energy Variation": 0.06540682166814804
+      },
+      "text": "不但沒有賺 還要給人家錢"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_170.0_173.0": {
+    "timestamp": "2025-03-06T23:27:54.858680",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "surprise",
+        "primary_score": 0.9793798923492432,
+        "all_scores": {
+          "angry": 0.0016759679419919848,
+          "fear": 4.452764187590219e-05,
+          "happy": 0.0181890781968832,
+          "neutral": 0.0005925847217440605,
+          "sad": 0.00011802392691606656,
+          "surprise": 0.9793798923492432
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 183.26408916351312,
+        "Pitch Variation": 65.93918876380151,
+        "Energy Mean": 0.04550829157233238,
+        "Energy Variation": 0.05271246284246445
+      },
+      "text": "這樣不是很虧嗎 那個當下"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_173.0_178.0": {
+    "timestamp": "2025-03-06T23:27:56.593324",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "happy",
+        "primary_score": 0.45880088210105896,
+        "all_scores": {
+          "angry": 0.195679172873497,
+          "fear": 0.00910964235663414,
+          "happy": 0.45880088210105896,
+          "neutral": 0.01714121736586094,
+          "sad": 0.04790031164884567,
+          "surprise": 0.27136874198913574
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 221.11804429033,
+        "Pitch Variation": 41.78446937799033,
+        "Energy Mean": 0.06885684281587601,
+        "Energy Variation": 0.05967141315340996
+      },
+      "text": "我覺得我的品牌夢好像睡了 可是身為一個悲傷品牌"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_178.0_183.0": {
+    "timestamp": "2025-03-06T23:27:58.435735",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "happy",
+        "primary_score": 0.9608351588249207,
+        "all_scores": {
+          "angry": 0.00448621204122901,
+          "fear": 0.000704572768881917,
+          "happy": 0.9608351588249207,
+          "neutral": 0.006549877114593983,
+          "sad": 0.023614978417754173,
+          "surprise": 0.0038092350587248802
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 200.3310842602245,
+        "Pitch Variation": 42.07856712446402,
+        "Energy Mean": 0.08295252174139023,
+        "Energy Variation": 0.0667785033583641
+      },
+      "text": "這樣值得負面能量 反而給我很多創作的動力"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_183.0_187.0": {
+    "timestamp": "2025-03-06T23:28:00.273410",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "happy",
+        "primary_score": 0.9032821655273438,
+        "all_scores": {
+          "angry": 0.022026099264621735,
+          "fear": 0.0005837666685692966,
+          "happy": 0.9032821655273438,
+          "neutral": 0.02572781965136528,
+          "sad": 0.017207017168402672,
+          "surprise": 0.03117324225604534
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 240.77132462947745,
+        "Pitch Variation": 39.10314526267203,
+        "Energy Mean": 0.09507796913385391,
+        "Energy Variation": 0.08869839459657669
+      },
+      "text": "所以我就創造了這個作品 壞掉的夢"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_187.0_191.0": {
+    "timestamp": "2025-03-06T23:28:02.249791",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "happy",
+        "primary_score": 0.9717668294906616,
+        "all_scores": {
+          "angry": 0.016532406210899353,
+          "fear": 0.0005645113997161388,
+          "happy": 0.9717668294906616,
+          "neutral": 0.000654603645671159,
+          "sad": 0.0025896227452903986,
+          "surprise": 0.007892075926065445
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 234.74270631812175,
+        "Pitch Variation": 35.06318719660255,
+        "Energy Mean": 0.09017352759838104,
+        "Energy Variation": 0.06936797499656677
+      },
+      "text": "我相信大家就是 在遠夢的過程當中"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_191.0_194.0": {
+    "timestamp": "2025-03-06T23:28:03.966912",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "happy",
+        "primary_score": 0.9995635151863098,
+        "all_scores": {
+          "angry": 9.322848200099543e-05,
+          "fear": 6.943604239495471e-05,
+          "happy": 0.9995635151863098,
+          "neutral": 0.00011911885667359456,
+          "sad": 0.00010062105138786137,
+          "surprise": 5.406379932537675e-05
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 205.46246261053386,
+        "Pitch Variation": 32.877282085413974,
+        "Energy Mean": 0.09832566976547241,
+        "Energy Variation": 0.0715477466583252
+      },
+      "text": "都不會這麼順利 你難免會跌倒"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_194.0_197.0": {
+    "timestamp": "2025-03-06T23:28:05.604897",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "happy",
+        "primary_score": 0.964223325252533,
+        "all_scores": {
+          "angry": 0.011996708810329437,
+          "fear": 0.00018522364553064108,
+          "happy": 0.964223325252533,
+          "neutral": 0.015401368029415607,
+          "sad": 0.0013959065545350313,
+          "surprise": 0.0067975218407809734
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 234.08530592323547,
+        "Pitch Variation": 45.62518429250923,
+        "Energy Mean": 0.13231335580348969,
+        "Energy Variation": 0.08021827042102814
+      },
+      "text": "所以看到夢這個字啊 它跌倒了"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_197.0_201.0": {
+    "timestamp": "2025-03-06T23:28:07.579912",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "happy",
+        "primary_score": 0.9033381938934326,
+        "all_scores": {
+          "angry": 0.040739793330430984,
+          "fear": 0.0012569584650918841,
+          "happy": 0.9033381938934326,
+          "neutral": 0.009243549779057503,
+          "sad": 0.021212521940469742,
+          "surprise": 0.024208998307585716
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 210.7023157630827,
+        "Pitch Variation": 44.19444676371744,
+        "Energy Mean": 0.07652362436056137,
+        "Energy Variation": 0.06227903068065643
+      },
+      "text": "可是同時 我也把它的結構保留得非常完整"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_201.0_206.0": {
+    "timestamp": "2025-03-06T23:28:09.473640",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "happy",
+        "primary_score": 0.9028788805007935,
+        "all_scores": {
+          "angry": 0.035874638706445694,
+          "fear": 0.0009920833399519324,
+          "happy": 0.9028788805007935,
+          "neutral": 0.0048301126807928085,
+          "sad": 0.008243564516305923,
+          "surprise": 0.047180771827697754
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 199.38854511065992,
+        "Pitch Variation": 55.57691565418314,
+        "Energy Mean": 0.06971995532512665,
+        "Energy Variation": 0.06518544256687164
+      },
+      "text": "當你準備好了以後 你可以去把你的夢重新拼回去"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_206.0_212.0": {
+    "timestamp": "2025-03-06T23:28:11.340317",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "happy",
+        "primary_score": 0.8514449596405029,
+        "all_scores": {
+          "angry": 0.03640303388237953,
+          "fear": 0.0016001936746761203,
+          "happy": 0.8514449596405029,
+          "neutral": 0.011493261903524399,
+          "sad": 0.011360662057995796,
+          "surprise": 0.08769778907299042
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 195.04077507757532,
+        "Pitch Variation": 55.82104685592935,
+        "Energy Mean": 0.052146729081869125,
+        "Energy Variation": 0.05569642782211304
+      },
+      "text": "重新圓你的夢 正好在我完成這個作品以後"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_212.0_216.0": {
+    "timestamp": "2025-03-06T23:28:12.986103",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "happy",
+        "primary_score": 0.5340657234191895,
+        "all_scores": {
+          "angry": 0.14041680097579956,
+          "fear": 0.003148153657093644,
+          "happy": 0.5340657234191895,
+          "neutral": 0.023187901824712753,
+          "sad": 0.012421905994415283,
+          "surprise": 0.28675952553749084
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 208.02130843459787,
+        "Pitch Variation": 25.62064144758121,
+        "Energy Mean": 0.09177228063344955,
+        "Energy Variation": 0.06687473505735397
+      },
+      "text": "學校提供我們細上 一個老宿舍的空間去做經營"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_216.0_219.0": {
+    "timestamp": "2025-03-06T23:28:14.688947",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "happy",
+        "primary_score": 0.7300778031349182,
+        "all_scores": {
+          "angry": 0.06803081184625626,
+          "fear": 0.0002634851261973381,
+          "happy": 0.7300778031349182,
+          "neutral": 0.0013544755056500435,
+          "sad": 0.00045613586553372443,
+          "surprise": 0.1998172253370285
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 234.54158417811536,
+        "Pitch Variation": 30.7782112218177,
+        "Energy Mean": 0.09233313053846359,
+        "Energy Variation": 0.0633646547794342
+      },
+      "text": "我想在這個空間呢 提供創作者們"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_219.0_225.0": {
+    "timestamp": "2025-03-06T23:28:16.639157",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "happy",
+        "primary_score": 0.9165685772895813,
+        "all_scores": {
+          "angry": 0.00713607482612133,
+          "fear": 0.0008838353678584099,
+          "happy": 0.9165685772895813,
+          "neutral": 0.024398136883974075,
+          "sad": 0.046385422348976135,
+          "surprise": 0.004627917427569628
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 215.26731422286315,
+        "Pitch Variation": 37.98678894818539,
+        "Energy Mean": 0.0737026035785675,
+        "Energy Variation": 0.06635744869709015
+      },
+      "text": "一個更好的空間去曝光他們的作品 這是我們空間"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_225.0_230.0": {
+    "timestamp": "2025-03-06T23:28:18.483291",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "happy",
+        "primary_score": 0.9426935911178589,
+        "all_scores": {
+          "angry": 0.014761671423912048,
+          "fear": 0.0005882352124899626,
+          "happy": 0.9426935911178589,
+          "neutral": 0.012556582689285278,
+          "sad": 0.006311754696071148,
+          "surprise": 0.023088280111551285
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 216.69946566183583,
+        "Pitch Variation": 42.90406810025109,
+        "Energy Mean": 0.08524815738201141,
+        "Energy Variation": 0.07334522902965546
+      },
+      "text": "在你錢的模樣 這是我們等你後的樣子"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_230.0_234.0": {
+    "timestamp": "2025-03-06T23:28:20.113951",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "happy",
+        "primary_score": 0.7299543619155884,
+        "all_scores": {
+          "angry": 0.16226357221603394,
+          "fear": 0.0029298770241439342,
+          "happy": 0.7299543619155884,
+          "neutral": 0.0038626440800726414,
+          "sad": 0.0030979302246123552,
+          "surprise": 0.0978916808962822
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 219.44425363583304,
+        "Pitch Variation": 30.43049103582699,
+        "Energy Mean": 0.10187533497810364,
+        "Energy Variation": 0.07799671590328217
+      },
+      "text": "那時候我找了我比較 在市集中認識一些不錯的創作者們"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_234.0_238.0": {
+    "timestamp": "2025-03-06T23:28:21.692345",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "happy",
+        "primary_score": 0.8926928639411926,
+        "all_scores": {
+          "angry": 0.02003122679889202,
+          "fear": 0.0008231934043578804,
+          "happy": 0.8926928639411926,
+          "neutral": 0.0018520342418923974,
+          "sad": 0.0023499513044953346,
+          "surprise": 0.08225075900554657
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 211.82143295019236,
+        "Pitch Variation": 48.05014928304961,
+        "Energy Mean": 0.07191628217697144,
+        "Energy Variation": 0.05829918384552002
+      },
+      "text": "一起進來這個空間 可是你可以發現一個問題是"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_238.0_244.0": {
+    "timestamp": "2025-03-06T23:28:23.446956",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "happy",
+        "primary_score": 0.8644684553146362,
+        "all_scores": {
+          "angry": 0.010822093114256859,
+          "fear": 0.002296650316566229,
+          "happy": 0.8644684553146362,
+          "neutral": 0.0031391638331115246,
+          "sad": 0.027989991009235382,
+          "surprise": 0.09128359705209732
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 216.10000965187947,
+        "Pitch Variation": 48.6517986894288,
+        "Energy Mean": 0.042662106454372406,
+        "Energy Variation": 0.044087812304496765
+      },
+      "text": "只是單純的擺 它跟隔子去有什麼不一樣嗎"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_244.0_247.0": {
+    "timestamp": "2025-03-06T23:28:25.096188",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "happy",
+        "primary_score": 0.858121395111084,
+        "all_scores": {
+          "angry": 0.10702136904001236,
+          "fear": 0.0006140379700809717,
+          "happy": 0.858121395111084,
+          "neutral": 0.009702660143375397,
+          "sad": 0.0015535583952441812,
+          "surprise": 0.02298693358898163
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 217.88490645340144,
+        "Pitch Variation": 44.297316476613624,
+        "Energy Mean": 0.07719951122999191,
+        "Energy Variation": 0.05498031899333
+      },
+      "text": "它好像就是一個 手作版的隔子去而已"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_247.0_251.0": {
+    "timestamp": "2025-03-06T23:28:26.880715",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "happy",
+        "primary_score": 0.9002461433410645,
+        "all_scores": {
+          "angry": 0.02878515049815178,
+          "fear": 0.0005676083383150399,
+          "happy": 0.9002461433410645,
+          "neutral": 0.008288873359560966,
+          "sad": 0.004515429027378559,
+          "surprise": 0.05759673938155174
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 202.00833171725588,
+        "Pitch Variation": 47.58402540493916,
+        "Energy Mean": 0.0640651285648346,
+        "Energy Variation": 0.05492902174592018
+      },
+      "text": "這樣子其實來逛的人 他們不會有停留"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_251.0_254.0": {
+    "timestamp": "2025-03-06T23:28:28.327112",
     "results": {
       "emotion_analysis": {
         "primary_emotion": "angry",
-        "primary_score": 0.9174667596817017,
+        "primary_score": 0.3056202232837677,
         "all_scores": {
-          "angry": 0.9174667596817017,
-          "fear": 0.0011798815103247762,
-          "happy": 0.06771823763847351,
-          "neutral": 0.002381056547164917,
-          "sad": 0.0016002131160348654,
-          "surprise": 0.009653802029788494
+          "angry": 0.3056202232837677,
+          "fear": 0.000987596227787435,
+          "happy": 0.30524149537086487,
+          "neutral": 0.21632499992847443,
+          "sad": 0.03318815305829048,
+          "surprise": 0.13863761723041534
         }
       },
       "prosody_analysis": {
-        "Pitch Mean": 316.772893040701,
-        "Pitch Variation": 70.12069572233234,
-        "Energy Mean": 0.08595552295446396,
-        "Energy Variation": 0.07762758433818817
+        "Pitch Mean": 208.4479230732301,
+        "Pitch Variation": 25.662854780487176,
+        "Energy Mean": 0.08254839479923248,
+        "Energy Variation": 0.07572906464338303
       },
-      "text": "壞習慣好習慣都有 比方說灰色那張椅子"
+      "text": "他們不會想知道 裡面發生什麼事情"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_254.0_258.0": {
+    "timestamp": "2025-03-06T23:28:29.883454",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "surprise",
+        "primary_score": 0.7165250778198242,
+        "all_scores": {
+          "angry": 0.039600104093551636,
+          "fear": 0.0005056461086496711,
+          "happy": 0.22968752682209015,
+          "neutral": 0.010579469613730907,
+          "sad": 0.0031021141912788153,
+          "surprise": 0.7165250778198242
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 236.78885195023497,
+        "Pitch Variation": 31.162865034539948,
+        "Energy Mean": 0.06683305650949478,
+        "Energy Variation": 0.055754370987415314
+      },
+      "text": "所以我開始改變的做法 直到這個月"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_258.0_262.0": {
+    "timestamp": "2025-03-06T23:28:31.447475",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "happy",
+        "primary_score": 0.9941222071647644,
+        "all_scores": {
+          "angry": 0.0011306083761155605,
+          "fear": 0.0002473078202456236,
+          "happy": 0.9941222071647644,
+          "neutral": 0.002765148878097534,
+          "sad": 0.0013868431560695171,
+          "surprise": 0.00034797354601323605
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 214.35394638892626,
+        "Pitch Variation": 38.16013636096995,
+        "Energy Mean": 0.08985088765621185,
+        "Energy Variation": 0.06869436055421829
+      },
+      "text": "我們用測展的角度去 佈置我們這一期的主題"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_262.0_265.0": {
+    "timestamp": "2025-03-06T23:28:32.911745",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "happy",
+        "primary_score": 0.981056272983551,
+        "all_scores": {
+          "angry": 0.0007733600214123726,
+          "fear": 3.9395141357090324e-05,
+          "happy": 0.981056272983551,
+          "neutral": 0.01756233163177967,
+          "sad": 0.0004916457692161202,
+          "surprise": 7.696036482229829e-05
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 218.6797769654121,
+        "Pitch Variation": 30.185696977036443,
+        "Energy Mean": 0.08706065267324448,
+        "Energy Variation": 0.07102173566818237
+      },
+      "text": "我們這個月有書衣 有咖啡"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_265.0_267.0": {
+    "timestamp": "2025-03-06T23:28:34.377714",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "happy",
+        "primary_score": 0.832516610622406,
+        "all_scores": {
+          "angry": 0.05519819259643555,
+          "fear": 0.0004676704411394894,
+          "happy": 0.832516610622406,
+          "neutral": 0.09601641446352005,
+          "sad": 0.007020588498562574,
+          "surprise": 0.008780448697507381
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 179.42160580932224,
+        "Pitch Variation": 15.810338935981855,
+        "Energy Mean": 0.07348842173814774,
+        "Energy Variation": 0.06138171628117561
+      },
+      "text": "有果醬 有甜點"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_267.0_271.0": {
+    "timestamp": "2025-03-06T23:28:36.163301",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "happy",
+        "primary_score": 0.8972675204277039,
+        "all_scores": {
+          "angry": 0.058754321187734604,
+          "fear": 0.0006997258751653135,
+          "happy": 0.8972675204277039,
+          "neutral": 0.02772948145866394,
+          "sad": 0.004503728821873665,
+          "surprise": 0.011045143939554691
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 230.28715131290846,
+        "Pitch Variation": 41.4270003671899,
+        "Energy Mean": 0.08282646536827087,
+        "Energy Variation": 0.06230158731341362
+      },
+      "text": "這樣我們想到了愛麗斯夢有先進 所以我們把空間佈置得像"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_271.0_275.0": {
+    "timestamp": "2025-03-06T23:28:37.821340",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "happy",
+        "primary_score": 0.9005929231643677,
+        "all_scores": {
+          "angry": 0.0033930225763469934,
+          "fear": 0.00028675858629867435,
+          "happy": 0.9005929231643677,
+          "neutral": 0.002541246823966503,
+          "sad": 0.001623339019715786,
+          "surprise": 0.09156270325183868
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 219.7552410365621,
+        "Pitch Variation": 47.11936689724698,
+        "Energy Mean": 0.0837145447731018,
+        "Energy Variation": 0.07370921969413757
+      },
+      "text": "森林一樣 而透過這樣的做法以後"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_275.0_278.0": {
+    "timestamp": "2025-03-06T23:28:39.271766",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "happy",
+        "primary_score": 0.9948965907096863,
+        "all_scores": {
+          "angry": 0.0015905998880043626,
+          "fear": 0.0002335396275157109,
+          "happy": 0.9948965907096863,
+          "neutral": 0.0006872108788229525,
+          "sad": 0.0001672164653427899,
+          "surprise": 0.0024248629342764616
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 220.14071912084054,
+        "Pitch Variation": 40.01673388388014,
+        "Energy Mean": 0.13502533733844757,
+        "Energy Variation": 0.06354893743991852
+      },
+      "text": "來參觀的人 反而會覺得這是一個有趣的地方"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_278.0_281.0": {
+    "timestamp": "2025-03-06T23:28:40.711619",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "surprise",
+        "primary_score": 0.6433688998222351,
+        "all_scores": {
+          "angry": 0.1937737613916397,
+          "fear": 0.001380782574415207,
+          "happy": 0.1591581255197525,
+          "neutral": 0.0011746080126613379,
+          "sad": 0.0011438328074291348,
+          "surprise": 0.6433688998222351
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 237.66108760553385,
+        "Pitch Variation": 42.2376919682147,
+        "Energy Mean": 0.10072418302297592,
+        "Energy Variation": 0.07387901842594147
+      },
+      "text": "而我們地上還有鋪落業 他們甚至會想說"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_281.0_286.0": {
+    "timestamp": "2025-03-06T23:28:42.410079",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "happy",
+        "primary_score": 0.9898998141288757,
+        "all_scores": {
+          "angry": 0.0062246499583125114,
+          "fear": 0.00016998899809550494,
+          "happy": 0.9898998141288757,
+          "neutral": 0.00037841370794922113,
+          "sad": 0.00019002330373041332,
+          "surprise": 0.0031371882651001215
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 186.21347606179052,
+        "Pitch Variation": 62.427696297063086,
+        "Energy Mean": 0.0692206472158432,
+        "Energy Variation": 0.07242672145366669
+      },
+      "text": "這做作業到底能分裁 然後就很小心這樣走"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_286.0_289.0": {
+    "timestamp": "2025-03-06T23:28:43.943717",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "angry",
+        "primary_score": 0.47507068514823914,
+        "all_scores": {
+          "angry": 0.47507068514823914,
+          "fear": 0.0016007714439183474,
+          "happy": 0.4662753641605377,
+          "neutral": 0.00909742247313261,
+          "sad": 0.0028900245670229197,
+          "surprise": 0.04506580904126167
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 220.50806088226378,
+        "Pitch Variation": 41.277704011103516,
+        "Energy Mean": 0.07133400440216064,
+        "Energy Variation": 0.07399681210517883
+      },
+      "text": "在 然後大家也會停留"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_289.0_293.0": {
+    "timestamp": "2025-03-06T23:28:45.603385",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "happy",
+        "primary_score": 0.9960688352584839,
+        "all_scores": {
+          "angry": 0.0020575958769768476,
+          "fear": 8.930984768085182e-05,
+          "happy": 0.9960688352584839,
+          "neutral": 0.000323718209983781,
+          "sad": 0.00048531111679039896,
+          "surprise": 0.0009752755868248641
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 216.35180621508374,
+        "Pitch Variation": 42.46264729781373,
+        "Energy Mean": 0.06589145213365555,
+        "Energy Variation": 0.06799603253602982
+      },
+      "text": "去拍照 去聽我們想分享什麼故事"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_293.0_298.0": {
+    "timestamp": "2025-03-06T23:28:47.509773",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "happy",
+        "primary_score": 0.8802867531776428,
+        "all_scores": {
+          "angry": 0.033733632415533066,
+          "fear": 0.003944834694266319,
+          "happy": 0.8802867531776428,
+          "neutral": 0.016320956870913506,
+          "sad": 0.035924382507801056,
+          "surprise": 0.02978944219648838
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 221.31564622421425,
+        "Pitch Variation": 42.60911134476908,
+        "Energy Mean": 0.08327662944793701,
+        "Energy Variation": 0.06417266279459
+      },
+      "text": "而在進行空間的同時 我也認識到了很多社區的居民"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_298.0_302.0": {
+    "timestamp": "2025-03-06T23:28:49.255054",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "happy",
+        "primary_score": 0.8950055837631226,
+        "all_scores": {
+          "angry": 0.044785283505916595,
+          "fear": 0.0014971642522141337,
+          "happy": 0.8950055837631226,
+          "neutral": 0.0099471565335989,
+          "sad": 0.006649962160736322,
+          "surprise": 0.04211483523249626
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 200.6524233491499,
+        "Pitch Variation": 41.63075314992098,
+        "Energy Mean": 0.0857849195599556,
+        "Energy Variation": 0.059851981699466705
+      },
+      "text": "其中因為令我印象深刻的 他是我們國北第一屆的學生"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_302.0_306.0": {
+    "timestamp": "2025-03-06T23:28:50.932382",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "happy",
+        "primary_score": 0.9562726020812988,
+        "all_scores": {
+          "angry": 0.010567905381321907,
+          "fear": 0.0004331845266278833,
+          "happy": 0.9562726020812988,
+          "neutral": 0.00129646435379982,
+          "sad": 0.0010617688531056046,
+          "surprise": 0.03036804310977459
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 218.45030172248389,
+        "Pitch Variation": 41.41225318563546,
+        "Energy Mean": 0.08505386859178543,
+        "Energy Variation": 0.06711537390947342
+      },
+      "text": "他是曾爺爺 他每天下午3點左右"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_306.0_310.0": {
+    "timestamp": "2025-03-06T23:28:52.801448",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "happy",
+        "primary_score": 0.6669766306877136,
+        "all_scores": {
+          "angry": 0.034106384962797165,
+          "fear": 0.0016007788944989443,
+          "happy": 0.6669766306877136,
+          "neutral": 0.013365581631660461,
+          "sad": 0.010343624278903008,
+          "surprise": 0.2736070454120636
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 201.16526156423828,
+        "Pitch Variation": 52.49217143634963,
+        "Energy Mean": 0.0605444461107254,
+        "Energy Variation": 0.06177918612957001
+      },
+      "text": "後來我們學校散步 活動他的筋骨避免老化"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_310.0_315.0": {
+    "timestamp": "2025-03-06T23:28:54.583268",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "happy",
+        "primary_score": 0.9687213897705078,
+        "all_scores": {
+          "angry": 0.003048170357942581,
+          "fear": 0.0009751619654707611,
+          "happy": 0.9687213897705078,
+          "neutral": 0.0030187510419636965,
+          "sad": 0.010690614581108093,
+          "surprise": 0.013545925728976727
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 207.93854329871408,
+        "Pitch Variation": 39.25069678146102,
+        "Energy Mean": 0.09329330176115036,
+        "Energy Variation": 0.0725630521774292
+      },
+      "text": "他很喜歡來找我們聊天 說老了以後一個人在家裡"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_315.0_319.0": {
+    "timestamp": "2025-03-06T23:28:56.148942",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "happy",
+        "primary_score": 0.8131551742553711,
+        "all_scores": {
+          "angry": 0.010133679956197739,
+          "fear": 0.002303368179127574,
+          "happy": 0.8131551742553711,
+          "neutral": 0.003739245468750596,
+          "sad": 0.010927812196314335,
+          "surprise": 0.1597406417131424
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 187.72361217078418,
+        "Pitch Variation": 63.59910423474275,
+        "Energy Mean": 0.09114004671573639,
+        "Energy Variation": 0.07215805351734161
+      },
+      "text": "沒有人可以對話 好像自己變成啞巴一樣"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_319.0_322.0": {
+    "timestamp": "2025-03-06T23:28:57.631643",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "happy",
+        "primary_score": 0.6359521150588989,
+        "all_scores": {
+          "angry": 0.007067334372550249,
+          "fear": 0.0011170352809131145,
+          "happy": 0.6359521150588989,
+          "neutral": 0.0018750614253804088,
+          "sad": 0.0026804511435329914,
+          "surprise": 0.35130801796913147
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 206.77196283510543,
+        "Pitch Variation": 27.162434411111402,
+        "Energy Mean": 0.09777751564979553,
+        "Energy Variation": 0.058995943516492844
+      },
+      "text": "所以他很喜歡來這邊 跟我們分享他"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_322.0_327.0": {
+    "timestamp": "2025-03-06T23:28:59.510063",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "happy",
+        "primary_score": 0.8609413504600525,
+        "all_scores": {
+          "angry": 0.03868513181805611,
+          "fear": 0.0030873743817210197,
+          "happy": 0.8609413504600525,
+          "neutral": 0.014242768287658691,
+          "sad": 0.041049372404813766,
+          "surprise": 0.04199395701289177
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 214.4999633035059,
+        "Pitch Variation": 41.04949954333218,
+        "Energy Mean": 0.06850852817296982,
+        "Energy Variation": 0.05988896265625954
+      },
+      "text": "以前在學校讀書的過程 然後他經歷過的事情"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_327.0_331.0": {
+    "timestamp": "2025-03-06T23:29:00.988066",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "surprise",
+        "primary_score": 0.6098123788833618,
+        "all_scores": {
+          "angry": 0.010559860616922379,
+          "fear": 0.0008966400055214763,
+          "happy": 0.3725467622280121,
+          "neutral": 0.002396936062723398,
+          "sad": 0.00378745817579329,
+          "surprise": 0.6098123788833618
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 209.04918113360011,
+        "Pitch Variation": 33.638160912964615,
+        "Energy Mean": 0.07197313010692596,
+        "Energy Variation": 0.05666020140051842
+      },
+      "text": "他甚至跟我說 他已經不只是把我們當成朋友了"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_331.0_336.0": {
+    "timestamp": "2025-03-06T23:29:02.741343",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "happy",
+        "primary_score": 0.921499490737915,
+        "all_scores": {
+          "angry": 0.01110460888594389,
+          "fear": 0.0006857481203041971,
+          "happy": 0.921499490737915,
+          "neutral": 0.013667468912899494,
+          "sad": 0.010262295603752136,
+          "surprise": 0.04278042912483215
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 218.74069897108126,
+        "Pitch Variation": 43.76692589328863,
+        "Energy Mean": 0.07768155634403229,
+        "Energy Variation": 0.0627194419503212
+      },
+      "text": "跟像是他的外孫一樣 他會努力的健康的"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_336.0_338.0": {
+    "timestamp": "2025-03-06T23:29:03.950631",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "angry",
+        "primary_score": 0.8230907917022705,
+        "all_scores": {
+          "angry": 0.8230907917022705,
+          "fear": 0.001820701058022678,
+          "happy": 0.0015905400505289435,
+          "neutral": 0.003045382210984826,
+          "sad": 0.002189203631132841,
+          "surprise": 0.1682634949684143
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 225.83969850797382,
+        "Pitch Variation": 25.14173109589786,
+        "Energy Mean": 0.08341961354017258,
+        "Energy Variation": 0.06340225785970688
+      },
+      "text": "繼續運動 繼續活下去"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_338.0_343.0": {
+    "timestamp": "2025-03-06T23:29:05.727307",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "happy",
+        "primary_score": 0.7285038828849792,
+        "all_scores": {
+          "angry": 0.02955133654177189,
+          "fear": 0.0019066923996433616,
+          "happy": 0.7285038828849792,
+          "neutral": 0.001315384404733777,
+          "sad": 0.004800723399966955,
+          "surprise": 0.23392200469970703
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 206.62467540793378,
+        "Pitch Variation": 46.53212144304308,
+        "Energy Mean": 0.05619898438453674,
+        "Energy Variation": 0.0601157583296299
+      },
+      "text": "陪我們走完這一年 我才明白"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_343.0_348.0": {
+    "timestamp": "2025-03-06T23:29:07.418179",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "happy",
+        "primary_score": 0.8386095762252808,
+        "all_scores": {
+          "angry": 0.02744649350643158,
+          "fear": 0.003971614874899387,
+          "happy": 0.8386095762252808,
+          "neutral": 0.01612728089094162,
+          "sad": 0.09159228950738907,
+          "surprise": 0.022252803668379784
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 198.03146084208618,
+        "Pitch Variation": 38.46360464336822,
+        "Energy Mean": 0.08213788270950317,
+        "Energy Variation": 0.06498946249485016
+      },
+      "text": "我經營的不只是一個展售空間 更是一個社區的交流客廳"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_348.0_351.0": {
+    "timestamp": "2025-03-06T23:29:08.839606",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "surprise",
+        "primary_score": 0.6256861686706543,
+        "all_scores": {
+          "angry": 0.13777287304401398,
+          "fear": 0.0009873852832242846,
+          "happy": 0.2326897531747818,
+          "neutral": 0.0010192201007157564,
+          "sad": 0.001844576676376164,
+          "surprise": 0.6256861686706543
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 196.3358309999093,
+        "Pitch Variation": 34.13127535509908,
+        "Energy Mean": 0.08205734193325043,
+        "Energy Variation": 0.08271028846502304
+      },
+      "text": "這時候我才明白 文創是什麼"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_351.0_355.0": {
+    "timestamp": "2025-03-06T23:29:10.259572",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "happy",
+        "primary_score": 0.7865716218948364,
+        "all_scores": {
+          "angry": 0.06836213916540146,
+          "fear": 0.0029331380501389503,
+          "happy": 0.7865716218948364,
+          "neutral": 0.055837079882621765,
+          "sad": 0.04890258610248566,
+          "surprise": 0.03739337995648384
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 180.8472477874233,
+        "Pitch Variation": 65.84497382818604,
+        "Energy Mean": 0.06023802608251572,
+        "Energy Variation": 0.07438886910676956
+      },
+      "text": "文創就是感動 就是歸屬感"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_355.0_358.0": {
+    "timestamp": "2025-03-06T23:29:11.816555",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "happy",
+        "primary_score": 0.820253849029541,
+        "all_scores": {
+          "angry": 0.00479580694809556,
+          "fear": 0.0004234450461808592,
+          "happy": 0.820253849029541,
+          "neutral": 0.13134349882602692,
+          "sad": 0.0425945445895195,
+          "surprise": 0.0005888426676392555
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 235.08059779310418,
+        "Pitch Variation": 45.728582750233,
+        "Energy Mean": 0.0855814516544342,
+        "Energy Variation": 0.06923910230398178
+      },
+      "text": "我們該注意的是 事務背後的價值"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_358.0_363.0": {
+    "timestamp": "2025-03-06T23:29:13.506723",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "sad",
+        "primary_score": 0.3773013949394226,
+        "all_scores": {
+          "angry": 0.06366143375635147,
+          "fear": 0.004042766522616148,
+          "happy": 0.3105856776237488,
+          "neutral": 0.1933036595582962,
+          "sad": 0.3773013949394226,
+          "surprise": 0.051105059683322906
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 207.4871286259484,
+        "Pitch Variation": 40.884920579422285,
+        "Energy Mean": 0.06093631312251091,
+        "Energy Variation": 0.06009042635560036
+      },
+      "text": "而非價錢 我努力打造一個有溫度的品牌"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_363.0_367.0": {
+    "timestamp": "2025-03-06T23:29:15.077282",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "happy",
+        "primary_score": 0.9095520973205566,
+        "all_scores": {
+          "angry": 0.010321703739464283,
+          "fear": 0.0003104007337242365,
+          "happy": 0.9095520973205566,
+          "neutral": 0.04312289506196976,
+          "sad": 0.010598902590572834,
+          "surprise": 0.02609407901763916
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 189.46642278081129,
+        "Pitch Variation": 47.29606946830338,
+        "Energy Mean": 0.0693448856472969,
+        "Energy Variation": 0.06037161871790886
+      },
+      "text": "不要想帶給你的 就是滿滿的陪伴與溫暖"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_367.0_372.0": {
+    "timestamp": "2025-03-06T23:29:16.750326",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "happy",
+        "primary_score": 0.5307217836380005,
+        "all_scores": {
+          "angry": 0.0802556574344635,
+          "fear": 0.0038095891941338778,
+          "happy": 0.5307217836380005,
+          "neutral": 0.09147924184799194,
+          "sad": 0.23030763864517212,
+          "surprise": 0.06342605501413345
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 207.8162525025724,
+        "Pitch Variation": 30.528261410033892,
+        "Energy Mean": 0.08426481485366821,
+        "Energy Variation": 0.055304184556007385
+      },
+      "text": "我努力經營一個有溫度的空間 讓故事能夠直接傳遞到你的手裡"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_372.0_376.0": {
+    "timestamp": "2025-03-06T23:29:18.465813",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "neutral",
+        "primary_score": 0.4200630187988281,
+        "all_scores": {
+          "angry": 0.07182437181472778,
+          "fear": 0.001992302481085062,
+          "happy": 0.3263903856277466,
+          "neutral": 0.4200630187988281,
+          "sad": 0.1527044028043747,
+          "surprise": 0.027025535702705383
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 217.8474441517502,
+        "Pitch Variation": 35.37219819864025,
+        "Energy Mean": 0.07705757766962051,
+        "Energy Variation": 0.05920001491904259
+      },
+      "text": "今天起座有溫度的事 分享有溫度的故事"
+    }
+  },
+  "8fe1af250d7a050c4e9b2c851a73ff19_376.0_378.0": {
+    "timestamp": "2025-03-06T23:29:19.690973",
+    "results": {
+      "emotion_analysis": {
+        "primary_emotion": "surprise",
+        "primary_score": 0.8453938364982605,
+        "all_scores": {
+          "angry": 0.05325908958911896,
+          "fear": 0.0012884140014648438,
+          "happy": 0.0917135700583458,
+          "neutral": 0.0055033965036273,
+          "sad": 0.00284172804094851,
+          "surprise": 0.8453938364982605
+        }
+      },
+      "prosody_analysis": {
+        "Pitch Mean": 195.31133827994603,
+        "Pitch Variation": 18.672360716416495,
+        "Energy Mean": 0.1037081852555275,
+        "Energy Variation": 0.08468509465456009
+      },
+      "text": "我是陳文偉 謝謝"
     }
   }
 }
