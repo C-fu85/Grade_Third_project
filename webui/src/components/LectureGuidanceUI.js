@@ -35,10 +35,10 @@ export default function LectureGuidanceUI() {
         const segments = transcribeData.feedback
           .filter((item) => item.type !== "summary")
           .map((item) => ({
-            text: item.text,
-            start_time: item.start_time,
-            end_time: item.end_time,
-            segment_index: item.segment_index,
+            text: item.text || "",
+            start_time: item.start_time || 0,
+            end_time: item.end_time || 0,
+            segment_index: item.segment_index || 0,
           }));
         setTextSegments(segments);
         setFeedback(transcribeData.feedback);
@@ -63,18 +63,21 @@ export default function LectureGuidanceUI() {
     return `${minutes}:${secs < 10 ? "0" + secs : secs}`;
   };
 
-  // 計算總時長，過濾掉無效的 end_time
   const totalDuration = feedback.length > 0
     ? Math.max(
         ...feedback
           .filter((item) => item.end_time !== undefined && !isNaN(item.end_time))
           .map((item) => Number(item.end_time))
-      ) || 0
-    : 0;
+      ) || 378 // 預設值 378 秒
+    : 378; // 預設值 378 秒
   console.log("Total Duration:", totalDuration);
 
   const handleSliderChange = (e) => {
     setCurrentTime(Number(e.target.value));
+  };
+
+  const handleMarkerClick = (startTime) => {
+    setCurrentTime(startTime);
   };
 
   const currentSegment = textSegments.find(
@@ -93,15 +96,9 @@ export default function LectureGuidanceUI() {
     return `${(time / totalDuration) * 100}%`;
   };
 
-  useEffect(() => {
-    if (timelineRef.current && totalDuration > 0) {
-      timelineRef.current.style.setProperty("--progress", `${(currentTime / totalDuration) * 100}%`);
-    }
-  }, [currentTime, totalDuration]);
-
   return (
     <div className="min-h-screen bg-gray-900 text-white flex p-6">
-      <div className="w-2/3 pr-6">
+      <div className="w-full pr-6">
         <h1 className="text-2xl font-bold mb-4">Lecture Guidance System</h1>
 
         <div className="mb-4">
@@ -121,49 +118,81 @@ export default function LectureGuidanceUI() {
         </div>
 
         {/* 時間條 */}
-        {totalDuration > 0 ? (
-          <div className="mb-4">
-            <div className="relative w-full h-8 bg-gray-700 rounded-full overflow-hidden">
-              <input
-                type="range"
-                min="0"
-                max={totalDuration}
-                value={currentTime}
-                onChange={handleSliderChange}
-                className="absolute w-full h-8 opacity-0 cursor-pointer z-10"
-                ref={timelineRef}
-                style={{ appearance: "none", WebkitAppearance: "none", MozAppearance: "none" }}
-              />
+        <div className="mb-4">
+          <div className="relative w-full h-6 bg-gray-300 rounded-full">
+            {/* 底色和進度條 */}
+            <div className="absolute top-0 left-0 h-full bg-gray-300 rounded-full">
               <div
-                className="absolute h-full bg-blue-500 transition-all duration-200"
-                style={{ width: "var(--progress, 0%)" }}
-              ></div>
-              {feedback
-                .filter((item) => item.type !== "summary" && item.severity)
-                .map((item, index) => (
-                  <div
-                    key={index}
-                    className={`absolute h-4 w-4 rounded-full ${
-                      item.severity === "high" ? "bg-red-500" : "bg-yellow-500"
-                    } transform -translate-x-1/2 -translate-y-1/2`}
-                    style={{ left: getMarkerPosition(item.start_time) }}
-                    title={`${item.text} (${item.message})`}
-                  ></div>
-                ))}
-              <div className="absolute text-gray-400" style={{ left: "0%" }}>
-                {formatTime(0)}
-              </div>
-              <div className="absolute text-gray-400" style={{ right: "0%" }}>
-                {formatTime(totalDuration)}
+                className="h-full bg-red-500 rounded-full transition-all duration-200"
+                style={{ width: `calc(${(currentTime / totalDuration) * 100}%)` }}
+              />
+            </div>
+
+            {/* 建議標記 */}
+            {feedback
+              .filter((item) => item.type !== "summary" && item.severity)
+              .map((item, index) => (
+                <div
+                  key={index}
+                  className={`absolute h-8 w-8 rounded-full ${
+                    item.severity === "high" ? "bg-red-500" : "bg-yellow-500"
+                  } transform -translate-x-1/2 -translate-y-1/2 top-1/2 z-10 cursor-pointer`}
+                  style={{ left: getMarkerPosition(item.start_time) }}
+                  onClick={() => handleMarkerClick(item.start_time)}
+                  title={`${item.text} (${item.message})`}
+                />
+              ))}
+
+            {/* 時間滑塊 */}
+            <input
+              type="range"
+              min="0"
+              max={totalDuration}
+              value={currentTime}
+              onChange={handleSliderChange}
+              className="absolute w-full h-full top-0 cursor-pointer opacity-0 z-0"
+              style={{ background: "transparent" }}
+            />
+          </div>
+          <p className="text-center text-gray-400 mt-2 mb-4">
+            {`${formatTime(currentTime)} / ${formatTime(totalDuration)}`}
+          </p>
+
+          {/* Suggestions 區移到時間條下方 */}
+          {feedback.length > 0 && (
+            <div className="bg-gray-800 p-4 rounded-lg mb-4">
+              <h2 className="text-xl font-semibold mb-2">Suggestions</h2>
+              <div className="max-h-40 overflow-y-auto">
+                {currentFeedback ? (
+                  <div className="mt-2 p-2 bg-gray-700 rounded">
+                    <p>
+                      Segment {currentFeedback.segment_index} [
+                      {formatTime(currentFeedback.start_time)} -{" "}
+                      {formatTime(currentFeedback.end_time)}]: {currentFeedback.text}
+                    </p>
+                    <p
+                      className={`text-${
+                        currentFeedback.severity === "high" ? "red" : "yellow"
+                      }-400`}
+                    >
+                      {currentFeedback.message}
+                    </p>
+                  </div>
+                ) : (
+                  <p className="text-gray-400">No feedback for current time</p>
+                )}
+                {feedback.map((item, index) =>
+                  item.type === "summary" ? (
+                    <div key={index} className="mt-4 p-2 bg-gray-700 rounded">
+                      <h3 className="font-semibold">Summary</h3>
+                      <p>{item.message}</p>
+                    </div>
+                  ) : null
+                )}
               </div>
             </div>
-            <p className="text-center text-gray-400 mt-2">
-              Current Time: {formatTime(currentTime)}
-            </p>
-          </div>
-        ) : (
-          <p className="text-gray-400 mb-4">No timeline available</p>
-        )}
+          )}
+        </div>
 
         {/* 時間表 */}
         {textSegments.length > 0 && (
@@ -189,41 +218,6 @@ export default function LectureGuidanceUI() {
                   </div>
                 );
               })}
-            </div>
-          </div>
-        )}
-      </div>
-
-      <div className="w-1/3 pl-6">
-        {feedback.length > 0 && (
-          <div className="bg-gray-800 p-4 rounded-lg sticky top-6">
-            <h2 className="text-xl font-semibold mb-2">Suggestions</h2>
-            <div className="max-h-screen overflow-y-auto">
-              {currentFeedback ? (
-                <div className="mt-2 p-2 bg-gray-700 rounded">
-                  <p>
-                    Segment {currentFeedback.segment_index} [{formatTime(currentFeedback.start_time)} -{" "}
-                    {formatTime(currentFeedback.end_time)}]: {currentFeedback.text}
-                  </p>
-                  <p
-                    className={`text-${
-                      currentFeedback.severity === "high" ? "red" : "yellow"
-                    }-400`}
-                  >
-                    {currentFeedback.message}
-                  </p>
-                </div>
-              ) : (
-                <p className="text-gray-400">No feedback for current time</p>
-              )}
-              {feedback.map((item, index) =>
-                item.type === "summary" ? (
-                  <div key={index} className="mt-4 p-2 bg-gray-700 rounded">
-                    <h3 className="font-semibold">Summary</h3>
-                    <p>{item.message}</p>
-                  </div>
-                ) : null
-              )}
             </div>
           </div>
         )}
