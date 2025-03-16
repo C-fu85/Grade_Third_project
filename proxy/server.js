@@ -25,7 +25,12 @@ app.post("/api/transcribe", async (req, res) => {
       contentType: file.mimetype,
     });
 
-    const response = await axios.post(`${PYTHON_API_URL}/api/transcribe`, formData, {
+    // 從 URL 查詢參數中獲取性別並添加到請求 URL
+    const gender = req.query.gender;
+    const url = `${PYTHON_API_URL}/api/transcribe${gender ? `?gender=${gender}` : ''}`;
+    console.log("Forwarding to URL:", url); // 調試用
+
+    const response = await axios.post(url, formData, {
       headers: formData.getHeaders(),
     });
 

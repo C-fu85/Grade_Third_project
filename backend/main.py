@@ -175,9 +175,27 @@ def print_analysis_results(results):
                 print(f"{feature}: {value:.2f}")
     print("\n")
 
-def analyze_pitch_segments(cache, audio_path=None, cache_data=None, threshold=20):
+def analyze_pitch_segments(cache, audio_path=None, cache_data=None, threshold=35, gender=None):
+    """
+    Analyze pitch segments with gender-aware thresholds.
+    - threshold: Base threshold for low pitch variation (default 50 Hz).
+    - gender: Optional 'male' or 'female' to adjust thresholds slightly (if provided).
+    """
     if audio_path is None and cache_data is None:
         raise ValueError("Either audio_path or cache_data must be provided")
+
+    # Adjust thresholds based on gender
+    if gender == "male":
+        base_threshold = 30  # Lowered to 30 Hz so 39 Hz isn’t flagged
+        high_multiplier = 2.5  # ~75 Hz for "very high"
+    elif gender == "female":
+        base_threshold = 40  # Kept at 60 Hz per your current setup
+        high_multiplier = 2.5  # ~150 Hz for "very high"
+    else:
+        base_threshold = threshold  # Default 50 Hz if no gender specified
+        high_multiplier = 2.5  # ~125 Hz for "very high"
+
+    # Load cache data
     if audio_path:
         base_hash = hashlib.md5(open(audio_path, 'rb').read()).hexdigest()
         if not os.path.exists(cache.cache_file):
@@ -186,11 +204,8 @@ def analyze_pitch_segments(cache, audio_path=None, cache_data=None, threshold=20
         try:
             with open(cache.cache_file, "r", encoding='utf-8') as f:
                 all_cached_data = json.load(f)
-        except json.JSONDecodeError as e:
-            print(f"Failed to decode cache file {cache.cache_file}: {str(e)}")
-            return []
         except Exception as e:
-            print(f"Error reading cache file {cache.cache_file}: {str(e)}")
+            print(f"Error reading cache file: {str(e)}")
             return []
     elif cache_data:
         all_cached_data = cache_data
@@ -222,32 +237,28 @@ def analyze_pitch_segments(cache, audio_path=None, cache_data=None, threshold=20
     for i, segment in enumerate(segments):
         if segment["pitch_variance"] is None:
             continue
+        print(f"Segment {i + 1}: Text = '{segment['text']}', Pitch Variance = {segment['pitch_variance']:.2f} Hz")
         pitch_feedback = None
-        if segment["pitch_variance"] < threshold:
+        if segment["pitch_variance"] < base_threshold:
             low_pitch_streak += 1
-            severity = "high" if segment["pitch_variance"] < threshold / 2 else "medium"
+            # Adjust severity: "high" only if below half the threshold (e.g., 15 Hz for males)
+            severity = "high" if segment["pitch_variance"] < base_threshold / 2 else "medium"
             pitch_feedback = {
                 "segment_index": i + 1,
                 "text": segment["text"],
                 "pitch_variance": segment["pitch_variance"],
                 "severity": severity,
-                "message": (
-                    f"Low pitch variation detected ({segment['pitch_variance']:.1f} Hz). "
-                    "Try to add more vocal variety."
-                ),
+                "message": f"Low pitch variation ({segment['pitch_variance']:.1f} Hz). Add more vocal variety."
             }
         else:
             low_pitch_streak = 0
-            if segment["pitch_variance"] > threshold * 1.5:
+            if segment["pitch_variance"] > base_threshold * high_multiplier:  # e.g., > 75 Hz for males
                 pitch_feedback = {
                     "segment_index": i + 1,
                     "text": segment["text"],
                     "pitch_variance": segment["pitch_variance"],
                     "severity": "medium",
-                    "message": (
-                        f"Very high pitch variation ({segment['pitch_variance']:.1f} Hz). "
-                        "Consider moderating your pitch variation for more natural delivery."
-                    ),
+                    "message": f"Very high pitch variation ({segment['pitch_variance']:.1f} Hz). Moderate for natural delivery."
                 }
         if pitch_feedback:
             feedback.append(pitch_feedback)
@@ -256,26 +267,18 @@ def analyze_pitch_segments(cache, audio_path=None, cache_data=None, threshold=20
                 "segment_index": i - 1,
                 "severity": "high",
                 "streak": True,
-                "message": (
-                    "Multiple consecutive segments with low pitch variation detected. "
-                    "Try to incorporate more vocal dynamics in your speech."
-                ),
+                "message": "Multiple segments with low pitch variation. Incorporate more dynamics."
             })
 
     if feedback:
         avg_variance = np.mean([s["pitch_variance"] for s in segments if s["pitch_variance"] is not None])
-        summary = {
+        feedback.append({
             "type": "summary",
             "average_pitch_variance": avg_variance,
             "total_segments": len(segments),
             "segments_with_issues": len([f for f in feedback if not f.get("streak", False)]),
-            "message": (
-                f"Overall average pitch variance: {avg_variance:.1f} Hz. "
-                f"Issues detected in {len([f for f in feedback if not f.get('streak', False)])} "
-                f"out of {len(segments)} segments."
-            ),
-        }
-        feedback.append(summary)
+            "message": f"Average pitch variance: {avg_variance:.1f} Hz. Issues in {len([f for f in feedback if not f.get('streak', False)])}/{len(segments)} segments."
+        })
 
     return feedback
 
@@ -361,20 +364,23 @@ def create_flask_app():
                 return jsonify({"error": "No file provided"}), 400
             
             file = request.files["file"]
-            # 使用唯一的臨時文件名，避免中文編碼問題
-            file_ext = os.path.splitext(file.filename)[1]  # 保留副檔名
+            gender = request.args.get("gender")  # 從 form 數據中獲取性別
+            print(f"Gender from form data: {gender}")  # 調試用
+
+            file_ext = os.path.splitext(file.filename)[1]
             temp_filename = f"uploaded_{hashlib.md5(file.filename.encode('utf-8')).hexdigest()}{file_ext}"
             temp_path = os.path.join("data", temp_filename)
             
             file.save(temp_path)
             print(f"File saved: {temp_path}, size: {os.path.getsize(temp_path)} bytes")
+            print(f"Selected gender: {gender}")
             
             cache = AudioAnalysisCache()
             results = process_speech_from_file(temp_path, cache)
             audio_path = "data/temp_audio.wav" if temp_path.endswith(".m4a") else temp_path
             
             print(f"Processing completed: {len(results)} segments")
-            pitch_feedback = analyze_pitch_segments(cache, audio_path=audio_path, threshold=20)
+            pitch_feedback = analyze_pitch_segments(cache, audio_path=audio_path, threshold=40, gender=gender)
             print(f"Pitch analysis generated: {len(pitch_feedback)} feedback items")
             
             enhanced_feedback = []

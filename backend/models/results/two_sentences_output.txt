@@ -1,8 +1,331 @@
+Cache initialized successfully
  * Serving Flask app 'main'
  * Debug mode: off
+Gender from form data: male
+File saved: data\uploaded_a1c0d3fd797eebf94a8050fc193556cf.wav, size: 74176110 bytes
+Selected gender: male
+Using data\uploaded_a1c0d3fd797eebf94a8050fc193556cf.wav directly as WAV file
+File size: 74176110 bytes
 Running Whisper to divide sentences...
 
 Detected language: Chinese
+Transcription completed: 176 segments
+Combined into 88 segments
+Using cached results for segment 0.0-22.0
+Using cached results for segment 22.0-26.0
+Using cached results for segment 26.0-30.0
+Using cached results for segment 30.0-34.0
+Using cached results for segment 34.0-38.0
+Using cached results for segment 38.0-41.0
+Using cached results for segment 41.0-45.0
+Using cached results for segment 45.0-49.0
+Using cached results for segment 49.0-54.0
+Using cached results for segment 54.0-58.0
+Using cached results for segment 59.0-63.0
+Using cached results for segment 63.0-67.0
+Using cached results for segment 68.0-71.0
+Using cached results for segment 71.0-75.0
+Using cached results for segment 75.0-78.0
+Using cached results for segment 78.0-82.0
+Using cached results for segment 82.0-85.0
+Using cached results for segment 85.0-88.0
+Using cached results for segment 88.0-93.0
+Using cached results for segment 93.0-97.0
+Using cached results for segment 97.0-101.0
+Using cached results for segment 101.0-106.0
+Using cached results for segment 107.0-111.0
+Using cached results for segment 112.0-115.0
+Using cached results for segment 115.0-119.0
+Using cached results for segment 119.0-125.0
+Using cached results for segment 125.0-130.0
+Using cached results for segment 130.0-135.0
+Using cached results for segment 135.0-139.0
+Using cached results for segment 139.0-143.0
+Using cached results for segment 143.0-147.0
+Using cached results for segment 147.0-153.0
+Using cached results for segment 153.0-158.0
+Using cached results for segment 159.0-163.0
+Using cached results for segment 163.0-167.0
+Using cached results for segment 167.0-170.0
+Using cached results for segment 170.0-173.0
+Using cached results for segment 173.0-178.0
+Using cached results for segment 178.0-183.0
+Using cached results for segment 183.0-187.0
+Using cached results for segment 187.0-191.0
+Using cached results for segment 191.0-194.0
+Using cached results for segment 194.0-197.0
+Using cached results for segment 197.0-201.0
+Using cached results for segment 201.0-206.0
+Using cached results for segment 206.0-212.0
+Using cached results for segment 212.0-216.0
+Using cached results for segment 216.0-219.0
+Using cached results for segment 219.0-225.0
+Using cached results for segment 225.0-230.0
+Using cached results for segment 230.0-234.0
+Using cached results for segment 234.0-238.0
+Using cached results for segment 238.0-244.0
+Using cached results for segment 244.0-247.0
+Using cached results for segment 247.0-251.0
+Using cached results for segment 251.0-254.0
+Using cached results for segment 254.0-258.0
+Using cached results for segment 258.0-262.0
+Using cached results for segment 262.0-265.0
+Using cached results for segment 265.0-267.0
+Using cached results for segment 267.0-271.0
+Using cached results for segment 271.0-275.0
+Using cached results for segment 275.0-278.0
+Using cached results for segment 278.0-281.0
+Using cached results for segment 281.0-286.0
+Using cached results for segment 286.0-289.0
+Using cached results for segment 289.0-293.0
+Using cached results for segment 293.0-298.0
+Using cached results for segment 298.0-302.0
+Using cached results for segment 302.0-306.0
+Using cached results for segment 306.0-310.0
+Using cached results for segment 310.0-315.0
+Using cached results for segment 315.0-319.0
+Using cached results for segment 319.0-322.0
+Using cached results for segment 322.0-327.0
+Using cached results for segment 327.0-331.0
+Using cached results for segment 331.0-336.0
+Using cached results for segment 336.0-338.0
+Using cached results for segment 338.0-343.0
+Using cached results for segment 343.0-348.0
+Using cached results for segment 348.0-351.0
+Using cached results for segment 351.0-355.0
+Using cached results for segment 355.0-358.0
+Using cached results for segment 358.0-363.0
+Using cached results for segment 363.0-367.0
+Using cached results for segment 367.0-372.0
+Using cached results for segment 372.0-376.0
+Using cached results for segment 376.0-378.0
+Processing completed: 88 segments
+Segment 1: Text = '作曲 李宗盛 你做過夢嗎', Pitch Variance = 108.50 Hz
+Segment 2: Text = '不是睡覺做夢 而是做一件事情的做夢', Pitch Variance = 35.98 Hz
+Segment 3: Text = '我做過夢 我的夢想是成為悲傷品牌', Pitch Variance = 31.14 Hz
+Segment 4: Text = '接著第一把交椅 我是陳文偉', Pitch Variance = 27.26 Hz
+Segment 5: Text = '品牌為什麼要悲傷呢 這就是文創', Pitch Variance = 28.93 Hz
+Segment 6: Text = '可是文創有什麼呢 上大學', Pitch Variance = 45.02 Hz
+Segment 7: Text = '脫離了高中繁忙的生活 我開始有機會做自己的夢', Pitch Variance = 33.77 Hz
+Segment 8: Text = '就是經一個個人品牌 剛開始因為沒什麼錢', Pitch Variance = 45.58 Hz
+Segment 9: Text = '所以我從最基本手鍊開始做 然後就逼著順便同學一個一個買', Pitch Variance = 34.24 Hz
+Segment 10: Text = '終於存到第一筆錢 可以做屬於自己的創作了', Pitch Variance = 31.65 Hz
+Segment 11: Text = '抱大家有沒有失戀的經驗 我現在大家應該都會變些是迪里', Pitch Variance = 39.92 Hz
+Segment 12: Text = '抱你抱屎 甚至埋心你根本用不到的東西', Pitch Variance = 32.48 Hz
+Segment 13: Text = '這些我全都做過 直現在', Pitch Variance = 41.80 Hz
+Segment 14: Text = '我把這些情緒轉化到我的創作裡面 失戀', Pitch Variance = 50.38 Hz
+Segment 15: Text = '你可能會覺得悲傷 覺得寂寞', Pitch Variance = 24.55 Hz
+Segment 16: Text = '可是當它變成具體的模樣時 會是什麼樣子呢', Pitch Variance = 59.00 Hz
+Segment 17: Text = '這是我當時的作品 破碎的愛', Pitch Variance = 44.89 Hz
+Segment 18: Text = '那時候正值沒雨季 我剛失戀', Pitch Variance = 58.74 Hz
+Segment 19: Text = '我現在失戀的人都有點病態 下雨的時候就忍不住想要去淋一下', Pitch Variance = 41.81 Hz
+Segment 20: Text = '所以可以看到愛這個字 在心的部分', Pitch Variance = 35.22 Hz
+Segment 21: Text = '它像雨水跟淚水 正在落下', Pitch Variance = 28.32 Hz
+Segment 22: Text = '而當你把心的部分去掉以後 愛這個字就剩下感受的受', Pitch Variance = 39.67 Hz
+Segment 23: Text = '用心去感受你當下的情緒 想哭就好好的哭吧', Pitch Variance = 46.50 Hz
+Segment 24: Text = '這就是我的作品 就是有稍微了解到', Pitch Variance = 51.23 Hz
+Segment 25: Text = '什麼是悲傷品牌的呢 做完創作以後', Pitch Variance = 61.96 Hz
+Segment 26: Text = '我想我不能單單只是在Facebook上面做分享 我想要有實體的機會', Pitch Variance = 34.90 Hz
+Segment 27: Text = '跟人面對面直接分享我的故事 那時候創意試集在起步', Pitch Variance = 34.71 Hz
+Segment 28: Text = '所以我從試集開始擺起 直到現場以後', Pitch Variance = 47.08 Hz
+Segment 29: Text = '我才發現我沒有好好勝選 我該擺的試集', Pitch Variance = 30.38 Hz
+Segment 30: Text = '在我的左邊跟右邊分別 擺的是從淘寶', Pitch Variance = 36.56 Hz
+Segment 31: Text = '從五分埔批發來的東西 他們賣的小小冰啊', Pitch Variance = 46.43 Hz
+Segment 32: Text = '尬尬包這些很潮流的東西 而像我這樣比較灰暗的創作', Pitch Variance = 33.33 Hz
+Segment 33: Text = '反而沒有人會注意到 當天我一樣東西都沒有賣出去', Pitch Variance = 28.78 Hz
+Segment 34: Text = '我的爸媽甚至跟我說 那你何不就好好去打工', Pitch Variance = 33.44 Hz
+Segment 35: Text = '這樣至少每小時還有基本實心 按去擺攤', Pitch Variance = 46.62 Hz
+Segment 36: Text = '不但沒有賺 還要給人家錢', Pitch Variance = 17.84 Hz
+Segment 37: Text = '這樣不是很虧嗎 那個當下', Pitch Variance = 65.94 Hz
+Segment 38: Text = '我覺得我的品牌夢好像睡了 可是身為一個悲傷品牌', Pitch Variance = 41.78 Hz
+Segment 39: Text = '這樣值得負面能量 反而給我很多創作的動力', Pitch Variance = 42.08 Hz
+Segment 40: Text = '所以我就創造了這個作品 壞掉的夢', Pitch Variance = 39.10 Hz
+Segment 41: Text = '我相信大家就是 在遠夢的過程當中', Pitch Variance = 35.06 Hz
+Segment 42: Text = '都不會這麼順利 你難免會跌倒', Pitch Variance = 32.88 Hz
+Segment 43: Text = '所以看到夢這個字啊 它跌倒了', Pitch Variance = 45.63 Hz
+Segment 44: Text = '可是同時 我也把它的結構保留得非常完整', Pitch Variance = 44.19 Hz
+Segment 45: Text = '當你準備好了以後 你可以去把你的夢重新拼回去', Pitch Variance = 55.58 Hz
+Segment 46: Text = '重新圓你的夢 正好在我完成這個作品以後', Pitch Variance = 55.82 Hz
+Segment 47: Text = '學校提供我們細上 一個老宿舍的空間去做經營', Pitch Variance = 25.62 Hz
+Segment 48: Text = '我想在這個空間呢 提供創作者們', Pitch Variance = 30.78 Hz
+Segment 49: Text = '一個更好的空間去曝光他們的作品 這是我們空間', Pitch Variance = 37.99 Hz
+Segment 50: Text = '在你錢的模樣 這是我們等你後的樣子', Pitch Variance = 42.90 Hz
+Segment 51: Text = '那時候我找了我比較 在市集中認識一些不錯的創作者們', Pitch Variance = 30.43 Hz
+Segment 52: Text = '一起進來這個空間 可是你可以發現一個問題是', Pitch Variance = 48.05 Hz
+Segment 53: Text = '只是單純的擺 它跟隔子去有什麼不一樣嗎', Pitch Variance = 48.65 Hz
+Segment 54: Text = '它好像就是一個 手作版的隔子去而已', Pitch Variance = 44.30 Hz
+Segment 55: Text = '這樣子其實來逛的人 他們不會有停留', Pitch Variance = 47.58 Hz
+Segment 56: Text = '他們不會想知道 裡面發生什麼事情', Pitch Variance = 25.66 Hz
+Segment 57: Text = '所以我開始改變的做法 直到這個月', Pitch Variance = 31.16 Hz
+Segment 58: Text = '我們用測展的角度去 佈置我們這一期的主題', Pitch Variance = 38.16 Hz
+Segment 59: Text = '我們這個月有書衣 有咖啡', Pitch Variance = 30.19 Hz
+Segment 60: Text = '有果醬 有甜點', Pitch Variance = 15.81 Hz
+Segment 61: Text = '這樣我們想到了愛麗斯夢有先進 所以我們把空間佈置得像', Pitch Variance = 41.43 Hz
+Segment 62: Text = '森林一樣 而透過這樣的做法以後', Pitch Variance = 47.12 Hz
+Segment 63: Text = '來參觀的人 反而會覺得這是一個有趣的地方', Pitch Variance = 40.02 Hz
+Segment 64: Text = '而我們地上還有鋪落業 他們甚至會想說', Pitch Variance = 42.24 Hz
+Segment 65: Text = '這做作業到底能分裁 然後就很小心這樣走', Pitch Variance = 62.43 Hz
+Segment 66: Text = '在 然後大家也會停留', Pitch Variance = 41.28 Hz
+Segment 67: Text = '去拍照 去聽我們想分享什麼故事', Pitch Variance = 42.46 Hz
+Segment 68: Text = '而在進行空間的同時 我也認識到了很多社區的居民', Pitch Variance = 42.61 Hz
+Segment 69: Text = '其中因為令我印象深刻的 他是我們國北第一屆的學生', Pitch Variance = 41.63 Hz
+Segment 70: Text = '他是曾爺爺 他每天下午3點左右', Pitch Variance = 41.41 Hz
+Segment 71: Text = '後來我們學校散步 活動他的筋骨避免老化', Pitch Variance = 52.49 Hz
+Segment 72: Text = '他很喜歡來找我們聊天 說老了以後一個人在家裡', Pitch Variance = 39.25 Hz
+Segment 73: Text = '沒有人可以對話 好像自己變成啞巴一樣', Pitch Variance = 63.60 Hz
+Segment 74: Text = '所以他很喜歡來這邊 跟我們分享他', Pitch Variance = 27.16 Hz
+Segment 75: Text = '以前在學校讀書的過程 然後他經歷過的事情', Pitch Variance = 41.05 Hz
+Segment 76: Text = '他甚至跟我說 他已經不只是把我們當成朋友了', Pitch Variance = 33.64 Hz
+Segment 77: Text = '跟像是他的外孫一樣 他會努力的健康的', Pitch Variance = 43.77 Hz
+Segment 78: Text = '繼續運動 繼續活下去', Pitch Variance = 25.14 Hz
+Segment 79: Text = '陪我們走完這一年 我才明白', Pitch Variance = 46.53 Hz
+Segment 80: Text = '我經營的不只是一個展售空間 更是一個社區的交流客廳', Pitch Variance = 38.46 Hz
+Segment 81: Text = '這時候我才明白 文創是什麼', Pitch Variance = 34.13 Hz
+Segment 82: Text = '文創就是感動 就是歸屬感', Pitch Variance = 65.84 Hz
+Segment 83: Text = '我們該注意的是 事務背後的價值', Pitch Variance = 45.73 Hz
+Segment 84: Text = '而非價錢 我努力打造一個有溫度的品牌', Pitch Variance = 40.88 Hz
+Segment 85: Text = '不要想帶給你的 就是滿滿的陪伴與溫暖', Pitch Variance = 47.30 Hz
+Segment 86: Text = '我努力經營一個有溫度的空間 讓故事能夠直接傳遞到你的手裡', Pitch Variance = 30.53 Hz
+Segment 87: Text = '今天起座有溫度的事 分享有溫度的故事', Pitch Variance = 35.37 Hz
+Segment 88: Text = '我是陳文偉 謝謝', Pitch Variance = 18.67 Hz
+Pitch analysis generated: 14 feedback items
+Cleaned up: data\uploaded_a1c0d3fd797eebf94a8050fc193556cf.wav
+Gender from form data: male
+File saved: data\uploaded_a1c0d3fd797eebf94a8050fc193556cf.wav, size: 74176110 bytes
+Selected gender: male
+Using data\uploaded_a1c0d3fd797eebf94a8050fc193556cf.wav directly as WAV file
+File size: 74176110 bytes
 Running Whisper to divide sentences...
 
 Detected language: Chinese
+Transcription completed: 176 segments
+Combined into 88 segments
+Using cached results for segment 0.0-22.0
+Using cached results for segment 22.0-26.0
+Using cached results for segment 26.0-30.0
+Using cached results for segment 30.0-34.0
+Using cached results for segment 34.0-38.0
+Using cached results for segment 38.0-41.0
+Using cached results for segment 41.0-45.0
+Using cached results for segment 45.0-49.0
+Using cached results for segment 49.0-54.0
+Using cached results for segment 54.0-58.0
+Using cached results for segment 59.0-63.0
+Using cached results for segment 63.0-67.0
+Using cached results for segment 68.0-71.0
+Using cached results for segment 71.0-75.0
+Using cached results for segment 75.0-78.0
+Using cached results for segment 78.0-82.0
+Using cached results for segment 82.0-85.0
+Using cached results for segment 85.0-88.0
+Using cached results for segment 88.0-93.0
+Using cached results for segment 93.0-97.0
+Using cached results for segment 97.0-101.0
+Using cached results for segment 101.0-106.0
+Using cached results for segment 107.0-111.0
+Using cached results for segment 112.0-115.0
+Using cached results for segment 115.0-119.0
+Using cached results for segment 119.0-125.0
+Using cached results for segment 125.0-130.0
+Using cached results for segment 130.0-135.0
+Using cached results for segment 135.0-139.0
+Using cached results for segment 139.0-143.0
+Using cached results for segment 143.0-147.0
+Using cached results for segment 147.0-153.0
+Using cached results for segment 153.0-158.0
+Using cached results for segment 159.0-163.0
+Using cached results for segment 163.0-167.0
+Using cached results for segment 167.0-170.0
+Using cached results for segment 170.0-173.0
+Using cached results for segment 173.0-178.0
+Using cached results for segment 178.0-183.0
+Using cached results for segment 183.0-187.0
+Using cached results for segment 187.0-191.0
+Using cached results for segment 191.0-194.0
+Using cached results for segment 194.0-197.0
+Using cached results for segment 197.0-201.0
+Using cached results for segment 201.0-206.0
+Using cached results for segment 206.0-212.0
+Using cached results for segment 212.0-216.0
+Using cached results for segment 216.0-219.0
+Using cached results for segment 219.0-225.0
+Using cached results for segment 225.0-230.0
+Using cached results for segment 230.0-234.0
+Using cached results for segment 234.0-238.0
+Using cached results for segment 238.0-244.0
+Using cached results for segment 244.0-247.0
+Using cached results for segment 247.0-251.0
+Using cached results for segment 251.0-254.0
+Using cached results for segment 254.0-258.0
+Using cached results for segment 258.0-262.0
+Using cached results for segment 262.0-265.0
+Using cached results for segment 265.0-267.0
+Using cached results for segment 267.0-271.0
+Using cached results for segment 271.0-275.0
+Using cached results for segment 275.0-278.0
+Using cached results for segment 278.0-281.0
+Using cached results for segment 281.0-286.0
+Using cached results for segment 286.0-289.0
+Using cached results for segment 289.0-293.0
+Using cached results for segment 293.0-298.0
+Using cached results for segment 298.0-302.0
+Using cached results for segment 302.0-306.0
+Using cached results for segment 306.0-310.0
+Using cached results for segment 310.0-315.0
+Using cached results for segment 315.0-319.0
+Using cached results for segment 319.0-322.0
+Using cached results for segment 322.0-327.0
+Using cached results for segment 327.0-331.0
+Using cached results for segment 331.0-336.0
+Using cached results for segment 336.0-338.0
+Using cached results for segment 338.0-343.0
+Using cached results for segment 343.0-348.0
+Using cached results for segment 348.0-351.0
+Using cached results for segment 351.0-355.0
+Using cached results for segment 355.0-358.0
+Using cached results for segment 358.0-363.0
+Using cached results for segment 363.0-367.0
+Using cached results for segment 367.0-372.0
+Using cached results for segment 372.0-376.0
+Using cached results for segment 376.0-378.0
+Processing completed: 88 segments
+Segment 1: Text = '作曲 李宗盛 你做過夢嗎', Pitch Variance = 108.50 Hz
+Segment 2: Text = '不是睡覺做夢 而是做一件事情的做夢', Pitch Variance = 35.98 Hz
+Segment 3: Text = '我做過夢 我的夢想是成為悲傷品牌', Pitch Variance = 31.14 Hz
+Segment 4: Text = '接著第一把交椅 我是陳文偉', Pitch Variance = 27.26 Hz
+Segment 5: Text = '品牌為什麼要悲傷呢 這就是文創', Pitch Variance = 28.93 Hz
+Segment 6: Text = '可是文創有什麼呢 上大學', Pitch Variance = 45.02 Hz
+Segment 7: Text = '脫離了高中繁忙的生活 我開始有機會做自己的夢', Pitch Variance = 33.77 Hz
+Segment 8: Text = '就是經一個個人品牌 剛開始因為沒什麼錢', Pitch Variance = 45.58 Hz
+Segment 9: Text = '所以我從最基本手鍊開始做 然後就逼著順便同學一個一個買', Pitch Variance = 34.24 Hz
+Segment 10: Text = '終於存到第一筆錢 可以做屬於自己的創作了', Pitch Variance = 31.65 Hz
+Segment 11: Text = '抱大家有沒有失戀的經驗 我現在大家應該都會變些是迪里', Pitch Variance = 39.92 Hz
+Segment 12: Text = '抱你抱屎 甚至埋心你根本用不到的東西', Pitch Variance = 32.48 Hz
+Segment 13: Text = '這些我全都做過 直現在', Pitch Variance = 41.80 Hz
+Segment 14: Text = '我把這些情緒轉化到我的創作裡面 失戀', Pitch Variance = 50.38 Hz
+Segment 15: Text = '你可能會覺得悲傷 覺得寂寞', Pitch Variance = 24.55 Hz
+Segment 16: Text = '可是當它變成具體的模樣時 會是什麼樣子呢', Pitch Variance = 59.00 Hz
+Segment 17: Text = '這是我當時的作品 破碎的愛', Pitch Variance = 44.89 Hz
+Segment 18: Text = '那時候正值沒雨季 我剛失戀', Pitch Variance = 58.74 Hz
+Segment 19: Text = '我現在失戀的人都有點病態 下雨的時候就忍不住想要去淋一下', Pitch Variance = 41.81 Hz
+Segment 20: Text = '所以可以看到愛這個字 在心的部分', Pitch Variance = 35.22 Hz
+Segment 21: Text = '它像雨水跟淚水 正在落下', Pitch Variance = 28.32 Hz
+Segment 22: Text = '而當你把心的部分去掉以後 愛這個字就剩下感受的受', Pitch Variance = 39.67 Hz
+Segment 23: Text = '用心去感受你當下的情緒 想哭就好好的哭吧', Pitch Variance = 46.50 Hz
+Segment 24: Text = '這就是我的作品 就是有稍微了解到', Pitch Variance = 51.23 Hz
+Segment 25: Text = '什麼是悲傷品牌的呢 做完創作以後', Pitch Variance = 61.96 Hz
+Segment 26: Text = '我想我不能單單只是在Facebook上面做分享 我想要有實體的機會', Pitch Variance = 34.90 Hz
+Segment 27: Text = '跟人面對面直接分享我的故事 那時候創意試集在起步', Pitch Variance = 34.71 Hz
+Segment 28: Text = '所以我從試集開始擺起 直到現場以後', Pitch Variance = 47.08 Hz
+Segment 29: Text = '我才發現我沒有好好勝選 我該擺的試集', Pitch Variance = 30.38 Hz
+Segment 30: Text = '在我的左邊跟右邊分別 擺的是從淘寶', Pitch Variance = 36.56 Hz
+Segment 31: Text = '從五分埔批發來的東西 他們賣的小小冰啊', Pitch Variance = 46.43 Hz
+Segment 32: Text = '尬尬包這些很潮流的東西 而像我這樣比較灰暗的創作', Pitch Variance = 33.33 Hz
+Segment 33: Text = '反而沒有人會注意到 當天我一樣東西都沒有賣出去', Pitch Variance = 28.78 Hz
+Segment 34: Text = '我的爸媽甚至跟我說 那你何不就好好去打工', Pitch Variance = 33.44 Hz
+Segment 35: Text = '這樣至少每小時還有基本實心 按去擺攤', Pitch Variance = 46.62 Hz
+Segment 36: Text = '不但沒有賺 還要給人家錢', Pitch Variance = 17.84 Hz
+Segment 37: Text = '這樣不是很虧嗎 那個當下', Pitch Variance = 65.94 Hz
+Segment 38: Text = '我覺得我的品牌夢好像睡了 可是身為一個悲傷品牌', Pitch Variance = 41.78 Hz
+Segment 39: Text = '這樣值得負面能量 反而給我很多創作的動力', Pitch Variance = 42.08 Hz
+Segment 40: Text = '所以我就創造了這個作品 壞掉的夢', Pitch Variance = 39.10 Hz
