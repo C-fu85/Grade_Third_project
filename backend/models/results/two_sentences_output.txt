@@ -2,330 +2,2879 @@ Cache initialized successfully
  * Serving Flask app 'main'
  * Debug mode: off
 Gender from form data: male
-File saved: data\uploaded_a1c0d3fd797eebf94a8050fc193556cf.wav, size: 74176110 bytes
-Selected gender: male
-Using data\uploaded_a1c0d3fd797eebf94a8050fc193556cf.wav directly as WAV file
+File saved: data\uploaded_00da2c3ed0698215cf09c6efd908826b.wav, size: 74176110 bytes
+Using data\uploaded_00da2c3ed0698215cf09c6efd908826b.wav directly as WAV file
 File size: 74176110 bytes
 Running Whisper to divide sentences...
 
 Detected language: Chinese
-Transcription completed: 176 segments
-Combined into 88 segments
-Using cached results for segment 0.0-22.0
-Using cached results for segment 22.0-26.0
-Using cached results for segment 26.0-30.0
-Using cached results for segment 30.0-34.0
-Using cached results for segment 34.0-38.0
-Using cached results for segment 38.0-41.0
-Using cached results for segment 41.0-45.0
-Using cached results for segment 45.0-49.0
-Using cached results for segment 49.0-54.0
-Using cached results for segment 54.0-58.0
-Using cached results for segment 59.0-63.0
-Using cached results for segment 63.0-67.0
-Using cached results for segment 68.0-71.0
-Using cached results for segment 71.0-75.0
-Using cached results for segment 75.0-78.0
-Using cached results for segment 78.0-82.0
-Using cached results for segment 82.0-85.0
-Using cached results for segment 85.0-88.0
-Using cached results for segment 88.0-93.0
-Using cached results for segment 93.0-97.0
-Using cached results for segment 97.0-101.0
-Using cached results for segment 101.0-106.0
-Using cached results for segment 107.0-111.0
-Using cached results for segment 112.0-115.0
-Using cached results for segment 115.0-119.0
-Using cached results for segment 119.0-125.0
-Using cached results for segment 125.0-130.0
-Using cached results for segment 130.0-135.0
-Using cached results for segment 135.0-139.0
-Using cached results for segment 139.0-143.0
-Using cached results for segment 143.0-147.0
-Using cached results for segment 147.0-153.0
-Using cached results for segment 153.0-158.0
-Using cached results for segment 159.0-163.0
-Using cached results for segment 163.0-167.0
-Using cached results for segment 167.0-170.0
-Using cached results for segment 170.0-173.0
-Using cached results for segment 173.0-178.0
-Using cached results for segment 178.0-183.0
-Using cached results for segment 183.0-187.0
-Using cached results for segment 187.0-191.0
-Using cached results for segment 191.0-194.0
-Using cached results for segment 194.0-197.0
-Using cached results for segment 197.0-201.0
-Using cached results for segment 201.0-206.0
-Using cached results for segment 206.0-212.0
-Using cached results for segment 212.0-216.0
-Using cached results for segment 216.0-219.0
-Using cached results for segment 219.0-225.0
-Using cached results for segment 225.0-230.0
-Using cached results for segment 230.0-234.0
-Using cached results for segment 234.0-238.0
-Using cached results for segment 238.0-244.0
-Using cached results for segment 244.0-247.0
-Using cached results for segment 247.0-251.0
-Using cached results for segment 251.0-254.0
-Using cached results for segment 254.0-258.0
-Using cached results for segment 258.0-262.0
-Using cached results for segment 262.0-265.0
-Using cached results for segment 265.0-267.0
-Using cached results for segment 267.0-271.0
-Using cached results for segment 271.0-275.0
-Using cached results for segment 275.0-278.0
-Using cached results for segment 278.0-281.0
-Using cached results for segment 281.0-286.0
-Using cached results for segment 286.0-289.0
-Using cached results for segment 289.0-293.0
-Using cached results for segment 293.0-298.0
-Using cached results for segment 298.0-302.0
-Using cached results for segment 302.0-306.0
-Using cached results for segment 306.0-310.0
-Using cached results for segment 310.0-315.0
-Using cached results for segment 315.0-319.0
-Using cached results for segment 319.0-322.0
-Using cached results for segment 322.0-327.0
-Using cached results for segment 327.0-331.0
-Using cached results for segment 331.0-336.0
-Using cached results for segment 336.0-338.0
-Using cached results for segment 338.0-343.0
-Using cached results for segment 343.0-348.0
-Using cached results for segment 348.0-351.0
-Using cached results for segment 351.0-355.0
-Using cached results for segment 355.0-358.0
-Using cached results for segment 358.0-363.0
-Using cached results for segment 363.0-367.0
-Using cached results for segment 367.0-372.0
-Using cached results for segment 372.0-376.0
-Using cached results for segment 376.0-378.0
-Processing completed: 88 segments
-Segment 1: Text = '作曲 李宗盛 你做過夢嗎', Pitch Variance = 108.50 Hz
-Segment 2: Text = '不是睡覺做夢 而是做一件事情的做夢', Pitch Variance = 35.98 Hz
-Segment 3: Text = '我做過夢 我的夢想是成為悲傷品牌', Pitch Variance = 31.14 Hz
-Segment 4: Text = '接著第一把交椅 我是陳文偉', Pitch Variance = 27.26 Hz
-Segment 5: Text = '品牌為什麼要悲傷呢 這就是文創', Pitch Variance = 28.93 Hz
-Segment 6: Text = '可是文創有什麼呢 上大學', Pitch Variance = 45.02 Hz
-Segment 7: Text = '脫離了高中繁忙的生活 我開始有機會做自己的夢', Pitch Variance = 33.77 Hz
-Segment 8: Text = '就是經一個個人品牌 剛開始因為沒什麼錢', Pitch Variance = 45.58 Hz
-Segment 9: Text = '所以我從最基本手鍊開始做 然後就逼著順便同學一個一個買', Pitch Variance = 34.24 Hz
-Segment 10: Text = '終於存到第一筆錢 可以做屬於自己的創作了', Pitch Variance = 31.65 Hz
-Segment 11: Text = '抱大家有沒有失戀的經驗 我現在大家應該都會變些是迪里', Pitch Variance = 39.92 Hz
-Segment 12: Text = '抱你抱屎 甚至埋心你根本用不到的東西', Pitch Variance = 32.48 Hz
-Segment 13: Text = '這些我全都做過 直現在', Pitch Variance = 41.80 Hz
-Segment 14: Text = '我把這些情緒轉化到我的創作裡面 失戀', Pitch Variance = 50.38 Hz
-Segment 15: Text = '你可能會覺得悲傷 覺得寂寞', Pitch Variance = 24.55 Hz
-Segment 16: Text = '可是當它變成具體的模樣時 會是什麼樣子呢', Pitch Variance = 59.00 Hz
-Segment 17: Text = '這是我當時的作品 破碎的愛', Pitch Variance = 44.89 Hz
-Segment 18: Text = '那時候正值沒雨季 我剛失戀', Pitch Variance = 58.74 Hz
-Segment 19: Text = '我現在失戀的人都有點病態 下雨的時候就忍不住想要去淋一下', Pitch Variance = 41.81 Hz
-Segment 20: Text = '所以可以看到愛這個字 在心的部分', Pitch Variance = 35.22 Hz
-Segment 21: Text = '它像雨水跟淚水 正在落下', Pitch Variance = 28.32 Hz
-Segment 22: Text = '而當你把心的部分去掉以後 愛這個字就剩下感受的受', Pitch Variance = 39.67 Hz
-Segment 23: Text = '用心去感受你當下的情緒 想哭就好好的哭吧', Pitch Variance = 46.50 Hz
-Segment 24: Text = '這就是我的作品 就是有稍微了解到', Pitch Variance = 51.23 Hz
-Segment 25: Text = '什麼是悲傷品牌的呢 做完創作以後', Pitch Variance = 61.96 Hz
-Segment 26: Text = '我想我不能單單只是在Facebook上面做分享 我想要有實體的機會', Pitch Variance = 34.90 Hz
-Segment 27: Text = '跟人面對面直接分享我的故事 那時候創意試集在起步', Pitch Variance = 34.71 Hz
-Segment 28: Text = '所以我從試集開始擺起 直到現場以後', Pitch Variance = 47.08 Hz
-Segment 29: Text = '我才發現我沒有好好勝選 我該擺的試集', Pitch Variance = 30.38 Hz
-Segment 30: Text = '在我的左邊跟右邊分別 擺的是從淘寶', Pitch Variance = 36.56 Hz
-Segment 31: Text = '從五分埔批發來的東西 他們賣的小小冰啊', Pitch Variance = 46.43 Hz
-Segment 32: Text = '尬尬包這些很潮流的東西 而像我這樣比較灰暗的創作', Pitch Variance = 33.33 Hz
-Segment 33: Text = '反而沒有人會注意到 當天我一樣東西都沒有賣出去', Pitch Variance = 28.78 Hz
-Segment 34: Text = '我的爸媽甚至跟我說 那你何不就好好去打工', Pitch Variance = 33.44 Hz
-Segment 35: Text = '這樣至少每小時還有基本實心 按去擺攤', Pitch Variance = 46.62 Hz
-Segment 36: Text = '不但沒有賺 還要給人家錢', Pitch Variance = 17.84 Hz
-Segment 37: Text = '這樣不是很虧嗎 那個當下', Pitch Variance = 65.94 Hz
-Segment 38: Text = '我覺得我的品牌夢好像睡了 可是身為一個悲傷品牌', Pitch Variance = 41.78 Hz
-Segment 39: Text = '這樣值得負面能量 反而給我很多創作的動力', Pitch Variance = 42.08 Hz
-Segment 40: Text = '所以我就創造了這個作品 壞掉的夢', Pitch Variance = 39.10 Hz
-Segment 41: Text = '我相信大家就是 在遠夢的過程當中', Pitch Variance = 35.06 Hz
-Segment 42: Text = '都不會這麼順利 你難免會跌倒', Pitch Variance = 32.88 Hz
-Segment 43: Text = '所以看到夢這個字啊 它跌倒了', Pitch Variance = 45.63 Hz
-Segment 44: Text = '可是同時 我也把它的結構保留得非常完整', Pitch Variance = 44.19 Hz
-Segment 45: Text = '當你準備好了以後 你可以去把你的夢重新拼回去', Pitch Variance = 55.58 Hz
-Segment 46: Text = '重新圓你的夢 正好在我完成這個作品以後', Pitch Variance = 55.82 Hz
-Segment 47: Text = '學校提供我們細上 一個老宿舍的空間去做經營', Pitch Variance = 25.62 Hz
-Segment 48: Text = '我想在這個空間呢 提供創作者們', Pitch Variance = 30.78 Hz
-Segment 49: Text = '一個更好的空間去曝光他們的作品 這是我們空間', Pitch Variance = 37.99 Hz
-Segment 50: Text = '在你錢的模樣 這是我們等你後的樣子', Pitch Variance = 42.90 Hz
-Segment 51: Text = '那時候我找了我比較 在市集中認識一些不錯的創作者們', Pitch Variance = 30.43 Hz
-Segment 52: Text = '一起進來這個空間 可是你可以發現一個問題是', Pitch Variance = 48.05 Hz
-Segment 53: Text = '只是單純的擺 它跟隔子去有什麼不一樣嗎', Pitch Variance = 48.65 Hz
-Segment 54: Text = '它好像就是一個 手作版的隔子去而已', Pitch Variance = 44.30 Hz
-Segment 55: Text = '這樣子其實來逛的人 他們不會有停留', Pitch Variance = 47.58 Hz
-Segment 56: Text = '他們不會想知道 裡面發生什麼事情', Pitch Variance = 25.66 Hz
-Segment 57: Text = '所以我開始改變的做法 直到這個月', Pitch Variance = 31.16 Hz
-Segment 58: Text = '我們用測展的角度去 佈置我們這一期的主題', Pitch Variance = 38.16 Hz
-Segment 59: Text = '我們這個月有書衣 有咖啡', Pitch Variance = 30.19 Hz
-Segment 60: Text = '有果醬 有甜點', Pitch Variance = 15.81 Hz
-Segment 61: Text = '這樣我們想到了愛麗斯夢有先進 所以我們把空間佈置得像', Pitch Variance = 41.43 Hz
-Segment 62: Text = '森林一樣 而透過這樣的做法以後', Pitch Variance = 47.12 Hz
-Segment 63: Text = '來參觀的人 反而會覺得這是一個有趣的地方', Pitch Variance = 40.02 Hz
-Segment 64: Text = '而我們地上還有鋪落業 他們甚至會想說', Pitch Variance = 42.24 Hz
-Segment 65: Text = '這做作業到底能分裁 然後就很小心這樣走', Pitch Variance = 62.43 Hz
-Segment 66: Text = '在 然後大家也會停留', Pitch Variance = 41.28 Hz
-Segment 67: Text = '去拍照 去聽我們想分享什麼故事', Pitch Variance = 42.46 Hz
-Segment 68: Text = '而在進行空間的同時 我也認識到了很多社區的居民', Pitch Variance = 42.61 Hz
-Segment 69: Text = '其中因為令我印象深刻的 他是我們國北第一屆的學生', Pitch Variance = 41.63 Hz
-Segment 70: Text = '他是曾爺爺 他每天下午3點左右', Pitch Variance = 41.41 Hz
-Segment 71: Text = '後來我們學校散步 活動他的筋骨避免老化', Pitch Variance = 52.49 Hz
-Segment 72: Text = '他很喜歡來找我們聊天 說老了以後一個人在家裡', Pitch Variance = 39.25 Hz
-Segment 73: Text = '沒有人可以對話 好像自己變成啞巴一樣', Pitch Variance = 63.60 Hz
-Segment 74: Text = '所以他很喜歡來這邊 跟我們分享他', Pitch Variance = 27.16 Hz
-Segment 75: Text = '以前在學校讀書的過程 然後他經歷過的事情', Pitch Variance = 41.05 Hz
-Segment 76: Text = '他甚至跟我說 他已經不只是把我們當成朋友了', Pitch Variance = 33.64 Hz
-Segment 77: Text = '跟像是他的外孫一樣 他會努力的健康的', Pitch Variance = 43.77 Hz
-Segment 78: Text = '繼續運動 繼續活下去', Pitch Variance = 25.14 Hz
-Segment 79: Text = '陪我們走完這一年 我才明白', Pitch Variance = 46.53 Hz
-Segment 80: Text = '我經營的不只是一個展售空間 更是一個社區的交流客廳', Pitch Variance = 38.46 Hz
-Segment 81: Text = '這時候我才明白 文創是什麼', Pitch Variance = 34.13 Hz
-Segment 82: Text = '文創就是感動 就是歸屬感', Pitch Variance = 65.84 Hz
-Segment 83: Text = '我們該注意的是 事務背後的價值', Pitch Variance = 45.73 Hz
-Segment 84: Text = '而非價錢 我努力打造一個有溫度的品牌', Pitch Variance = 40.88 Hz
-Segment 85: Text = '不要想帶給你的 就是滿滿的陪伴與溫暖', Pitch Variance = 47.30 Hz
-Segment 86: Text = '我努力經營一個有溫度的空間 讓故事能夠直接傳遞到你的手裡', Pitch Variance = 30.53 Hz
-Segment 87: Text = '今天起座有溫度的事 分享有溫度的故事', Pitch Variance = 35.37 Hz
-Segment 88: Text = '我是陳文偉 謝謝', Pitch Variance = 18.67 Hz
-Pitch analysis generated: 14 feedback items
-Cleaned up: data\uploaded_a1c0d3fd797eebf94a8050fc193556cf.wav
-Gender from form data: male
-File saved: data\uploaded_a1c0d3fd797eebf94a8050fc193556cf.wav, size: 74176110 bytes
-Selected gender: male
-Using data\uploaded_a1c0d3fd797eebf94a8050fc193556cf.wav directly as WAV file
-File size: 74176110 bytes
-Running Whisper to divide sentences...
-
-Detected language: Chinese
-Transcription completed: 176 segments
-Combined into 88 segments
-Using cached results for segment 0.0-22.0
-Using cached results for segment 22.0-26.0
-Using cached results for segment 26.0-30.0
-Using cached results for segment 30.0-34.0
-Using cached results for segment 34.0-38.0
-Using cached results for segment 38.0-41.0
-Using cached results for segment 41.0-45.0
-Using cached results for segment 45.0-49.0
-Using cached results for segment 49.0-54.0
-Using cached results for segment 54.0-58.0
-Using cached results for segment 59.0-63.0
-Using cached results for segment 63.0-67.0
-Using cached results for segment 68.0-71.0
-Using cached results for segment 71.0-75.0
-Using cached results for segment 75.0-78.0
-Using cached results for segment 78.0-82.0
-Using cached results for segment 82.0-85.0
-Using cached results for segment 85.0-88.0
-Using cached results for segment 88.0-93.0
-Using cached results for segment 93.0-97.0
-Using cached results for segment 97.0-101.0
-Using cached results for segment 101.0-106.0
-Using cached results for segment 107.0-111.0
-Using cached results for segment 112.0-115.0
-Using cached results for segment 115.0-119.0
-Using cached results for segment 119.0-125.0
-Using cached results for segment 125.0-130.0
-Using cached results for segment 130.0-135.0
-Using cached results for segment 135.0-139.0
-Using cached results for segment 139.0-143.0
-Using cached results for segment 143.0-147.0
-Using cached results for segment 147.0-153.0
-Using cached results for segment 153.0-158.0
-Using cached results for segment 159.0-163.0
-Using cached results for segment 163.0-167.0
-Using cached results for segment 167.0-170.0
-Using cached results for segment 170.0-173.0
-Using cached results for segment 173.0-178.0
-Using cached results for segment 178.0-183.0
-Using cached results for segment 183.0-187.0
-Using cached results for segment 187.0-191.0
-Using cached results for segment 191.0-194.0
-Using cached results for segment 194.0-197.0
-Using cached results for segment 197.0-201.0
-Using cached results for segment 201.0-206.0
-Using cached results for segment 206.0-212.0
-Using cached results for segment 212.0-216.0
-Using cached results for segment 216.0-219.0
-Using cached results for segment 219.0-225.0
-Using cached results for segment 225.0-230.0
-Using cached results for segment 230.0-234.0
-Using cached results for segment 234.0-238.0
-Using cached results for segment 238.0-244.0
-Using cached results for segment 244.0-247.0
-Using cached results for segment 247.0-251.0
-Using cached results for segment 251.0-254.0
-Using cached results for segment 254.0-258.0
-Using cached results for segment 258.0-262.0
-Using cached results for segment 262.0-265.0
-Using cached results for segment 265.0-267.0
-Using cached results for segment 267.0-271.0
-Using cached results for segment 271.0-275.0
-Using cached results for segment 275.0-278.0
-Using cached results for segment 278.0-281.0
-Using cached results for segment 281.0-286.0
-Using cached results for segment 286.0-289.0
-Using cached results for segment 289.0-293.0
-Using cached results for segment 293.0-298.0
-Using cached results for segment 298.0-302.0
-Using cached results for segment 302.0-306.0
-Using cached results for segment 306.0-310.0
-Using cached results for segment 310.0-315.0
-Using cached results for segment 315.0-319.0
-Using cached results for segment 319.0-322.0
-Using cached results for segment 322.0-327.0
-Using cached results for segment 327.0-331.0
-Using cached results for segment 331.0-336.0
-Using cached results for segment 336.0-338.0
-Using cached results for segment 338.0-343.0
-Using cached results for segment 343.0-348.0
-Using cached results for segment 348.0-351.0
-Using cached results for segment 351.0-355.0
-Using cached results for segment 355.0-358.0
-Using cached results for segment 358.0-363.0
-Using cached results for segment 363.0-367.0
-Using cached results for segment 367.0-372.0
-Using cached results for segment 372.0-376.0
-Using cached results for segment 376.0-378.0
-Processing completed: 88 segments
-Segment 1: Text = '作曲 李宗盛 你做過夢嗎', Pitch Variance = 108.50 Hz
-Segment 2: Text = '不是睡覺做夢 而是做一件事情的做夢', Pitch Variance = 35.98 Hz
-Segment 3: Text = '我做過夢 我的夢想是成為悲傷品牌', Pitch Variance = 31.14 Hz
-Segment 4: Text = '接著第一把交椅 我是陳文偉', Pitch Variance = 27.26 Hz
-Segment 5: Text = '品牌為什麼要悲傷呢 這就是文創', Pitch Variance = 28.93 Hz
-Segment 6: Text = '可是文創有什麼呢 上大學', Pitch Variance = 45.02 Hz
-Segment 7: Text = '脫離了高中繁忙的生活 我開始有機會做自己的夢', Pitch Variance = 33.77 Hz
-Segment 8: Text = '就是經一個個人品牌 剛開始因為沒什麼錢', Pitch Variance = 45.58 Hz
-Segment 9: Text = '所以我從最基本手鍊開始做 然後就逼著順便同學一個一個買', Pitch Variance = 34.24 Hz
-Segment 10: Text = '終於存到第一筆錢 可以做屬於自己的創作了', Pitch Variance = 31.65 Hz
-Segment 11: Text = '抱大家有沒有失戀的經驗 我現在大家應該都會變些是迪里', Pitch Variance = 39.92 Hz
-Segment 12: Text = '抱你抱屎 甚至埋心你根本用不到的東西', Pitch Variance = 32.48 Hz
-Segment 13: Text = '這些我全都做過 直現在', Pitch Variance = 41.80 Hz
-Segment 14: Text = '我把這些情緒轉化到我的創作裡面 失戀', Pitch Variance = 50.38 Hz
-Segment 15: Text = '你可能會覺得悲傷 覺得寂寞', Pitch Variance = 24.55 Hz
-Segment 16: Text = '可是當它變成具體的模樣時 會是什麼樣子呢', Pitch Variance = 59.00 Hz
-Segment 17: Text = '這是我當時的作品 破碎的愛', Pitch Variance = 44.89 Hz
-Segment 18: Text = '那時候正值沒雨季 我剛失戀', Pitch Variance = 58.74 Hz
-Segment 19: Text = '我現在失戀的人都有點病態 下雨的時候就忍不住想要去淋一下', Pitch Variance = 41.81 Hz
-Segment 20: Text = '所以可以看到愛這個字 在心的部分', Pitch Variance = 35.22 Hz
-Segment 21: Text = '它像雨水跟淚水 正在落下', Pitch Variance = 28.32 Hz
-Segment 22: Text = '而當你把心的部分去掉以後 愛這個字就剩下感受的受', Pitch Variance = 39.67 Hz
-Segment 23: Text = '用心去感受你當下的情緒 想哭就好好的哭吧', Pitch Variance = 46.50 Hz
-Segment 24: Text = '這就是我的作品 就是有稍微了解到', Pitch Variance = 51.23 Hz
-Segment 25: Text = '什麼是悲傷品牌的呢 做完創作以後', Pitch Variance = 61.96 Hz
-Segment 26: Text = '我想我不能單單只是在Facebook上面做分享 我想要有實體的機會', Pitch Variance = 34.90 Hz
-Segment 27: Text = '跟人面對面直接分享我的故事 那時候創意試集在起步', Pitch Variance = 34.71 Hz
-Segment 28: Text = '所以我從試集開始擺起 直到現場以後', Pitch Variance = 47.08 Hz
-Segment 29: Text = '我才發現我沒有好好勝選 我該擺的試集', Pitch Variance = 30.38 Hz
-Segment 30: Text = '在我的左邊跟右邊分別 擺的是從淘寶', Pitch Variance = 36.56 Hz
-Segment 31: Text = '從五分埔批發來的東西 他們賣的小小冰啊', Pitch Variance = 46.43 Hz
-Segment 32: Text = '尬尬包這些很潮流的東西 而像我這樣比較灰暗的創作', Pitch Variance = 33.33 Hz
-Segment 33: Text = '反而沒有人會注意到 當天我一樣東西都沒有賣出去', Pitch Variance = 28.78 Hz
-Segment 34: Text = '我的爸媽甚至跟我說 那你何不就好好去打工', Pitch Variance = 33.44 Hz
-Segment 35: Text = '這樣至少每小時還有基本實心 按去擺攤', Pitch Variance = 46.62 Hz
-Segment 36: Text = '不但沒有賺 還要給人家錢', Pitch Variance = 17.84 Hz
-Segment 37: Text = '這樣不是很虧嗎 那個當下', Pitch Variance = 65.94 Hz
-Segment 38: Text = '我覺得我的品牌夢好像睡了 可是身為一個悲傷品牌', Pitch Variance = 41.78 Hz
-Segment 39: Text = '這樣值得負面能量 反而給我很多創作的動力', Pitch Variance = 42.08 Hz
-Segment 40: Text = '所以我就創造了這個作品 壞掉的夢', Pitch Variance = 39.10 Hz
+Transcription completed: 144 segments
+Processing 144 individual segments
+Using cached results for segment 10.580000000000005-15.24
+Using cached results for segment 19.780000000000005-21.92
+Using cached results for segment 21.92-23.76
+Using cached results for segment 23.76-26.04
+Using cached results for segment 26.04-27.9
+Using cached results for segment 27.9-31.9
+Using cached results for segment 31.9-33.76
+Using cached results for segment 33.76-35.9
+Using cached results for segment 35.9-37.16
+Using cached results for segment 37.16-39.64
+Using cached results for segment 39.64-42.84
+Using cached results for segment 42.84-45.06
+Using cached results for segment 45.06-47.12
+Using cached results for segment 47.12-49.16
+Using cached results for segment 49.16-50.9
+Using cached results for segment 51.42-54.02
+Using cached results for segment 54.02-56.46
+Using cached results for segment 56.46-58.46
+Using cached results for segment 59.84-62.14
+Using cached results for segment 62.14-64.28
+Using cached results for segment 64.28-65.56
+Using cached results for segment 65.56-67.46000000000001
+Using cached results for segment 68.46000000000001-70.6
+Using cached results for segment 70.6-74.46
+Using cached results for segment 74.46-77.2
+Using cached results for segment 77.2-78.52
+Using cached results for segment 78.52-80.26
+Using cached results for segment 80.26-82.32
+Using cached results for segment 82.32-84.04
+Using cached results for segment 84.04-85.54
+Using cached results for segment 85.54-87.16
+Using cached results for segment 87.16-88.46
+Using cached results for segment 88.46-90.7
+Using cached results for segment 90.7-93.62
+Using cached results for segment 93.62-95.68
+Using cached results for segment 95.68-97.1
+Using cached results for segment 97.1-101.26
+Using cached results for segment 101.26-104.0
+Using cached results for segment 104.0-106.94
+Using cached results for segment 106.94-109.82
+Using cached results for segment 109.82-112.14
+Using cached results for segment 112.14-114.0
+Using cached results for segment 114.0-117.14
+Using cached results for segment 117.86-119.48
+Using cached results for segment 119.48-122.42
+Using cached results for segment 123.01999999999998-128.62
+Using cached results for segment 128.62-130.68
+Using cached results for segment 130.68-133.46
+Using cached results for segment 133.46-135.18
+Using cached results for segment 135.18-139.54
+Using cached results for segment 139.54-143.12
+Using cached results for segment 143.12-145.24
+Using cached results for segment 145.24-150.74
+Using cached results for segment 150.74-153.44
+Using cached results for segment 153.44-155.68
+Using cached results for segment 155.68-158.6
+Using cached results for segment 159.10000000000002-161.34
+Using cached results for segment 161.34-163.54
+Using cached results for segment 163.54-166.2
+Using cached results for segment 166.2-168.66
+Using cached results for segment 168.66-170.14
+Using cached results for segment 170.14-172.52
+Using cached results for segment 172.52-176.5
+Using cached results for segment 176.5-178.68
+Using cached results for segment 178.68-183.06
+Using cached results for segment 183.06-185.26
+Using cached results for segment 185.26-186.88
+Using cached results for segment 187.64-189.4
+Using cached results for segment 189.4-192.6
+Using cached results for segment 192.6-194.48
+Using cached results for segment 194.48-197.68
+Using cached results for segment 197.68-201.68
+Using cached results for segment 201.68-203.74
+Using cached results for segment 203.74-205.48
+Using cached results for segment 206.02-207.98
+Using cached results for segment 207.98-212.5
+Using cached results for segment 212.5-216.7
+Using cached results for segment 216.7-220.76
+Using cached results for segment 220.76-223.18
+Using cached results for segment 223.18-227.48
+Using cached results for segment 228.0-230.34
+Using cached results for segment 230.34-234.74
+Using cached results for segment 234.74-236.64
+Using cached results for segment 236.64-239.18
+Using cached results for segment 239.18-240.76
+Using cached results for segment 240.76-244.34
+Using cached results for segment 244.34-247.18
+Using cached results for segment 247.82-250.98
+Using cached results for segment 250.98-253.88
+Using cached results for segment 253.88-256.68
+Using cached results for segment 256.68-260.46
+Using cached results for segment 260.46-262.22
+Using cached results for segment 262.22-263.92
+Using cached results for segment 263.92-265.08
+Using cached results for segment 265.08-265.94
+Using cached results for segment 265.94-267.16
+Using cached results for segment 267.16-269.66
+Using cached results for segment 269.66-272.74
+Using cached results for segment 272.74-276.0
+Using cached results for segment 276.0-278.48
+Using cached results for segment 278.48-280.16
+Using cached results for segment 280.16-282.88
+Using cached results for segment 282.88-284.48
+Using cached results for segment 287.42-289.76
+Using cached results for segment 289.76-291.48
+Using cached results for segment 292.66-294.46
+Using cached results for segment 294.46-297.34
+Using cached results for segment 297.34-299.32
+Using cached results for segment 299.32-301.5
+Using cached results for segment 301.5-303.12
+Using cached results for segment 303.12-304.92
+Using cached results for segment 304.92-306.64
+Using cached results for segment 306.64-308.64
+Using cached results for segment 309.26-311.3
+Using cached results for segment 311.3-313.52
+Using cached results for segment 313.52-314.8
+Using cached results for segment 314.8-316.34
+Using cached results for segment 316.34-318.18
+Using cached results for segment 318.18-321.22
+Using cached results for segment 321.22-324.14
+Using cached results for segment 324.14-325.9
+Using cached results for segment 325.9-327.58
+Using cached results for segment 327.58-331.28
+Using cached results for segment 331.28-333.06
+Using cached results for segment 333.06-334.9
+Using cached results for segment 334.9-337.36
+Using cached results for segment 337.36-338.28
+Using cached results for segment 338.28-340.62
+Using cached results for segment 340.62-341.9
+Using cached results for segment 341.9-345.1
+Using cached results for segment 345.1-346.9
+Using cached results for segment 347.74-349.9
+Using cached results for segment 350.65999999999997-352.8
+Using cached results for segment 352.8-354.84
+Using cached results for segment 354.84-358.06
+Using cached results for segment 358.06-359.54
+Using cached results for segment 359.54-363.04
+Using cached results for segment 363.04-366.92
+Using cached results for segment 366.92-369.42
+Using cached results for segment 369.42-372.38
+Using cached results for segment 372.38-374.14
+Using cached results for segment 374.14-376.56
+Using cached results for segment 376.56-377.6
+Using cached results for segment 378.16-378.6
+Starting stuttering analysis with 144 segments, 144 prosody results, 1210 word timestamps
+Analyzing segment 1: 作詞 李宗盛 作曲 李宗盛
+Word timestamps count: 10
+Word '作' (chars: 1) duration: 0.56s, avg: 0.56s
+Word '詞' (chars: 1) duration: 0.00s, avg: 0.00s
+Word '李' (chars: 1) duration: 0.00s, avg: 0.00s
+Word '宗' (chars: 1) duration: 0.00s, avg: 0.00s
+Word '盛' (chars: 1) duration: 0.00s, avg: 0.00s
+Skipping word '盛' at sentence end with duration 0.0
+Word '作' (chars: 1) duration: 0.00s, avg: 0.00s
+Word '曲' (chars: 1) duration: 4.10s, avg: 4.10s
+Word prolongation detected: '曲' (avg duration per char: 4.10s)
+Word '李' (chars: 1) duration: 0.00s, avg: 0.00s
+Word '宗' (chars: 1) duration: 0.00s, avg: 0.00s
+Word '盛' (chars: 1) duration: 0.00s, avg: 0.00s
+Skipping word '盛' at sentence end with duration 0.0
+Pause between '作' and '詞': 0.00s
+Pause between '詞' and ' 李': 0.00s
+Pause between ' 李' and '宗': 0.00s
+Pause between '宗' and '盛': 0.00s
+Pause between '盛' and ' 作': 0.00s
+Pause between ' 作' and '曲': 0.00s
+Pause between '曲' and ' 李': 0.00s
+Pause between ' 李' and '宗': 0.00s
+Pause between '宗' and '盛': 0.00s
+Feedback generated for segment 1: [{'segment_index': 1, 'text': '作詞 李宗盛 作曲 李宗盛', 'severity': 'medium', 'message': "Word prolongation: '曲' avg duration 4.1 seconds per char.", 'start_time': np.float64(11.14), 'end_time': np.float64(15.24)}]
+Analyzing segment 2: 你做過夢嗎
+Word timestamps count: 5
+Word '你' (chars: 1) duration: 0.56s, avg: 0.56s
+Word '做' (chars: 1) duration: 0.18s, avg: 0.18s
+Word '過' (chars: 1) duration: 0.16s, avg: 0.16s
+Word '夢' (chars: 1) duration: 0.18s, avg: 0.18s
+Word '嗎' (chars: 1) duration: 1.06s, avg: 1.06s
+Skipping word '嗎' at sentence end with duration 1.0600000000000023
+Pause between '你' and '做': 0.00s
+Pause between '做' and '過': 0.00s
+Pause between '過' and '夢': 0.00s
+Pause between '夢' and '嗎': 0.00s
+Analyzing segment 3: 不是睡覺做夢
+Word timestamps count: 5
+Word '不是' (chars: 2) duration: 0.42s, avg: 0.21s
+Word '睡' (chars: 1) duration: 0.24s, avg: 0.24s
+Word '覺' (chars: 1) duration: 0.24s, avg: 0.24s
+Word '做' (chars: 1) duration: 0.22s, avg: 0.22s
+Word '夢' (chars: 1) duration: 0.72s, avg: 0.72s
+Skipping word '夢' at sentence end with duration 0.7200000000000024
+Pause between '不是' and '睡': 0.00s
+Pause between '睡' and '覺': 0.00s
+Pause between '覺' and '做': 0.00s
+Pause between '做' and '夢': 0.00s
+Analyzing segment 4: 而是做一件事情做夢
+Word timestamps count: 7
+Word '而' (chars: 1) duration: 0.44s, avg: 0.44s
+Word '是' (chars: 1) duration: 0.14s, avg: 0.14s
+Word '做' (chars: 1) duration: 0.12s, avg: 0.12s
+Word '一' (chars: 1) duration: 0.10s, avg: 0.10s
+Word '件事情' (chars: 3) duration: 0.36s, avg: 0.12s
+Word '做' (chars: 1) duration: 0.28s, avg: 0.28s
+Word '夢' (chars: 1) duration: 0.84s, avg: 0.84s
+Skipping word '夢' at sentence end with duration 0.8399999999999999
+Pause between '而' and '是': 0.00s
+Pause between '是' and '做': 0.00s
+Pause between '做' and '一': 0.00s
+Pause between '一' and '件事情': 0.00s
+Pause between '件事情' and '做': 0.00s
+Pause between '做' and '夢': 0.00s
+Analyzing segment 5: 我做過夢
+Word timestamps count: 4
+Word '我' (chars: 1) duration: 0.60s, avg: 0.60s
+Word '做' (chars: 1) duration: 0.16s, avg: 0.16s
+Word '過' (chars: 1) duration: 0.20s, avg: 0.20s
+Word '夢' (chars: 1) duration: 0.90s, avg: 0.90s
+Skipping word '夢' at sentence end with duration 0.8999999999999986
+Pause between '我' and '做': 0.00s
+Pause between '做' and '過': 0.00s
+Pause between '過' and '夢': 0.00s
+Analyzing segment 6: 我的夢想是成為背箱品牌界的第一把交椅
+Word timestamps count: 16
+Word '我的' (chars: 2) duration: 0.26s, avg: 0.13s
+Word '夢' (chars: 1) duration: 0.26s, avg: 0.26s
+Word '想' (chars: 1) duration: 0.54s, avg: 0.54s
+Word '是' (chars: 1) duration: 0.26s, avg: 0.26s
+Word '成' (chars: 1) duration: 0.16s, avg: 0.16s
+Word '為' (chars: 1) duration: 0.16s, avg: 0.16s
+Word '背' (chars: 1) duration: 0.24s, avg: 0.24s
+Word '箱' (chars: 1) duration: 0.22s, avg: 0.22s
+Word '品' (chars: 1) duration: 0.32s, avg: 0.32s
+Word '牌' (chars: 1) duration: 0.14s, avg: 0.14s
+Word '界' (chars: 1) duration: 0.18s, avg: 0.18s
+Word '的' (chars: 1) duration: 0.18s, avg: 0.18s
+Word '第一' (chars: 2) duration: 0.14s, avg: 0.07s
+Word '把' (chars: 1) duration: 0.18s, avg: 0.18s
+Word '交' (chars: 1) duration: 0.32s, avg: 0.32s
+Word '椅' (chars: 1) duration: 0.44s, avg: 0.44s
+Skipping word '椅' at sentence end with duration 0.4399999999999977
+Pause between '我的' and '夢': 0.00s
+Pause between '夢' and '想': 0.00s
+Pause between '想' and '是': 0.00s
+Pause between '是' and '成': 0.00s
+Pause between '成' and '為': 0.00s
+Pause between '為' and '背': 0.00s
+Pause between '背' and '箱': 0.00s
+Pause between '箱' and '品': 0.00s
+Pause between '品' and '牌': 0.00s
+Pause between '牌' and '界': 0.00s
+Pause between '界' and '的': 0.00s
+Pause between '的' and '第一': 0.00s
+Pause between '第一' and '把': 0.00s
+Pause between '把' and '交': 0.00s
+Pause between '交' and '椅': 0.00s
+Analyzing segment 7: 我是陳文偉
+Word timestamps count: 4
+Word '我是' (chars: 2) duration: 0.32s, avg: 0.16s
+Word '陳' (chars: 1) duration: 0.24s, avg: 0.24s
+Word '文' (chars: 1) duration: 0.14s, avg: 0.14s
+Word '偉' (chars: 1) duration: 1.16s, avg: 1.16s
+Skipping word '偉' at sentence end with duration 1.1599999999999966
+Pause between '我是' and '陳': 0.00s
+Pause between '陳' and '文': 0.00s
+Pause between '文' and '偉': 0.00s
+Analyzing segment 8: 品牌為什麼要背箱呢
+Word timestamps count: 7
+Word '品' (chars: 1) duration: 0.36s, avg: 0.36s
+Word '牌' (chars: 1) duration: 0.08s, avg: 0.08s
+Word '為什麼' (chars: 3) duration: 0.28s, avg: 0.09s
+Word '要' (chars: 1) duration: 0.14s, avg: 0.14s
+Word '背' (chars: 1) duration: 0.24s, avg: 0.24s
+Word '箱' (chars: 1) duration: 0.20s, avg: 0.20s
+Word '呢' (chars: 1) duration: 0.84s, avg: 0.84s
+Skipping word '呢' at sentence end with duration 0.8399999999999963
+Pause between '品' and '牌': 0.00s
+Pause between '牌' and '為什麼': 0.00s
+Pause between '為什麼' and '要': 0.00s
+Pause between '要' and '背': 0.00s
+Pause between '背' and '箱': 0.00s
+Pause between '箱' and '呢': 0.00s
+Analyzing segment 9: 這就是文創
+Word timestamps count: 4
+Word '這' (chars: 1) duration: 0.16s, avg: 0.16s
+Word '就是' (chars: 2) duration: 0.24s, avg: 0.12s
+Word '文' (chars: 1) duration: 0.32s, avg: 0.32s
+Word '創' (chars: 1) duration: 0.54s, avg: 0.54s
+Skipping word '創' at sentence end with duration 0.5399999999999991
+Pause between '這' and '就是': 0.00s
+Pause between '就是' and '文': 0.00s
+Pause between '文' and '創': 0.00s
+Analyzing segment 10: 可是文創又是什麼呢
+Word timestamps count: 6
+Word '可是' (chars: 2) duration: 0.28s, avg: 0.14s
+Word '文' (chars: 1) duration: 0.26s, avg: 0.26s
+Word '創' (chars: 1) duration: 0.14s, avg: 0.14s
+Word '又' (chars: 1) duration: 0.22s, avg: 0.22s
+Word '是什麼' (chars: 3) duration: 0.26s, avg: 0.09s
+Word '呢' (chars: 1) duration: 1.32s, avg: 1.32s
+Skipping word '呢' at sentence end with duration 1.3200000000000003
+Pause between '可是' and '文': 0.00s
+Pause between '文' and '創': 0.00s
+Pause between '創' and '又': 0.00s
+Pause between '又' and '是什麼': 0.00s
+Pause between '是什麼' and '呢': 0.00s
+Analyzing segment 11: 上大學脫離了高中繁忙的生活
+Word timestamps count: 12
+Word '上' (chars: 1) duration: 0.18s, avg: 0.18s
+Word '大' (chars: 1) duration: 0.40s, avg: 0.40s
+Word '學' (chars: 1) duration: 0.64s, avg: 0.64s
+Word '脫' (chars: 1) duration: 0.30s, avg: 0.30s
+Word '離' (chars: 1) duration: 0.06s, avg: 0.06s
+Word '了' (chars: 1) duration: 0.10s, avg: 0.10s
+Word '高' (chars: 1) duration: 0.16s, avg: 0.16s
+Word '中' (chars: 1) duration: 0.14s, avg: 0.14s
+Word '繁' (chars: 1) duration: 0.26s, avg: 0.26s
+Word '忙' (chars: 1) duration: 0.02s, avg: 0.02s
+Word '的' (chars: 1) duration: 0.20s, avg: 0.20s
+Word '生活' (chars: 2) duration: 0.74s, avg: 0.37s
+Skipping word '生活' at sentence end with duration 0.740000000000002
+Pause between '上' and '大': 0.00s
+Pause between '大' and '學': 0.00s
+Pause between '學' and '脫': 0.00s
+Pause between '脫' and '離': 0.00s
+Pause between '離' and '了': 0.00s
+Pause between '了' and '高': 0.00s
+Pause between '高' and '中': 0.00s
+Pause between '中' and '繁': 0.00s
+Pause between '繁' and '忙': 0.00s
+Pause between '忙' and '的': 0.00s
+Pause between '的' and '生活': 0.00s
+Analyzing segment 12: 我開始有機會做自己的夢
+Word timestamps count: 8
+Word '我' (chars: 1) duration: 0.50s, avg: 0.50s
+Word '開始' (chars: 2) duration: 0.16s, avg: 0.08s
+Word '有' (chars: 1) duration: 0.16s, avg: 0.16s
+Word '機會' (chars: 2) duration: 0.24s, avg: 0.12s
+Word '做' (chars: 1) duration: 0.16s, avg: 0.16s
+Word '自己' (chars: 2) duration: 0.24s, avg: 0.12s
+Word '的' (chars: 1) duration: 0.14s, avg: 0.14s
+Word '夢' (chars: 1) duration: 0.62s, avg: 0.62s
+Skipping word '夢' at sentence end with duration 0.6200000000000045
+Pause between '我' and '開始': 0.00s
+Pause between '開始' and '有': 0.00s
+Pause between '有' and '機會': 0.00s
+Pause between '機會' and '做': 0.00s
+Pause between '做' and '自己': 0.00s
+Pause between '自己' and '的': 0.00s
+Pause between '的' and '夢': 0.00s
+Analyzing segment 13: 就是經營一個個人品牌
+Word timestamps count: 7
+Word '就是' (chars: 2) duration: 0.34s, avg: 0.17s
+Word '經' (chars: 1) duration: 0.18s, avg: 0.18s
+Word '營' (chars: 1) duration: 0.04s, avg: 0.04s
+Word '一個' (chars: 2) duration: 0.18s, avg: 0.09s
+Word '個人' (chars: 2) duration: 0.20s, avg: 0.10s
+Word '品' (chars: 1) duration: 0.32s, avg: 0.32s
+Word '牌' (chars: 1) duration: 0.80s, avg: 0.80s
+Skipping word '牌' at sentence end with duration 0.7999999999999972
+Pause between '就是' and '經': 0.00s
+Pause between '經' and '營': 0.00s
+Pause between '營' and '一個': 0.00s
+Pause between '一個' and '個人': 0.00s
+Pause between '個人' and '品': 0.00s
+Pause between '品' and '牌': 0.00s
+Analyzing segment 14: 剛開始因為沒什麼錢
+Word timestamps count: 6
+Word '剛' (chars: 1) duration: 0.26s, avg: 0.26s
+Word '開始' (chars: 2) duration: 0.24s, avg: 0.12s
+Word '因為' (chars: 2) duration: 0.24s, avg: 0.12s
+Word '沒' (chars: 1) duration: 0.18s, avg: 0.18s
+Word '什麼' (chars: 2) duration: 0.20s, avg: 0.10s
+Word '錢' (chars: 1) duration: 0.92s, avg: 0.92s
+Skipping word '錢' at sentence end with duration 0.9199999999999946
+Pause between '剛' and '開始': 0.00s
+Pause between '開始' and '因為': 0.00s
+Pause between '因為' and '沒': 0.00s
+Pause between '沒' and '什麼': 0.00s
+Pause between '什麼' and '錢': 0.00s
+Analyzing segment 15: 所以我從最基本的手練開始做
+Word timestamps count: 9
+Word '所以' (chars: 2) duration: 0.26s, avg: 0.13s
+Word '我' (chars: 1) duration: 0.12s, avg: 0.12s
+Word '從' (chars: 1) duration: 0.10s, avg: 0.10s
+Word '最' (chars: 1) duration: 0.22s, avg: 0.22s
+Word '基本' (chars: 2) duration: 0.32s, avg: 0.16s
+Word '的' (chars: 1) duration: 0.14s, avg: 0.14s
+Word '手' (chars: 1) duration: 0.08s, avg: 0.08s
+Word '練' (chars: 1) duration: 0.10s, avg: 0.10s
+Word '開始' (chars: 2) duration: 0.28s, avg: 0.14s
+Pause between '所以' and '我': 0.00s
+Pause between '我' and '從': 0.00s
+Pause between '從' and '最': 0.00s
+Pause between '最' and '基本': 0.00s
+Pause between '基本' and '的': 0.00s
+Pause between '的' and '手': 0.00s
+Pause between '手' and '練': 0.00s
+Pause between '練' and '開始': 0.00s
+Analyzing segment 16: 然後就逼著生命同學一個一個買
+Word timestamps count: 11
+Word '然後' (chars: 2) duration: 0.46s, avg: 0.23s
+Word '就' (chars: 1) duration: 0.20s, avg: 0.20s
+Word '逼' (chars: 1) duration: 0.12s, avg: 0.12s
+Word '著' (chars: 1) duration: 0.14s, avg: 0.14s
+Word '生' (chars: 1) duration: 0.14s, avg: 0.14s
+Word '命' (chars: 1) duration: 0.06s, avg: 0.06s
+Word '同' (chars: 1) duration: 0.16s, avg: 0.16s
+Word '學' (chars: 1) duration: 0.06s, avg: 0.06s
+Word '一個' (chars: 2) duration: 0.26s, avg: 0.13s
+Word '一個' (chars: 2) duration: 0.20s, avg: 0.10s
+Word '買' (chars: 1) duration: 0.80s, avg: 0.80s
+Skipping word '買' at sentence end with duration 0.8000000000000043
+Pause between '然後' and '就': 0.00s
+Pause between '就' and '逼': 0.00s
+Pause between '逼' and '著': 0.00s
+Pause between '著' and '生': 0.00s
+Pause between '生' and '命': 0.00s
+Pause between '命' and '同': 0.00s
+Pause between '同' and '學': 0.00s
+Pause between '學' and '一個': 0.00s
+Pause between '一個' and '一個': 0.00s
+Pause between '一個' and '買': 0.00s
+Analyzing segment 17: 終於存到第一筆錢
+Word timestamps count: 7
+Word '終' (chars: 1) duration: 0.44s, avg: 0.44s
+Word '於' (chars: 1) duration: 0.56s, avg: 0.56s
+Word '存' (chars: 1) duration: 0.24s, avg: 0.24s
+Word '到' (chars: 1) duration: 0.30s, avg: 0.30s
+Word '第一' (chars: 2) duration: 0.24s, avg: 0.12s
+Word '筆' (chars: 1) duration: 0.16s, avg: 0.16s
+Word '錢' (chars: 1) duration: 0.50s, avg: 0.50s
+Skipping word '錢' at sentence end with duration 0.5
+Pause between '終' and '於': 0.00s
+Pause between '於' and '存': 0.00s
+Pause between '存' and '到': 0.00s
+Pause between '到' and '第一': 0.00s
+Pause between '第一' and '筆': 0.00s
+Pause between '筆' and '錢': 0.00s
+Analyzing segment 18: 可以做屬於自己的創作了
+Word timestamps count: 9
+Word '可以' (chars: 2) duration: 0.34s, avg: 0.17s
+Word '做' (chars: 1) duration: 0.26s, avg: 0.26s
+Word '屬' (chars: 1) duration: 0.16s, avg: 0.16s
+Word '於' (chars: 1) duration: 0.08s, avg: 0.08s
+Word '自己' (chars: 2) duration: 0.22s, avg: 0.11s
+Word '的' (chars: 1) duration: 0.16s, avg: 0.16s
+Word '創' (chars: 1) duration: 0.24s, avg: 0.24s
+Word '作' (chars: 1) duration: 0.22s, avg: 0.22s
+Word '了' (chars: 1) duration: 0.32s, avg: 0.32s
+Skipping word '了' at sentence end with duration 0.3200000000000003
+Pause between '可以' and '做': 0.00s
+Pause between '做' and '屬': 0.00s
+Pause between '屬' and '於': 0.00s
+Pause between '於' and '自己': 0.00s
+Pause between '自己' and '的': 0.00s
+Pause between '的' and '創': 0.00s
+Pause between '創' and '作': 0.00s
+Pause between '作' and '了': 0.00s
+Analyzing segment 19: 不知道大家有沒有失戀的經驗
+Word timestamps count: 8
+Word '不知道' (chars: 3) duration: 0.10s, avg: 0.03s
+Word '大家' (chars: 2) duration: 0.36s, avg: 0.18s
+Word '有沒有' (chars: 3) duration: 0.24s, avg: 0.08s
+Word '失' (chars: 1) duration: 0.34s, avg: 0.34s
+Word '戀' (chars: 1) duration: 0.10s, avg: 0.10s
+Word '的' (chars: 1) duration: 0.26s, avg: 0.26s
+Word '經' (chars: 1) duration: 0.22s, avg: 0.22s
+Word '驗' (chars: 1) duration: 0.68s, avg: 0.68s
+Skipping word '驗' at sentence end with duration 0.6799999999999997
+Pause between '不知道' and '大家': 0.00s
+Pause between '大家' and '有沒有': 0.00s
+Pause between '有沒有' and '失': 0.00s
+Pause between '失' and '戀': 0.00s
+Pause between '戀' and '的': 0.00s
+Pause between '的' and '經': 0.00s
+Pause between '經' and '驗': 0.00s
+Analyzing segment 20: 而且大家應該都會變得歇斯底里
+Word timestamps count: 11
+Word '而且' (chars: 2) duration: 0.24s, avg: 0.12s
+Word '大家' (chars: 2) duration: 0.22s, avg: 0.11s
+Word '應該' (chars: 2) duration: 0.20s, avg: 0.10s
+Word '都' (chars: 1) duration: 0.16s, avg: 0.16s
+Word '會' (chars: 1) duration: 0.14s, avg: 0.14s
+Word '變' (chars: 1) duration: 0.06s, avg: 0.06s
+Word '得' (chars: 1) duration: 0.14s, avg: 0.14s
+Word '歇' (chars: 1) duration: 0.12s, avg: 0.12s
+Word '斯' (chars: 1) duration: 0.26s, avg: 0.26s
+Word '底' (chars: 1) duration: 0.14s, avg: 0.14s
+Word '里' (chars: 1) duration: 0.46s, avg: 0.46s
+Skipping word '里' at sentence end with duration 0.46000000000000085
+Pause between '而且' and '大家': 0.00s
+Pause between '大家' and '應該': 0.00s
+Pause between '應該' and '都': 0.00s
+Pause between '都' and '會': 0.00s
+Pause between '會' and '變': 0.00s
+Pause between '變' and '得': 0.00s
+Pause between '得' and '歇': 0.00s
+Pause between '歇' and '斯': 0.00s
+Pause between '斯' and '底': 0.00s
+Pause between '底' and '里': 0.00s
+Analyzing segment 21: 暴飲暴食
+Word timestamps count: 4
+Word '暴' (chars: 1) duration: 0.26s, avg: 0.26s
+Word '飲' (chars: 1) duration: 0.14s, avg: 0.14s
+Word '暴' (chars: 1) duration: 0.44s, avg: 0.44s
+Word '食' (chars: 1) duration: 0.44s, avg: 0.44s
+Skipping word '食' at sentence end with duration 0.4399999999999977
+Pause between '暴' and '飲': 0.00s
+Pause between '飲' and '暴': 0.00s
+Pause between '暴' and '食': 0.00s
+Analyzing segment 22: 甚至買一些你根本用不到的東西
+Word timestamps count: 10
+Word '甚' (chars: 1) duration: 0.34s, avg: 0.34s
+Word '至' (chars: 1) duration: 0.06s, avg: 0.06s
+Word '買' (chars: 1) duration: 0.16s, avg: 0.16s
+Word '一些' (chars: 2) duration: 0.16s, avg: 0.08s
+Word '你' (chars: 1) duration: 0.16s, avg: 0.16s
+Word '根' (chars: 1) duration: 0.14s, avg: 0.14s
+Word '本' (chars: 1) duration: 0.00s, avg: 0.00s
+Word '用' (chars: 1) duration: 0.16s, avg: 0.16s
+Word '不到' (chars: 2) duration: 0.22s, avg: 0.11s
+Word '的' (chars: 1) duration: 0.30s, avg: 0.30s
+Pause between '甚' and '至': 0.00s
+Pause between '至' and '買': 0.00s
+Pause between '買' and '一些': 0.00s
+Pause between '一些' and '你': 0.00s
+Pause between '你' and '根': 0.00s
+Pause between '根' and '本': 0.00s
+Pause between '本' and '用': 0.00s
+Pause between '用' and '不到': 0.00s
+Pause between '不到' and '的': 0.00s
+Analyzing segment 23: 這些我全都做過
+Word timestamps count: 6
+Word '這些' (chars: 2) duration: 0.44s, avg: 0.22s
+Word '我' (chars: 1) duration: 0.26s, avg: 0.26s
+Word '全' (chars: 1) duration: 0.18s, avg: 0.18s
+Word '都' (chars: 1) duration: 0.20s, avg: 0.20s
+Word '做' (chars: 1) duration: 0.28s, avg: 0.28s
+Word '過' (chars: 1) duration: 0.78s, avg: 0.78s
+Skipping word '過' at sentence end with duration 0.7800000000000011
+Pause between '這些' and '我': 0.00s
+Pause between '我' and '全': 0.00s
+Pause between '全' and '都': 0.00s
+Pause between '都' and '做': 0.00s
+Pause between '做' and '過': 0.00s
+Analyzing segment 24: 至現在我把這些情緒轉化到我的創作裡面
+Word timestamps count: 14
+Word '至' (chars: 1) duration: 0.30s, avg: 0.30s
+Word '現在' (chars: 2) duration: 0.52s, avg: 0.26s
+Word '我' (chars: 1) duration: 0.44s, avg: 0.44s
+Word '把' (chars: 1) duration: 0.18s, avg: 0.18s
+Word '這些' (chars: 2) duration: 0.20s, avg: 0.10s
+Word '情' (chars: 1) duration: 0.24s, avg: 0.24s
+Word '緒' (chars: 1) duration: 0.08s, avg: 0.08s
+Word '轉' (chars: 1) duration: 0.22s, avg: 0.22s
+Word '化' (chars: 1) duration: 0.10s, avg: 0.10s
+Word '到' (chars: 1) duration: 0.16s, avg: 0.16s
+Word '我的' (chars: 2) duration: 0.30s, avg: 0.15s
+Word '創' (chars: 1) duration: 0.34s, avg: 0.34s
+Word '作' (chars: 1) duration: 0.12s, avg: 0.12s
+Word '裡面' (chars: 2) duration: 0.66s, avg: 0.33s
+Skipping word '裡面' at sentence end with duration 0.6599999999999966
+Pause between '至' and '現在': 0.00s
+Pause between '現在' and '我': 0.00s
+Pause between '我' and '把': 0.00s
+Pause between '把' and '這些': 0.00s
+Pause between '這些' and '情': 0.00s
+Pause between '情' and '緒': 0.00s
+Pause between '緒' and '轉': 0.00s
+Pause between '轉' and '化': 0.00s
+Pause between '化' and '到': 0.00s
+Pause between '到' and '我的': 0.00s
+Pause between '我的' and '創': 0.00s
+Pause between '創' and '作': 0.00s
+Pause between '作' and '裡面': 0.00s
+Analyzing segment 25: 失戀你可能會覺得悲傷
+Word timestamps count: 8
+Word '失' (chars: 1) duration: 0.80s, avg: 0.80s
+Word prolongation detected: '失' (avg duration per char: 0.80s)
+Word '戀' (chars: 1) duration: 0.32s, avg: 0.32s
+Word '你' (chars: 1) duration: 0.34s, avg: 0.34s
+Word '可能' (chars: 2) duration: 0.12s, avg: 0.06s
+Word '會' (chars: 1) duration: 0.16s, avg: 0.16s
+Word '覺得' (chars: 2) duration: 0.18s, avg: 0.09s
+Word '悲' (chars: 1) duration: 0.38s, avg: 0.38s
+Word '傷' (chars: 1) duration: 0.44s, avg: 0.44s
+Skipping word '傷' at sentence end with duration 0.4399999999999977
+Pause between '失' and '戀': 0.00s
+Pause between '戀' and '你': 0.00s
+Pause between '你' and '可能': 0.00s
+Pause between '可能' and '會': 0.00s
+Pause between '會' and '覺得': 0.00s
+Pause between '覺得' and '悲': 0.00s
+Pause between '悲' and '傷': 0.00s
+Feedback generated for segment 25: [{'segment_index': 25, 'text': '失戀你可能會覺得悲傷', 'severity': 'medium', 'message': "Word prolongation: '失' avg duration 0.8 seconds per char.", 'start_time': np.float64(74.46), 'end_time': np.float64(75.26)}]
+Analyzing segment 26: 覺得寂寞
+Word timestamps count: 3
+Word '覺得' (chars: 2) duration: 0.38s, avg: 0.19s
+Word '寂' (chars: 1) duration: 0.40s, avg: 0.40s
+Word '寞' (chars: 1) duration: 0.54s, avg: 0.54s
+Skipping word '寞' at sentence end with duration 0.539999999999992
+Pause between '覺得' and '寂': 0.00s
+Pause between '寂' and '寞': 0.00s
+Analyzing segment 27: 可是當它變成具體的模樣時
+Word timestamps count: 11
+Word '可是' (chars: 2) duration: 0.26s, avg: 0.13s
+Word '當' (chars: 1) duration: 0.16s, avg: 0.16s
+Word '它' (chars: 1) duration: 0.08s, avg: 0.08s
+Word '變' (chars: 1) duration: 0.18s, avg: 0.18s
+Word '成' (chars: 1) duration: 0.14s, avg: 0.14s
+Word '具' (chars: 1) duration: 0.24s, avg: 0.24s
+Word '體' (chars: 1) duration: 0.10s, avg: 0.10s
+Word '的' (chars: 1) duration: 0.08s, avg: 0.08s
+Word '模' (chars: 1) duration: 0.08s, avg: 0.08s
+Word '樣' (chars: 1) duration: 0.26s, avg: 0.26s
+Word '時' (chars: 1) duration: 0.16s, avg: 0.16s
+Skipping word '時' at sentence end with duration 0.1600000000000108
+Pause between '可是' and '當': 0.00s
+Pause between '當' and '它': 0.00s
+Pause between '它' and '變': 0.00s
+Pause between '變' and '成': 0.00s
+Pause between '成' and '具': 0.00s
+Pause between '具' and '體': 0.00s
+Pause between '體' and '的': 0.00s
+Pause between '的' and '模': 0.00s
+Pause between '模' and '樣': 0.00s
+Pause between '樣' and '時': 0.00s
+Analyzing segment 28: 會是什麼樣子呢
+Word timestamps count: 5
+Word '會' (chars: 1) duration: 0.14s, avg: 0.14s
+Word '是什麼' (chars: 3) duration: 0.32s, avg: 0.11s
+Word '樣' (chars: 1) duration: 0.34s, avg: 0.34s
+Word '子' (chars: 1) duration: 0.16s, avg: 0.16s
+Word '呢' (chars: 1) duration: 1.10s, avg: 1.10s
+Skipping word '呢' at sentence end with duration 1.0999999999999943
+Pause between '會' and '是什麼': 0.00s
+Pause between '是什麼' and '樣': 0.00s
+Pause between '樣' and '子': 0.00s
+Pause between '子' and '呢': 0.00s
+Analyzing segment 29: 這是我當時的作品
+Word timestamps count: 7
+Word '這是' (chars: 2) duration: 0.24s, avg: 0.12s
+Word '我' (chars: 1) duration: 0.20s, avg: 0.20s
+Word '當' (chars: 1) duration: 0.28s, avg: 0.28s
+Word '時' (chars: 1) duration: 0.16s, avg: 0.16s
+Word '的' (chars: 1) duration: 0.20s, avg: 0.20s
+Word '作' (chars: 1) duration: 0.26s, avg: 0.26s
+Word '品' (chars: 1) duration: 0.38s, avg: 0.38s
+Skipping word '品' at sentence end with duration 0.38000000000000966
+Pause between '這是' and '我': 0.00s
+Pause between '我' and '當': 0.00s
+Pause between '當' and '時': 0.00s
+Pause between '時' and '的': 0.00s
+Pause between '的' and '作': 0.00s
+Pause between '作' and '品': 0.00s
+Analyzing segment 30: 破碎的愛
+Word timestamps count: 4
+Word '破' (chars: 1) duration: 0.32s, avg: 0.32s
+Word '碎' (chars: 1) duration: 0.10s, avg: 0.10s
+Word '的' (chars: 1) duration: 0.18s, avg: 0.18s
+Word '愛' (chars: 1) duration: 0.90s, avg: 0.90s
+Skipping word '愛' at sentence end with duration 0.9000000000000057
+Pause between '破' and '碎': 0.00s
+Pause between '碎' and '的': 0.00s
+Pause between '的' and '愛': 0.00s
+Analyzing segment 31: 那時候正值梅雨季
+Word timestamps count: 7
+Word '那' (chars: 1) duration: 0.32s, avg: 0.32s
+Word '時候' (chars: 2) duration: 0.16s, avg: 0.08s
+Word '正' (chars: 1) duration: 0.24s, avg: 0.24s
+Word '值' (chars: 1) duration: 0.12s, avg: 0.12s
+Word '梅' (chars: 1) duration: 0.24s, avg: 0.24s
+Word '雨' (chars: 1) duration: 0.16s, avg: 0.16s
+Word '季' (chars: 1) duration: 0.38s, avg: 0.38s
+Skipping word '季' at sentence end with duration 0.37999999999999545
+Pause between '那' and '時候': 0.00s
+Pause between '時候' and '正': 0.00s
+Pause between '正' and '值': 0.00s
+Pause between '值' and '梅': 0.00s
+Pause between '梅' and '雨': 0.00s
+Pause between '雨' and '季': 0.00s
+Analyzing segment 32: 我剛失戀
+Word timestamps count: 4
+Word '我' (chars: 1) duration: 0.28s, avg: 0.28s
+Word '剛' (chars: 1) duration: 0.20s, avg: 0.20s
+Word '失' (chars: 1) duration: 0.32s, avg: 0.32s
+Word '戀' (chars: 1) duration: 0.50s, avg: 0.50s
+Skipping word '戀' at sentence end with duration 0.5
+Pause between '我' and '剛': 0.00s
+Pause between '剛' and '失': 0.00s
+Pause between '失' and '戀': 0.00s
+Analyzing segment 33: 我現在失戀的人都有點病態
+Word timestamps count: 9
+Word '我' (chars: 1) duration: 0.26s, avg: 0.26s
+Word '現在' (chars: 2) duration: 0.18s, avg: 0.09s
+Word '失' (chars: 1) duration: 0.26s, avg: 0.26s
+Word '戀' (chars: 1) duration: 0.06s, avg: 0.06s
+Word '的人' (chars: 2) duration: 0.22s, avg: 0.11s
+Word '都' (chars: 1) duration: 0.14s, avg: 0.14s
+Word '有點' (chars: 2) duration: 0.28s, avg: 0.14s
+Word '病' (chars: 1) duration: 0.40s, avg: 0.40s
+Word '態' (chars: 1) duration: 0.44s, avg: 0.44s
+Skipping word '態' at sentence end with duration 0.4399999999999977
+Pause between '我' and '現在': 0.00s
+Pause between '現在' and '失': 0.00s
+Pause between '失' and '戀': 0.00s
+Pause between '戀' and '的人': 0.00s
+Pause between '的人' and '都': 0.00s
+Pause between '都' and '有點': 0.00s
+Pause between '有點' and '病': 0.00s
+Pause between '病' and '態': 0.00s
+Analyzing segment 34: 下雨的時候就忍不住想要去淋一下
+Word timestamps count: 12
+Word '下' (chars: 1) duration: 0.26s, avg: 0.26s
+Skipping word '下' at sentence end with duration 0.2599999999999909
+Word '雨' (chars: 1) duration: 0.12s, avg: 0.12s
+Word '的時候' (chars: 3) duration: 0.42s, avg: 0.14s
+Word '就' (chars: 1) duration: 0.26s, avg: 0.26s
+Word '忍' (chars: 1) duration: 0.14s, avg: 0.14s
+Word '不' (chars: 1) duration: 0.16s, avg: 0.16s
+Word '住' (chars: 1) duration: 0.08s, avg: 0.08s
+Word '想' (chars: 1) duration: 0.16s, avg: 0.16s
+Word '要' (chars: 1) duration: 0.14s, avg: 0.14s
+Word '去' (chars: 1) duration: 0.14s, avg: 0.14s
+Word '淋' (chars: 1) duration: 0.10s, avg: 0.10s
+Word '一下' (chars: 2) duration: 0.94s, avg: 0.47s
+Skipping word '一下' at sentence end with duration 0.9399999999999977
+Pause between '下' and '雨': 0.00s
+Pause between '雨' and '的時候': 0.00s
+Pause between '的時候' and '就': 0.00s
+Pause between '就' and '忍': 0.00s
+Pause between '忍' and '不': 0.00s
+Pause between '不' and '住': 0.00s
+Pause between '住' and '想': 0.00s
+Pause between '想' and '要': 0.00s
+Pause between '要' and '去': 0.00s
+Pause between '去' and '淋': 0.00s
+Pause between '淋' and '一下': 0.00s
+Analyzing segment 35: 所以你可以看到愛這個字
+Word timestamps count: 6
+Word '所以' (chars: 2) duration: 0.30s, avg: 0.15s
+Word '你可以' (chars: 3) duration: 0.22s, avg: 0.07s
+Word '看到' (chars: 2) duration: 0.58s, avg: 0.29s
+Word '愛' (chars: 1) duration: 0.40s, avg: 0.40s
+Word '這個' (chars: 2) duration: 0.30s, avg: 0.15s
+Word '字' (chars: 1) duration: 0.26s, avg: 0.26s
+Skipping word '字' at sentence end with duration 0.2600000000000051
+Pause between '所以' and '你可以': 0.00s
+Pause between '你可以' and '看到': 0.00s
+Pause between '看到' and '愛': 0.00s
+Pause between '愛' and '這個': 0.00s
+Pause between '這個' and '字': 0.00s
+Analyzing segment 36: 在心的部分
+Word timestamps count: 4
+Word '在' (chars: 1) duration: 0.38s, avg: 0.38s
+Word '心' (chars: 1) duration: 0.30s, avg: 0.30s
+Word '的' (chars: 1) duration: 0.16s, avg: 0.16s
+Word '部分' (chars: 2) duration: 0.58s, avg: 0.29s
+Skipping word '部分' at sentence end with duration 0.5799999999999983
+Pause between '在' and '心': 0.00s
+Pause between '心' and '的': 0.00s
+Pause between '的' and '部分': 0.00s
+Analyzing segment 37: 它像雨水跟淚水正在落下
+Word timestamps count: 11
+Word '它' (chars: 1) duration: 0.42s, avg: 0.42s
+Word '像' (chars: 1) duration: 0.20s, avg: 0.20s
+Word '雨' (chars: 1) duration: 0.38s, avg: 0.38s
+Word '水' (chars: 1) duration: 0.52s, avg: 0.52s
+Word '跟' (chars: 1) duration: 0.28s, avg: 0.28s
+Word '淚' (chars: 1) duration: 0.38s, avg: 0.38s
+Word '水' (chars: 1) duration: 0.42s, avg: 0.42s
+Word '正' (chars: 1) duration: 0.22s, avg: 0.22s
+Word '在' (chars: 1) duration: 0.18s, avg: 0.18s
+Word '落' (chars: 1) duration: 0.36s, avg: 0.36s
+Word '下' (chars: 1) duration: 0.80s, avg: 0.80s
+Skipping word '下' at sentence end with duration 0.8000000000000114
+Pause between '它' and '像': 0.00s
+Pause between '像' and '雨': 0.00s
+Pause between '雨' and '水': 0.00s
+Pause between '水' and '跟': 0.00s
+Pause between '跟' and '淚': 0.00s
+Pause between '淚' and '水': 0.00s
+Pause between '水' and '正': 0.00s
+Pause between '正' and '在': 0.00s
+Pause between '在' and '落': 0.00s
+Pause between '落' and '下': 0.00s
+Analyzing segment 38: 而當你把心的部分去掉以後
+Word timestamps count: 11
+Word '而' (chars: 1) duration: 0.20s, avg: 0.20s
+Word '當' (chars: 1) duration: 0.18s, avg: 0.18s
+Word '你' (chars: 1) duration: 0.18s, avg: 0.18s
+Word '把' (chars: 1) duration: 0.28s, avg: 0.28s
+Word '心' (chars: 1) duration: 0.26s, avg: 0.26s
+Word '的' (chars: 1) duration: 0.16s, avg: 0.16s
+Word '部分' (chars: 2) duration: 0.24s, avg: 0.12s
+Word '去' (chars: 1) duration: 0.24s, avg: 0.24s
+Word '掉' (chars: 1) duration: 0.20s, avg: 0.20s
+Word '以' (chars: 1) duration: 0.32s, avg: 0.32s
+Word '後' (chars: 1) duration: 0.48s, avg: 0.48s
+Skipping word '後' at sentence end with duration 0.480000000000004
+Pause between '而' and '當': 0.00s
+Pause between '當' and '你': 0.00s
+Pause between '你' and '把': 0.00s
+Pause between '把' and '心': 0.00s
+Pause between '心' and '的': 0.00s
+Pause between '的' and '部分': 0.00s
+Pause between '部分' and '去': 0.00s
+Pause between '去' and '掉': 0.00s
+Pause between '掉' and '以': 0.00s
+Pause between '以' and '後': 0.00s
+Analyzing segment 39: 愛這個字就剩下感受的時候
+Word timestamps count: 9
+Word '愛' (chars: 1) duration: 0.30s, avg: 0.30s
+Word '這個' (chars: 2) duration: 0.38s, avg: 0.19s
+Word '字' (chars: 1) duration: 0.40s, avg: 0.40s
+Word '就' (chars: 1) duration: 0.30s, avg: 0.30s
+Word '剩' (chars: 1) duration: 0.14s, avg: 0.14s
+Word '下' (chars: 1) duration: 0.20s, avg: 0.20s
+Word '感' (chars: 1) duration: 0.32s, avg: 0.32s
+Word '受' (chars: 1) duration: 0.14s, avg: 0.14s
+Word '的時候' (chars: 3) duration: 0.76s, avg: 0.25s
+Skipping word '的時候' at sentence end with duration 0.7599999999999909
+Pause between '愛' and '這個': 0.00s
+Pause between '這個' and '字': 0.00s
+Pause between '字' and '就': 0.00s
+Pause between '就' and '剩': 0.00s
+Pause between '剩' and '下': 0.00s
+Pause between '下' and '感': 0.00s
+Pause between '感' and '受': 0.00s
+Pause between '受' and '的時候': 0.00s
+Analyzing segment 40: 用心去感受你當下的情緒
+Word timestamps count: 11
+Word '用' (chars: 1) duration: 0.58s, avg: 0.58s
+Word '心' (chars: 1) duration: 0.20s, avg: 0.20s
+Word '去' (chars: 1) duration: 0.22s, avg: 0.22s
+Word '感' (chars: 1) duration: 0.24s, avg: 0.24s
+Word '受' (chars: 1) duration: 0.12s, avg: 0.12s
+Word '你' (chars: 1) duration: 0.20s, avg: 0.20s
+Word '當' (chars: 1) duration: 0.24s, avg: 0.24s
+Word '下' (chars: 1) duration: 0.18s, avg: 0.18s
+Word '的' (chars: 1) duration: 0.22s, avg: 0.22s
+Word '情' (chars: 1) duration: 0.26s, avg: 0.26s
+Word '緒' (chars: 1) duration: 0.42s, avg: 0.42s
+Skipping word '緒' at sentence end with duration 0.4199999999999875
+Pause between '用' and '心': 0.00s
+Pause between '心' and '去': 0.00s
+Pause between '去' and '感': 0.00s
+Pause between '感' and '受': 0.00s
+Pause between '受' and '你': 0.00s
+Pause between '你' and '當': 0.00s
+Pause between '當' and '下': 0.00s
+Pause between '下' and '的': 0.00s
+Pause between '的' and '情': 0.00s
+Pause between '情' and '緒': 0.00s
+Analyzing segment 41: 想哭就好好的哭吧
+Word timestamps count: 7
+Word '想' (chars: 1) duration: 0.36s, avg: 0.36s
+Word '哭' (chars: 1) duration: 0.16s, avg: 0.16s
+Word '就' (chars: 1) duration: 0.22s, avg: 0.22s
+Word '好' (chars: 1) duration: 0.16s, avg: 0.16s
+Word '好的' (chars: 2) duration: 0.20s, avg: 0.10s
+Word '哭' (chars: 1) duration: 0.26s, avg: 0.26s
+Word '吧' (chars: 1) duration: 0.96s, avg: 0.96s
+Skipping word '吧' at sentence end with duration 0.9599999999999937
+Pause between '想' and '哭': 0.00s
+Pause between '哭' and '就': 0.00s
+Pause between '就' and '好': 0.00s
+Pause between '好' and '好的': 0.00s
+Pause between '好的' and '哭': 0.00s
+Pause between '哭' and '吧': 0.00s
+Analyzing segment 42: 這就是我的作品
+Word timestamps count: 5
+Word '這' (chars: 1) duration: 0.18s, avg: 0.18s
+Word '就是' (chars: 2) duration: 0.30s, avg: 0.15s
+Word '我的' (chars: 2) duration: 0.32s, avg: 0.16s
+Word '作' (chars: 1) duration: 0.38s, avg: 0.38s
+Word '品' (chars: 1) duration: 0.68s, avg: 0.68s
+Skipping word '品' at sentence end with duration 0.6800000000000068
+Pause between '這' and '就是': 0.00s
+Pause between '就是' and '我的': 0.00s
+Pause between '我的' and '作': 0.00s
+Pause between '作' and '品': 0.00s
+Analyzing segment 43: 就是有稍微了解到什麼是悲傷品牌了呢
+Word timestamps count: 15
+Word '就是' (chars: 2) duration: 0.28s, avg: 0.14s
+Word '有' (chars: 1) duration: 0.14s, avg: 0.14s
+Word '稍' (chars: 1) duration: 0.18s, avg: 0.18s
+Word '微' (chars: 1) duration: 0.16s, avg: 0.16s
+Word '了' (chars: 1) duration: 0.16s, avg: 0.16s
+Word '解' (chars: 1) duration: 0.20s, avg: 0.20s
+Word '到' (chars: 1) duration: 0.16s, avg: 0.16s
+Word '什麼' (chars: 2) duration: 0.18s, avg: 0.09s
+Word '是' (chars: 1) duration: 0.20s, avg: 0.20s
+Word '悲' (chars: 1) duration: 0.22s, avg: 0.22s
+Word '傷' (chars: 1) duration: 0.12s, avg: 0.12s
+Word '品' (chars: 1) duration: 0.28s, avg: 0.28s
+Word '牌' (chars: 1) duration: 0.14s, avg: 0.14s
+Word '了' (chars: 1) duration: 0.20s, avg: 0.20s
+Word '呢' (chars: 1) duration: 0.52s, avg: 0.52s
+Skipping word '呢' at sentence end with duration 0.519999999999996
+Pause between '就是' and '有': 0.00s
+Pause between '有' and '稍': 0.00s
+Pause between '稍' and '微': 0.00s
+Pause between '微' and '了': 0.00s
+Pause between '了' and '解': 0.00s
+Pause between '解' and '到': 0.00s
+Pause between '到' and '什麼': 0.00s
+Pause between '什麼' and '是': 0.00s
+Pause between '是' and '悲': 0.00s
+Pause between '悲' and '傷': 0.00s
+Pause between '傷' and '品': 0.00s
+Pause between '品' and '牌': 0.00s
+Pause between '牌' and '了': 0.00s
+Pause between '了' and '呢': 0.00s
+Analyzing segment 44: 做完了創作以後
+Word timestamps count: 6
+Word '做' (chars: 1) duration: 0.16s, avg: 0.16s
+Word '完了' (chars: 2) duration: 0.22s, avg: 0.11s
+Word '創' (chars: 1) duration: 0.28s, avg: 0.28s
+Word '作' (chars: 1) duration: 0.12s, avg: 0.12s
+Word '以' (chars: 1) duration: 0.30s, avg: 0.30s
+Word '後' (chars: 1) duration: 0.54s, avg: 0.54s
+Skipping word '後' at sentence end with duration 0.5400000000000063
+Pause between '做' and '完了': 0.00s
+Pause between '完了' and '創': 0.00s
+Pause between '創' and '作': 0.00s
+Pause between '作' and '以': 0.00s
+Pause between '以' and '後': 0.00s
+Analyzing segment 45: 我想我不能單單只是在Facebook上面做分享
+Word timestamps count: 13
+Word '我想' (chars: 2) duration: 0.32s, avg: 0.16s
+Word '我不' (chars: 2) duration: 0.16s, avg: 0.08s
+Word '能' (chars: 1) duration: 0.10s, avg: 0.10s
+Word '單' (chars: 1) duration: 0.18s, avg: 0.18s
+Word '單' (chars: 1) duration: 0.10s, avg: 0.10s
+Word '只是' (chars: 2) duration: 0.24s, avg: 0.12s
+Word '在' (chars: 1) duration: 0.24s, avg: 0.24s
+Word 'F' (chars: 1) duration: 0.14s, avg: 0.14s
+Word 'ace' (chars: 3) duration: 0.12s, avg: 0.04s
+Word 'book' (chars: 4) duration: 0.16s, avg: 0.04s
+Word '上面' (chars: 2) duration: 0.30s, avg: 0.15s
+Word '做' (chars: 1) duration: 0.22s, avg: 0.22s
+Word '分享' (chars: 2) duration: 0.66s, avg: 0.33s
+Skipping word '分享' at sentence end with duration 0.6599999999999966
+Pause between '我想' and '我不': 0.00s
+Pause between '我不' and '能': 0.00s
+Pause between '能' and '單': 0.00s
+Pause between '單' and '單': 0.00s
+Pause between '單' and '只是': 0.00s
+Pause between '只是' and '在': 0.00s
+Pause between '在' and 'F': 0.00s
+Pause between 'F' and 'ace': 0.00s
+Pause between 'ace' and 'book': 0.00s
+Pause between 'book' and '上面': 0.00s
+Pause between '上面' and '做': 0.00s
+Pause between '做' and '分享': 0.00s
+Analyzing segment 46: 我想要有實體的機會跟人面對面直接分享我的故事
+Word timestamps count: 17
+Word '我想' (chars: 2) duration: 0.44s, avg: 0.22s
+Word '要' (chars: 1) duration: 0.18s, avg: 0.18s
+Word '有' (chars: 1) duration: 0.26s, avg: 0.26s
+Word '實' (chars: 1) duration: 0.24s, avg: 0.24s
+Word '體' (chars: 1) duration: 0.86s, avg: 0.86s
+Word prolongation detected: '體' (avg duration per char: 0.86s)
+Word '的' (chars: 1) duration: 0.34s, avg: 0.34s
+Word '機會' (chars: 2) duration: 0.34s, avg: 0.17s
+Word '跟' (chars: 1) duration: 0.28s, avg: 0.28s
+Word '人' (chars: 1) duration: 0.16s, avg: 0.16s
+Word '面' (chars: 1) duration: 0.24s, avg: 0.24s
+Word '對' (chars: 1) duration: 0.20s, avg: 0.20s
+Word '面' (chars: 1) duration: 0.16s, avg: 0.16s
+Word '直接' (chars: 2) duration: 0.24s, avg: 0.12s
+Word '分享' (chars: 2) duration: 0.34s, avg: 0.17s
+Word '我的' (chars: 2) duration: 0.24s, avg: 0.12s
+Word '故' (chars: 1) duration: 0.38s, avg: 0.38s
+Word '事' (chars: 1) duration: 0.70s, avg: 0.70s
+Skipping word '事' at sentence end with duration 0.7000000000000028
+Pause between '我想' and '要': 0.00s
+Pause between '要' and '有': 0.00s
+Pause between '有' and '實': 0.00s
+Pause between '實' and '體': 0.00s
+Pause between '體' and '的': 0.00s
+Pause between '的' and '機會': 0.00s
+Pause between '機會' and '跟': 0.00s
+Pause between '跟' and '人': 0.00s
+Pause between '人' and '面': 0.00s
+Pause between '面' and '對': 0.00s
+Pause between '對' and '面': 0.00s
+Pause between '面' and '直接': 0.00s
+Pause between '直接' and '分享': 0.00s
+Pause between '分享' and '我的': 0.00s
+Pause between '我的' and '故': 0.00s
+Pause between '故' and '事': 0.00s
+Feedback generated for segment 46: [{'segment_index': 46, 'text': '我想要有實體的機會跟人面對面直接分享我的故事', 'severity': 'medium', 'message': "Word prolongation: '體' avg duration 0.9 seconds per char.", 'start_time': np.float64(124.14), 'end_time': np.float64(125.0)}]
+Analyzing segment 47: 那時候創意市集正在起步
+Word timestamps count: 10
+Word '那' (chars: 1) duration: 0.18s, avg: 0.18s
+Word '時候' (chars: 2) duration: 0.14s, avg: 0.07s
+Word '創' (chars: 1) duration: 0.24s, avg: 0.24s
+Word '意' (chars: 1) duration: 0.14s, avg: 0.14s
+Word '市' (chars: 1) duration: 0.14s, avg: 0.14s
+Word '集' (chars: 1) duration: 0.08s, avg: 0.08s
+Word '正' (chars: 1) duration: 0.16s, avg: 0.16s
+Word '在' (chars: 1) duration: 0.16s, avg: 0.16s
+Word '起' (chars: 1) duration: 0.28s, avg: 0.28s
+Word '步' (chars: 1) duration: 0.54s, avg: 0.54s
+Skipping word '步' at sentence end with duration 0.5400000000000205
+Pause between '那' and '時候': 0.00s
+Pause between '時候' and '創': 0.00s
+Pause between '創' and '意': 0.00s
+Pause between '意' and '市': 0.00s
+Pause between '市' and '集': 0.00s
+Pause between '集' and '正': 0.00s
+Pause between '正' and '在': 0.00s
+Pause between '在' and '起': 0.00s
+Pause between '起' and '步': 0.00s
+Analyzing segment 48: 所以我從市集開始擺起
+Word timestamps count: 8
+Word '所以' (chars: 2) duration: 0.30s, avg: 0.15s
+Word '我' (chars: 1) duration: 0.16s, avg: 0.16s
+Word '從' (chars: 1) duration: 0.18s, avg: 0.18s
+Word '市' (chars: 1) duration: 0.28s, avg: 0.28s
+Word '集' (chars: 1) duration: 0.06s, avg: 0.06s
+Word '開始' (chars: 2) duration: 0.36s, avg: 0.18s
+Word '擺' (chars: 1) duration: 0.36s, avg: 0.36s
+Word '起' (chars: 1) duration: 1.08s, avg: 1.08s
+Skipping word '起' at sentence end with duration 1.0800000000000125
+Pause between '所以' and '我': 0.00s
+Pause between '我' and '從': 0.00s
+Pause between '從' and '市': 0.00s
+Pause between '市' and '集': 0.00s
+Pause between '集' and '開始': 0.00s
+Pause between '開始' and '擺': 0.00s
+Pause between '擺' and '起': 0.00s
+Analyzing segment 49: 直到現場以後
+Word timestamps count: 6
+Word '直' (chars: 1) duration: 0.40s, avg: 0.40s
+Word '到' (chars: 1) duration: 0.18s, avg: 0.18s
+Word '現' (chars: 1) duration: 0.28s, avg: 0.28s
+Word '場' (chars: 1) duration: 0.18s, avg: 0.18s
+Word '以' (chars: 1) duration: 0.30s, avg: 0.30s
+Word '後' (chars: 1) duration: 0.38s, avg: 0.38s
+Skipping word '後' at sentence end with duration 0.37999999999999545
+Pause between '直' and '到': 0.00s
+Pause between '到' and '現': 0.00s
+Pause between '現' and '場': 0.00s
+Pause between '場' and '以': 0.00s
+Pause between '以' and '後': 0.00s
+Analyzing segment 50: 我才發現我沒有好好慎選我該擺的市集
+Word timestamps count: 14
+Word '我' (chars: 1) duration: 0.22s, avg: 0.22s
+Word '才' (chars: 1) duration: 0.08s, avg: 0.08s
+Word '發現' (chars: 2) duration: 0.28s, avg: 0.14s
+Word '我' (chars: 1) duration: 0.20s, avg: 0.20s
+Word '沒有' (chars: 2) duration: 0.12s, avg: 0.06s
+Word '好好' (chars: 2) duration: 0.38s, avg: 0.19s
+Word '慎' (chars: 1) duration: 0.34s, avg: 0.34s
+Word '選' (chars: 1) duration: 0.40s, avg: 0.40s
+Word '我' (chars: 1) duration: 0.30s, avg: 0.30s
+Word '該' (chars: 1) duration: 0.12s, avg: 0.12s
+Word '擺' (chars: 1) duration: 0.22s, avg: 0.22s
+Word '的' (chars: 1) duration: 0.18s, avg: 0.18s
+Word '市' (chars: 1) duration: 0.22s, avg: 0.22s
+Word '集' (chars: 1) duration: 1.30s, avg: 1.30s
+Skipping word '集' at sentence end with duration 1.299999999999983
+Pause between '我' and '才': 0.00s
+Pause between '才' and '發現': 0.00s
+Pause between '發現' and '我': 0.00s
+Pause between '我' and '沒有': 0.00s
+Pause between '沒有' and '好好': 0.00s
+Pause between '好好' and '慎': 0.00s
+Pause between '慎' and '選': 0.00s
+Pause between '選' and '我': 0.00s
+Pause between '我' and '該': 0.00s
+Pause between '該' and '擺': 0.00s
+Pause between '擺' and '的': 0.00s
+Pause between '的' and '市': 0.00s
+Pause between '市' and '集': 0.00s
+Analyzing segment 51: 在我的左邊跟右邊分別擺的是從淘寶
+Word timestamps count: 14
+Word '在' (chars: 1) duration: 0.62s, avg: 0.62s
+Word '我的' (chars: 2) duration: 0.26s, avg: 0.13s
+Word '左' (chars: 1) duration: 0.24s, avg: 0.24s
+Word '邊' (chars: 1) duration: 0.12s, avg: 0.12s
+Word '跟' (chars: 1) duration: 0.14s, avg: 0.14s
+Word '右' (chars: 1) duration: 0.16s, avg: 0.16s
+Word '邊' (chars: 1) duration: 0.18s, avg: 0.18s
+Word '分' (chars: 1) duration: 0.18s, avg: 0.18s
+Word '別' (chars: 1) duration: 0.14s, avg: 0.14s
+Word '擺' (chars: 1) duration: 0.16s, avg: 0.16s
+Word '的是' (chars: 2) duration: 0.32s, avg: 0.16s
+Word '從' (chars: 1) duration: 0.36s, avg: 0.36s
+Word '淘' (chars: 1) duration: 0.36s, avg: 0.36s
+Word '寶' (chars: 1) duration: 0.34s, avg: 0.34s
+Skipping word '寶' at sentence end with duration 0.3400000000000034
+Pause between '在' and '我的': 0.00s
+Pause between '我的' and '左': 0.00s
+Pause between '左' and '邊': 0.00s
+Pause between '邊' and '跟': 0.00s
+Pause between '跟' and '右': 0.00s
+Pause between '右' and '邊': 0.00s
+Pause between '邊' and '分': 0.00s
+Pause between '分' and '別': 0.00s
+Pause between '別' and '擺': 0.00s
+Pause between '擺' and '的是': 0.00s
+Pause between '的是' and '從': 0.00s
+Pause between '從' and '淘': 0.00s
+Pause between '淘' and '寶': 0.00s
+Analyzing segment 52: 從五分譜批發來的東西
+Word timestamps count: 9
+Word '從' (chars: 1) duration: 0.38s, avg: 0.38s
+Word '五' (chars: 1) duration: 0.20s, avg: 0.20s
+Word '分' (chars: 1) duration: 0.08s, avg: 0.08s
+Word '譜' (chars: 1) duration: 0.18s, avg: 0.18s
+Word '批' (chars: 1) duration: 0.26s, avg: 0.26s
+Word '發' (chars: 1) duration: 0.12s, avg: 0.12s
+Word '來' (chars: 1) duration: 0.14s, avg: 0.14s
+Word '的' (chars: 1) duration: 0.10s, avg: 0.10s
+Word '東西' (chars: 2) duration: 0.66s, avg: 0.33s
+Skipping word '東西' at sentence end with duration 0.6599999999999966
+Pause between '從' and '五': 0.00s
+Pause between '五' and '分': 0.00s
+Pause between '分' and '譜': 0.00s
+Pause between '譜' and '批': 0.00s
+Pause between '批' and '發': 0.00s
+Pause between '發' and '來': 0.00s
+Pause between '來' and '的': 0.00s
+Pause between '的' and '東西': 0.00s
+Analyzing segment 53: 他們賣的小小冰啊 嘎嘎包這些很潮流的東西
+Word timestamps count: 16
+Word '他們' (chars: 2) duration: 0.64s, avg: 0.32s
+Word '賣' (chars: 1) duration: 0.28s, avg: 0.28s
+Word '的' (chars: 1) duration: 0.52s, avg: 0.52s
+Word '小' (chars: 1) duration: 0.22s, avg: 0.22s
+Word '小' (chars: 1) duration: 0.24s, avg: 0.24s
+Word '冰' (chars: 1) duration: 0.18s, avg: 0.18s
+Word '啊' (chars: 1) duration: 0.38s, avg: 0.38s
+Word '嘎' (chars: 1) duration: 0.06s, avg: 0.06s
+Word '嘎' (chars: 1) duration: 0.12s, avg: 0.12s
+Word '包' (chars: 1) duration: 0.20s, avg: 0.20s
+Word '這些' (chars: 2) duration: 0.38s, avg: 0.19s
+Word '很' (chars: 1) duration: 0.38s, avg: 0.38s
+Word '潮' (chars: 1) duration: 0.20s, avg: 0.20s
+Word '流' (chars: 1) duration: 0.10s, avg: 0.10s
+Word '的' (chars: 1) duration: 1.02s, avg: 1.02s
+Word prolongation detected: '的' (avg duration per char: 1.02s)
+Word '東西' (chars: 2) duration: 0.48s, avg: 0.24s
+Skipping word '東西' at sentence end with duration 0.4800000000000182
+Pause between '他們' and '賣': 0.00s
+Pause between '賣' and '的': 0.00s
+Pause between '的' and '小': 0.00s
+Pause between '小' and '小': 0.00s
+Pause between '小' and '冰': 0.00s
+Pause between '冰' and '啊': 0.00s
+Pause between '啊' and ' 嘎': 0.10s
+Pause between ' 嘎' and '嘎': 0.00s
+Pause between '嘎' and '包': 0.00s
+Pause between '包' and '這些': 0.00s
+Pause between '這些' and '很': 0.00s
+Pause between '很' and '潮': 0.00s
+Pause between '潮' and '流': 0.00s
+Pause between '流' and '的': 0.00s
+Pause between '的' and '東西': 0.00s
+Feedback generated for segment 53: [{'segment_index': 53, 'text': '他們賣的小小冰啊 嘎嘎包這些很潮流的東西', 'severity': 'medium', 'message': "Word prolongation: '的' avg duration 1.0 seconds per char.", 'start_time': np.float64(149.24), 'end_time': np.float64(150.26)}]
+Analyzing segment 54: 而像我這樣比較灰暗的創作
+Word timestamps count: 10
+Word '而' (chars: 1) duration: 0.42s, avg: 0.42s
+Word '像' (chars: 1) duration: 0.10s, avg: 0.10s
+Word '我' (chars: 1) duration: 0.14s, avg: 0.14s
+Word '這樣' (chars: 2) duration: 0.14s, avg: 0.07s
+Word '比較' (chars: 2) duration: 0.42s, avg: 0.21s
+Word '灰' (chars: 1) duration: 0.22s, avg: 0.22s
+Word '暗' (chars: 1) duration: 0.10s, avg: 0.10s
+Word '的' (chars: 1) duration: 0.30s, avg: 0.30s
+Word '創' (chars: 1) duration: 0.36s, avg: 0.36s
+Word '作' (chars: 1) duration: 0.50s, avg: 0.50s
+Skipping word '作' at sentence end with duration 0.5
+Pause between '而' and '像': 0.00s
+Pause between '像' and '我': 0.00s
+Pause between '我' and '這樣': 0.00s
+Pause between '這樣' and '比較': 0.00s
+Pause between '比較' and '灰': 0.00s
+Pause between '灰' and '暗': 0.00s
+Pause between '暗' and '的': 0.00s
+Pause between '的' and '創': 0.00s
+Pause between '創' and '作': 0.00s
+Analyzing segment 55: 反而沒有人會注意到
+Word timestamps count: 7
+Word '反' (chars: 1) duration: 0.26s, avg: 0.26s
+Word '而' (chars: 1) duration: 0.06s, avg: 0.06s
+Word '沒有' (chars: 2) duration: 0.20s, avg: 0.10s
+Word '人' (chars: 1) duration: 0.14s, avg: 0.14s
+Word '會' (chars: 1) duration: 0.24s, avg: 0.24s
+Word '注意' (chars: 2) duration: 0.24s, avg: 0.12s
+Word '到' (chars: 1) duration: 1.10s, avg: 1.10s
+Skipping word '到' at sentence end with duration 1.0999999999999943
+Pause between '反' and '而': 0.00s
+Pause between '而' and '沒有': 0.00s
+Pause between '沒有' and '人': 0.00s
+Pause between '人' and '會': 0.00s
+Pause between '會' and '注意': 0.00s
+Pause between '注意' and '到': 0.00s
+Analyzing segment 56: 當天我一樣東西都沒有賣出去
+Word timestamps count: 9
+Word '當' (chars: 1) duration: 0.28s, avg: 0.28s
+Word '天' (chars: 1) duration: 0.68s, avg: 0.68s
+Word '我' (chars: 1) duration: 0.30s, avg: 0.30s
+Word '一樣' (chars: 2) duration: 0.12s, avg: 0.06s
+Word '東西' (chars: 2) duration: 0.28s, avg: 0.14s
+Word '都' (chars: 1) duration: 0.22s, avg: 0.22s
+Word '沒有' (chars: 2) duration: 0.12s, avg: 0.06s
+Word '賣' (chars: 1) duration: 0.22s, avg: 0.22s
+Word '出去' (chars: 2) duration: 0.70s, avg: 0.35s
+Skipping word '出去' at sentence end with duration 0.6999999999999886
+Pause between '當' and '天': 0.00s
+Pause between '天' and '我': 0.00s
+Pause between '我' and '一樣': 0.00s
+Pause between '一樣' and '東西': 0.00s
+Pause between '東西' and '都': 0.00s
+Pause between '都' and '沒有': 0.00s
+Pause between '沒有' and '賣': 0.00s
+Pause between '賣' and '出去': 0.00s
+Analyzing segment 57: 我的爸媽甚至跟我說
+Word timestamps count: 7
+Word '我的' (chars: 2) duration: 0.48s, avg: 0.24s
+Word '爸' (chars: 1) duration: 0.30s, avg: 0.30s
+Word '媽' (chars: 1) duration: 0.24s, avg: 0.24s
+Word '甚' (chars: 1) duration: 0.26s, avg: 0.26s
+Word '至' (chars: 1) duration: 0.08s, avg: 0.08s
+Word '跟' (chars: 1) duration: 0.20s, avg: 0.20s
+Word '我說' (chars: 2) duration: 0.68s, avg: 0.34s
+Skipping word '我說' at sentence end with duration 0.6800000000000068
+Pause between '我的' and '爸': 0.00s
+Pause between '爸' and '媽': 0.00s
+Pause between '媽' and '甚': 0.00s
+Pause between '甚' and '至': 0.00s
+Pause between '至' and '跟': 0.00s
+Pause between '跟' and '我說': 0.00s
+Analyzing segment 58: 那你何不就好好去打工
+Word timestamps count: 9
+Word '那' (chars: 1) duration: 0.32s, avg: 0.32s
+Word '你' (chars: 1) duration: 0.12s, avg: 0.12s
+Word '何' (chars: 1) duration: 0.12s, avg: 0.12s
+Word '不' (chars: 1) duration: 0.12s, avg: 0.12s
+Word '就' (chars: 1) duration: 0.14s, avg: 0.14s
+Word '好好' (chars: 2) duration: 0.24s, avg: 0.12s
+Word '去' (chars: 1) duration: 0.26s, avg: 0.26s
+Word '打' (chars: 1) duration: 0.26s, avg: 0.26s
+Word '工' (chars: 1) duration: 0.62s, avg: 0.62s
+Skipping word '工' at sentence end with duration 0.6200000000000045
+Pause between '那' and '你': 0.00s
+Pause between '你' and '何': 0.00s
+Pause between '何' and '不': 0.00s
+Pause between '不' and '就': 0.00s
+Pause between '就' and '好好': 0.00s
+Pause between '好好' and '去': 0.00s
+Pause between '去' and '打': 0.00s
+Pause between '打' and '工': 0.00s
+Analyzing segment 59: 這樣至少每小時還有幾本石心
+Word timestamps count: 10
+Word '這樣' (chars: 2) duration: 0.30s, avg: 0.15s
+Word '至' (chars: 1) duration: 0.22s, avg: 0.22s
+Word '少' (chars: 1) duration: 0.12s, avg: 0.12s
+Word '每' (chars: 1) duration: 0.20s, avg: 0.20s
+Word '小時' (chars: 2) duration: 0.28s, avg: 0.14s
+Word '還有' (chars: 2) duration: 0.24s, avg: 0.12s
+Word '幾' (chars: 1) duration: 0.22s, avg: 0.22s
+Word '本' (chars: 1) duration: 0.16s, avg: 0.16s
+Word '石' (chars: 1) duration: 0.34s, avg: 0.34s
+Word '心' (chars: 1) duration: 0.58s, avg: 0.58s
+Skipping word '心' at sentence end with duration 0.5799999999999841
+Pause between '這樣' and '至': 0.00s
+Pause between '至' and '少': 0.00s
+Pause between '少' and '每': 0.00s
+Pause between '每' and '小時': 0.00s
+Pause between '小時' and '還有': 0.00s
+Pause between '還有' and '幾': 0.00s
+Pause between '幾' and '本': 0.00s
+Pause between '本' and '石': 0.00s
+Pause between '石' and '心': 0.00s
+Analyzing segment 60: 那你去擺攤不但沒有賺
+Word timestamps count: 9
+Word '那' (chars: 1) duration: 0.36s, avg: 0.36s
+Word '你' (chars: 1) duration: 0.02s, avg: 0.02s
+Word '去' (chars: 1) duration: 0.18s, avg: 0.18s
+Word '擺' (chars: 1) duration: 0.22s, avg: 0.22s
+Word '攤' (chars: 1) duration: 0.40s, avg: 0.40s
+Word '不' (chars: 1) duration: 0.28s, avg: 0.28s
+Word '但' (chars: 1) duration: 0.12s, avg: 0.12s
+Word '沒有' (chars: 2) duration: 0.30s, avg: 0.15s
+Word '賺' (chars: 1) duration: 0.58s, avg: 0.58s
+Skipping word '賺' at sentence end with duration 0.5799999999999841
+Pause between '那' and '你': 0.00s
+Pause between '你' and '去': 0.00s
+Pause between '去' and '擺': 0.00s
+Pause between '擺' and '攤': 0.00s
+Pause between '攤' and '不': 0.00s
+Pause between '不' and '但': 0.00s
+Pause between '但' and '沒有': 0.00s
+Pause between '沒有' and '賺': 0.00s
+Analyzing segment 61: 還要給人家錢
+Word timestamps count: 6
+Word '還' (chars: 1) duration: 0.24s, avg: 0.24s
+Word '要' (chars: 1) duration: 0.10s, avg: 0.10s
+Word '給' (chars: 1) duration: 0.10s, avg: 0.10s
+Word '人' (chars: 1) duration: 0.18s, avg: 0.18s
+Word '家' (chars: 1) duration: 0.12s, avg: 0.12s
+Word '錢' (chars: 1) duration: 0.74s, avg: 0.74s
+Skipping word '錢' at sentence end with duration 0.7399999999999807
+Pause between '還' and '要': 0.00s
+Pause between '要' and '給': 0.00s
+Pause between '給' and '人': 0.00s
+Pause between '人' and '家': 0.00s
+Pause between '家' and '錢': 0.00s
+Analyzing segment 62: 這樣不是很虧嗎
+Word timestamps count: 5
+Word '這樣' (chars: 2) duration: 0.24s, avg: 0.12s
+Word '不是' (chars: 2) duration: 0.22s, avg: 0.11s
+Word '很' (chars: 1) duration: 0.24s, avg: 0.24s
+Word '虧' (chars: 1) duration: 0.20s, avg: 0.20s
+Word '嗎' (chars: 1) duration: 1.48s, avg: 1.48s
+Skipping word '嗎' at sentence end with duration 1.4800000000000182
+Pause between '這樣' and '不是': 0.00s
+Pause between '不是' and '很': 0.00s
+Pause between '很' and '虧': 0.00s
+Pause between '虧' and '嗎': 0.00s
+Analyzing segment 63: 那個當下我覺得我的品牌夢好像睡了
+Word timestamps count: 11
+Word '那個' (chars: 2) duration: 0.34s, avg: 0.17s
+Word '當' (chars: 1) duration: 0.32s, avg: 0.32s
+Word '下' (chars: 1) duration: 0.48s, avg: 0.48s
+Word '我覺得' (chars: 3) duration: 0.40s, avg: 0.13s
+Word '我的' (chars: 2) duration: 0.26s, avg: 0.13s
+Word '品' (chars: 1) duration: 0.24s, avg: 0.24s
+Word '牌' (chars: 1) duration: 0.10s, avg: 0.10s
+Word '夢' (chars: 1) duration: 0.16s, avg: 0.16s
+Word '好像' (chars: 2) duration: 0.36s, avg: 0.18s
+Word '睡' (chars: 1) duration: 0.38s, avg: 0.38s
+Word '了' (chars: 1) duration: 0.94s, avg: 0.94s
+Skipping word '了' at sentence end with duration 0.9399999999999977
+Pause between '那個' and '當': 0.00s
+Pause between '當' and '下': 0.00s
+Pause between '下' and '我覺得': 0.00s
+Pause between '我覺得' and '我的': 0.00s
+Pause between '我的' and '品': 0.00s
+Pause between '品' and '牌': 0.00s
+Pause between '牌' and '夢': 0.00s
+Pause between '夢' and '好像': 0.00s
+Pause between '好像' and '睡': 0.00s
+Pause between '睡' and '了': 0.00s
+Analyzing segment 64: 可是身為一個悲傷品牌
+Word timestamps count: 8
+Word '可是' (chars: 2) duration: 0.36s, avg: 0.18s
+Word '身' (chars: 1) duration: 0.20s, avg: 0.20s
+Word '為' (chars: 1) duration: 0.06s, avg: 0.06s
+Word '一個' (chars: 2) duration: 0.24s, avg: 0.12s
+Word '悲' (chars: 1) duration: 0.26s, avg: 0.26s
+Word '傷' (chars: 1) duration: 0.10s, avg: 0.10s
+Word '品' (chars: 1) duration: 0.38s, avg: 0.38s
+Word '牌' (chars: 1) duration: 0.58s, avg: 0.58s
+Skipping word '牌' at sentence end with duration 0.5800000000000125
+Pause between '可是' and '身': 0.00s
+Pause between '身' and '為': 0.00s
+Pause between '為' and '一個': 0.00s
+Pause between '一個' and '悲': 0.00s
+Pause between '悲' and '傷': 0.00s
+Pause between '傷' and '品': 0.00s
+Pause between '品' and '牌': 0.00s
+Analyzing segment 65: 這樣子的負面能量反而給我很多創作的動力
+Word timestamps count: 16
+Word '這樣子' (chars: 3) duration: 0.38s, avg: 0.13s
+Word '的' (chars: 1) duration: 0.90s, avg: 0.90s
+Word prolongation detected: '的' (avg duration per char: 0.90s)
+Word '負' (chars: 1) duration: 0.22s, avg: 0.22s
+Word '面' (chars: 1) duration: 0.14s, avg: 0.14s
+Word '能' (chars: 1) duration: 0.24s, avg: 0.24s
+Word '量' (chars: 1) duration: 0.38s, avg: 0.38s
+Word '反' (chars: 1) duration: 0.18s, avg: 0.18s
+Word '而' (chars: 1) duration: 0.10s, avg: 0.10s
+Word '給' (chars: 1) duration: 0.12s, avg: 0.12s
+Word '我' (chars: 1) duration: 0.08s, avg: 0.08s
+Word '很多' (chars: 2) duration: 0.30s, avg: 0.15s
+Word '創' (chars: 1) duration: 0.32s, avg: 0.32s
+Word '作' (chars: 1) duration: 0.14s, avg: 0.14s
+Word '的' (chars: 1) duration: 0.16s, avg: 0.16s
+Word '動' (chars: 1) duration: 0.24s, avg: 0.24s
+Word '力' (chars: 1) duration: 0.48s, avg: 0.48s
+Skipping word '力' at sentence end with duration 0.47999999999998977
+Pause between '這樣子' and '的': 0.00s
+Pause between '的' and '負': 0.00s
+Pause between '負' and '面': 0.00s
+Pause between '面' and '能': 0.00s
+Pause between '能' and '量': 0.00s
+Pause between '量' and '反': 0.00s
+Pause between '反' and '而': 0.00s
+Pause between '而' and '給': 0.00s
+Pause between '給' and '我': 0.00s
+Pause between '我' and '很多': 0.00s
+Pause between '很多' and '創': 0.00s
+Pause between '創' and '作': 0.00s
+Pause between '作' and '的': 0.00s
+Pause between '的' and '動': 0.00s
+Pause between '動' and '力': 0.00s
+Feedback generated for segment 65: [{'segment_index': 65, 'text': '這樣子的負面能量反而給我很多創作的動力', 'severity': 'medium', 'message': "Word prolongation: '的' avg duration 0.9 seconds per char.", 'start_time': np.float64(179.06), 'end_time': np.float64(179.96)}]
+Analyzing segment 66: 所以我就創造了這個作品
+Word timestamps count: 8
+Word '所以' (chars: 2) duration: 0.28s, avg: 0.14s
+Word '我就' (chars: 2) duration: 0.30s, avg: 0.15s
+Word '創' (chars: 1) duration: 0.30s, avg: 0.30s
+Word '造' (chars: 1) duration: 0.16s, avg: 0.16s
+Word '了' (chars: 1) duration: 0.16s, avg: 0.16s
+Word '這個' (chars: 2) duration: 0.24s, avg: 0.12s
+Word '作' (chars: 1) duration: 0.34s, avg: 0.34s
+Word '品' (chars: 1) duration: 0.42s, avg: 0.42s
+Skipping word '品' at sentence end with duration 0.4199999999999875
+Pause between '所以' and '我就': 0.00s
+Pause between '我就' and '創': 0.00s
+Pause between '創' and '造': 0.00s
+Pause between '造' and '了': 0.00s
+Pause between '了' and '這個': 0.00s
+Pause between '這個' and '作': 0.00s
+Pause between '作' and '品': 0.00s
+Analyzing segment 67: 《壞掉的夢》
+Word timestamps count: 6
+Word '《' (chars: 1) duration: 0.16s, avg: 0.16s
+Word '壞' (chars: 1) duration: 0.14s, avg: 0.14s
+Word '掉' (chars: 1) duration: 0.16s, avg: 0.16s
+Word '的' (chars: 1) duration: 0.16s, avg: 0.16s
+Word '夢' (chars: 1) duration: 0.42s, avg: 0.42s
+Word '》' (chars: 1) duration: 0.58s, avg: 0.58s
+Skipping word '》' at sentence end with duration 0.5799999999999841
+Pause between '《' and '壞': 0.00s
+Pause between '壞' and '掉': 0.00s
+Pause between '掉' and '的': 0.00s
+Pause between '的' and '夢': 0.00s
+Pause between '夢' and '》': 0.00s
+Analyzing segment 68: 我相信大家就是
+Word timestamps count: 4
+Word '我' (chars: 1) duration: 0.50s, avg: 0.50s
+Word '相信' (chars: 2) duration: 0.32s, avg: 0.16s
+Word '大家' (chars: 2) duration: 0.36s, avg: 0.18s
+Word '就是' (chars: 2) duration: 0.58s, avg: 0.29s
+Skipping word '就是' at sentence end with duration 0.5800000000000125
+Pause between '我' and '相信': 0.00s
+Pause between '相信' and '大家': 0.00s
+Pause between '大家' and '就是': 0.00s
+Analyzing segment 69: 在圓夢的過程當中都不會這麼順利
+Word timestamps count: 13
+Word '在' (chars: 1) duration: 0.26s, avg: 0.26s
+Word '圓' (chars: 1) duration: 0.16s, avg: 0.16s
+Word '夢' (chars: 1) duration: 0.14s, avg: 0.14s
+Word '的' (chars: 1) duration: 0.14s, avg: 0.14s
+Word '過' (chars: 1) duration: 0.16s, avg: 0.16s
+Word '程' (chars: 1) duration: 0.12s, avg: 0.12s
+Word '當' (chars: 1) duration: 0.26s, avg: 0.26s
+Word '中' (chars: 1) duration: 0.26s, avg: 0.26s
+Word '都' (chars: 1) duration: 0.20s, avg: 0.20s
+Word '不會' (chars: 2) duration: 0.28s, avg: 0.14s
+Word '這麼' (chars: 2) duration: 0.30s, avg: 0.15s
+Word '順' (chars: 1) duration: 0.32s, avg: 0.32s
+Word '利' (chars: 1) duration: 0.60s, avg: 0.60s
+Skipping word '利' at sentence end with duration 0.5999999999999943
+Pause between '在' and '圓': 0.00s
+Pause between '圓' and '夢': 0.00s
+Pause between '夢' and '的': 0.00s
+Pause between '的' and '過': 0.00s
+Pause between '過' and '程': 0.00s
+Pause between '程' and '當': 0.00s
+Pause between '當' and '中': 0.00s
+Pause between '中' and '都': 0.00s
+Pause between '都' and '不會': 0.00s
+Pause between '不會' and '這麼': 0.00s
+Pause between '這麼' and '順': 0.00s
+Pause between '順' and '利': 0.00s
+Analyzing segment 70: 你難免會跌倒
+Word timestamps count: 6
+Word '你' (chars: 1) duration: 0.54s, avg: 0.54s
+Word '難' (chars: 1) duration: 0.20s, avg: 0.20s
+Word '免' (chars: 1) duration: 0.10s, avg: 0.10s
+Word '會' (chars: 1) duration: 0.22s, avg: 0.22s
+Word '跌' (chars: 1) duration: 0.30s, avg: 0.30s
+Word '倒' (chars: 1) duration: 0.52s, avg: 0.52s
+Skipping word '倒' at sentence end with duration 0.5199999999999818
+Pause between '你' and '難': 0.00s
+Pause between '難' and '免': 0.00s
+Pause between '免' and '會': 0.00s
+Pause between '會' and '跌': 0.00s
+Pause between '跌' and '倒': 0.00s
+Analyzing segment 71: 所以看到夢這個字它跌倒了
+Word timestamps count: 9
+Word '所以' (chars: 2) duration: 0.32s, avg: 0.16s
+Word '看到' (chars: 2) duration: 0.34s, avg: 0.17s
+Word '夢' (chars: 1) duration: 0.22s, avg: 0.22s
+Word '這個' (chars: 2) duration: 0.34s, avg: 0.17s
+Word '字' (chars: 1) duration: 0.30s, avg: 0.30s
+Word '它' (chars: 1) duration: 0.46s, avg: 0.46s
+Word '跌' (chars: 1) duration: 0.26s, avg: 0.26s
+Word '倒' (chars: 1) duration: 0.32s, avg: 0.32s
+Word '了' (chars: 1) duration: 0.64s, avg: 0.64s
+Skipping word '了' at sentence end with duration 0.6400000000000148
+Pause between '所以' and '看到': 0.00s
+Pause between '看到' and '夢': 0.00s
+Pause between '夢' and '這個': 0.00s
+Pause between '這個' and '字': 0.00s
+Pause between '字' and '它': 0.00s
+Pause between '它' and '跌': 0.00s
+Pause between '跌' and '倒': 0.00s
+Pause between '倒' and '了': 0.00s
+Analyzing segment 72: 可是同時我也把它的結構保留得非常完整
+Word timestamps count: 14
+Word '可是' (chars: 2) duration: 0.26s, avg: 0.13s
+Word '同' (chars: 1) duration: 0.24s, avg: 0.24s
+Word '時' (chars: 1) duration: 0.62s, avg: 0.62s
+Word '我也' (chars: 2) duration: 0.24s, avg: 0.12s
+Word '把它' (chars: 2) duration: 0.30s, avg: 0.15s
+Word '的' (chars: 1) duration: 0.18s, avg: 0.18s
+Word '結' (chars: 1) duration: 0.14s, avg: 0.14s
+Word '構' (chars: 1) duration: 0.12s, avg: 0.12s
+Word '保' (chars: 1) duration: 0.20s, avg: 0.20s
+Word '留' (chars: 1) duration: 0.06s, avg: 0.06s
+Word '得' (chars: 1) duration: 0.20s, avg: 0.20s
+Word '非常' (chars: 2) duration: 0.32s, avg: 0.16s
+Word '完' (chars: 1) duration: 0.32s, avg: 0.32s
+Word '整' (chars: 1) duration: 0.80s, avg: 0.80s
+Skipping word '整' at sentence end with duration 0.8000000000000114
+Pause between '可是' and '同': 0.00s
+Pause between '同' and '時': 0.00s
+Pause between '時' and '我也': 0.00s
+Pause between '我也' and '把它': 0.00s
+Pause between '把它' and '的': 0.00s
+Pause between '的' and '結': 0.00s
+Pause between '結' and '構': 0.00s
+Pause between '構' and '保': 0.00s
+Pause between '保' and '留': 0.00s
+Pause between '留' and '得': 0.00s
+Pause between '得' and '非常': 0.00s
+Pause between '非常' and '完': 0.00s
+Pause between '完' and '整': 0.00s
+Analyzing segment 73: 當你準備好了以後
+Word timestamps count: 6
+Word '當' (chars: 1) duration: 0.32s, avg: 0.32s
+Word '你' (chars: 1) duration: 0.20s, avg: 0.20s
+Word '準備' (chars: 2) duration: 0.34s, avg: 0.17s
+Word '好了' (chars: 2) duration: 0.30s, avg: 0.15s
+Word '以' (chars: 1) duration: 0.36s, avg: 0.36s
+Word '後' (chars: 1) duration: 0.54s, avg: 0.54s
+Skipping word '後' at sentence end with duration 0.5400000000000205
+Pause between '當' and '你': 0.00s
+Pause between '你' and '準備': 0.00s
+Pause between '準備' and '好了': 0.00s
+Pause between '好了' and '以': 0.00s
+Pause between '以' and '後': 0.00s
+Analyzing segment 74: 你可以去把你的夢重新拼回去
+Word timestamps count: 8
+Word '你可以' (chars: 3) duration: 0.30s, avg: 0.10s
+Word '去' (chars: 1) duration: 0.20s, avg: 0.20s
+Skipping word '去' at sentence end with duration 0.20000000000001705
+Word '把' (chars: 1) duration: 0.14s, avg: 0.14s
+Word '你的' (chars: 2) duration: 0.24s, avg: 0.12s
+Word '夢' (chars: 1) duration: 0.18s, avg: 0.18s
+Word '重' (chars: 1) duration: 0.22s, avg: 0.22s
+Word '新' (chars: 1) duration: 0.12s, avg: 0.12s
+Word '拼' (chars: 1) duration: 0.16s, avg: 0.16s
+Pause between '你可以' and '去': 0.00s
+Pause between '去' and '把': 0.00s
+Pause between '把' and '你的': 0.00s
+Pause between '你的' and '夢': 0.00s
+Pause between '夢' and '重': 0.00s
+Pause between '重' and '新': 0.00s
+Pause between '新' and '拼': 0.00s
+Analyzing segment 75: 重新圓你的夢
+Word timestamps count: 5
+Word '重' (chars: 1) duration: 0.42s, avg: 0.42s
+Word '新' (chars: 1) duration: 0.12s, avg: 0.12s
+Word '圓' (chars: 1) duration: 0.14s, avg: 0.14s
+Word '你的' (chars: 2) duration: 0.26s, avg: 0.13s
+Word '夢' (chars: 1) duration: 1.02s, avg: 1.02s
+Skipping word '夢' at sentence end with duration 1.0199999999999818
+Pause between '重' and '新': 0.00s
+Pause between '新' and '圓': 0.00s
+Pause between '圓' and '你的': 0.00s
+Pause between '你的' and '夢': 0.00s
+Analyzing segment 76: 正好在我完成這個作品以後
+Word timestamps count: 10
+Word '正' (chars: 1) duration: 0.44s, avg: 0.44s
+Word '好' (chars: 1) duration: 0.74s, avg: 0.74s
+Word prolongation detected: '好' (avg duration per char: 0.74s)
+Word '在' (chars: 1) duration: 0.38s, avg: 0.38s
+Word '我' (chars: 1) duration: 0.98s, avg: 0.98s
+Word prolongation detected: '我' (avg duration per char: 0.98s)
+Word '完成' (chars: 2) duration: 0.60s, avg: 0.30s
+Word '這個' (chars: 2) duration: 0.38s, avg: 0.19s
+Word '作' (chars: 1) duration: 0.24s, avg: 0.24s
+Word '品' (chars: 1) duration: 0.10s, avg: 0.10s
+Word '以' (chars: 1) duration: 0.24s, avg: 0.24s
+Word '後' (chars: 1) duration: 0.42s, avg: 0.42s
+Skipping word '後' at sentence end with duration 0.4199999999999875
+Pause between '正' and '好': 0.00s
+Pause between '好' and '在': 0.00s
+Pause between '在' and '我': 0.00s
+Pause between '我' and '完成': 0.00s
+Pause between '完成' and '這個': 0.00s
+Pause between '這個' and '作': 0.00s
+Pause between '作' and '品': 0.00s
+Pause between '品' and '以': 0.00s
+Pause between '以' and '後': 0.00s
+Feedback generated for segment 76: [{'segment_index': 76, 'text': '正好在我完成這個作品以後', 'severity': 'medium', 'message': "Word prolongation: '好' avg duration 0.7 seconds per char.", 'start_time': np.float64(208.42), 'end_time': np.float64(209.16)}, {'segment_index': 76, 'text': '正好在我完成這個作品以後', 'severity': 'medium', 'message': "Word prolongation: '我' avg duration 1.0 seconds per char.", 'start_time': np.float64(209.54), 'end_time': np.float64(210.52)}]
+Analyzing segment 77: 學校提供我們系上一個老宿舍空間去做經營
+Word timestamps count: 17
+Word '學' (chars: 1) duration: 0.24s, avg: 0.24s
+Word '校' (chars: 1) duration: 0.18s, avg: 0.18s
+Word '提' (chars: 1) duration: 0.30s, avg: 0.30s
+Word '供' (chars: 1) duration: 0.06s, avg: 0.06s
+Word '我們' (chars: 2) duration: 0.32s, avg: 0.16s
+Word '系' (chars: 1) duration: 0.28s, avg: 0.28s
+Word '上' (chars: 1) duration: 0.42s, avg: 0.42s
+Word '一個' (chars: 2) duration: 0.34s, avg: 0.17s
+Word '老' (chars: 1) duration: 0.18s, avg: 0.18s
+Word '宿' (chars: 1) duration: 0.18s, avg: 0.18s
+Word '舍' (chars: 1) duration: 0.10s, avg: 0.10s
+Word '空' (chars: 1) duration: 0.28s, avg: 0.28s
+Word '間' (chars: 1) duration: 0.08s, avg: 0.08s
+Word '去' (chars: 1) duration: 0.20s, avg: 0.20s
+Word '做' (chars: 1) duration: 0.20s, avg: 0.20s
+Word '經' (chars: 1) duration: 0.30s, avg: 0.30s
+Word '營' (chars: 1) duration: 0.54s, avg: 0.54s
+Skipping word '營' at sentence end with duration 0.539999999999992
+Pause between '學' and '校': 0.00s
+Pause between '校' and '提': 0.00s
+Pause between '提' and '供': 0.00s
+Pause between '供' and '我們': 0.00s
+Pause between '我們' and '系': 0.00s
+Pause between '系' and '上': 0.00s
+Pause between '上' and '一個': 0.00s
+Pause between '一個' and '老': 0.00s
+Pause between '老' and '宿': 0.00s
+Pause between '宿' and '舍': 0.00s
+Pause between '舍' and '空': 0.00s
+Pause between '空' and '間': 0.00s
+Pause between '間' and '去': 0.00s
+Pause between '去' and '做': 0.00s
+Pause between '做' and '經': 0.00s
+Pause between '經' and '營': 0.00s
+Analyzing segment 78: 我想在這個空間提供創作者們一個更好的空間
+Word timestamps count: 16
+Word '我想' (chars: 2) duration: 0.40s, avg: 0.20s
+Word '在' (chars: 1) duration: 0.22s, avg: 0.22s
+Word '這個' (chars: 2) duration: 0.18s, avg: 0.09s
+Word '空' (chars: 1) duration: 0.30s, avg: 0.30s
+Word '間' (chars: 1) duration: 0.16s, avg: 0.16s
+Skipping word '間' at sentence end with duration 0.1599999999999966
+Word '提' (chars: 1) duration: 0.32s, avg: 0.32s
+Word '供' (chars: 1) duration: 0.14s, avg: 0.14s
+Word '創' (chars: 1) duration: 0.28s, avg: 0.28s
+Word '作' (chars: 1) duration: 0.08s, avg: 0.08s
+Word '者' (chars: 1) duration: 0.24s, avg: 0.24s
+Word '們' (chars: 1) duration: 0.46s, avg: 0.46s
+Word '一個' (chars: 2) duration: 0.18s, avg: 0.09s
+Word '更' (chars: 1) duration: 0.34s, avg: 0.34s
+Word '好的' (chars: 2) duration: 0.30s, avg: 0.15s
+Word '空' (chars: 1) duration: 0.30s, avg: 0.30s
+Word '間' (chars: 1) duration: 0.16s, avg: 0.16s
+Skipping word '間' at sentence end with duration 0.1599999999999966
+Pause between '我想' and '在': 0.00s
+Pause between '在' and '這個': 0.00s
+Pause between '這個' and '空': 0.00s
+Pause between '空' and '間': 0.00s
+Pause between '間' and '提': 0.00s
+Pause between '提' and '供': 0.00s
+Pause between '供' and '創': 0.00s
+Pause between '創' and '作': 0.00s
+Pause between '作' and '者': 0.00s
+Pause between '者' and '們': 0.00s
+Pause between '們' and '一個': 0.00s
+Pause between '一個' and '更': 0.00s
+Pause between '更' and '好的': 0.00s
+Pause between '好的' and '空': 0.00s
+Pause between '空' and '間': 0.00s
+Analyzing segment 79: 去曝光他們的作品
+Word timestamps count: 7
+Word '去' (chars: 1) duration: 0.72s, avg: 0.72s
+Word prolongation detected: '去' (avg duration per char: 0.72s)
+Word '曝' (chars: 1) duration: 0.22s, avg: 0.22s
+Word '光' (chars: 1) duration: 0.12s, avg: 0.12s
+Word '他們' (chars: 2) duration: 0.30s, avg: 0.15s
+Word '的' (chars: 1) duration: 0.26s, avg: 0.26s
+Word '作' (chars: 1) duration: 0.22s, avg: 0.22s
+Word '品' (chars: 1) duration: 0.58s, avg: 0.58s
+Skipping word '品' at sentence end with duration 0.5800000000000125
+Pause between '去' and '曝': 0.00s
+Pause between '曝' and '光': 0.00s
+Pause between '光' and '他們': 0.00s
+Pause between '他們' and '的': 0.00s
+Pause between '的' and '作': 0.00s
+Pause between '作' and '品': 0.00s
+Feedback generated for segment 79: [{'segment_index': 79, 'text': '去曝光他們的作品', 'severity': 'medium', 'message': "Word prolongation: '去' avg duration 0.7 seconds per char.", 'start_time': np.float64(220.76), 'end_time': np.float64(221.48)}]
+Analyzing segment 80: 這是我們空間整以前的模樣
+Word timestamps count: 9
+Word '這是' (chars: 2) duration: 0.86s, avg: 0.43s
+Word '我們' (chars: 2) duration: 0.28s, avg: 0.14s
+Word '空' (chars: 1) duration: 0.36s, avg: 0.36s
+Word '間' (chars: 1) duration: 1.00s, avg: 1.00s
+Word prolongation detected: '間' (avg duration per char: 1.00s)
+Word '整' (chars: 1) duration: 0.26s, avg: 0.26s
+Word '以前' (chars: 2) duration: 0.38s, avg: 0.19s
+Word '的' (chars: 1) duration: 0.28s, avg: 0.28s
+Word '模' (chars: 1) duration: 0.22s, avg: 0.22s
+Word '樣' (chars: 1) duration: 0.66s, avg: 0.66s
+Skipping word '樣' at sentence end with duration 0.6599999999999966
+Pause between '這是' and '我們': 0.00s
+Pause between '我們' and '空': 0.00s
+Pause between '空' and '間': 0.00s
+Pause between '間' and '整': 0.00s
+Pause between '整' and '以前': 0.00s
+Pause between '以前' and '的': 0.00s
+Pause between '的' and '模': 0.00s
+Pause between '模' and '樣': 0.00s
+Feedback generated for segment 80: [{'segment_index': 80, 'text': '這是我們空間整以前的模樣', 'severity': 'medium', 'message': "Word prolongation: '間' avg duration 1.0 seconds per char.", 'start_time': np.float64(224.68), 'end_time': np.float64(225.68)}]
+Analyzing segment 81: 這是我們整以後的樣子
+Word timestamps count: 8
+Word '這是' (chars: 2) duration: 0.52s, avg: 0.26s
+Word '我們' (chars: 2) duration: 0.28s, avg: 0.14s
+Word '整' (chars: 1) duration: 0.16s, avg: 0.16s
+Word '以' (chars: 1) duration: 0.16s, avg: 0.16s
+Word '後' (chars: 1) duration: 0.56s, avg: 0.56s
+Word '的' (chars: 1) duration: 0.20s, avg: 0.20s
+Word '樣' (chars: 1) duration: 0.30s, avg: 0.30s
+Word '子' (chars: 1) duration: 0.16s, avg: 0.16s
+Skipping word '子' at sentence end with duration 0.1599999999999966
+Pause between '這是' and '我們': 0.00s
+Pause between '我們' and '整': 0.00s
+Pause between '整' and '以': 0.00s
+Pause between '以' and '後': 0.00s
+Pause between '後' and '的': 0.00s
+Pause between '的' and '樣': 0.00s
+Pause between '樣' and '子': 0.00s
+Analyzing segment 82: 那時候我找了我比較在市集中認識一些不錯的創作者們
+Word timestamps count: 20
+Word '那' (chars: 1) duration: 0.20s, avg: 0.20s
+Word '時候' (chars: 2) duration: 0.14s, avg: 0.07s
+Word '我' (chars: 1) duration: 0.20s, avg: 0.20s
+Word '找' (chars: 1) duration: 0.10s, avg: 0.10s
+Word '了' (chars: 1) duration: 0.16s, avg: 0.16s
+Word '我' (chars: 1) duration: 0.14s, avg: 0.14s
+Word '比較' (chars: 2) duration: 0.76s, avg: 0.38s
+Word '在' (chars: 1) duration: 0.32s, avg: 0.32s
+Word '市' (chars: 1) duration: 0.12s, avg: 0.12s
+Word '集' (chars: 1) duration: 0.08s, avg: 0.08s
+Word '中' (chars: 1) duration: 0.22s, avg: 0.22s
+Word '認' (chars: 1) duration: 0.30s, avg: 0.30s
+Word '識' (chars: 1) duration: 0.10s, avg: 0.10s
+Word '一些' (chars: 2) duration: 0.32s, avg: 0.16s
+Word '不錯' (chars: 2) duration: 0.28s, avg: 0.14s
+Word '的' (chars: 1) duration: 0.16s, avg: 0.16s
+Word '創' (chars: 1) duration: 0.14s, avg: 0.14s
+Word '作' (chars: 1) duration: 0.10s, avg: 0.10s
+Word '者' (chars: 1) duration: 0.22s, avg: 0.22s
+Word '們' (chars: 1) duration: 0.34s, avg: 0.34s
+Skipping word '們' at sentence end with duration 0.3400000000000034
+Pause between '那' and '時候': 0.00s
+Pause between '時候' and '我': 0.00s
+Pause between '我' and '找': 0.00s
+Pause between '找' and '了': 0.00s
+Pause between '了' and '我': 0.00s
+Pause between '我' and '比較': 0.00s
+Pause between '比較' and '在': 0.00s
+Pause between '在' and '市': 0.00s
+Pause between '市' and '集': 0.00s
+Pause between '集' and '中': 0.00s
+Pause between '中' and '認': 0.00s
+Pause between '認' and '識': 0.00s
+Pause between '識' and '一些': 0.00s
+Pause between '一些' and '不錯': 0.00s
+Pause between '不錯' and '的': 0.00s
+Pause between '的' and '創': 0.00s
+Pause between '創' and '作': 0.00s
+Pause between '作' and '者': 0.00s
+Pause between '者' and '們': 0.00s
+Analyzing segment 83: 一起進來這個空間
+Word timestamps count: 6
+Word '一起' (chars: 2) duration: 0.26s, avg: 0.13s
+Word '進' (chars: 1) duration: 0.24s, avg: 0.24s
+Word '來' (chars: 1) duration: 0.12s, avg: 0.12s
+Word '這個' (chars: 2) duration: 0.18s, avg: 0.09s
+Word '空' (chars: 1) duration: 0.38s, avg: 0.38s
+Word '間' (chars: 1) duration: 0.72s, avg: 0.72s
+Skipping word '間' at sentence end with duration 0.7199999999999989
+Pause between '一起' and '進': 0.00s
+Pause between '進' and '來': 0.00s
+Pause between '來' and '這個': 0.00s
+Pause between '這個' and '空': 0.00s
+Pause between '空' and '間': 0.00s
+Analyzing segment 84: 可是你可以發現一個問題是
+Word timestamps count: 6
+Word '可是' (chars: 2) duration: 0.26s, avg: 0.13s
+Word '你可以' (chars: 3) duration: 0.42s, avg: 0.14s
+Word '發現' (chars: 2) duration: 0.36s, avg: 0.18s
+Word '一個' (chars: 2) duration: 0.22s, avg: 0.11s
+Word '問題' (chars: 2) duration: 0.38s, avg: 0.19s
+Word '是' (chars: 1) duration: 0.90s, avg: 0.90s
+Skipping word '是' at sentence end with duration 0.9000000000000057
+Pause between '可是' and '你可以': 0.00s
+Pause between '你可以' and '發現': 0.00s
+Pause between '發現' and '一個': 0.00s
+Pause between '一個' and '問題': 0.00s
+Pause between '問題' and '是': 0.00s
+Analyzing segment 85: 只是單純的擺
+Word timestamps count: 5
+Word '只是' (chars: 2) duration: 0.26s, avg: 0.13s
+Word '單' (chars: 1) duration: 0.34s, avg: 0.34s
+Word '純' (chars: 1) duration: 0.12s, avg: 0.12s
+Word '的' (chars: 1) duration: 0.54s, avg: 0.54s
+Word '擺' (chars: 1) duration: 0.32s, avg: 0.32s
+Skipping word '擺' at sentence end with duration 0.3199999999999932
+Pause between '只是' and '單': 0.00s
+Pause between '單' and '純': 0.00s
+Pause between '純' and '的': 0.00s
+Pause between '的' and '擺': 0.00s
+Analyzing segment 86: 它跟格子區有什麼不一樣嗎
+Word timestamps count: 10
+Word '它' (chars: 1) duration: 0.74s, avg: 0.74s
+Word prolongation detected: '它' (avg duration per char: 0.74s)
+Word '跟' (chars: 1) duration: 0.62s, avg: 0.62s
+Word '格' (chars: 1) duration: 0.22s, avg: 0.22s
+Word '子' (chars: 1) duration: 0.10s, avg: 0.10s
+Word '區' (chars: 1) duration: 0.10s, avg: 0.10s
+Word '有' (chars: 1) duration: 0.16s, avg: 0.16s
+Word '什麼' (chars: 2) duration: 0.18s, avg: 0.09s
+Word '不' (chars: 1) duration: 0.28s, avg: 0.28s
+Word '一樣' (chars: 2) duration: 0.20s, avg: 0.10s
+Word '嗎' (chars: 1) duration: 0.98s, avg: 0.98s
+Skipping word '嗎' at sentence end with duration 0.9799999999999898
+Pause between '它' and '跟': 0.00s
+Pause between '跟' and '格': 0.00s
+Pause between '格' and '子': 0.00s
+Pause between '子' and '區': 0.00s
+Pause between '區' and '有': 0.00s
+Pause between '有' and '什麼': 0.00s
+Pause between '什麼' and '不': 0.00s
+Pause between '不' and '一樣': 0.00s
+Pause between '一樣' and '嗎': 0.00s
+Feedback generated for segment 86: [{'segment_index': 86, 'text': '它跟格子區有什麼不一樣嗎', 'severity': 'medium', 'message': "Word prolongation: '它' avg duration 0.7 seconds per char.", 'start_time': np.float64(240.76), 'end_time': np.float64(241.5)}]
+Analyzing segment 87: 它好像就是一個手作板的格子區而已
+Word timestamps count: 12
+Word '它' (chars: 1) duration: 0.18s, avg: 0.18s
+Word '好像' (chars: 2) duration: 0.30s, avg: 0.15s
+Word '就是' (chars: 2) duration: 0.32s, avg: 0.16s
+Word '一個' (chars: 2) duration: 0.58s, avg: 0.29s
+Word '手' (chars: 1) duration: 0.24s, avg: 0.24s
+Word '作' (chars: 1) duration: 0.10s, avg: 0.10s
+Word '板' (chars: 1) duration: 0.20s, avg: 0.20s
+Word '的' (chars: 1) duration: 0.18s, avg: 0.18s
+Word '格' (chars: 1) duration: 0.12s, avg: 0.12s
+Word '子' (chars: 1) duration: 0.12s, avg: 0.12s
+Word '區' (chars: 1) duration: 0.18s, avg: 0.18s
+Word '而已' (chars: 2) duration: 0.32s, avg: 0.16s
+Skipping word '而已' at sentence end with duration 0.3199999999999932
+Pause between '它' and '好像': 0.00s
+Pause between '好像' and '就是': 0.00s
+Pause between '就是' and '一個': 0.00s
+Pause between '一個' and '手': 0.00s
+Pause between '手' and '作': 0.00s
+Pause between '作' and '板': 0.00s
+Pause between '板' and '的': 0.00s
+Pause between '的' and '格': 0.00s
+Pause between '格' and '子': 0.00s
+Pause between '子' and '區': 0.00s
+Pause between '區' and '而已': 0.00s
+Analyzing segment 88: 這樣子其實來逛的人他們不會有停留
+Word timestamps count: 10
+Word '這樣子' (chars: 3) duration: 0.52s, avg: 0.17s
+Word '其實' (chars: 2) duration: 0.52s, avg: 0.26s
+Word '來' (chars: 1) duration: 0.26s, avg: 0.26s
+Word '逛' (chars: 1) duration: 0.10s, avg: 0.10s
+Word '的人' (chars: 2) duration: 0.22s, avg: 0.11s
+Word '他們' (chars: 2) duration: 0.24s, avg: 0.12s
+Word '不會' (chars: 2) duration: 0.28s, avg: 0.14s
+Word '有' (chars: 1) duration: 0.38s, avg: 0.38s
+Word '停' (chars: 1) duration: 0.24s, avg: 0.24s
+Word '留' (chars: 1) duration: 0.40s, avg: 0.40s
+Skipping word '留' at sentence end with duration 0.39999999999997726
+Pause between '這樣子' and '其實': 0.00s
+Pause between '其實' and '來': 0.00s
+Pause between '來' and '逛': 0.00s
+Pause between '逛' and '的人': 0.00s
+Pause between '的人' and '他們': 0.00s
+Pause between '他們' and '不會': 0.00s
+Pause between '不會' and '有': 0.00s
+Pause between '有' and '停': 0.00s
+Pause between '停' and '留': 0.00s
+Analyzing segment 89: 他們不會想知道裡面發生什麼事情
+Word timestamps count: 9
+Word '他們' (chars: 2) duration: 0.26s, avg: 0.13s
+Word '不會' (chars: 2) duration: 0.30s, avg: 0.15s
+Word '想' (chars: 1) duration: 0.22s, avg: 0.22s
+Word '知道' (chars: 2) duration: 0.56s, avg: 0.28s
+Word '裡面' (chars: 2) duration: 0.30s, avg: 0.15s
+Word '發' (chars: 1) duration: 0.30s, avg: 0.30s
+Word '生' (chars: 1) duration: 0.08s, avg: 0.08s
+Word '什麼' (chars: 2) duration: 0.26s, avg: 0.13s
+Word '事情' (chars: 2) duration: 0.62s, avg: 0.31s
+Skipping word '事情' at sentence end with duration 0.6200000000000045
+Pause between '他們' and '不會': 0.00s
+Pause between '不會' and '想': 0.00s
+Pause between '想' and '知道': 0.00s
+Pause between '知道' and '裡面': 0.00s
+Pause between '裡面' and '發': 0.00s
+Pause between '發' and '生': 0.00s
+Pause between '生' and '什麼': 0.00s
+Pause between '什麼' and '事情': 0.00s
+Analyzing segment 90: 所以我開始改變了做法
+Word timestamps count: 8
+Word '所以' (chars: 2) duration: 0.86s, avg: 0.43s
+Word '我' (chars: 1) duration: 0.18s, avg: 0.18s
+Word '開始' (chars: 2) duration: 0.32s, avg: 0.16s
+Word '改' (chars: 1) duration: 0.30s, avg: 0.30s
+Word '變' (chars: 1) duration: 0.12s, avg: 0.12s
+Word '了' (chars: 1) duration: 0.26s, avg: 0.26s
+Word '做' (chars: 1) duration: 0.28s, avg: 0.28s
+Word '法' (chars: 1) duration: 0.48s, avg: 0.48s
+Skipping word '法' at sentence end with duration 0.4800000000000182
+Pause between '所以' and '我': 0.00s
+Pause between '我' and '開始': 0.00s
+Pause between '開始' and '改': 0.00s
+Pause between '改' and '變': 0.00s
+Pause between '變' and '了': 0.00s
+Pause between '了' and '做': 0.00s
+Pause between '做' and '法': 0.00s
+Analyzing segment 91: 直到這個月我們用策展的角度去
+Word timestamps count: 12
+Word '直' (chars: 1) duration: 0.20s, avg: 0.20s
+Word '到' (chars: 1) duration: 0.12s, avg: 0.12s
+Word '這個' (chars: 2) duration: 0.30s, avg: 0.15s
+Word '月' (chars: 1) duration: 0.26s, avg: 0.26s
+Word '我們' (chars: 2) duration: 0.64s, avg: 0.32s
+Word '用' (chars: 1) duration: 0.26s, avg: 0.26s
+Word '策' (chars: 1) duration: 0.32s, avg: 0.32s
+Word '展' (chars: 1) duration: 0.08s, avg: 0.08s
+Word '的' (chars: 1) duration: 0.26s, avg: 0.26s
+Word '角' (chars: 1) duration: 0.24s, avg: 0.24s
+Word '度' (chars: 1) duration: 0.18s, avg: 0.18s
+Word '去' (chars: 1) duration: 0.92s, avg: 0.92s
+Skipping word '去' at sentence end with duration 0.9199999999999591
+Pause between '直' and '到': 0.00s
+Pause between '到' and '這個': 0.00s
+Pause between '這個' and '月': 0.00s
+Pause between '月' and '我們': 0.00s
+Pause between '我們' and '用': 0.00s
+Pause between '用' and '策': 0.00s
+Pause between '策' and '展': 0.00s
+Pause between '展' and '的': 0.00s
+Pause between '的' and '角': 0.00s
+Pause between '角' and '度': 0.00s
+Pause between '度' and '去': 0.00s
+Analyzing segment 92: 佈置我們這一期的主題
+Word timestamps count: 8
+Word '佈' (chars: 1) duration: 0.20s, avg: 0.20s
+Word '置' (chars: 1) duration: 0.04s, avg: 0.04s
+Word '我們' (chars: 2) duration: 0.28s, avg: 0.14s
+Word '這一' (chars: 2) duration: 0.20s, avg: 0.10s
+Word '期' (chars: 1) duration: 0.12s, avg: 0.12s
+Word '的' (chars: 1) duration: 0.28s, avg: 0.28s
+Word '主' (chars: 1) duration: 0.20s, avg: 0.20s
+Word '題' (chars: 1) duration: 0.44s, avg: 0.44s
+Skipping word '題' at sentence end with duration 0.44000000000005457
+Pause between '佈' and '置': 0.00s
+Pause between '置' and '我們': 0.00s
+Pause between '我們' and '這一': 0.00s
+Pause between '這一' and '期': 0.00s
+Pause between '期' and '的': 0.00s
+Pause between '的' and '主': 0.00s
+Pause between '主' and '題': 0.00s
+Analyzing segment 93: 我們這個月有書衣
+Word timestamps count: 6
+Word '我們' (chars: 2) duration: 0.34s, avg: 0.17s
+Word '這個' (chars: 2) duration: 0.22s, avg: 0.11s
+Word '月' (chars: 1) duration: 0.16s, avg: 0.16s
+Word '有' (chars: 1) duration: 0.28s, avg: 0.28s
+Word '書' (chars: 1) duration: 0.34s, avg: 0.34s
+Word '衣' (chars: 1) duration: 0.36s, avg: 0.36s
+Skipping word '衣' at sentence end with duration 0.36000000000001364
+Pause between '我們' and '這個': 0.00s
+Pause between '這個' and '月': 0.00s
+Pause between '月' and '有': 0.00s
+Pause between '有' and '書': 0.00s
+Pause between '書' and '衣': 0.00s
+Analyzing segment 94: 有咖啡
+Word timestamps count: 3
+Word '有' (chars: 1) duration: 0.38s, avg: 0.38s
+Word '咖' (chars: 1) duration: 0.40s, avg: 0.40s
+Word '啡' (chars: 1) duration: 0.38s, avg: 0.38s
+Skipping word '啡' at sentence end with duration 0.37999999999999545
+Pause between '有' and '咖': 0.00s
+Pause between '咖' and '啡': 0.00s
+Analyzing segment 95: 有果醬
+Word timestamps count: 3
+Word '有' (chars: 1) duration: 0.34s, avg: 0.34s
+Word '果' (chars: 1) duration: 0.28s, avg: 0.28s
+Word '醬' (chars: 1) duration: 0.24s, avg: 0.24s
+Skipping word '醬' at sentence end with duration 0.2400000000000091
+Pause between '有' and '果': 0.00s
+Pause between '果' and '醬': 0.00s
+Analyzing segment 96: 有甜點
+Word timestamps count: 3
+Word '有' (chars: 1) duration: 0.24s, avg: 0.24s
+Word '甜' (chars: 1) duration: 0.34s, avg: 0.34s
+Word '點' (chars: 1) duration: 0.64s, avg: 0.64s
+Skipping word '點' at sentence end with duration 0.6400000000000432
+Pause between '有' and '甜': 0.00s
+Pause between '甜' and '點': 0.00s
+Analyzing segment 97: 這讓我想到了愛麗絲夢有先進
+Word timestamps count: 11
+Word '這' (chars: 1) duration: 0.22s, avg: 0.22s
+Word '讓' (chars: 1) duration: 0.02s, avg: 0.02s
+Word '我想' (chars: 2) duration: 0.34s, avg: 0.17s
+Word '到了' (chars: 2) duration: 0.32s, avg: 0.16s
+Word '愛' (chars: 1) duration: 0.28s, avg: 0.28s
+Word '麗' (chars: 1) duration: 0.10s, avg: 0.10s
+Word '絲' (chars: 1) duration: 0.16s, avg: 0.16s
+Word '夢' (chars: 1) duration: 0.10s, avg: 0.10s
+Word '有' (chars: 1) duration: 0.20s, avg: 0.20s
+Word '先' (chars: 1) duration: 0.34s, avg: 0.34s
+Word '進' (chars: 1) duration: 0.42s, avg: 0.42s
+Skipping word '進' at sentence end with duration 0.4200000000000159
+Pause between '這' and '讓': 0.00s
+Pause between '讓' and '我想': 0.00s
+Pause between '我想' and '到了': 0.00s
+Pause between '到了' and '愛': 0.00s
+Pause between '愛' and '麗': 0.00s
+Pause between '麗' and '絲': 0.00s
+Pause between '絲' and '夢': 0.00s
+Pause between '夢' and '有': 0.00s
+Pause between '有' and '先': 0.00s
+Pause between '先' and '進': 0.00s
+Analyzing segment 98: 所以我們把空間佈置得像森林一樣
+Word timestamps count: 12
+Word '所以' (chars: 2) duration: 0.30s, avg: 0.15s
+Word '我們' (chars: 2) duration: 0.12s, avg: 0.06s
+Word '把' (chars: 1) duration: 0.16s, avg: 0.16s
+Word '空' (chars: 1) duration: 0.28s, avg: 0.28s
+Word '間' (chars: 1) duration: 0.12s, avg: 0.12s
+Word '佈' (chars: 1) duration: 0.24s, avg: 0.24s
+Word '置' (chars: 1) duration: 0.08s, avg: 0.08s
+Word '得' (chars: 1) duration: 0.16s, avg: 0.16s
+Word '像' (chars: 1) duration: 0.50s, avg: 0.50s
+Word '森' (chars: 1) duration: 0.28s, avg: 0.28s
+Word '林' (chars: 1) duration: 0.10s, avg: 0.10s
+Word '一樣' (chars: 2) duration: 0.74s, avg: 0.37s
+Skipping word '一樣' at sentence end with duration 0.7400000000000091
+Pause between '所以' and '我們': 0.00s
+Pause between '我們' and '把': 0.00s
+Pause between '把' and '空': 0.00s
+Pause between '空' and '間': 0.00s
+Pause between '間' and '佈': 0.00s
+Pause between '佈' and '置': 0.00s
+Pause between '置' and '得': 0.00s
+Pause between '得' and '像': 0.00s
+Pause between '像' and '森': 0.00s
+Pause between '森' and '林': 0.00s
+Pause between '林' and '一樣': 0.00s
+Analyzing segment 99: 而透過這樣的做法以後來參觀的人
+Word timestamps count: 12
+Word '而' (chars: 1) duration: 0.56s, avg: 0.56s
+Word '透' (chars: 1) duration: 0.22s, avg: 0.22s
+Word '過' (chars: 1) duration: 0.10s, avg: 0.10s
+Word '這樣的' (chars: 3) duration: 0.26s, avg: 0.09s
+Word '做' (chars: 1) duration: 0.30s, avg: 0.30s
+Word '法' (chars: 1) duration: 0.14s, avg: 0.14s
+Word '以' (chars: 1) duration: 0.26s, avg: 0.26s
+Word '後' (chars: 1) duration: 0.34s, avg: 0.34s
+Word '來' (chars: 1) duration: 0.24s, avg: 0.24s
+Word '參' (chars: 1) duration: 0.22s, avg: 0.22s
+Word '觀' (chars: 1) duration: 0.08s, avg: 0.08s
+Word '的人' (chars: 2) duration: 0.54s, avg: 0.27s
+Skipping word '的人' at sentence end with duration 0.5400000000000205
+Pause between '而' and '透': 0.00s
+Pause between '透' and '過': 0.00s
+Pause between '過' and '這樣的': 0.00s
+Pause between '這樣的' and '做': 0.00s
+Pause between '做' and '法': 0.00s
+Pause between '法' and '以': 0.00s
+Pause between '以' and '後': 0.00s
+Pause between '後' and '來': 0.00s
+Pause between '來' and '參': 0.00s
+Pause between '參' and '觀': 0.00s
+Pause between '觀' and '的人': 0.00s
+Analyzing segment 100: 反而會覺得這是一個有趣的地方
+Word timestamps count: 10
+Word '反' (chars: 1) duration: 0.34s, avg: 0.34s
+Word '而' (chars: 1) duration: 0.08s, avg: 0.08s
+Word '會' (chars: 1) duration: 0.24s, avg: 0.24s
+Word '覺得' (chars: 2) duration: 0.22s, avg: 0.11s
+Word '這是' (chars: 2) duration: 0.30s, avg: 0.15s
+Word '一個' (chars: 2) duration: 0.24s, avg: 0.12s
+Word '有' (chars: 1) duration: 0.22s, avg: 0.22s
+Word '趣' (chars: 1) duration: 0.14s, avg: 0.14s
+Word '的' (chars: 1) duration: 0.20s, avg: 0.20s
+Word '地方' (chars: 2) duration: 0.50s, avg: 0.25s
+Skipping word '地方' at sentence end with duration 0.5
+Pause between '反' and '而': 0.00s
+Pause between '而' and '會': 0.00s
+Pause between '會' and '覺得': 0.00s
+Pause between '覺得' and '這是': 0.00s
+Pause between '這是' and '一個': 0.00s
+Pause between '一個' and '有': 0.00s
+Pause between '有' and '趣': 0.00s
+Pause between '趣' and '的': 0.00s
+Pause between '的' and '地方': 0.00s
+Analyzing segment 101: 而我們地上還有鋪落葉
+Word timestamps count: 8
+Word '而' (chars: 1) duration: 0.50s, avg: 0.50s
+Word '我們' (chars: 2) duration: 0.24s, avg: 0.12s
+Word '地' (chars: 1) duration: 0.14s, avg: 0.14s
+Word '上' (chars: 1) duration: 0.06s, avg: 0.06s
+Word '還有' (chars: 2) duration: 0.20s, avg: 0.10s
+Word '鋪' (chars: 1) duration: 0.26s, avg: 0.26s
+Word '落' (chars: 1) duration: 0.18s, avg: 0.18s
+Word '葉' (chars: 1) duration: 0.10s, avg: 0.10s
+Skipping word '葉' at sentence end with duration 0.10000000000002274
+Pause between '而' and '我們': 0.00s
+Pause between '我們' and '地': 0.00s
+Pause between '地' and '上': 0.00s
+Pause between '上' and '還有': 0.00s
+Pause between '還有' and '鋪': 0.00s
+Pause between '鋪' and '落': 0.00s
+Pause between '落' and '葉': 0.00s
+Analyzing segment 102: 他們甚至會想說這落葉到底能分層
+Word timestamps count: 13
+Word '他們' (chars: 2) duration: 0.24s, avg: 0.12s
+Word '甚' (chars: 1) duration: 0.22s, avg: 0.22s
+Word '至' (chars: 1) duration: 0.08s, avg: 0.08s
+Word '會' (chars: 1) duration: 0.28s, avg: 0.28s
+Word '想' (chars: 1) duration: 0.22s, avg: 0.22s
+Word '說' (chars: 1) duration: 0.42s, avg: 0.42s
+Word '這' (chars: 1) duration: 0.18s, avg: 0.18s
+Word '落' (chars: 1) duration: 0.18s, avg: 0.18s
+Word '葉' (chars: 1) duration: 0.12s, avg: 0.12s
+Word '到底' (chars: 2) duration: 0.24s, avg: 0.12s
+Word '能' (chars: 1) duration: 0.20s, avg: 0.20s
+Word '分' (chars: 1) duration: 0.20s, avg: 0.20s
+Word '層' (chars: 1) duration: 0.14s, avg: 0.14s
+Skipping word '層' at sentence end with duration 0.13999999999998636
+Pause between '他們' and '甚': 0.00s
+Pause between '甚' and '至': 0.00s
+Pause between '至' and '會': 0.00s
+Pause between '會' and '想': 0.00s
+Pause between '想' and '說': 0.00s
+Pause between '說' and '這': 0.00s
+Pause between '這' and '落': 0.00s
+Pause between '落' and '葉': 0.00s
+Pause between '葉' and '到底': 0.00s
+Pause between '到底' and '能': 0.00s
+Pause between '能' and '分': 0.00s
+Pause between '分' and '層': 0.00s
+Analyzing segment 103: 然後就很小心這樣走
+Word timestamps count: 6
+Word '然後' (chars: 2) duration: 0.20s, avg: 0.10s
+Word '就' (chars: 1) duration: 0.18s, avg: 0.18s
+Word '很' (chars: 1) duration: 0.20s, avg: 0.20s
+Word '小心' (chars: 2) duration: 0.22s, avg: 0.11s
+Word '這樣' (chars: 2) duration: 0.28s, avg: 0.14s
+Word '走' (chars: 1) duration: 0.52s, avg: 0.52s
+Skipping word '走' at sentence end with duration 0.5200000000000387
+Pause between '然後' and '就': 0.00s
+Pause between '就' and '很': 0.00s
+Pause between '很' and '小心': 0.00s
+Pause between '小心' and '這樣': 0.00s
+Pause between '這樣' and '走': 0.00s
+Analyzing segment 104: 然後大家也會停留去拍照
+Word timestamps count: 9
+Word '然後' (chars: 2) duration: 0.40s, avg: 0.20s
+Word '大家' (chars: 2) duration: 0.18s, avg: 0.09s
+Word '也' (chars: 1) duration: 0.16s, avg: 0.16s
+Word '會' (chars: 1) duration: 0.44s, avg: 0.44s
+Word '停' (chars: 1) duration: 0.26s, avg: 0.26s
+Word '留' (chars: 1) duration: 0.14s, avg: 0.14s
+Word '去' (chars: 1) duration: 0.24s, avg: 0.24s
+Word '拍' (chars: 1) duration: 0.32s, avg: 0.32s
+Word '照' (chars: 1) duration: 0.20s, avg: 0.20s
+Skipping word '照' at sentence end with duration 0.19999999999998863
+Pause between '然後' and '大家': 0.00s
+Pause between '大家' and '也': 0.00s
+Pause between '也' and '會': 0.00s
+Pause between '會' and '停': 0.00s
+Pause between '停' and '留': 0.00s
+Pause between '留' and '去': 0.00s
+Pause between '去' and '拍': 0.00s
+Pause between '拍' and '照': 0.00s
+Analyzing segment 105: 去聽我們想分享什麼故事
+Word timestamps count: 7
+Word '去' (chars: 1) duration: 0.16s, avg: 0.16s
+Word '聽' (chars: 1) duration: 0.12s, avg: 0.12s
+Word '我們' (chars: 2) duration: 0.20s, avg: 0.10s
+Word '想' (chars: 1) duration: 0.18s, avg: 0.18s
+Word '分享' (chars: 2) duration: 0.32s, avg: 0.16s
+Word '什麼' (chars: 2) duration: 0.26s, avg: 0.13s
+Word '故' (chars: 1) duration: 0.42s, avg: 0.42s
+Pause between '去' and '聽': 0.00s
+Pause between '聽' and '我們': 0.00s
+Pause between '我們' and '想': 0.00s
+Pause between '想' and '分享': 0.00s
+Pause between '分享' and '什麼': 0.00s
+Pause between '什麼' and '故': 0.00s
+Analyzing segment 106: 而在進空間的同時
+Word timestamps count: 8
+Word '而' (chars: 1) duration: 0.24s, avg: 0.24s
+Word '在' (chars: 1) duration: 0.14s, avg: 0.14s
+Word '進' (chars: 1) duration: 0.10s, avg: 0.10s
+Word '空' (chars: 1) duration: 0.22s, avg: 0.22s
+Word '間' (chars: 1) duration: 0.20s, avg: 0.20s
+Word '的' (chars: 1) duration: 0.18s, avg: 0.18s
+Word '同' (chars: 1) duration: 0.16s, avg: 0.16s
+Word '時' (chars: 1) duration: 0.56s, avg: 0.56s
+Skipping word '時' at sentence end with duration 0.5600000000000023
+Pause between '而' and '在': 0.00s
+Pause between '在' and '進': 0.00s
+Pause between '進' and '空': 0.00s
+Pause between '空' and '間': 0.00s
+Pause between '間' and '的': 0.00s
+Pause between '的' and '同': 0.00s
+Pause between '同' and '時': 0.00s
+Analyzing segment 107: 我也認識到了很多社區的居民
+Word timestamps count: 10
+Word '我也' (chars: 2) duration: 0.30s, avg: 0.15s
+Word '認' (chars: 1) duration: 0.32s, avg: 0.32s
+Word '識' (chars: 1) duration: 0.14s, avg: 0.14s
+Word '到了' (chars: 2) duration: 0.20s, avg: 0.10s
+Word '很多' (chars: 2) duration: 0.44s, avg: 0.22s
+Word '社' (chars: 1) duration: 0.34s, avg: 0.34s
+Word '區' (chars: 1) duration: 0.12s, avg: 0.12s
+Word '的' (chars: 1) duration: 0.24s, avg: 0.24s
+Word '居' (chars: 1) duration: 0.22s, avg: 0.22s
+Word '民' (chars: 1) duration: 0.56s, avg: 0.56s
+Skipping word '民' at sentence end with duration 0.5600000000000023
+Pause between '我也' and '認': 0.00s
+Pause between '認' and '識': 0.00s
+Pause between '識' and '到了': 0.00s
+Pause between '到了' and '很多': 0.00s
+Pause between '很多' and '社': 0.00s
+Pause between '社' and '區': 0.00s
+Pause between '區' and '的': 0.00s
+Pause between '的' and '居': 0.00s
+Pause between '居' and '民': 0.00s
+Analyzing segment 108: 其中因為令我印象深刻的
+Word timestamps count: 10
+Word '其' (chars: 1) duration: 0.20s, avg: 0.20s
+Word '中' (chars: 1) duration: 0.06s, avg: 0.06s
+Word '因為' (chars: 2) duration: 0.20s, avg: 0.10s
+Word '令' (chars: 1) duration: 0.14s, avg: 0.14s
+Word '我' (chars: 1) duration: 0.10s, avg: 0.10s
+Word '印' (chars: 1) duration: 0.22s, avg: 0.22s
+Word '象' (chars: 1) duration: 0.20s, avg: 0.20s
+Word '深' (chars: 1) duration: 0.30s, avg: 0.30s
+Word '刻' (chars: 1) duration: 0.08s, avg: 0.08s
+Word '的' (chars: 1) duration: 0.48s, avg: 0.48s
+Skipping word '的' at sentence end with duration 0.4800000000000182
+Pause between '其' and '中': 0.00s
+Pause between '中' and '因為': 0.00s
+Pause between '因為' and '令': 0.00s
+Pause between '令' and '我': 0.00s
+Pause between '我' and '印': 0.00s
+Pause between '印' and '象': 0.00s
+Pause between '象' and '深': 0.00s
+Pause between '深' and '刻': 0.00s
+Pause between '刻' and '的': 0.00s
+Analyzing segment 109: 他是我們國北第一屆的學生
+Word timestamps count: 9
+Word '他是' (chars: 2) duration: 0.24s, avg: 0.12s
+Word '我們' (chars: 2) duration: 0.24s, avg: 0.12s
+Word '國' (chars: 1) duration: 0.24s, avg: 0.24s
+Word '北' (chars: 1) duration: 0.12s, avg: 0.12s
+Word '第一' (chars: 2) duration: 0.28s, avg: 0.14s
+Word '屆' (chars: 1) duration: 0.08s, avg: 0.08s
+Word '的' (chars: 1) duration: 0.24s, avg: 0.24s
+Word '學' (chars: 1) duration: 0.14s, avg: 0.14s
+Word '生' (chars: 1) duration: 0.60s, avg: 0.60s
+Skipping word '生' at sentence end with duration 0.6000000000000227
+Pause between '他是' and '我們': 0.00s
+Pause between '我們' and '國': 0.00s
+Pause between '國' and '北': 0.00s
+Pause between '北' and '第一': 0.00s
+Pause between '第一' and '屆': 0.00s
+Pause between '屆' and '的': 0.00s
+Pause between '的' and '學': 0.00s
+Pause between '學' and '生': 0.00s
+Analyzing segment 110: 他是曾爺爺
+Word timestamps count: 4
+Word '他是' (chars: 2) duration: 0.40s, avg: 0.20s
+Word '曾' (chars: 1) duration: 0.28s, avg: 0.28s
+Word '爺' (chars: 1) duration: 0.20s, avg: 0.20s
+Skipping word '爺' at sentence end with duration 0.19999999999998863
+Word '爺' (chars: 1) duration: 0.74s, avg: 0.74s
+Skipping word '爺' at sentence end with duration 0.7400000000000091
+Pause between '他是' and '曾': 0.00s
+Pause between '曾' and '爺': 0.00s
+Pause between '爺' and '爺': 0.00s
+Analyzing segment 111: 他每天下午三點左右
+Word timestamps count: 8
+Word '他' (chars: 1) duration: 0.34s, avg: 0.34s
+Word '每' (chars: 1) duration: 0.14s, avg: 0.14s
+Word '天' (chars: 1) duration: 0.12s, avg: 0.12s
+Word '下' (chars: 1) duration: 0.16s, avg: 0.16s
+Word '午' (chars: 1) duration: 0.12s, avg: 0.12s
+Word '三' (chars: 1) duration: 0.18s, avg: 0.18s
+Word '點' (chars: 1) duration: 0.18s, avg: 0.18s
+Word '左右' (chars: 2) duration: 0.56s, avg: 0.28s
+Skipping word '左右' at sentence end with duration 0.5600000000000023
+Pause between '他' and '每': 0.00s
+Pause between '每' and '天': 0.00s
+Pause between '天' and '下': 0.00s
+Pause between '下' and '午': 0.00s
+Pause between '午' and '三': 0.00s
+Pause between '三' and '點': 0.00s
+Pause between '點' and '左右': 0.00s
+Analyzing segment 112: 會來我們學校散步
+Word timestamps count: 7
+Word '會' (chars: 1) duration: 0.28s, avg: 0.28s
+Word '來' (chars: 1) duration: 0.08s, avg: 0.08s
+Word '我們' (chars: 2) duration: 0.22s, avg: 0.11s
+Word '學' (chars: 1) duration: 0.20s, avg: 0.20s
+Word '校' (chars: 1) duration: 0.18s, avg: 0.18s
+Word '散' (chars: 1) duration: 0.32s, avg: 0.32s
+Word '步' (chars: 1) duration: 0.44s, avg: 0.44s
+Skipping word '步' at sentence end with duration 0.4399999999999977
+Pause between '會' and '來': 0.00s
+Pause between '來' and '我們': 0.00s
+Pause between '我們' and '學': 0.00s
+Pause between '學' and '校': 0.00s
+Pause between '校' and '散': 0.00s
+Pause between '散' and '步': 0.00s
+Analyzing segment 113: 活動他的筋骨 避免老化
+Word timestamps count: 8
+Word '活' (chars: 1) duration: 0.32s, avg: 0.32s
+Word '動' (chars: 1) duration: 0.18s, avg: 0.18s
+Word '他的' (chars: 2) duration: 0.30s, avg: 0.15s
+Word '筋' (chars: 1) duration: 0.30s, avg: 0.30s
+Word '骨' (chars: 1) duration: 0.08s, avg: 0.08s
+Word '避' (chars: 1) duration: 0.08s, avg: 0.08s
+Word '免' (chars: 1) duration: 0.12s, avg: 0.12s
+Word '老' (chars: 1) duration: 0.32s, avg: 0.32s
+Pause between '活' and '動': 0.00s
+Pause between '動' and '他的': 0.00s
+Pause between '他的' and '筋': 0.00s
+Pause between '筋' and '骨': 0.00s
+Pause between '骨' and ' 避': 0.14s
+Pause between ' 避' and '免': 0.00s
+Pause between '免' and '老': 0.00s
+Analyzing segment 114: 他很喜歡來找我們聊天
+Word timestamps count: 8
+Word '他' (chars: 1) duration: 0.26s, avg: 0.26s
+Word '很' (chars: 1) duration: 0.20s, avg: 0.20s
+Word '喜歡' (chars: 2) duration: 0.18s, avg: 0.09s
+Word '來' (chars: 1) duration: 0.30s, avg: 0.30s
+Word '找' (chars: 1) duration: 0.04s, avg: 0.04s
+Word '我們' (chars: 2) duration: 0.24s, avg: 0.12s
+Word '聊' (chars: 1) duration: 0.26s, avg: 0.26s
+Word '天' (chars: 1) duration: 0.56s, avg: 0.56s
+Skipping word '天' at sentence end with duration 0.5600000000000023
+Pause between '他' and '很': 0.00s
+Pause between '很' and '喜歡': 0.00s
+Pause between '喜歡' and '來': 0.00s
+Pause between '來' and '找': 0.00s
+Pause between '找' and '我們': 0.00s
+Pause between '我們' and '聊': 0.00s
+Pause between '聊' and '天': 0.00s
+Analyzing segment 115: 因為他說老了以後
+Word timestamps count: 6
+Word '因為' (chars: 2) duration: 0.28s, avg: 0.14s
+Word '他說' (chars: 2) duration: 0.92s, avg: 0.46s
+Word '老' (chars: 1) duration: 0.30s, avg: 0.30s
+Word '了' (chars: 1) duration: 0.20s, avg: 0.20s
+Word '以' (chars: 1) duration: 0.20s, avg: 0.20s
+Word '後' (chars: 1) duration: 0.32s, avg: 0.32s
+Skipping word '後' at sentence end with duration 0.3199999999999932
+Pause between '因為' and '他說': 0.00s
+Pause between '他說' and '老': 0.00s
+Pause between '老' and '了': 0.00s
+Pause between '了' and '以': 0.00s
+Pause between '以' and '後': 0.00s
+Analyzing segment 116: 一個人在家裡
+Word timestamps count: 5
+Word '一個' (chars: 2) duration: 0.22s, avg: 0.11s
+Word '人' (chars: 1) duration: 0.10s, avg: 0.10s
+Word '在' (chars: 1) duration: 0.20s, avg: 0.20s
+Word '家' (chars: 1) duration: 0.34s, avg: 0.34s
+Word '裡' (chars: 1) duration: 0.42s, avg: 0.42s
+Skipping word '裡' at sentence end with duration 0.4200000000000159
+Pause between '一個' and '人': 0.00s
+Pause between '人' and '在': 0.00s
+Pause between '在' and '家': 0.00s
+Pause between '家' and '裡': 0.00s
+Analyzing segment 117: 沒有人可以對話
+Word timestamps count: 5
+Word '沒有' (chars: 2) duration: 0.18s, avg: 0.09s
+Word '人' (chars: 1) duration: 0.26s, avg: 0.26s
+Word '可以' (chars: 2) duration: 0.30s, avg: 0.15s
+Word '對' (chars: 1) duration: 0.36s, avg: 0.36s
+Word '話' (chars: 1) duration: 0.44s, avg: 0.44s
+Skipping word '話' at sentence end with duration 0.4399999999999977
+Pause between '沒有' and '人': 0.00s
+Pause between '人' and '可以': 0.00s
+Pause between '可以' and '對': 0.00s
+Pause between '對' and '話': 0.00s
+Analyzing segment 118: 好像自己變成啞巴一樣
+Word timestamps count: 7
+Word '好像' (chars: 2) duration: 0.28s, avg: 0.14s
+Word '自己' (chars: 2) duration: 0.20s, avg: 0.10s
+Word '變' (chars: 1) duration: 0.22s, avg: 0.22s
+Word '成' (chars: 1) duration: 0.16s, avg: 0.16s
+Word '啞' (chars: 1) duration: 0.28s, avg: 0.28s
+Word '巴' (chars: 1) duration: 0.08s, avg: 0.08s
+Word '一樣' (chars: 2) duration: 0.62s, avg: 0.31s
+Skipping word '一樣' at sentence end with duration 0.6200000000000045
+Pause between '好像' and '自己': 0.00s
+Pause between '自己' and '變': 0.00s
+Pause between '變' and '成': 0.00s
+Pause between '成' and '啞': 0.00s
+Pause between '啞' and '巴': 0.00s
+Pause between '巴' and '一樣': 0.00s
+Analyzing segment 119: 所以他很喜歡來這邊跟我們分享
+Word timestamps count: 9
+Word '所以' (chars: 2) duration: 0.82s, avg: 0.41s
+Word '他' (chars: 1) duration: 0.28s, avg: 0.28s
+Word '很' (chars: 1) duration: 0.34s, avg: 0.34s
+Word '喜歡' (chars: 2) duration: 0.48s, avg: 0.24s
+Word '來' (chars: 1) duration: 0.28s, avg: 0.28s
+Word '這邊' (chars: 2) duration: 0.18s, avg: 0.09s
+Word '跟' (chars: 1) duration: 0.16s, avg: 0.16s
+Word '我們' (chars: 2) duration: 0.14s, avg: 0.07s
+Word '分享' (chars: 2) duration: 0.36s, avg: 0.18s
+Skipping word '分享' at sentence end with duration 0.36000000000001364
+Pause between '所以' and '他': 0.00s
+Pause between '他' and '很': 0.00s
+Pause between '很' and '喜歡': 0.00s
+Pause between '喜歡' and '來': 0.00s
+Pause between '來' and '這邊': 0.00s
+Pause between '這邊' and '跟': 0.00s
+Pause between '跟' and '我們': 0.00s
+Pause between '我們' and '分享': 0.00s
+Analyzing segment 120: 他以前在學校讀書的過程
+Word timestamps count: 10
+Word '他' (chars: 1) duration: 0.60s, avg: 0.60s
+Word '以前' (chars: 2) duration: 0.28s, avg: 0.14s
+Word '在' (chars: 1) duration: 0.24s, avg: 0.24s
+Word '學' (chars: 1) duration: 0.22s, avg: 0.22s
+Word '校' (chars: 1) duration: 0.12s, avg: 0.12s
+Word '讀' (chars: 1) duration: 0.26s, avg: 0.26s
+Word '書' (chars: 1) duration: 0.14s, avg: 0.14s
+Word '的' (chars: 1) duration: 0.40s, avg: 0.40s
+Word '過' (chars: 1) duration: 0.22s, avg: 0.22s
+Word '程' (chars: 1) duration: 0.44s, avg: 0.44s
+Skipping word '程' at sentence end with duration 0.4399999999999977
+Pause between '他' and '以前': 0.00s
+Pause between '以前' and '在': 0.00s
+Pause between '在' and '學': 0.00s
+Pause between '學' and '校': 0.00s
+Pause between '校' and '讀': 0.00s
+Pause between '讀' and '書': 0.00s
+Pause between '書' and '的': 0.00s
+Pause between '的' and '過': 0.00s
+Pause between '過' and '程': 0.00s
+Analyzing segment 121: 然後他經歷過的事情
+Word timestamps count: 7
+Word '然後' (chars: 2) duration: 0.32s, avg: 0.16s
+Word '他' (chars: 1) duration: 0.22s, avg: 0.22s
+Word '經' (chars: 1) duration: 0.16s, avg: 0.16s
+Word '歷' (chars: 1) duration: 0.10s, avg: 0.10s
+Word '過' (chars: 1) duration: 0.16s, avg: 0.16s
+Word '的' (chars: 1) duration: 0.20s, avg: 0.20s
+Word '事情' (chars: 2) duration: 0.60s, avg: 0.30s
+Skipping word '事情' at sentence end with duration 0.5999999999999659
+Pause between '然後' and '他': 0.00s
+Pause between '他' and '經': 0.00s
+Pause between '經' and '歷': 0.00s
+Pause between '歷' and '過': 0.00s
+Pause between '過' and '的': 0.00s
+Pause between '的' and '事情': 0.00s
+Analyzing segment 122: 他甚至跟我說
+Word timestamps count: 5
+Word '他' (chars: 1) duration: 0.74s, avg: 0.74s
+Word prolongation detected: '他' (avg duration per char: 0.74s)
+Word '甚' (chars: 1) duration: 0.18s, avg: 0.18s
+Word '至' (chars: 1) duration: 0.06s, avg: 0.06s
+Word '跟' (chars: 1) duration: 0.18s, avg: 0.18s
+Word '我說' (chars: 2) duration: 0.52s, avg: 0.26s
+Skipping word '我說' at sentence end with duration 0.5199999999999818
+Pause between '他' and '甚': 0.00s
+Pause between '甚' and '至': 0.00s
+Pause between '至' and '跟': 0.00s
+Pause between '跟' and '我說': 0.00s
+Feedback generated for segment 122: [{'segment_index': 122, 'text': '他甚至跟我說', 'severity': 'medium', 'message': "Word prolongation: '他' avg duration 0.7 seconds per char.", 'start_time': np.float64(325.9), 'end_time': np.float64(326.64)}]
+Analyzing segment 123: 他已經不只是把我們當成朋友了
+Word timestamps count: 10
+Word '他' (chars: 1) duration: 0.58s, avg: 0.58s
+Word '已經' (chars: 2) duration: 0.54s, avg: 0.27s
+Word '不' (chars: 1) duration: 0.50s, avg: 0.50s
+Word '只是' (chars: 2) duration: 0.26s, avg: 0.13s
+Word '把' (chars: 1) duration: 0.12s, avg: 0.12s
+Word '我們' (chars: 2) duration: 0.22s, avg: 0.11s
+Word '當' (chars: 1) duration: 0.26s, avg: 0.26s
+Word '成' (chars: 1) duration: 0.20s, avg: 0.20s
+Word '朋友' (chars: 2) duration: 0.42s, avg: 0.21s
+Word '了' (chars: 1) duration: 0.60s, avg: 0.60s
+Skipping word '了' at sentence end with duration 0.5999999999999659
+Pause between '他' and '已經': 0.00s
+Pause between '已經' and '不': 0.00s
+Pause between '不' and '只是': 0.00s
+Pause between '只是' and '把': 0.00s
+Pause between '把' and '我們': 0.00s
+Pause between '我們' and '當': 0.00s
+Pause between '當' and '成': 0.00s
+Pause between '成' and '朋友': 0.00s
+Pause between '朋友' and '了': 0.00s
+Analyzing segment 124: 更像是他的外孫一樣
+Word timestamps count: 7
+Word '更' (chars: 1) duration: 0.16s, avg: 0.16s
+Word '像' (chars: 1) duration: 0.14s, avg: 0.14s
+Word '是' (chars: 1) duration: 0.28s, avg: 0.28s
+Word '他的' (chars: 2) duration: 0.24s, avg: 0.12s
+Word '外' (chars: 1) duration: 0.28s, avg: 0.28s
+Word '孫' (chars: 1) duration: 0.10s, avg: 0.10s
+Word '一樣' (chars: 2) duration: 0.58s, avg: 0.29s
+Skipping word '一樣' at sentence end with duration 0.5799999999999841
+Pause between '更' and '像': 0.00s
+Pause between '像' and '是': 0.00s
+Pause between '是' and '他的': 0.00s
+Pause between '他的' and '外': 0.00s
+Pause between '外' and '孫': 0.00s
+Pause between '孫' and '一樣': 0.00s
+Analyzing segment 125: 他會努力地
+Word timestamps count: 5
+Word '他' (chars: 1) duration: 0.82s, avg: 0.82s
+Word prolongation detected: '他' (avg duration per char: 0.82s)
+Word '會' (chars: 1) duration: 0.26s, avg: 0.26s
+Word '努' (chars: 1) duration: 0.22s, avg: 0.22s
+Word '力' (chars: 1) duration: 0.22s, avg: 0.22s
+Word '地' (chars: 1) duration: 0.32s, avg: 0.32s
+Skipping word '地' at sentence end with duration 0.3199999999999932
+Pause between '他' and '會': 0.00s
+Pause between '會' and '努': 0.00s
+Pause between '努' and '力': 0.00s
+Pause between '力' and '地': 0.00s
+Feedback generated for segment 125: [{'segment_index': 125, 'text': '他會努力地', 'severity': 'medium', 'message': "Word prolongation: '他' avg duration 0.8 seconds per char.", 'start_time': np.float64(333.06), 'end_time': np.float64(333.88)}]
+Analyzing segment 126: 健康地繼續運動
+Word timestamps count: 6
+Word '健' (chars: 1) duration: 0.22s, avg: 0.22s
+Word '康' (chars: 1) duration: 0.28s, avg: 0.28s
+Word '地' (chars: 1) duration: 0.60s, avg: 0.60s
+Word '繼續' (chars: 2) duration: 0.98s, avg: 0.49s
+Word '運' (chars: 1) duration: 0.22s, avg: 0.22s
+Word '動' (chars: 1) duration: 0.16s, avg: 0.16s
+Skipping word '動' at sentence end with duration 0.160000000000025
+Pause between '健' and '康': 0.00s
+Pause between '康' and '地': 0.00s
+Pause between '地' and '繼續': 0.00s
+Pause between '繼續' and '運': 0.00s
+Pause between '運' and '動': 0.00s
+Analyzing segment 127: 繼續活下去
+Word timestamps count: 3
+Word '繼續' (chars: 2) duration: 0.26s, avg: 0.13s
+Word '活' (chars: 1) duration: 0.22s, avg: 0.22s
+Word '下去' (chars: 2) duration: 0.44s, avg: 0.22s
+Skipping word '下去' at sentence end with duration 0.4399999999999977
+Pause between '繼續' and '活': 0.00s
+Pause between '活' and '下去': 0.00s
+Analyzing segment 128: 陪我們走完這一年
+Word timestamps count: 6
+Word '陪' (chars: 1) duration: 0.20s, avg: 0.20s
+Word '我們' (chars: 2) duration: 0.22s, avg: 0.11s
+Word '走' (chars: 1) duration: 0.18s, avg: 0.18s
+Word '完' (chars: 1) duration: 0.16s, avg: 0.16s
+Word '這一' (chars: 2) duration: 0.30s, avg: 0.15s
+Word '年' (chars: 1) duration: 1.28s, avg: 1.28s
+Skipping word '年' at sentence end with duration 1.2800000000000296
+Pause between '陪' and '我們': 0.00s
+Pause between '我們' and '走': 0.00s
+Pause between '走' and '完': 0.00s
+Pause between '完' and '這一': 0.00s
+Pause between '這一' and '年': 0.00s
+Analyzing segment 129: 這時候我才明白
+Word timestamps count: 5
+Word '這' (chars: 1) duration: 0.22s, avg: 0.22s
+Word '時候' (chars: 2) duration: 0.10s, avg: 0.05s
+Word '我' (chars: 1) duration: 0.22s, avg: 0.22s
+Word '才' (chars: 1) duration: 0.12s, avg: 0.12s
+Word '明白' (chars: 2) duration: 0.62s, avg: 0.31s
+Skipping word '明白' at sentence end with duration 0.6200000000000045
+Pause between '這' and '時候': 0.00s
+Pause between '時候' and '我': 0.00s
+Pause between '我' and '才': 0.00s
+Pause between '才' and '明白': 0.00s
+Analyzing segment 130: 我經營的不只是一個展售空間
+Word timestamps count: 11
+Word '我' (chars: 1) duration: 0.88s, avg: 0.88s
+Word prolongation detected: '我' (avg duration per char: 0.88s)
+Word '經' (chars: 1) duration: 0.16s, avg: 0.16s
+Word '營' (chars: 1) duration: 0.10s, avg: 0.10s
+Word '的' (chars: 1) duration: 0.12s, avg: 0.12s
+Word '不' (chars: 1) duration: 0.14s, avg: 0.14s
+Word '只是' (chars: 2) duration: 0.18s, avg: 0.09s
+Word '一個' (chars: 2) duration: 0.28s, avg: 0.14s
+Word '展' (chars: 1) duration: 0.18s, avg: 0.18s
+Word '售' (chars: 1) duration: 0.14s, avg: 0.14s
+Word '空' (chars: 1) duration: 0.42s, avg: 0.42s
+Word '間' (chars: 1) duration: 0.60s, avg: 0.60s
+Skipping word '間' at sentence end with duration 0.6000000000000227
+Pause between '我' and '經': 0.00s
+Pause between '經' and '營': 0.00s
+Pause between '營' and '的': 0.00s
+Pause between '的' and '不': 0.00s
+Pause between '不' and '只是': 0.00s
+Pause between '只是' and '一個': 0.00s
+Pause between '一個' and '展': 0.00s
+Pause between '展' and '售': 0.00s
+Pause between '售' and '空': 0.00s
+Pause between '空' and '間': 0.00s
+Feedback generated for segment 130: [{'segment_index': 130, 'text': '我經營的不只是一個展售空間', 'severity': 'medium', 'message': "Word prolongation: '我' avg duration 0.9 seconds per char.", 'start_time': np.float64(341.9), 'end_time': np.float64(342.78)}]
+Analyzing segment 131: 更是一個社區的交流客廳
+Word timestamps count: 9
+Word '更' (chars: 1) duration: 0.24s, avg: 0.24s
+Word '是' (chars: 1) duration: 0.18s, avg: 0.18s
+Word '一個' (chars: 2) duration: 0.22s, avg: 0.11s
+Word '社' (chars: 1) duration: 0.20s, avg: 0.20s
+Word '區' (chars: 1) duration: 0.08s, avg: 0.08s
+Word '的' (chars: 1) duration: 0.18s, avg: 0.18s
+Word '交' (chars: 1) duration: 0.10s, avg: 0.10s
+Word '流' (chars: 1) duration: 0.14s, avg: 0.14s
+Word '客' (chars: 1) duration: 0.32s, avg: 0.32s
+Pause between '更' and '是': 0.00s
+Pause between '是' and '一個': 0.00s
+Pause between '一個' and '社': 0.00s
+Pause between '社' and '區': 0.00s
+Pause between '區' and '的': 0.00s
+Pause between '的' and '交': 0.00s
+Pause between '交' and '流': 0.00s
+Pause between '流' and '客': 0.00s
+Analyzing segment 132: 這時候我才明白文創是什麼
+Word timestamps count: 8
+Word '這' (chars: 1) duration: 0.28s, avg: 0.28s
+Word '時候' (chars: 2) duration: 0.08s, avg: 0.04s
+Word '我' (chars: 1) duration: 0.18s, avg: 0.18s
+Word '才' (chars: 1) duration: 0.12s, avg: 0.12s
+Word '明白' (chars: 2) duration: 0.80s, avg: 0.40s
+Word '文' (chars: 1) duration: 0.30s, avg: 0.30s
+Word '創' (chars: 1) duration: 0.06s, avg: 0.06s
+Word '是什麼' (chars: 3) duration: 0.34s, avg: 0.11s
+Skipping word '是什麼' at sentence end with duration 0.339999999999975
+Pause between '這' and '時候': 0.00s
+Pause between '時候' and '我': 0.00s
+Pause between '我' and '才': 0.00s
+Pause between '才' and '明白': 0.00s
+Pause between '明白' and '文': 0.00s
+Pause between '文' and '創': 0.00s
+Pause between '創' and '是什麼': 0.00s
+Analyzing segment 133: 文創就是感動
+Word timestamps count: 5
+Word '文' (chars: 1) duration: 0.48s, avg: 0.48s
+Word '創' (chars: 1) duration: 0.48s, avg: 0.48s
+Word '就是' (chars: 2) duration: 0.32s, avg: 0.16s
+Word '感' (chars: 1) duration: 0.36s, avg: 0.36s
+Word '動' (chars: 1) duration: 0.50s, avg: 0.50s
+Skipping word '動' at sentence end with duration 0.5
+Pause between '文' and '創': 0.00s
+Pause between '創' and '就是': 0.00s
+Pause between '就是' and '感': 0.00s
+Pause between '感' and '動': 0.00s
+Analyzing segment 134: 就是歸屬感
+Word timestamps count: 4
+Word '就是' (chars: 2) duration: 0.40s, avg: 0.20s
+Word '歸' (chars: 1) duration: 0.28s, avg: 0.28s
+Word '屬' (chars: 1) duration: 0.10s, avg: 0.10s
+Word '感' (chars: 1) duration: 1.26s, avg: 1.26s
+Skipping word '感' at sentence end with duration 1.259999999999991
+Pause between '就是' and '歸': 0.00s
+Pause between '歸' and '屬': 0.00s
+Pause between '屬' and '感': 0.00s
+Analyzing segment 135: 我們該注意的是事物背後的價值
+Word timestamps count: 11
+Word '我們' (chars: 2) duration: 0.82s, avg: 0.41s
+Word '該' (chars: 1) duration: 0.18s, avg: 0.18s
+Word '注意' (chars: 2) duration: 0.20s, avg: 0.10s
+Word '的是' (chars: 2) duration: 0.28s, avg: 0.14s
+Word '事' (chars: 1) duration: 0.26s, avg: 0.26s
+Word '物' (chars: 1) duration: 0.12s, avg: 0.12s
+Word '背' (chars: 1) duration: 0.32s, avg: 0.32s
+Word '後' (chars: 1) duration: 0.14s, avg: 0.14s
+Word '的' (chars: 1) duration: 0.28s, avg: 0.28s
+Word '價' (chars: 1) duration: 0.36s, avg: 0.36s
+Word '值' (chars: 1) duration: 0.26s, avg: 0.26s
+Skipping word '值' at sentence end with duration 0.2599999999999909
+Pause between '我們' and '該': 0.00s
+Pause between '該' and '注意': 0.00s
+Pause between '注意' and '的是': 0.00s
+Pause between '的是' and '事': 0.00s
+Pause between '事' and '物': 0.00s
+Pause between '物' and '背': 0.00s
+Pause between '背' and '後': 0.00s
+Pause between '後' and '的': 0.00s
+Pause between '的' and '價': 0.00s
+Pause between '價' and '值': 0.00s
+Analyzing segment 136: 而非價錢
+Word timestamps count: 4
+Word '而' (chars: 1) duration: 0.22s, avg: 0.22s
+Word '非' (chars: 1) duration: 0.16s, avg: 0.16s
+Word '價' (chars: 1) duration: 0.38s, avg: 0.38s
+Word '錢' (chars: 1) duration: 0.72s, avg: 0.72s
+Skipping word '錢' at sentence end with duration 0.7200000000000273
+Pause between '而' and '非': 0.00s
+Pause between '非' and '價': 0.00s
+Pause between '價' and '錢': 0.00s
+Analyzing segment 137: 我努力打造一個有溫度的品牌
+Word timestamps count: 12
+Word '我' (chars: 1) duration: 0.44s, avg: 0.44s
+Word '努' (chars: 1) duration: 0.10s, avg: 0.10s
+Word '力' (chars: 1) duration: 0.14s, avg: 0.14s
+Word '打' (chars: 1) duration: 0.24s, avg: 0.24s
+Word '造' (chars: 1) duration: 0.10s, avg: 0.10s
+Word '一個' (chars: 2) duration: 0.30s, avg: 0.15s
+Word '有' (chars: 1) duration: 0.82s, avg: 0.82s
+Word prolongation detected: '有' (avg duration per char: 0.82s)
+Word '溫' (chars: 1) duration: 0.26s, avg: 0.26s
+Word '度' (chars: 1) duration: 0.08s, avg: 0.08s
+Word '的' (chars: 1) duration: 0.26s, avg: 0.26s
+Word '品' (chars: 1) duration: 0.24s, avg: 0.24s
+Word '牌' (chars: 1) duration: 0.52s, avg: 0.52s
+Skipping word '牌' at sentence end with duration 0.5200000000000387
+Pause between '我' and '努': 0.00s
+Pause between '努' and '力': 0.00s
+Pause between '力' and '打': 0.00s
+Pause between '打' and '造': 0.00s
+Pause between '造' and '一個': 0.00s
+Pause between '一個' and '有': 0.00s
+Pause between '有' and '溫': 0.00s
+Pause between '溫' and '度': 0.00s
+Pause between '度' and '的': 0.00s
+Pause between '的' and '品': 0.00s
+Pause between '品' and '牌': 0.00s
+Feedback generated for segment 137: [{'segment_index': 137, 'text': '我努力打造一個有溫度的品牌', 'severity': 'medium', 'message': "Word prolongation: '有' avg duration 0.8 seconds per char.", 'start_time': np.float64(360.86), 'end_time': np.float64(361.68)}]
+Analyzing segment 138: 不要想帶給你的就是滿滿的陪伴與溫暖
+Word timestamps count: 14
+Word '不要' (chars: 2) duration: 0.32s, avg: 0.16s
+Word '想' (chars: 1) duration: 0.20s, avg: 0.20s
+Word '帶' (chars: 1) duration: 0.20s, avg: 0.20s
+Word '給' (chars: 1) duration: 0.14s, avg: 0.14s
+Word '你的' (chars: 2) duration: 0.16s, avg: 0.08s
+Word '就是' (chars: 2) duration: 0.24s, avg: 0.12s
+Word '滿' (chars: 1) duration: 0.26s, avg: 0.26s
+Word '滿' (chars: 1) duration: 0.16s, avg: 0.16s
+Word '的' (chars: 1) duration: 0.14s, avg: 0.14s
+Word '陪' (chars: 1) duration: 0.26s, avg: 0.26s
+Word '伴' (chars: 1) duration: 0.46s, avg: 0.46s
+Word '與' (chars: 1) duration: 0.26s, avg: 0.26s
+Word '溫' (chars: 1) duration: 0.34s, avg: 0.34s
+Word '暖' (chars: 1) duration: 0.74s, avg: 0.74s
+Skipping word '暖' at sentence end with duration 0.7400000000000091
+Pause between '不要' and '想': 0.00s
+Pause between '想' and '帶': 0.00s
+Pause between '帶' and '給': 0.00s
+Pause between '給' and '你的': 0.00s
+Pause between '你的' and '就是': 0.00s
+Pause between '就是' and '滿': 0.00s
+Pause between '滿' and '滿': 0.00s
+Pause between '滿' and '的': 0.00s
+Pause between '的' and '陪': 0.00s
+Pause between '陪' and '伴': 0.00s
+Pause between '伴' and '與': 0.00s
+Pause between '與' and '溫': 0.00s
+Pause between '溫' and '暖': 0.00s
+Analyzing segment 139: 我努力建立一個有溫度的空間
+Word timestamps count: 12
+Word '我' (chars: 1) duration: 0.52s, avg: 0.52s
+Word '努' (chars: 1) duration: 0.14s, avg: 0.14s
+Word '力' (chars: 1) duration: 0.14s, avg: 0.14s
+Word '建' (chars: 1) duration: 0.12s, avg: 0.12s
+Word '立' (chars: 1) duration: 0.04s, avg: 0.04s
+Word '一個' (chars: 2) duration: 0.18s, avg: 0.09s
+Word '有' (chars: 1) duration: 0.18s, avg: 0.18s
+Word '溫' (chars: 1) duration: 0.18s, avg: 0.18s
+Word '度' (chars: 1) duration: 0.10s, avg: 0.10s
+Word '的' (chars: 1) duration: 0.24s, avg: 0.24s
+Word '空' (chars: 1) duration: 0.28s, avg: 0.28s
+Word '間' (chars: 1) duration: 0.38s, avg: 0.38s
+Skipping word '間' at sentence end with duration 0.37999999999999545
+Pause between '我' and '努': 0.00s
+Pause between '努' and '力': 0.00s
+Pause between '力' and '建': 0.00s
+Pause between '建' and '立': 0.00s
+Pause between '立' and '一個': 0.00s
+Pause between '一個' and '有': 0.00s
+Pause between '有' and '溫': 0.00s
+Pause between '溫' and '度': 0.00s
+Pause between '度' and '的': 0.00s
+Pause between '的' and '空': 0.00s
+Pause between '空' and '間': 0.00s
+Analyzing segment 140: 讓故事能夠直接傳遞到你的手裡
+Word timestamps count: 12
+Word '讓' (chars: 1) duration: 0.26s, avg: 0.26s
+Word '故' (chars: 1) duration: 0.20s, avg: 0.20s
+Word '事' (chars: 1) duration: 0.10s, avg: 0.10s
+Word '能' (chars: 1) duration: 0.18s, avg: 0.18s
+Word '夠' (chars: 1) duration: 0.14s, avg: 0.14s
+Word '直接' (chars: 2) duration: 0.22s, avg: 0.11s
+Word '傳' (chars: 1) duration: 0.28s, avg: 0.28s
+Word '遞' (chars: 1) duration: 0.06s, avg: 0.06s
+Word '到' (chars: 1) duration: 0.20s, avg: 0.20s
+Word '你的' (chars: 2) duration: 0.24s, avg: 0.12s
+Word '手' (chars: 1) duration: 0.26s, avg: 0.26s
+Word '裡' (chars: 1) duration: 0.82s, avg: 0.82s
+Skipping word '裡' at sentence end with duration 0.8199999999999932
+Pause between '讓' and '故': 0.00s
+Pause between '故' and '事': 0.00s
+Pause between '事' and '能': 0.00s
+Pause between '能' and '夠': 0.00s
+Pause between '夠' and '直接': 0.00s
+Pause between '直接' and '傳': 0.00s
+Pause between '傳' and '遞': 0.00s
+Pause between '遞' and '到': 0.00s
+Pause between '到' and '你的': 0.00s
+Pause between '你的' and '手': 0.00s
+Pause between '手' and '裡': 0.00s
+Analyzing segment 141: 今天請做有溫度的事
+Word timestamps count: 8
+Word '今天' (chars: 2) duration: 0.22s, avg: 0.11s
+Word '請' (chars: 1) duration: 0.18s, avg: 0.18s
+Word '做' (chars: 1) duration: 0.12s, avg: 0.12s
+Word '有' (chars: 1) duration: 0.20s, avg: 0.20s
+Word '溫' (chars: 1) duration: 0.28s, avg: 0.28s
+Word '度' (chars: 1) duration: 0.12s, avg: 0.12s
+Word '的' (chars: 1) duration: 0.20s, avg: 0.20s
+Word '事' (chars: 1) duration: 0.44s, avg: 0.44s
+Skipping word '事' at sentence end with duration 0.4399999999999977
+Pause between '今天' and '請': 0.00s
+Pause between '請' and '做': 0.00s
+Pause between '做' and '有': 0.00s
+Pause between '有' and '溫': 0.00s
+Pause between '溫' and '度': 0.00s
+Pause between '度' and '的': 0.00s
+Pause between '的' and '事': 0.00s
+Analyzing segment 142: 分享有溫度的故事
+Word timestamps count: 7
+Word '分享' (chars: 2) duration: 0.66s, avg: 0.33s
+Word '有' (chars: 1) duration: 0.56s, avg: 0.56s
+Word '溫' (chars: 1) duration: 0.28s, avg: 0.28s
+Word '度' (chars: 1) duration: 0.12s, avg: 0.12s
+Word '的' (chars: 1) duration: 0.18s, avg: 0.18s
+Word '故' (chars: 1) duration: 0.26s, avg: 0.26s
+Word '事' (chars: 1) duration: 0.36s, avg: 0.36s
+Skipping word '事' at sentence end with duration 0.36000000000001364
+Pause between '分享' and '有': 0.00s
+Pause between '有' and '溫': 0.00s
+Pause between '溫' and '度': 0.00s
+Pause between '度' and '的': 0.00s
+Pause between '的' and '故': 0.00s
+Pause between '故' and '事': 0.00s
+Analyzing segment 143: 我是陳宏偉
+Word timestamps count: 4
+Word '我是' (chars: 2) duration: 0.28s, avg: 0.14s
+Word '陳' (chars: 1) duration: 0.28s, avg: 0.28s
+Word '宏' (chars: 1) duration: 0.20s, avg: 0.20s
+Word '偉' (chars: 1) duration: 0.28s, avg: 0.28s
+Skipping word '偉' at sentence end with duration 0.28000000000002956
+Pause between '我是' and '陳': 0.00s
+Pause between '陳' and '宏': 0.00s
+Pause between '宏' and '偉': 0.00s
+Analyzing segment 144: 謝謝
+Word timestamps count: 1
+Word '謝謝' (chars: 2) duration: 0.44s, avg: 0.22s
+Skipping word '謝謝' at sentence end with duration 0.4399999999999977
+Final feedback: [{'segment_index': 1, 'text': '作詞 李宗盛 作曲 李宗盛', 'severity': 'medium', 'message': "Word prolongation: '曲' avg duration 4.1 seconds per char.", 'start_time': np.float64(11.14), 'end_time': np.float64(15.24)}, {'segment_index': 25, 'text': '失戀你可能會覺得悲傷', 'severity': 'medium', 'message': "Word prolongation: '失' avg duration 0.8 seconds per char.", 'start_time': np.float64(74.46), 'end_time': np.float64(75.26)}, {'segment_index': 46, 'text': '我想要有實體的機會跟人面對面直接分享我的故事', 'severity': 'medium', 'message': "Word prolongation: '體' avg duration 0.9 seconds per char.", 'start_time': np.float64(124.14), 'end_time': np.float64(125.0)}, {'segment_index': 53, 'text': '他們賣的小小冰啊 嘎嘎包這些很潮流的東西', 'severity': 'medium', 'message': "Word prolongation: '的' avg duration 1.0 seconds per char.", 'start_time': np.float64(149.24), 'end_time': np.float64(150.26)}, {'segment_index': 65, 'text': '這樣子的負面能量反而給我很多創作的動力', 'severity': 'medium', 'message': "Word prolongation: '的' avg duration 0.9 seconds per char.", 'start_time': np.float64(179.06), 'end_time': np.float64(179.96)}, {'segment_index': 76, 'text': '正好在我完成這個作品以後', 'severity': 'medium', 'message': "Word prolongation: '好' avg duration 0.7 seconds per char.", 'start_time': np.float64(208.42), 'end_time': np.float64(209.16)}, {'segment_index': 76, 'text': '正好在我完成這個作品以後', 'severity': 'medium', 'message': "Word prolongation: '我' avg duration 1.0 seconds per char.", 'start_time': np.float64(209.54), 'end_time': np.float64(210.52)}, {'segment_index': 79, 'text': '去曝光他們的作品', 'severity': 'medium', 'message': "Word prolongation: '去' avg duration 0.7 seconds per char.", 'start_time': np.float64(220.76), 'end_time': np.float64(221.48)}, {'segment_index': 80, 'text': '這是我們空間整以前的模樣', 'severity': 'medium', 'message': "Word prolongation: '間' avg duration 1.0 seconds per char.", 'start_time': np.float64(224.68), 'end_time': np.float64(225.68)}, {'segment_index': 86, 'text': '它跟格子區有什麼不一樣嗎', 'severity': 'medium', 'message': "Word prolongation: '它' avg duration 0.7 seconds per char.", 'start_time': np.float64(240.76), 'end_time': np.float64(241.5)}, {'segment_index': 122, 'text': '他甚至跟我說', 'severity': 'medium', 'message': "Word prolongation: '他' avg duration 0.7 seconds per char.", 'start_time': np.float64(325.9), 'end_time': np.float64(326.64)}, {'segment_index': 125, 'text': '他會努力地', 'severity': 'medium', 'message': "Word prolongation: '他' avg duration 0.8 seconds per char.", 'start_time': np.float64(333.06), 'end_time': np.float64(333.88)}, {'segment_index': 130, 'text': '我經營的不只是一個展售空間', 'severity': 'medium', 'message': "Word prolongation: '我' avg duration 0.9 seconds per char.", 'start_time': np.float64(341.9), 'end_time': np.float64(342.78)}, {'segment_index': 137, 'text': '我努力打造一個有溫度的品牌', 'severity': 'medium', 'message': "Word prolongation: '有' avg duration 0.8 seconds per char.", 'start_time': np.float64(360.86), 'end_time': np.float64(361.68)}, {'type': 'summary', 'stutter_issues': 14, 'total_segments': 144, 'message': 'Stutter issues in 14 instances across 144 segments.'}]
