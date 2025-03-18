@@ -7,7 +7,7 @@ import hashlib
 from datetime import datetime
 from models.cloud_and_transcription import download_file_from_cloud, extract_audio_from_video, transcribe_audio_to_sentences, convert_m4a_to_wav
 from models.audio_emotion_classifier import predict, processor, model
-from models.prosody_analyzer import analyze_prosody
+from models.prosody_analyzer import analyze_prosody, analyze_stuttering,convert_to_json_serializable
 import requests
 from flask import Flask, request, jsonify
 
@@ -175,7 +175,7 @@ def print_analysis_results(results):
                 print(f"{feature}: {value:.2f}")
     print("\n")
 
-def analyze_pitch_segments(cache, audio_path=None, cache_data=None, threshold=35, gender=None):
+def analyze_pitch_segments(cache, audio_path=None, cache_data=None, threshold=25, gender=None):
     """
     Analyze pitch segments with gender-aware thresholds.
     - threshold: Base threshold for low pitch variation (default 50 Hz).
@@ -186,14 +186,14 @@ def analyze_pitch_segments(cache, audio_path=None, cache_data=None, threshold=35
 
     # Adjust thresholds based on gender
     if gender == "male":
-        base_threshold = 30  # Lowered to 30 Hz so 39 Hz isn’t flagged
-        high_multiplier = 2.5  # ~75 Hz for "very high"
+        base_threshold =  20  # Lowered to 30 Hz so 39 Hz isn’t flagged
+        high_multiplier = 3.5  # ~75 Hz for "very high"
     elif gender == "female":
-        base_threshold = 40  # Kept at 60 Hz per your current setup
-        high_multiplier = 2.5  # ~150 Hz for "very high"
+        base_threshold = 30  # Kept at 60 Hz per your current setup
+        high_multiplier = 3.5  # ~150 Hz for "very high"
     else:
         base_threshold = threshold  # Default 50 Hz if no gender specified
-        high_multiplier = 2.5  # ~125 Hz for "very high"
+        high_multiplier = 3.5  # ~125 Hz for "very high"
 
     # Load cache data
     if audio_path:
@@ -215,16 +215,15 @@ def analyze_pitch_segments(cache, audio_path=None, cache_data=None, threshold=35
     for key, cached_data in all_cached_data.items():
         if key.startswith(base_hash):
             results = cached_data.get("results", {})
-            if "prosody_analysis" in results and "text" in results:
-                pitch_variance = results["prosody_analysis"].get("Pitch Variation_mean",
-                              results["prosody_analysis"].get("Pitch Variation"))
+            if "pitch_feedback" in results and results["pitch_feedback"]:
+                pitch_entry = results["pitch_feedback"][0]
                 segment_data = {
-                    "text": results["text"],
-                    "pitch_variance": pitch_variance,
-                    "energy_mean": results["prosody_analysis"].get("Energy Mean_mean",
-                                 results["prosody_analysis"].get("Energy Mean")),
-                    "duration": results["prosody_analysis"].get("Duration_mean",
-                              results["prosody_analysis"].get("Duration")),
+                    "text": pitch_entry["text"],
+                    "pitch_variance": pitch_entry["Pitch Variation"],
+                    "energy_mean": pitch_entry["Energy Mean"],
+                    "duration": pitch_entry["Duration"],
+                    "start_time": pitch_entry["start_time"],
+                    "end_time": pitch_entry["end_time"]
                 }
                 segments.append(segment_data)
 
@@ -248,7 +247,9 @@ def analyze_pitch_segments(cache, audio_path=None, cache_data=None, threshold=35
                 "text": segment["text"],
                 "pitch_variance": segment["pitch_variance"],
                 "severity": severity,
-                "message": f"Low pitch variation ({segment['pitch_variance']:.1f} Hz). Add more vocal variety."
+                "message": f"Low pitch variation ({segment['pitch_variance']:.1f} Hz). Add more vocal variety.",
+                "start_time": segment["start_time"],
+                "end_time": segment["end_time"]
             }
         else:
             low_pitch_streak = 0
@@ -258,7 +259,9 @@ def analyze_pitch_segments(cache, audio_path=None, cache_data=None, threshold=35
                     "text": segment["text"],
                     "pitch_variance": segment["pitch_variance"],
                     "severity": "medium",
-                    "message": f"Very high pitch variation ({segment['pitch_variance']:.1f} Hz). Moderate for natural delivery."
+                    "message": f"Very high pitch variation ({segment['pitch_variance']:.1f} Hz). Moderate for natural delivery.",
+                    "start_time": segment["start_time"],
+                    "end_time": segment["end_time"]
                 }
         if pitch_feedback:
             feedback.append(pitch_feedback)
@@ -267,7 +270,9 @@ def analyze_pitch_segments(cache, audio_path=None, cache_data=None, threshold=35
                 "segment_index": i - 1,
                 "severity": "high",
                 "streak": True,
-                "message": "Multiple segments with low pitch variation. Incorporate more dynamics."
+                "message": "Multiple segments with low pitch variation. Incorporate more dynamics.",
+                "start_time": segments[i - 2]["start_time"],  # 從前三個語段開始
+                "end_time": segment["end_time"]
             })
 
     if feedback:
@@ -279,7 +284,6 @@ def analyze_pitch_segments(cache, audio_path=None, cache_data=None, threshold=35
             "segments_with_issues": len([f for f in feedback if not f.get("streak", False)]),
             "message": f"Average pitch variance: {avg_variance:.1f} Hz. Issues in {len([f for f in feedback if not f.get('streak', False)])}/{len(segments)} segments."
         })
-
     return feedback
 
 def print_pitch_feedback(feedback):
@@ -304,7 +308,7 @@ def send_to_api(endpoint, data):
     except requests.exceptions.RequestException as e:
         print(f"Failed to send data to {endpoint}: {str(e)}")
 
-def process_speech_from_file(file_path, cache=None):
+def process_speech_from_file(file_path, cache=None, gender=None):
     if cache is None:
         cache = AudioAnalysisCache()
 
@@ -319,36 +323,86 @@ def process_speech_from_file(file_path, cache=None):
 
         print(f"File size: {os.path.getsize(wav_audio_path)} bytes")
         print("Running Whisper to divide sentences...\n")
-        sentences, segments = transcribe_audio_to_sentences(wav_audio_path)
+        sentences, segments, word_timestamps = transcribe_audio_to_sentences(wav_audio_path)
+        if not segments:
+            raise ValueError("No segments found in audio transcription")
         print(f"Transcription completed: {len(segments)} segments")
 
-        combined_segments = []
-        for i in range(0, len(segments), 2):
-            segment = {"text": segments[i]["text"], "start": segments[i]["start"], "end": segments[i]["end"]}
-            if i + 1 < len(segments):
-                segment["text"] += f" {segments[i + 1]['text']}"
-                segment["end"] = segments[i + 1]["end"]
-            combined_segments.append(segment)
-        print(f"Combined into {len(combined_segments)} segments")
+        combined_segments = segments
+        print(f"Processing {len(combined_segments)} individual segments")
+
+        # 儲存所有語段的文字和時間
+        transcriptions = [
+            {
+                "segment_index": i + 1,
+                "text": segment["text"],
+                "start_time": segment["start"],
+                "end_time": segment["end"]
+            }
+            for i, segment in enumerate(combined_segments)
+        ]
 
         analysis_results = {}
-        for segment in combined_segments:
+        prosody_results = []
+
+        # 逐段處理快取和分析
+        for i, segment in enumerate(combined_segments):
             cache_key = cache._generate_cache_key(wav_audio_path, segment["start"], segment["end"])
             cached_results = cache.get_cached_result(wav_audio_path, segment["start"], segment["end"])
             if cached_results:
                 print(f"Using cached results for segment {segment['start']}-{segment['end']}")
+                if "pitch_feedback" not in cached_results or not isinstance(cached_results["pitch_feedback"], list) or not cached_results["pitch_feedback"]:
+                    print(f"Warning: Invalid cached results for {cache_key}, skipping: {cached_results}")
+                    continue
                 analysis_results[cache_key] = {"timestamp": datetime.now().isoformat(), "results": cached_results}
+                prosody_results.append(cached_results["pitch_feedback"][0])
             else:
                 print(f"Running new analysis for segment {segment['start']}-{segment['end']}: {segment['text']}")
-                results = run_analysis(wav_audio_path, segment["start"], segment["end"])
-                results["text"] = segment["text"]
-                cache.save_to_cache(wav_audio_path, results, segment["start"], segment["end"])
-                analysis_results[cache_key] = {"timestamp": datetime.now().isoformat(), "results": results}
-        
-        if wav_audio_path != file_path and os.path.exists(wav_audio_path):
+                prosody = analyze_prosody(wav_audio_path, start_time=segment["start"], end_time=segment["end"])
+                print(f"Prosody for '{segment['text']}': {prosody}")
+                if prosody and "Pitch Variation" in prosody:
+                    prosody_results.append(prosody)
+                    pitch_entry = {
+                        "segment_index": i + 1,
+                        "text": segment["text"],
+                        "Duration": prosody.get("Duration", 0),
+                        "Pitch Mean": prosody.get("Pitch Mean", 0),
+                        "Pitch Variation": prosody.get("Pitch Variation", 0),
+                        "Energy Mean": prosody.get("Energy Mean", 0),
+                        "Energy Variation": prosody.get("Energy Variation", 0),
+                        "start_time": segment["start"],
+                        "end_time": segment["end"]
+                    }
+                    results = {
+                        "text": segment["text"],
+                        "pitch_feedback": [pitch_entry]
+                    }
+                    cache.save_to_cache(wav_audio_path, results, segment["start"], segment["end"])
+                    analysis_results[cache_key] = {"timestamp": datetime.now().isoformat(), "results": results}
+                else:
+                    print(f"Warning: No valid prosody data for segment {segment['start']}-{segment['end']}")
+
+        # 運行結巴分析
+        stutter_feedback = analyze_stuttering(combined_segments, prosody_results, word_timestamps) if prosody_results else []
+        print(f"Stutter feedback: {stutter_feedback}")
+
+        # 使用 analyze_pitch_segments 生成音高反饋
+        pitch_feedback = analyze_pitch_segments(cache, audio_path=wav_audio_path, threshold=25, gender=gender)
+        print(f"pitch feedback: {pitch_feedback}")
+
+        # 組合最終反饋
+        combined_feedback = pitch_feedback + stutter_feedback
+
+        # 清理臨時檔案
+        if wav_audio_path != file_path and  os.path.exists(wav_audio_path):
             os.remove(wav_audio_path)
             print(f"Cleaned up temporary file: {wav_audio_path}")
-        return analysis_results
+
+        # 返回兩部分數據
+        return {
+            "transcriptions": convert_to_json_serializable(transcriptions),
+            "feedback": convert_to_json_serializable(combined_feedback)
+        }
     except Exception as e:
         print(f"Error in process_speech_from_file: {str(e)}")
         raise
@@ -364,8 +418,8 @@ def create_flask_app():
                 return jsonify({"error": "No file provided"}), 400
             
             file = request.files["file"]
-            gender = request.args.get("gender")  # 從 form 數據中獲取性別
-            print(f"Gender from form data: {gender}")  # 調試用
+            gender = request.args.get("gender")
+            print(f"Gender from form data: {gender}")
 
             file_ext = os.path.splitext(file.filename)[1]
             temp_filename = f"uploaded_{hashlib.md5(file.filename.encode('utf-8')).hexdigest()}{file_ext}"
@@ -373,40 +427,28 @@ def create_flask_app():
             
             file.save(temp_path)
             print(f"File saved: {temp_path}, size: {os.path.getsize(temp_path)} bytes")
-            print(f"Selected gender: {gender}")
-            
+
             cache = AudioAnalysisCache()
-            results = process_speech_from_file(temp_path, cache)
+            result = process_speech_from_file(temp_path, cache, gender=gender)
             audio_path = "data/temp_audio.wav" if temp_path.endswith(".m4a") else temp_path
             
-            print(f"Processing completed: {len(results)} segments")
-            pitch_feedback = analyze_pitch_segments(cache, audio_path=audio_path, threshold=40, gender=gender)
-            print(f"Pitch analysis generated: {len(pitch_feedback)} feedback items")
-            
-            enhanced_feedback = []
-            for item in pitch_feedback:
-                if item.get('type') == 'summary':
-                    enhanced_feedback.append(item)
-                    continue
-                segment_index = item['segment_index'] - 1
-                segment_key = list(results.keys())[segment_index]
-                _, start_time, end_time = segment_key.split('_')
-                item_with_time = item.copy()
-                item_with_time['start_time'] = float(start_time)
-                item_with_time['end_time'] = float(end_time)
-                enhanced_feedback.append(item_with_time)
-            
-            if os.path.exists(temp_path):
-                os.remove(temp_path)
-                print(f"Cleaned up: {temp_path}")
-            if audio_path != temp_path and os.path.exists(audio_path):
-                os.remove(audio_path)
-                print(f"Cleaned up: {audio_path}")
-            return jsonify({"feedback": enhanced_feedback})
+            print(f"Processing completed: {len(result['feedback'])} feedback items, {len(result['transcriptions'])} transcriptions")
+
+            return jsonify({
+                "transcriptions": result["transcriptions"],
+                "feedback": result["feedback"]
+            })
         except Exception as e:
             print(f"Error in /api/transcribe: {str(e)}")
             return jsonify({"error": f"Transcription failed: {str(e)}"}), 500
-
+        finally:
+            if os.path.exists(temp_path):
+                os.remove(temp_path)
+                print(f"Cleaned up: {temp_path}")
+            if 'audio_path' in locals() and audio_path != temp_path and os.path.exists(audio_path):
+                os.remove(audio_path)
+                print(f"Cleaned up: {audio_path}")
+        
     @app.route('/api/analyze', methods=['POST'])
     def analyze_audio():
         try:
