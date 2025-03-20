@@ -63,6 +63,10 @@ def analyze_prosody(audio_path, start_time=None, end_time=None, sample_rate=1600
 
 def analyze_stuttering(segments, prosody_results, word_timestamps):
     print(f"Starting stuttering analysis with {len(segments)} segments, {len(prosody_results)} prosody results, {len(word_timestamps)} word timestamps")
+    print("analyze_stuttering's segments",segments)
+    print("analyze_stuttering's prosody_results",prosody_results)
+    print("analyze_stuttering's word_timestamps",word_timestamps)
+
     if not segments or not prosody_results or len(segments) != len(prosody_results):
         print("Error: Mismatch between segments and prosody results or empty input")
         return []
