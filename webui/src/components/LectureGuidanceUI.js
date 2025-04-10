@@ -195,10 +195,12 @@ export default function LectureGuidanceSystem() {
       )
     : 0;
 
-  // 跳轉到指定時間並播放
+  // 跳轉到指定時間並播放（從前一秒開始）
   const handleTimeJump = (startTime) => {
     if (audioRef.current) {
-      audioRef.current.currentTime = startTime;
+      // 計算前一秒的時間，但確保不小於 0
+      const jumpTime = Math.max(0, Number(startTime) - 1);
+      audioRef.current.currentTime = jumpTime;
       audioRef.current.play();
     }
   };
