@@ -20,14 +20,16 @@ app.post("/api/transcribe", async (req, res) => {
 
     const file = req.files.file;
     const style = req.query.style || "default"; // 從查詢參數獲取 style，預設為 "default"
+    const speed = req.query.speed || "standard"; // 從查詢參數獲取 speed，預設為 "standard"
+
     const formData = new FormData();
     formData.append("file", file.data, {
       filename: file.name,
       contentType: file.mimetype,
     });
 
-    // 構建帶有 style 參數的 URL
-    const url = `${PYTHON_API_URL}/api/transcribe?style=${style}`;
+    // 構建帶有 style 和 speed 參數的 URL
+    const url = `${PYTHON_API_URL}/api/transcribe?style=${encodeURIComponent(style)}&speed=${encodeURIComponent(speed)}`;
     console.log("Forwarding to URL:", url); // 調試用
 
     const response = await axios.post(url, formData, {
@@ -36,7 +38,7 @@ app.post("/api/transcribe", async (req, res) => {
 
     res.json(response.data);
   } catch (error) {
-    console.error("Transcription error:", error);
+    console.error("Transcription error:", error.response ? error.response.data : error.message);
     res.status(500).json({ error: "Transcription failed" });
   }
 });
@@ -48,7 +50,7 @@ app.post("/api/analyze-speech", async (req, res) => {
     });
     res.json(response.data);
   } catch (error) {
-    console.error("Analysis error:", error);
+    console.error("Analysis error:", error.response ? error.response.data : error.message);
     res.status(500).json({ error: "Analysis failed" });
   }
 });

@@ -2,23 +2,29 @@ import { useState, useRef, useEffect } from "react";
 
 export default function LectureGuidanceSystem() {
   // 狀態管理
-  const [textSegments, setTextSegments] = useState([]); // 語音轉錄結果
-  const [pitchFeedback, setPitchFeedback] = useState([]); // 音調回饋
-  const [stutterFeedback, setStutterFeedback] = useState([]); // 結巴回饋
-  const [fileName, setFileName] = useState(""); // 上傳檔案名稱
-  const [isProcessing, setIsProcessing] = useState(false); // 處理狀態
-  const [currentTime, setCurrentTime] = useState(0); // 當前播放時間
-  const [style, setStyle] = useState("default"); // 語音風格（default 或 passionate）
-  const [audioUrl, setAudioUrl] = useState(null); // 音訊 URL
-  const [viewMode, setViewMode] = useState("Feedback"); // 視圖模式（Feedback 或 Transcriptions）
-  const audioRef = useRef(null); // 音訊播放器引用
-  const [progressBarOffset, setProgressBarOffset] = useState(0); // 進度條偏移
-  const [progressBarWidth, setProgressBarWidth] = useState(0); // 進度條寬度
-  const [isRecording, setIsRecording] = useState(false); // 錄音狀態
-  const mediaRecorderRef = useRef(null); // 錄音器引用
-  const audioChunksRef = useRef([]); // 錄音數據片段
+  const [textSegments, setTextSegments] = useState([]);
+  const [pitchFeedback, setPitchFeedback] = useState([]);
+  const [stutterFeedback, setStutterFeedback] = useState([]);
+  const [fileName, setFileName] = useState("");
+  const [isProcessing, setIsProcessing] = useState(false);
+  const [currentTime, setCurrentTime] = useState(0);
+  const [style, setStyle] = useState("default");
+  const [speed, setSpeed] = useState("standard"); // 新增語速狀態
+  const [audioUrl, setAudioUrl] = useState(null);
+  const [viewMode, setViewMode] = useState("Feedback");
+  const audioRef = useRef(null);
+  const [progressBarOffset, setProgressBarOffset] = useState(0);
+  const [progressBarWidth, setProgressBarWidth] = useState(0);
+  const [isRecording, setIsRecording] = useState(false);
+  const [isPaused, setIsPaused] = useState(false);
+  const [recordingTime, setRecordingTime] = useState(0);
+  const [showConfirm, setShowConfirm] = useState(false);
+  const [recordedBlob, setRecordedBlob] = useState(null);
+  const mediaRecorderRef = useRef(null);
+  const audioChunksRef = useRef([]);
+  const timerRef = useRef(null);
 
-  // 處理檔案上傳並發送至後端進行分析
+  // 處理檔案上傳
   const handleFileUpload = async (event) => {
     const file = event.target.files[0];
     if (!file) return;
@@ -34,7 +40,8 @@ export default function LectureGuidanceSystem() {
     const formData = new FormData();
     formData.append("file", file);
 
-    const url = `/api/transcribe?style=${encodeURIComponent(style)}`;
+    // 修改 API 請求，加入 speed 參數
+    const url = `/api/transcribe?style=${encodeURIComponent(style)}&speed=${encodeURIComponent(speed)}`;
 
     try {
       const transcribeResponse = await fetch(url, {
@@ -57,14 +64,10 @@ export default function LectureGuidanceSystem() {
         setAudioUrl(URL.createObjectURL(file));
       } else {
         setTextSegments([{ text: "無轉錄內容可用", start_time: 0, end_time: 0 }]);
-        setPitchFeedback([]);
-        setStutterFeedback([]);
       }
     } catch (error) {
       console.error("處理檔案時發生錯誤:", error);
       setTextSegments([{ text: "處理檔案時發生錯誤: " + error.message, start_time: 0, end_time: 0 }]);
-      setPitchFeedback([]);
-      setStutterFeedback([]);
     } finally {
       setIsProcessing(false);
     }
@@ -85,29 +88,65 @@ export default function LectureGuidanceSystem() {
       
       mediaRecorderRef.current.start();
       setIsRecording(true);
+      setIsPaused(false);
+      setRecordingTime(0);
       setFileName("錄音中...");
+
+      timerRef.current = setInterval(() => {
+        setRecordingTime((prev) => prev + 1);
+      }, 1000);
     } catch (error) {
       console.error("開始錄音失敗:", error);
       alert("無法開始錄音，請確認麥克風權限");
     }
   };
 
-  // 停止錄音並處理
-  const handleRecordingStop = async () => {
+  // 暫停錄音
+  const pauseRecording = () => {
+    if (mediaRecorderRef.current && mediaRecorderRef.current.state === "recording") {
+      mediaRecorderRef.current.pause();
+      setIsPaused(true);
+      clearInterval(timerRef.current);
+    }
+  };
+
+  // 恢復錄音
+  const resumeRecording = () => {
+    if (mediaRecorderRef.current && mediaRecorderRef.current.state === "paused") {
+      mediaRecorderRef.current.resume();
+      setIsPaused(false);
+      timerRef.current = setInterval(() => {
+        setRecordingTime((prev) => prev + 1);
+      }, 1000);
+    }
+  };
+
+  // 停止錄音
+  const handleRecordingStop = () => {
     const audioBlob = new Blob(audioChunksRef.current, { type: "audio/wav" });
-    const audioFile = new File([audioBlob], "recording.wav", { type: "audio/wav" });
-    
+    setRecordedBlob(audioBlob);
     setIsRecording(false);
-    setFileName(audioFile.name);
-    setIsProcessing(true);
-    
-    // 清理錄音資源
+    setIsPaused(false);
+    setShowConfirm(true);
+    clearInterval(timerRef.current);
     mediaRecorderRef.current.stream.getTracks().forEach(track => track.stop());
-    
+    setFileName(`錄音完成 (${recordingTime} 秒)`);
+  };
+
+  // 確認上傳錄音
+  const confirmUpload = async () => {
+    if (!recordedBlob) return;
+
+    setShowConfirm(false);
+    setIsProcessing(true);
+    const audioFile = new File([recordedBlob], "recording.wav", { type: "audio/wav" });
+    setFileName(audioFile.name);
+
     const formData = new FormData();
     formData.append("file", audioFile);
 
-    const url = `/api/transcribe?style=${encodeURIComponent(style)}`;
+    // 修改 API 請求，加入 speed 參數
+    const url = `/api/transcribe?style=${encodeURIComponent(style)}&speed=${encodeURIComponent(speed)}`;
 
     try {
       const transcribeResponse = await fetch(url, {
@@ -131,10 +170,19 @@ export default function LectureGuidanceSystem() {
       }
     } catch (error) {
       console.error("處理錄音時發生錯誤:", error);
-      setTextSegments([{ text: "處理錄音時發生錯誤: " + error.message, start_time: 0, end_time: 0 }]);
+      setTextSegments([{ text: "處理錄音時發生錯誤: " + error.message, start_time: "0", end_time: "0" }]);
     } finally {
       setIsProcessing(false);
+      setRecordedBlob(null);
     }
+  };
+
+  // 取消上傳
+  const cancelUpload = () => {
+    setShowConfirm(false);
+    setRecordedBlob(null);
+    setFileName("");
+    setRecordingTime(0);
   };
 
   // 監聽音訊播放時間與進度條尺寸
@@ -170,14 +218,15 @@ export default function LectureGuidanceSystem() {
     };
   }, [audioUrl]);
 
-  // 清理 audioUrl 避免記憶體洩漏
+  // 清理
   useEffect(() => {
     return () => {
       if (audioUrl) URL.revokeObjectURL(audioUrl);
+      if (timerRef.current) clearInterval(timerRef.current);
     };
   }, [audioUrl]);
 
-  // 格式化時間（秒數轉為 mm:ss）
+  // 格式化時間
   const formatTime = (seconds) => {
     const numSeconds = Number(seconds) || 0;
     const minutes = Math.floor(numSeconds / 60);
@@ -185,35 +234,32 @@ export default function LectureGuidanceSystem() {
     return `${minutes}:${secs < 10 ? "0" + secs : secs}`;
   };
 
-  // 計算音訊總時長（使用 textSegments 中最大的 end_time）
-  const totalDuration = textSegments.length > 0
-    ? Math.max(
-        ...textSegments
-          .filter((item) => item.end_time !== undefined && !isNaN(item.end_time))
-          .map((item) => Number(item.end_time)),
-        1
-      )
-    : 0;
+  // 使用錄音時間作為總時長（如果有錄音），否則使用 textSegments 的最大 end_time
+  const totalDuration = audioUrl && recordedBlob ? recordingTime : 
+    textSegments.length > 0
+      ? Math.max(
+          ...textSegments
+            .filter((item) => item.end_time !== undefined && !isNaN(item.end_time))
+            .map((item) => Number(item.end_time)),
+          1
+        )
+      : 0;
 
-  // 跳轉到指定時間並播放（從前一秒開始）
   const handleTimeJump = (startTime) => {
     if (audioRef.current) {
-      // 計算前一秒的時間，但確保不小於 0
       const jumpTime = Math.max(0, Number(startTime) - 1);
       audioRef.current.currentTime = jumpTime;
       audioRef.current.play();
     }
   };
 
-  // 計算進度條上的標記位置
   const getMarkerPosition = (time) => {
     if (totalDuration === 0 || progressBarWidth === 0) return "0%";
     const positionRatio = time / totalDuration;
-    const positionPercent = positionRatio;
-    return `${positionPercent * 100}%`;
+    return `${positionRatio * 100}%`;
   };
 
-  // 檢查語段是否需要改進（是否有音調或結巴回饋）
+  // 修改 needsImprovement 函數，返回具體的問題類型
   const needsImprovement = (segment) => {
     const segmentStart = Number(segment.start_time);
     const segmentEnd = Number(segment.end_time);
@@ -232,10 +278,12 @@ export default function LectureGuidanceSystem() {
       return segmentStart <= feedbackEnd && segmentEnd >= feedbackStart;
     });
 
-    return hasStutterFeedback || hasPitchFeedback;
+    if (hasStutterFeedback && hasPitchFeedback) return "both"; // 紅色
+    if (hasStutterFeedback) return "stutter"; // 藍色
+    if (hasPitchFeedback) return "pitch"; // 黃色
+    return "none"; // 黑色
   };
 
-  // 合併並按時間順序排序音調與結巴回饋
   const getSortedFeedback = () => {
     const pitchItems = pitchFeedback
       .filter((item) => item.type !== "summary")
@@ -248,7 +296,7 @@ export default function LectureGuidanceSystem() {
     return allFeedback.sort((a, b) => {
       const timeDiff = Number(a.start_time) - Number(b.start_time);
       if (timeDiff !== 0) return timeDiff;
-      return a.feedbackType === "pitch" ? -1 : 1; // 相同時間時，音調回饋優先
+      return a.feedbackType === "pitch" ? -1 : 1;
     });
   };
 
@@ -272,6 +320,7 @@ export default function LectureGuidanceSystem() {
               padding: "1.5rem",
               borderRadius: "0.5rem",
               boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
+              position: "relative",
             }}
           >
             <h2 style={{ fontSize: "1.25rem", fontWeight: "600", marginBottom: "1rem" }}>
@@ -298,6 +347,30 @@ export default function LectureGuidanceSystem() {
                 >
                   <option value="default">預設</option>
                   <option value="passionate">熱情</option>
+                </select>
+              </div>
+              {/* 新增語速選擇 */}
+              <div>
+                <label
+                  htmlFor="speed"
+                  style={{ display: "block", color: "#4B5563", marginBottom: "0.25rem" }}
+                >
+                  語速：
+                </label>
+                <select
+                  id="speed"
+                  value={speed}
+                  onChange={(e) => setSpeed(e.target.value)}
+                  style={{
+                    width: "100%",
+                    padding: "0.5rem",
+                    border: "1px solid #D1D5DB",
+                    borderRadius: "0.375rem",
+                  }}
+                >
+                  <option value="standard">標準</option>
+                  <option value="slow">慢</option>
+                  <option value="fast">快</option>
                 </select>
               </div>
               <label
@@ -327,39 +400,120 @@ export default function LectureGuidanceSystem() {
                   disabled={isProcessing || isRecording}
                 />
               </label>
-              <button
-                style={{
-                  width: "100%",
-                  padding: "0.5rem",
-                  backgroundColor: isRecording ? "#EF4444" : "#10B981",
-                  color: "#ffffff",
-                  textAlign: "center",
-                  borderRadius: "0.375rem",
-                  cursor: isProcessing ? "not-allowed" : "pointer",
-                  border: "none",
-                }}
-                onMouseOver={(e) => {
-                  if (!isProcessing) {
-                    e.currentTarget.style.backgroundColor = isRecording ? "#DC2626" : "#059669";
-                  }
-                }}
-                onMouseOut={(e) => {
-                  if (!isProcessing) {
-                    e.currentTarget.style.backgroundColor = isRecording ? "#EF4444" : "#10B981";
-                  }
-                }}
-                onClick={isRecording ? () => mediaRecorderRef.current.stop() : startRecording}
-                disabled={isProcessing}
-              >
-                {isRecording ? "停止錄音" : "開始錄音"}
-              </button>
-              {fileName && (
+              <div style={{ display: "flex", gap: "0.5rem" }}>
+                <button
+                  style={{
+                    flex: 1,
+                    padding: "0.5rem",
+                    backgroundColor: isProcessing ? "#6B7280" : (isRecording ? (isPaused ? "#F59E0B" : "#EF4444") : "#10B981"),
+                    color: "#ffffff",
+                    textAlign: "center",
+                    borderRadius: "0.375rem",
+                    cursor: isProcessing ? "not-allowed" : "pointer",
+                    border: "none",
+                  }}
+                  onMouseOver={(e) => {
+                    if (!isProcessing) {
+                      e.currentTarget.style.backgroundColor = isRecording 
+                        ? (isPaused ? "#D97706" : "#DC2626") 
+                        : "#059669";
+                    }
+                  }}
+                  onMouseOut={(e) => {
+                    if (!isProcessing) {
+                      e.currentTarget.style.backgroundColor = isRecording 
+                        ? (isPaused ? "#F59E0B" : "#EF4444") 
+                        : "#10B981";
+                    }
+                  }}
+                  onClick={isProcessing ? null : (isRecording ? (isPaused ? resumeRecording : pauseRecording) : startRecording)}
+                  disabled={isProcessing}
+                >
+                  {isProcessing ? "處理中..." : (isRecording ? (isPaused ? "恢復錄音" : "暫停錄音") : "開始錄音")}
+                </button>
+                {isRecording && (
+                  <button
+                    style={{
+                      flex: 1,
+                      padding: "0.5rem",
+                      backgroundColor: "#EF4444",
+                      color: "#ffffff",
+                      textAlign: "center",
+                      borderRadius: "0.375rem",
+                      cursor: "pointer",
+                      border: "none",
+                    }}
+                    onMouseOver={(e) => (e.currentTarget.style.backgroundColor = "#DC2626")}
+                    onMouseOut={(e) => (e.currentTarget.style.backgroundColor = "#EF4444")}
+                    onClick={() => mediaRecorderRef.current.stop()}
+                  >
+                    停止錄音
+                  </button>
+                )}
+              </div>
+              {isRecording && (
+                <p style={{ fontSize: "0.875rem", color: "#6B7280" }}>
+                  錄音時間：{formatTime(recordingTime)}
+                </p>
+              )}
+              {fileName && !isRecording && (
                 <p style={{ fontSize: "0.875rem", color: "#6B7280" }}>已選擇：{fileName}</p>
               )}
               {isProcessing && (
                 <p style={{ fontSize: "0.875rem", color: "#6B7280" }}>正在處理您的檔案...</p>
               )}
             </div>
+
+            {/* 上傳確認對話框 */}
+            {showConfirm && (
+              <div
+                style={{
+                  position: "absolute",
+                  top: "50%",
+                  left: "50%",
+                  transform: "translate(-50%, -50%)",
+                  backgroundColor: "#ffffff",
+                  padding: "1rem",
+                  borderRadius: "0.5rem",
+                  boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
+                  zIndex: 20,
+                }}
+              >
+                <p style={{ marginBottom: "1rem" }}>是否要上傳這段錄音（{recordingTime} 秒）？</p>
+                <div style={{ display: "flex", gap: "0.5rem" }}>
+                  <button
+                    style={{
+                      padding: "0.5rem 1rem",
+                      backgroundColor: "#10B981",
+                      color: "#ffffff",
+                      borderRadius: "0.375rem",
+                      border: "none",
+                      cursor: "pointer",
+                    }}
+                    onClick={confirmUpload}
+                    onMouseOver={(e) => (e.currentTarget.style.backgroundColor = "#059669")}
+                    onMouseOut={(e) => (e.currentTarget.style.backgroundColor = "#10B981")}
+                  >
+                    是
+                  </button>
+                  <button
+                    style={{
+                      padding: "0.5rem 1rem",
+                      backgroundColor: "#EF4444",
+                      color: "#ffffff",
+                      borderRadius: "0.375rem",
+                      border: "none",
+                      cursor: "pointer",
+                    }}
+                    onClick={cancelUpload}
+                    onMouseOver={(e) => (e.currentTarget.style.backgroundColor = "#DC2626")}
+                    onMouseOut={(e) => (e.currentTarget.style.backgroundColor = "#EF4444")}
+                  >
+                    否
+                  </button>
+                </div>
+              </div>
+            )}
           </div>
 
           {/* 大綱與建議區塊 */}
@@ -524,29 +678,33 @@ export default function LectureGuidanceSystem() {
             ) : (
               textSegments.length > 0 && textSegments[0].text !== "無轉錄內容可用" ? (
                 <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
-                  {textSegments.map((segment, index) => (
-                    <div
-                      key={`transcription-${index}`}
-                      style={{
-                        padding: "0.5rem",
-                        borderRadius: "0.375rem",
-                        cursor: "pointer",
-                        backgroundColor: "#F9FAFB",
-                      }}
-                      onMouseOver={(e) => (e.currentTarget.style.backgroundColor = "#F3F4F6")}
-                      onMouseOut={(e) => (e.currentTarget.style.backgroundColor = "#F9FAFB")}
-                      onClick={() => handleTimeJump(segment.start_time)}
-                    >
-                      <p
+                  {textSegments.map((segment, index) => {
+                    const improvementType = needsImprovement(segment);
+                    const textColor =
+                      improvementType === "both" ? "#EF4444" : // 紅色：結巴和音調問題都有
+                      improvementType === "stutter" ? "#3B82F6" : // 藍色：僅結巴問題
+                      improvementType === "pitch" ? "#F59E0B" : // 黃色：僅音調問題
+                      "#000000"; // 黑色：無問題
+
+                    return (
+                      <div
+                        key={`transcription-${index}`}
                         style={{
-                          fontWeight: "500",
-                          color: needsImprovement(segment) ? "red" : "black",
+                          padding: "0.5rem",
+                          borderRadius: "0.375rem",
+                          cursor: "pointer",
+                          backgroundColor: "#F9FAFB",
                         }}
+                        onMouseOver={(e) => (e.currentTarget.style.backgroundColor = "#F3F4F6")}
+                        onMouseOut={(e) => (e.currentTarget.style.backgroundColor = "#F9FAFB")}
+                        onClick={() => handleTimeJump(segment.start_time)}
                       >
-                        [{formatTime(segment.start_time)} - {formatTime(segment.end_time)}] {segment.text}
-                      </p>
-                    </div>
-                  ))}
+                        <p style={{ fontWeight: "500", color: textColor }}>
+                          [{formatTime(segment.start_time)} - {formatTime(segment.end_time)}] {segment.text}
+                        </p>
+                      </div>
+                    );
+                  })}
                 </div>
               ) : (
                 <p style={{ color: "#6B7280" }}>無轉錄內容可用</p>
@@ -645,7 +803,7 @@ export default function LectureGuidanceSystem() {
                         cursor: "pointer",
                         pointerEvents: "auto",
                         border: "2px solid #ffffff",
-                        zIndex: 11,
+                        zIndex: "11",
                       }}
                       onClick={() => handleTimeJump(item.start_time)}
                       title={`${item.text || ""} ${item.message || ""}`}

@@ -175,19 +175,30 @@ def print_analysis_results(results):
                 print(f"{feature}: {value:.2f}")
     print("\n")
 
-def analyze_pitch_segments(cache, audio_path=None, cache_data=None, threshold=15, gender="male", target_style="default"):
+def analyze_pitch_segments(cache, audio_path=None, cache_data=None, threshold=15, gender="male", target_style="default", target_speed="standard"):
     """
-    Analyze pitch segments and provide style-specific feedback.
+    Analyze pitch segments and provide style- and speed-specific feedback.
     - threshold: Base threshold for low pitch variation (default 15 Hz).
     - gender: Optional 'male' or 'female' to adjust thresholds slightly.
     - target_style: 'default' or 'passionate' to provide style-specific suggestions.
+    - target_speed: 'standard', 'slow', or 'fast' to adjust speech rate targets.
     """
-    # Style guidelines
+    # Style and speed guidelines
     style_guidelines = {
-        "default": {},  # No specific targets
+        "default": {
+            "speech_rate": {
+                "standard": (100, 140),  # 標準語速範圍（字/分鐘）
+                "slow": (60, 100),       # 慢語速範圍
+                "fast": (140, 180)       # 快語速範圍
+            }
+        },
         "passionate": {
             "pitch_variance": (30, 60),
-            "speech_rate": (100, 140),
+            "speech_rate": {
+                "standard": (120, 160),  # 熱情風格的標準語速稍快
+                "slow": (80, 120),
+                "fast": (160, 200)
+            },
             "energy_mean": (0.6, 1.2),
             "pauses": "frequent"
         }
@@ -195,19 +206,21 @@ def analyze_pitch_segments(cache, audio_path=None, cache_data=None, threshold=15
 
     if target_style not in style_guidelines:
         return [{"error": f"Unknown style: {target_style}. Supported styles: {list(style_guidelines.keys())}"}]
+    if target_speed not in ["standard", "slow", "fast"]:
+        return [{"error": f"Unknown speed: {target_speed}. Supported speeds: ['standard', 'slow', 'fast']"}]
 
     # Adjust thresholds based on gender
     if gender == "male":
         base_threshold = 15
-        high_multiplier = 6  # ~90 Hz for "very high"
+        high_multiplier = 6
     elif gender == "female":
         base_threshold = 15
-        high_multiplier = 6  # ~90 Hz for "very high"
+        high_multiplier = 6
     else:
         base_threshold = threshold
         high_multiplier = 6
 
-    # Load cache data
+    # Load cache data (保持不變)
     if audio_path:
         base_hash = hashlib.md5(open(audio_path, 'rb').read()).hexdigest()
         if not os.path.exists(cache.cache_file):
@@ -242,11 +255,9 @@ def analyze_pitch_segments(cache, audio_path=None, cache_data=None, threshold=15
                         "end_time": pitch_entry["end_time"]
                     }
                     segments.append(segment_data)
-                else:
-                    print(f"Skipping segment {key} with pitch_variance = {pitch_variance}")
 
     if not segments:
-        print(f"No valid segments found for audio: {audio_path or 'provided cache'} after filtering zero pitch variance")
+        print(f"No valid segments found for audio: {audio_path or 'provided cache'}")
         return []
 
     feedback = []
@@ -255,11 +266,9 @@ def analyze_pitch_segments(cache, audio_path=None, cache_data=None, threshold=15
     energy_means = []
     speech_rates = []
 
-    # Analyze each segment
     for i, segment in enumerate(segments):
         if segment["pitch_variance"] is None or segment["pitch_variance"] == 0:
             continue
-        print(f"Segment {i + 1}: Text = '{segment['text']}', Pitch Variance = {segment['pitch_variance']:.2f} Hz")
         
         pitch_variances.append(segment["pitch_variance"])
         energy_means.append(segment["energy_mean"])
@@ -307,8 +316,17 @@ def analyze_pitch_segments(cache, audio_path=None, cache_data=None, threshold=15
     avg_energy_mean = np.mean(energy_means) if energy_means else 0
     avg_speech_rate = np.mean(speech_rates) if speech_rates else 0
 
-    # Add style-specific feedback
+    # Add style- and speed-specific feedback
+    target = style_guidelines[target_style]
+    suggestions = []
+
     if target_style == "default":
+        speech_rate_range = target["speech_rate"][target_speed]
+        if avg_speech_rate < speech_rate_range[0]:
+            suggestions.append(f"Speech rate ({avg_speech_rate:.1f} words/min) is too slow for {target_speed} speed. Aim for {speech_rate_range[0]}-{speech_rate_range[1]} words/min.")
+        elif avg_speech_rate > speech_rate_range[1]:
+            suggestions.append(f"Speech rate ({avg_speech_rate:.1f} words/min) is too fast for {target_speed} speed. Aim for {speech_rate_range[0]}-{speech_rate_range[1]} words/min.")
+
         feedback.append({
             "type": "summary",
             "metrics": {
@@ -316,21 +334,20 @@ def analyze_pitch_segments(cache, audio_path=None, cache_data=None, threshold=15
                 "average_speech_rate": avg_speech_rate,
                 "average_energy_mean": avg_energy_mean
             },
-            "message": f"Default style: Pitch Variance = {avg_pitch_variance:.1f} Hz, Speech Rate = {avg_speech_rate:.1f} words/min, Energy = {avg_energy_mean:.2f}"
+            "message": f"Default style, {target_speed} speed: Pitch Variance = {avg_pitch_variance:.1f} Hz, Speech Rate = {avg_speech_rate:.1f} words/min, Energy = {avg_energy_mean:.2f}",
+            "suggestions": suggestions if suggestions else ["Speech rate aligns well with selected speed!"]
         })
     elif target_style == "passionate":
-        target = style_guidelines["passionate"]
-        suggestions = []
-        
+        speech_rate_range = target["speech_rate"][target_speed]
         if avg_pitch_variance < target["pitch_variance"][0]:
             suggestions.append(f"Pitch variation ({avg_pitch_variance:.1f} Hz) is too low. Aim for {target['pitch_variance'][0]}-{target['pitch_variance'][1]} Hz.")
         elif avg_pitch_variance > target["pitch_variance"][1]:
             suggestions.append(f"Pitch variation ({avg_pitch_variance:.1f} Hz) is too high. Moderate to {target['pitch_variance'][0]}-{target['pitch_variance'][1]} Hz.")
 
-        if avg_speech_rate < target["speech_rate"][0]:
-            suggestions.append(f"Speech rate ({avg_speech_rate:.1f} words/min) is too slow. Increase to {target['speech_rate'][0]}-{target['speech_rate'][1]} words/min.")
-        elif avg_speech_rate > target["speech_rate"][1]:
-            suggestions.append(f"Speech rate ({avg_speech_rate:.1f} words/min) is too fast. Slow to {target['speech_rate'][0]}-{target['speech_rate'][1]} words/min.")
+        if avg_speech_rate < speech_rate_range[0]:
+            suggestions.append(f"Speech rate ({avg_speech_rate:.1f} words/min) is too slow for {target_speed} speed. Increase to {speech_rate_range[0]}-{speech_rate_range[1]} words/min.")
+        elif avg_speech_rate > speech_rate_range[1]:
+            suggestions.append(f"Speech rate ({avg_speech_rate:.1f} words/min) is too fast for {target_speed} speed. Slow to {speech_rate_range[0]}-{speech_rate_range[1]} words/min.")
 
         if avg_energy_mean < target["energy_mean"][0]:
             suggestions.append(f"Energy ({avg_energy_mean:.2f}) is too low. Increase to {target['energy_mean'][0]}-{target['energy_mean'][1]}.")
@@ -344,8 +361,8 @@ def analyze_pitch_segments(cache, audio_path=None, cache_data=None, threshold=15
                 "average_speech_rate": avg_speech_rate,
                 "average_energy_mean": avg_energy_mean
             },
-            "message": f"Passionate style analysis: {len(suggestions)} issues found.",
-            "suggestions": suggestions if suggestions else ["Your delivery aligns well with a passionate style!"]
+            "message": f"Passionate style, {target_speed} speed analysis: {len(suggestions)} issues found.",
+            "suggestions": suggestions if suggestions else ["Your delivery aligns well with a passionate style and selected speed!"]
         })
 
     return feedback
@@ -379,7 +396,7 @@ def send_to_api(endpoint, data):
     except requests.exceptions.RequestException as e:
         print(f"Failed to send data to {endpoint}: {str(e)}")
 
-def process_speech_from_file(file_path, cache=None, gender=None,target_style="default"):
+def process_speech_from_file(file_path, cache=None, gender=None, target_style="default", target_speed="standard"):
     if cache is None:
         cache = AudioAnalysisCache()
 
@@ -401,13 +418,12 @@ def process_speech_from_file(file_path, cache=None, gender=None,target_style="de
 
         combined_segments = [
             seg for seg in segments
-            if seg["text"].strip() and (seg["end"] - seg["start"]) > 0.1  # 要求最小時長 0.1 秒
+            if seg["text"].strip() and (seg["end"] - seg["start"]) > 0.1
         ]
         if not combined_segments:
             raise ValueError("No valid segments after filtering")
         print(f"Valid segments after filtering: {len(combined_segments)}")
 
-        # 儲存所有語段的文字和時間
         transcriptions = [
             {
                 "segment_index": i + 1,
@@ -421,7 +437,6 @@ def process_speech_from_file(file_path, cache=None, gender=None,target_style="de
         analysis_results = {}
         prosody_results = []
 
-        # 逐段處理快取和分析
         for i, segment in enumerate(combined_segments):
             cache_key = cache._generate_cache_key(wav_audio_path, segment["start"], segment["end"])
             cached_results = cache.get_cached_result(wav_audio_path, segment["start"], segment["end"])
@@ -458,18 +473,17 @@ def process_speech_from_file(file_path, cache=None, gender=None,target_style="de
                 else:
                     print(f"Warning: No valid prosody data for segment {segment['start']}-{segment['end']}")
 
-        # 分別生成 pitch_feedback 和 stutter_feedback
         stutter_feedback = analyze_stuttering(combined_segments, prosody_results, word_timestamps, wav_audio_path) if prosody_results else []
         print(f"Stutter feedback: {stutter_feedback}")
 
-        pitch_feedback = analyze_pitch_segments(cache, audio_path=wav_audio_path, threshold=15, gender="male", target_style=target_style)
+        # 將 target_speed 傳遞給 analyze_pitch_segments
+        pitch_feedback = analyze_pitch_segments(cache, audio_path=wav_audio_path, threshold=15, gender="male", target_style=target_style, target_speed=target_speed)
         print(f"Pitch feedback: {pitch_feedback}")
 
         if wav_audio_path != file_path and os.path.exists(wav_audio_path):
             os.remove(wav_audio_path)
             print(f"Cleaned up temporary file: {wav_audio_path}")
 
-        # 分開返回 pitch_feedback 和 stutter_feedback
         return {
             "transcriptions": convert_to_json_serializable(transcriptions),
             "pitch_feedback": convert_to_json_serializable(pitch_feedback),
@@ -492,7 +506,8 @@ def create_flask_app():
             file = request.files["file"]
             gender = request.args.get("gender")
             target_style = request.args.get("style", "default")
-            print(f"Gender: {gender}, Target Style: {target_style}")
+            target_speed = request.args.get("speed", "standard")  # 新增語速參數
+            print(f"Gender: {gender}, Target Style: {target_style}, Target Speed: {target_speed}")
             file_ext = os.path.splitext(file.filename)[1]
             temp_filename = f"uploaded_{hashlib.md5(file.filename.encode('utf-8')).hexdigest()}{file_ext}"
             temp_path = os.path.join("data", temp_filename)
@@ -501,7 +516,7 @@ def create_flask_app():
             print(f"File saved: {temp_path}, size: {os.path.getsize(temp_path)} bytes")
 
             cache = AudioAnalysisCache()
-            result = process_speech_from_file(temp_path, cache, gender=gender, target_style=target_style)
+            result = process_speech_from_file(temp_path, cache, gender=gender, target_style=target_style, target_speed=target_speed)
             audio_path = "data/temp_audio.wav" if temp_path.endswith(".m4a") else temp_path
             
             print(f"Processing completed: {len(result['pitch_feedback'])} pitch feedback items, {len(result['stutter_feedback'])} stutter feedback items, {len(result['transcriptions'])} transcriptions")
