@@ -1,8 +1,10 @@
 import librosa
 import numpy as np
+from transformers import pipeline
 
-import librosa
-import numpy as np
+# Load the model locally
+MODEL_PATH = r"E:\code\Grade_Third_project\stutter_detection_model"  # 使用原始字符串避免反斜杠問題
+pipe = pipeline("audio-classification", model=MODEL_PATH, device=0)
 
 def convert_to_json_serializable(obj):
     if isinstance(obj, np.floating):
@@ -61,22 +63,30 @@ def analyze_prosody(audio_path, start_time=None, end_time=None, sample_rate=1600
         print(f"Error during feature extraction: {e}")
         return None
 
-def analyze_stuttering(segments, prosody_results, word_timestamps):
+
+
+
+def analyze_stuttering(segments, prosody_results, word_timestamps, audio_path):
     print(f"Starting stuttering analysis with {len(segments)} segments, {len(prosody_results)} prosody results, {len(word_timestamps)} word timestamps")
-    print("analyze_stuttering's segments",segments)
-    print("analyze_stuttering's prosody_results",prosody_results)
-    print("analyze_stuttering's word_timestamps",word_timestamps)
+    print("Segments:", segments)
+    print("Prosody Results:", prosody_results)
+    print("Word Timestamps:", word_timestamps)
 
     if not segments or not prosody_results or len(segments) != len(prosody_results):
         print("Error: Mismatch between segments and prosody results or empty input")
         return []
 
-    STUTTER_REPETITION_THRESHOLD = 2  # 連續重複 2 次以上視為詞語重複
-    PAUSE_THRESHOLD = 1.5  # 語段間停頓超過 1.5 秒視為不自然停頓
-    WORD_PAUSE_THRESHOLD = 0.25  # 單字間停頓超過 0.25 秒視為短促停頓
-    WORD_DURATION_THRESHOLD = 0.7  # 單字平均持續時間超過 0.7 秒視為聲音拉長
-    INTERJECTION_ENERGY_THRESHOLD = 0.3  # 插入語的能量變化閾值
+    # 閾值設定
+    STUTTER_REPETITION_THRESHOLD = 2  # 詞語重複閾值
+    PAUSE_THRESHOLD = 1.5  # 語段間停頓閾值
+    WORD_PAUSE_THRESHOLD = 0.25  # 單字間停頓閾值
+    WORD_DURATION_THRESHOLD = 0.7  # 聲音拉長閾值
+    INTERJECTION_ENERGY_THRESHOLD = 0.3  # 插入語能量閾值
+    MODEL_CONFIDENCE_THRESHOLD = 0.7  # 模型預測置信度閾值
     INTERJECTIONS = {"嗯", "啊", "這個", "那個", "就是", "然後", "呃"}
+
+    # 加載音頻文件
+    audio, sr = librosa.load(audio_path, sr=16000)
 
     feedback = []
     for i, (segment, prosody) in enumerate(zip(segments, prosody_results)):
@@ -85,10 +95,27 @@ def analyze_stuttering(segments, prosody_results, word_timestamps):
             print(f"Skipping segment {i + 1} due to missing Duration: {prosody}")
             continue
 
-        words = segment["text"].split()
-        segment_feedback = []  # 用來儲存該語段內的所有結巴反饋
+        # 1. 模型預測結巴
+        start_sample = int(segment["start"] * sr)
+        end_sample = int(segment["end"] * sr)
+        segment_audio = audio[start_sample:end_sample]
+        model_results = pipe(segment_audio)
+        print(f"Model results for segment {i + 1}: {model_results}")
 
-        # 1. 詞語重複檢測
+        # 提取模型預測的各類結巴概率
+        stutter_probs = {res["label"]: res["score"] for res in model_results}
+        max_stutter_label = max(model_results, key=lambda x: x["score"])["label"]
+        max_stutter_prob = stutter_probs[max_stutter_label]
+        print(f"Max stutter label: {max_stutter_label}, Probability: {max_stutter_prob:.4f}")
+
+        # 如果模型預測為 nonstutter，跳過此語段
+ 
+
+        words = segment["text"].split()
+        segment_feedback = []
+
+        # 2. 數據分析：檢查任何結巴問題
+        # 詞語重複檢測
         repetition_count = 1
         for j in range(1, len(words)):
             if words[j] == words[j-1]:
@@ -96,18 +123,20 @@ def analyze_stuttering(segments, prosody_results, word_timestamps):
                 if repetition_count >= STUTTER_REPETITION_THRESHOLD:
                     print(f"Repetition detected: '{words[j]}' repeated {repetition_count} times")
                     segment_feedback.append({
+                        "type": "repetition",
                         "segment_index": i + 1,
                         "text": segment["text"],
-                        "severity": "medium",
-                        "message": f"Word repetition: '{words[j]}' repeated {repetition_count} times.",
+                        "severity": "high" if max_stutter_prob > 0.9 else "medium",
+                        "message": f"詞語重複: '{words[j]}' 重複 {repetition_count} 次。",
                         "start_time": segment["start"],
-                        "end_time": segment["end"]
+                        "end_time": segment["end"],
+                        "confidence": max_stutter_prob,
+                        "model_label": max_stutter_label
                     })
-                    # 不使用 break，繼續檢查後續詞語
             else:
                 repetition_count = 1
 
-        # 2. 單字級別分析
+        # 單字級別分析
         segment_word_timestamps = [
             wt for wt in word_timestamps
             if wt["start"] >= segment["start"] and wt["end"] <= segment["end"]
@@ -117,66 +146,73 @@ def analyze_stuttering(segments, prosody_results, word_timestamps):
         for wt in segment_word_timestamps:
             word = wt["word"].strip()
             word_duration = wt["end"] - wt["start"]
-            num_chars = len(word)  # 多字詞的字數
+            num_chars = len(word)
             avg_word_duration = word_duration / num_chars if num_chars > 1 else word_duration
-            print(f"Word '{word}' (chars: {num_chars}) duration: {word_duration:.2f}s, avg: {avg_word_duration:.2f}s")
-
-            # 檢查是否為句尾單字
             is_end_word = segment["text"].strip().endswith(word)
             if is_end_word:
-                print(f"Skipping word '{word}' at sentence end with duration {word_duration}")
                 continue
 
             # 插入語檢測
             if word in INTERJECTIONS and prosody["Energy Variation"] > INTERJECTION_ENERGY_THRESHOLD:
                 print(f"Interjection detected: '{word}'")
                 segment_feedback.append({
+                    "type": "interjection",
                     "segment_index": i + 1,
                     "text": segment["text"],
-                    "severity": "medium",
-                    "message": f"Interjection: '{word}' (duration {word_duration:.1f} sec).",
+                    "severity": "high" if max_stutter_prob > 0.9 else "medium",
+                    "message": f"插入語: '{word}' (持續時間 {word_duration:.1f} 秒)。",
                     "start_time": wt["start"],
-                    "end_time": wt["end"]
+                    "end_time": wt["end"],
+                    "confidence": max_stutter_prob,
+                    "model_label": max_stutter_label
                 })
 
             # 聲音拉長檢測
             if avg_word_duration > WORD_DURATION_THRESHOLD:
                 print(f"Word prolongation detected: '{word}' (avg duration per char: {avg_word_duration:.2f}s)")
                 segment_feedback.append({
+                    "type": "prolongation",
                     "segment_index": i + 1,
                     "text": segment["text"],
-                    "severity": "medium",
-                    "message": f"Word prolongation: '{word}' avg duration {avg_word_duration:.1f} seconds per char.",
+                    "severity": "high" if max_stutter_prob > 0.9 else "medium",
+                    "message": f"聲音拉長: '{word}' 平均持續時間 {avg_word_duration:.1f} 秒/字元。",
                     "start_time": wt["start"],
-                    "end_time": wt["end"]
+                    "end_time": wt["end"],
+                    "confidence": max_stutter_prob,
+                    "model_label": max_stutter_label
                 })
 
-        # 3. 單字間停頓檢測
+        # 單字間停頓檢測
         for j in range(1, len(segment_word_timestamps)):
             word_pause = segment_word_timestamps[j]["start"] - segment_word_timestamps[j-1]["end"]
-            print(f"Pause between '{segment_word_timestamps[j-1]['word']}' and '{segment_word_timestamps[j]['word']}': {word_pause:.2f}s")
             if word_pause > WORD_PAUSE_THRESHOLD:
                 print(f"Word pause detected: {word_pause:.2f}s")
                 segment_feedback.append({
+                    "type": "pause",
                     "segment_index": i + 1,
                     "text": segment["text"],
-                    "severity": "medium",
-                    "message": f"Word pause between '{segment_word_timestamps[j-1]['word']}' and '{segment_word_timestamps[j]['word']}': {word_pause:.1f} seconds.",
+                    "severity": "high" if max_stutter_prob > 0.9 else "medium",
+                    "message": f"單字間停頓: '{segment_word_timestamps[j-1]['word']}' 和 '{segment_word_timestamps[j]['word']}' 間停頓 {word_pause:.1f} 秒。",
                     "start_time": segment_word_timestamps[j-1]["end"],
-                    "end_time": segment_word_timestamps[j]["start"]
+                    "end_time": segment_word_timestamps[j]["start"],
+                    "confidence": max_stutter_prob,
+                    "model_label": max_stutter_label
                 })
 
-        # 將該語段的所有結巴反饋加入總反饋
-        if segment_feedback:
+        # 3. 結合邏輯：模型不是 nonstutter 且數據分析有任何問題
+        if (max_stutter_prob > MODEL_CONFIDENCE_THRESHOLD and max_stutter_label != "repetition") or segment_feedback:
+            print(f"Confirmed stutter in segment {i + 1}: Model label {max_stutter_label} (prob {max_stutter_prob:.4f}) with data analysis issues")
             feedback.extend(segment_feedback)
-            print(f"Feedback generated for segment {i + 1}: {segment_feedback}")
+        else:
+            print(f"Segment {i + 1} skipped: Either model prob < threshold or no data analysis issues detected")
 
+    # 添加總結
     if feedback:
         feedback.append({
             "type": "summary",
             "stutter_issues": len(feedback),
             "total_segments": len(segments),
-            "message": f"Stutter issues in {len(feedback)} instances across {len(segments)} segments."
+            "message": f"檢測到 {len(feedback)} 個結巴問題，共 {len(segments)} 個語段。"
         })
         print(f"Final feedback: {feedback}")
 

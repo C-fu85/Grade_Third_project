@@ -6,8 +6,8 @@ const FormData = require("form-data");
 const app = express();
 
 // Increase payload limits
-app.use(express.json({ limit: "50mb" })); // For JSON payloads
-app.use(express.urlencoded({ limit: "50mb", extended: true })); // For URL-encoded payloads
+app.use(express.json({ limit: "50mb" }));
+app.use(express.urlencoded({ limit: "50mb", extended: true }));
 app.use(fileUpload({ limits: { fileSize: 200 * 1024 * 1024 } })); // 200MB limit for file uploads
 
 const PYTHON_API_URL = "http://localhost:5000";
@@ -19,15 +19,15 @@ app.post("/api/transcribe", async (req, res) => {
     }
 
     const file = req.files.file;
+    const style = req.query.style || "default"; // 從查詢參數獲取 style，預設為 "default"
     const formData = new FormData();
     formData.append("file", file.data, {
       filename: file.name,
       contentType: file.mimetype,
     });
 
-    // 從 URL 查詢參數中獲取性別並添加到請求 URL
-    const gender = req.query.gender;
-    const url = `${PYTHON_API_URL}/api/transcribe${gender ? `?gender=${gender}` : ''}`;
+    // 構建帶有 style 參數的 URL
+    const url = `${PYTHON_API_URL}/api/transcribe?style=${style}`;
     console.log("Forwarding to URL:", url); // 調試用
 
     const response = await axios.post(url, formData, {
